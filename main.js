@@ -3,7 +3,7 @@ const https = require("https");
 const cheerio = require("cheerio");
 const fs = require("fs");
 
-const selectedClass = "Cleric";
+const selectedClass = "Shaman";
 const url = `https://wiki.project1999.com/${selectedClass}`;
 const spellUrls = [];
 const spells = {};
@@ -65,5 +65,5 @@ async function scrapeData() {
     console.error(err);
   }
 }
-// Invoke the above function
+
 scrapeData();
