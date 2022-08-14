@@ -1,5 +1,5 @@
--[
-  {
+{
+  "Burst of Flame": {
     "name": "Burst of Flame",
     "mana": "7",
     "skill": "Evocation",
@@ -10,12 +10,12 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You feel your skin singe as the Burst of Flame hits you.",
     "castOnOther": "Someone  singes as the Burst of Flame hits them.",
     "wearsOff": ""
   },
-  {
+  "Dance of the Fireflies": {
     "name": "Dance of the Fireflies",
     "mana": "10",
     "skill": "Conjuration",
@@ -26,12 +26,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "A swarm of fireflies shimmers around your hand.",
     "castOnOther": "Someone 's hands flicker.",
     "wearsOff": ""
   },
-  {
+  "Endure Fire": {
     "name": "Endure Fire",
     "mana": "20",
     "skill": "Abjuration",
@@ -42,12 +42,22 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "3 minutes @L1 to 27 minutes @L9",
+    "duration": {
+      "durationString": "3 minutes @L1 to 27 minutes @L9",
+      "minDuration": {
+        "duration": 180,
+        "level": "1"
+      },
+      "maxDuration": {
+        "duration": 1800,
+        "level": "9"
+      }
+    },
     "castOnYou": "You feel protected from fire.",
     "castOnOther": "Someone  is protected from fire.",
     "wearsOff": "Your endurance to fire fades."
   },
-  {
+  "Flame Lick": {
     "name": "Flame Lick",
     "mana": "10",
     "skill": "Evocation",
@@ -58,12 +68,22 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "1 ticks @L1 to 9 ticks @L14",
+    "duration": {
+      "durationString": "1 ticks @L1 to 9 ticks @L14",
+      "minDuration": {
+        "duration": 6,
+        "level": "1"
+      },
+      "maxDuration": {
+        "duration": 60,
+        "level": "14"
+      }
+    },
     "castOnYou": "You are surrounded by flickering flames.",
     "castOnOther": "Someone  is surrounded by flickering flames.",
     "wearsOff": "The flames are extinguished."
   },
-  {
+  "Lull Animal": {
     "name": "Lull Animal",
     "mana": "10",
     "skill": "Alteration",
@@ -74,12 +94,22 @@
     "range": "200",
     "targetType": "Animal",
     "spellType": "Beneficial",
-    "duration": "1.2 minutes @L1 to 2 minutes @L5",
+    "duration": {
+      "durationString": "1.2 minutes @L1 to 2 minutes @L5",
+      "minDuration": {
+        "duration": 72,
+        "level": "1"
+      },
+      "maxDuration": {
+        "duration": 192,
+        "level": "5"
+      }
+    },
     "castOnYou": "",
     "castOnOther": "",
     "wearsOff": ""
   },
-  {
+  "Minor Healing": {
     "name": "Minor Healing",
     "mana": "10",
     "skill": "Alteration",
@@ -90,12 +120,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You feel a little better.",
     "castOnOther": "Someone  feels a little better.",
     "wearsOff": ""
   },
-  {
+  "Panic Animal": {
     "name": "Panic Animal",
     "mana": "10",
     "skill": "Alteration",
@@ -106,12 +136,17 @@
     "range": "200",
     "targetType": "Animal",
     "spellType": "Detrimental",
-    "duration": "3 ticks",
+    "duration": {
+      "durationString": "3 ticks",
+      "minDuration": {
+        "duration": 18
+      }
+    },
     "castOnYou": "",
     "castOnOther": "Someone  flees in a state of total panic!",
     "wearsOff": ""
   },
-  {
+  "Sense Animals": {
     "name": "Sense Animals",
     "mana": "5",
     "skill": "Divination",
@@ -122,12 +157,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
     "wearsOff": ""
   },
-  {
+  "Skin Like Wood": {
     "name": "Skin Like Wood",
     "mana": "10",
     "skill": "Abjuration",
@@ -138,12 +173,17 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "27 minutes",
+    "duration": {
+      "durationString": "27 minutes",
+      "minDuration": {
+        "duration": 1620
+      }
+    },
     "castOnYou": "Your skin turns hard as wood.",
     "castOnOther": "Someone 's skin turns hard as wood.",
     "wearsOff": "Your skin returns to normal."
   },
-  {
+  "Snare": {
     "name": "Snare",
     "mana": "15",
     "skill": "Alteration",
@@ -154,12 +194,22 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "6 seconds @L1 to 3 minutes 54 seconds @L60",
+    "duration": {
+      "durationString": "6 seconds @L1 to 3 minutes 54 seconds @L60",
+      "minDuration": {
+        "duration": 6,
+        "level": "1"
+      },
+      "maxDuration": {
+        "duration": 240,
+        "level": "60"
+      }
+    },
     "castOnYou": "You are ensnared.",
     "castOnOther": "Someone  has been ensnared.",
     "wearsOff": "You are no longer ensnared."
   },
-  {
+  "Burst of Fire": {
     "name": "Burst of Fire",
     "mana": "15",
     "skill": "Evocation",
@@ -170,12 +220,12 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You feel your skin singe as the Burst of Fire hits you.",
     "castOnOther": "Someone  singes as the Burst of Fire hits them.",
     "wearsOff": ""
   },
-  {
+  "Camouflage": {
     "name": "Camouflage",
     "mana": "15",
     "skill": "Divination",
@@ -186,12 +236,22 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "15 minutes @L5 to 20 minutes @L7",
+    "duration": {
+      "durationString": "15 minutes @L5 to 20 minutes @L7",
+      "minDuration": {
+        "duration": 900,
+        "level": "5"
+      },
+      "maxDuration": {
+        "duration": 2100,
+        "level": "7"
+      }
+    },
     "castOnYou": "Your body fades away.",
     "castOnOther": "Someone  fades away.",
     "wearsOff": "You return to view."
   },
-  {
+  "Cure Disease": {
     "name": "Cure Disease",
     "mana": "20",
     "skill": "Alteration",
@@ -202,12 +262,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
     "wearsOff": ""
   },
-  {
+  "Cure Poison": {
     "name": "Cure Poison",
     "mana": "20",
     "skill": "Alteration",
@@ -218,12 +278,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
     "wearsOff": ""
   },
-  {
+  "Gate": {
     "name": "Gate",
     "mana": "70",
     "skill": "Alteration",
@@ -234,12 +294,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "Someone  fades away.",
     "wearsOff": ""
   },
-  {
+  "Grasping Roots": {
     "name": "Grasping Roots",
     "mana": "35",
     "skill": "Alteration",
@@ -250,12 +310,22 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "18 seconds @L5 to 48 seconds @L14",
+    "duration": {
+      "durationString": "18 seconds @L5 to 48 seconds @L14",
+      "minDuration": {
+        "duration": 18,
+        "level": "5"
+      },
+      "maxDuration": {
+        "duration": 66,
+        "level": "14"
+      }
+    },
     "castOnYou": "Your feet become entwined.",
     "castOnOther": "Someone 's feet become entwined.",
     "wearsOff": "The roots fall from your feet."
   },
-  {
+  "Harmony": {
     "name": "Harmony",
     "mana": "25",
     "skill": "Abjuration",
@@ -266,12 +336,22 @@
     "range": "200",
     "targetType": "Targeted AE",
     "spellType": "Beneficial",
-    "duration": "3 ticks @L5 to 2 minutes @L34",
+    "duration": {
+      "durationString": "3 ticks @L5 to 2 minutes @L34",
+      "minDuration": {
+        "duration": 18,
+        "level": "5"
+      },
+      "maxDuration": {
+        "duration": 138,
+        "level": "34"
+      }
+    },
     "castOnYou": "",
     "castOnOther": "",
     "wearsOff": ""
   },
-  {
+  "Invoke Lightning": {
     "name": "Invoke Lightning",
     "mana": "32",
     "skill": "Evocation",
@@ -282,12 +362,12 @@
     "range": "200",
     "targetType": "Targeted AE",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "Lightning surges through your body.",
     "castOnOther": "Someone  has been struck by lightning.",
     "wearsOff": ""
   },
-  {
+  "Ward Summoned": {
     "name": "Ward Summoned",
     "mana": "30",
     "skill": "Evocation",
@@ -298,12 +378,12 @@
     "range": "200",
     "targetType": "Summoned",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "Someone  staggers.",
     "wearsOff": ""
   },
-  {
+  "Whirling Wind": {
     "name": "Whirling Wind",
     "mana": "24",
     "skill": "Conjuration",
@@ -314,12 +394,12 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You are slammed by an intense gust of wind.",
     "castOnOther": "Someone  is slammed by an intense gust of wind.",
     "wearsOff": ""
   },
-  {
+  "Endure Cold": {
     "name": "Endure Cold",
     "mana": "20",
     "skill": "Abjuration",
@@ -330,12 +410,22 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "3 minutes @L1 to 27 minutes @L9",
+    "duration": {
+      "durationString": "3 minutes @L1 to 27 minutes @L9",
+      "minDuration": {
+        "duration": 180,
+        "level": "1"
+      },
+      "maxDuration": {
+        "duration": 1800,
+        "level": "9"
+      }
+    },
     "castOnYou": "You feel protected from cold.",
     "castOnOther": "Someone  is protected from cold.",
     "wearsOff": "Your endurance to cold fades."
   },
-  {
+  "Enduring Breath": {
     "name": "Enduring Breath",
     "mana": "35",
     "skill": "Alteration",
@@ -346,12 +436,17 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "27 minutes 6 seconds",
+    "duration": {
+      "durationString": "27 minutes 6 seconds",
+      "minDuration": {
+        "duration": 1626
+      }
+    },
     "castOnYou": "You feel no need to breathe.",
     "castOnOther": "Someone  doesn't seem to be breathing anymore.",
     "wearsOff": "You resume breathing."
   },
-  {
+  "Firefist": {
     "name": "Firefist",
     "mana": "30",
     "skill": "Evocation",
@@ -362,12 +457,17 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "12 minutes",
+    "duration": {
+      "durationString": "12 minutes",
+      "minDuration": {
+        "duration": 720
+      }
+    },
     "castOnYou": "Your fist bursts into flame.",
     "castOnOther": "Someone 's fist bursts into flame.",
     "wearsOff": "Your hand extinguishes."
   },
-  {
+  "Ignite": {
     "name": "Ignite",
     "mana": "30",
     "skill": "Evocation",
@@ -378,12 +478,12 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You feel your skin ignite.",
     "castOnOther": "Someone 's skin ignites.",
     "wearsOff": ""
   },
-  {
+  "Invisibility versus Animals": {
     "name": "Invisibility versus Animals",
     "mana": "30",
     "skill": "Divination",
@@ -394,12 +494,22 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "27 minutes @L9 to 36 minutes @L12",
+    "duration": {
+      "durationString": "27 minutes @L9 to 36 minutes @L12",
+      "minDuration": {
+        "duration": 1620,
+        "level": "9"
+      },
+      "maxDuration": {
+        "duration": 3780,
+        "level": "12"
+      }
+    },
     "castOnYou": "Part of your image fades away.",
     "castOnOther": "Someone  is surrounded by an aura which shimmers, and then fades away.",
     "wearsOff": "Your image returns."
   },
-  {
+  "Light Healing": {
     "name": "Light Healing",
     "mana": "25",
     "skill": "Alteration",
@@ -410,12 +520,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You feel better.",
     "castOnOther": "Someone  feels better.",
     "wearsOff": ""
   },
-  {
+  "Shield of Thistles": {
     "name": "Shield of Thistles",
     "mana": "40",
     "skill": "Abjuration",
@@ -426,12 +536,22 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "9 ticks @L9 to 6.5 minutes @L65",
+    "duration": {
+      "durationString": "9 ticks @L9 to 6.5 minutes @L65",
+      "minDuration": {
+        "duration": 54,
+        "level": "9"
+      },
+      "maxDuration": {
+        "duration": 444,
+        "level": "65"
+      }
+    },
     "castOnYou": "You are surrounded by a thorny barrier.",
     "castOnOther": "Someone  is surrounded by a thorny barrier.",
     "wearsOff": "The brambles fall away."
   },
-  {
+  "Starshine": {
     "name": "Starshine",
     "mana": "50",
     "skill": "Conjuration",
@@ -442,12 +562,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "A globe of stars forms within your hands.",
     "castOnOther": "Someone 's hands pulse softly with light.",
     "wearsOff": ""
   },
-  {
+  "Strength of Earth": {
     "name": "Strength of Earth",
     "mana": "40",
     "skill": "Alteration",
@@ -458,12 +578,17 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "27 minutes",
+    "duration": {
+      "durationString": "27 minutes",
+      "minDuration": {
+        "duration": 1620
+      }
+    },
     "castOnYou": "You feel stronger.",
     "castOnOther": "Someone  looks stronger.",
     "wearsOff": "Your strength fades."
   },
-  {
+  "Thistlecoat": {
     "name": "Thistlecoat",
     "mana": "25",
     "skill": "Abjuration",
@@ -474,12 +599,22 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "27 minutes @L9 to 3 hours 15 minutes @L60",
+    "duration": {
+      "durationString": "27 minutes @L9 to 3 hours 15 minutes @L60",
+      "minDuration": {
+        "duration": 1620,
+        "level": "9"
+      },
+      "maxDuration": {
+        "duration": 13320,
+        "level": "60"
+      }
+    },
     "castOnYou": "Thistles spring from your skin.",
     "castOnOther": "Someone 's skin sprouts thistles.",
     "wearsOff": "Your skin returns to normal."
   },
-  {
+  "Treeform": {
     "name": "Treeform",
     "mana": "30",
     "skill": "Alteration",
@@ -490,12 +625,22 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "27 minutes @L9 to 36 minutes @L12",
+    "duration": {
+      "durationString": "27 minutes @L9 to 36 minutes @L12",
+      "minDuration": {
+        "duration": 1620,
+        "level": "9"
+      },
+      "maxDuration": {
+        "duration": 3780,
+        "level": "12"
+      }
+    },
     "castOnYou": "You have taken root.",
     "castOnOther": "Someone  turns into a tree.",
     "wearsOff": "You are no longer a tree."
   },
-  {
+  "Befriend Animal": {
     "name": "Befriend Animal",
     "mana": "70",
     "skill": "Alteration",
@@ -506,12 +651,20 @@
     "range": "200",
     "targetType": "Animal",
     "spellType": "Detrimental",
-    "duration": "Between 0:03 - 5:00 @L14 to 0:03 - 20:00 @L65 (",
+    "duration": {
+      "durationString": "Between 0:03 - 5:00 @L14 to 0:03 - 20:00 @L65 (",
+      "minDuration": {
+        "level": "14"
+      },
+      "maxDuration": {
+        "level": "65"
+      }
+    },
     "castOnYou": "",
     "castOnOther": "Someone  blinks.",
     "wearsOff": ""
   },
-  {
+  "Bind Affinity": {
     "name": "Bind Affinity",
     "mana": "100",
     "skill": "Alteration",
@@ -522,12 +675,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You feel yourself bind to the area.",
     "castOnOther": "Someone  is bound to the area.",
     "wearsOff": ""
   },
-  {
+  "Cascade of Hail": {
     "name": "Cascade of Hail",
     "mana": "62",
     "skill": "Evocation",
@@ -538,12 +691,12 @@
     "range": "150",
     "targetType": "Targeted AE",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You are pelted by hailstones.",
     "castOnOther": "Someone  is pelted by hailstones.",
     "wearsOff": ""
   },
-  {
+  "Expulse Summoned": {
     "name": "Expulse Summoned",
     "mana": "60",
     "skill": "Evocation",
@@ -554,12 +707,12 @@
     "range": "200",
     "targetType": "Summoned",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
     "wearsOff": ""
   },
-  {
+  "Halo of Light": {
     "name": "Halo of Light",
     "mana": "40",
     "skill": "Conjuration",
@@ -570,12 +723,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "A Halo of Light solidifies in your hand.",
     "castOnOther": "Someone 's hands are bathed in light.",
     "wearsOff": ""
   },
-  {
+  "Invigor": {
     "name": "Invigor",
     "mana": "20",
     "skill": "Alteration",
@@ -586,12 +739,17 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "3 ticks",
+    "duration": {
+      "durationString": "3 ticks",
+      "minDuration": {
+        "duration": 18
+      }
+    },
     "castOnYou": "Your body zings with energy.",
     "castOnOther": "Someone  looks energized.",
     "wearsOff": ""
   },
-  {
+  "Levitate": {
     "name": "Levitate",
     "mana": "30",
     "skill": "Alteration",
@@ -602,12 +760,22 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "5.2 minutes @L14 to 19 minutes @L60",
+    "duration": {
+      "durationString": "5.2 minutes @L14 to 19 minutes @L60",
+      "minDuration": {
+        "duration": 312,
+        "level": "14"
+      },
+      "maxDuration": {
+        "duration": 1452,
+        "level": "60"
+      }
+    },
     "castOnYou": "Your feet leave the ground.",
     "castOnOther": "Someone's feet leave the ground.",
     "wearsOff": "You can no longer levitate."
   },
-  {
+  "See Invisible": {
     "name": "See Invisible",
     "mana": "25",
     "skill": "Divination",
@@ -618,12 +786,17 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "27 minutes",
+    "duration": {
+      "durationString": "27 minutes",
+      "minDuration": {
+        "duration": 1620
+      }
+    },
     "castOnYou": "Your eyes tingle.",
     "castOnOther": "",
     "wearsOff": "Your eyes stop tingling."
   },
-  {
+  "Skin Like Rock": {
     "name": "Skin Like Rock",
     "mana": "60",
     "skill": "Abjuration",
@@ -634,12 +807,17 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "27 minutes",
+    "duration": {
+      "durationString": "27 minutes",
+      "minDuration": {
+        "duration": 1620
+      }
+    },
     "castOnYou": "Your skin turns hard as stone.",
     "castOnOther": "Someone 's skin turns hard as stone.",
     "wearsOff": "Your skin returns to normal."
   },
-  {
+  "Spirit of Wolf": {
     "name": "Spirit of Wolf",
     "mana": "40",
     "skill": "Alteration",
@@ -650,12 +828,22 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "27.0 mins @L9 to 36.0 mins @L12",
+    "duration": {
+      "durationString": "27.0 mins @L9 to 36.0 mins @L12",
+      "minDuration": {
+        "duration": 1620,
+        "level": "9"
+      },
+      "maxDuration": {
+        "duration": 3780,
+        "level": "12"
+      }
+    },
     "castOnYou": "You feel the spirit of wolf enter you.",
     "castOnOther": "Someone  is surrounded by a brief lupine aura.",
     "wearsOff": "The spirit of wolf leaves you."
   },
-  {
+  "Stinging Swarm": {
     "name": "Stinging Swarm",
     "mana": "65",
     "skill": "Conjuration",
@@ -666,12 +854,22 @@
     "range": "250",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "7 ticks @L14 to 9 ticks @L18",
+    "duration": {
+      "durationString": "7 ticks @L14 to 9 ticks @L18",
+      "minDuration": {
+        "duration": 42,
+        "level": "14"
+      },
+      "maxDuration": {
+        "duration": 96,
+        "level": "18"
+      }
+    },
     "castOnYou": "You feel the pain of a thousand stings.",
     "castOnOther": "Someone  is engulfed in a swarm.",
     "wearsOff": "The swarm departs."
   },
-  {
+  "Summon Drink": {
     "name": "Summon Drink",
     "mana": "10",
     "skill": "Conjuration",
@@ -682,12 +880,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
     "wearsOff": ""
   },
-  {
+  "Summon Food": {
     "name": "Summon Food",
     "mana": "10",
     "skill": "Conjuration",
@@ -698,12 +896,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
     "wearsOff": ""
   },
-  {
+  "Barbcoat": {
     "name": "Barbcoat",
     "mana": "50",
     "skill": "Abjuration",
@@ -714,12 +912,22 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "57 minutes @L19 to 3 hours @L60",
+    "duration": {
+      "durationString": "57 minutes @L19 to 3 hours @L60",
+      "minDuration": {
+        "duration": 3420,
+        "level": "19"
+      },
+      "maxDuration": {
+        "duration": 14220,
+        "level": "60"
+      }
+    },
     "castOnYou": "Barbs spring from your skin.",
     "castOnOther": "Someone 's skin sprouts barbs.",
     "wearsOff": "Your skin returns to normal."
   },
-  {
+  "Calm Animal": {
     "name": "Calm Animal",
     "mana": "45",
     "skill": "Alteration",
@@ -730,12 +938,17 @@
     "range": "200",
     "targetType": "Animal",
     "spellType": "Beneficial",
-    "duration": "7 ticks",
+    "duration": {
+      "durationString": "7 ticks",
+      "minDuration": {
+        "duration": 42
+      }
+    },
     "castOnYou": "You feel your aggression subside.",
     "castOnOther": "Someone  looks less aggressive.",
     "wearsOff": ""
   },
-  {
+  "Cancel Magic": {
     "name": "Cancel Magic",
     "mana": "30",
     "skill": "Abjuration",
@@ -746,12 +959,12 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You feel a bit dispelled.",
     "castOnOther": "Someone  feels a bit dispelled.",
     "wearsOff": ""
   },
-  {
+  "Careless Lightning": {
     "name": "Careless Lightning",
     "mana": "70",
     "skill": "Evocation",
@@ -762,12 +975,12 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "Lightning surges through your body.",
     "castOnOther": "Someone  has been struck by lightning.",
     "wearsOff": ""
   },
-  {
+  "Dizzying Wind": {
     "name": "Dizzying Wind",
     "mana": "80",
     "skill": "Conjuration",
@@ -778,12 +991,12 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You are slammed by an intense gust of wind.",
     "castOnOther": "Someone  is slammed by an intense gust of wind.",
     "wearsOff": ""
   },
-  {
+  "Endure Disease": {
     "name": "Endure Disease",
     "mana": "20",
     "skill": "Abjuration",
@@ -794,12 +1007,17 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "27 minutes",
+    "duration": {
+      "durationString": "27 minutes",
+      "minDuration": {
+        "duration": 1620
+      }
+    },
     "castOnYou": "You feel protected from disease.",
     "castOnOther": "Someone  is protected from disease.",
     "wearsOff": "Your endurance to disease fades."
   },
-  {
+  "Endure Poison": {
     "name": "Endure Poison",
     "mana": "20",
     "skill": "Abjuration",
@@ -810,12 +1028,17 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "27 minutes",
+    "duration": {
+      "durationString": "27 minutes",
+      "minDuration": {
+        "duration": 1620
+      }
+    },
     "castOnYou": "You feel protected from poison.",
     "castOnOther": "Someone  is protected from poison.",
     "wearsOff": "Your endurance to poison fades."
   },
-  {
+  "Feral Spirit": {
     "name": "Feral Spirit",
     "mana": "50",
     "skill": "Alteration",
@@ -826,12 +1049,22 @@
     "range": "100",
     "targetType": "Pet",
     "spellType": "Beneficial",
-    "duration": "2.9 minutes @L19 to 7.5 minutes @L65",
+    "duration": {
+      "durationString": "2.9 minutes @L19 to 7.5 minutes @L65",
+      "minDuration": {
+        "duration": 174,
+        "level": "19"
+      },
+      "maxDuration": {
+        "duration": 624,
+        "level": "65"
+      }
+    },
     "castOnYou": "",
     "castOnOther": "Someone  foams at the mouth.",
     "wearsOff": ""
   },
-  {
+  "Healing": {
     "name": "Healing",
     "mana": "60",
     "skill": "Alteration",
@@ -842,12 +1075,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You feel much better.",
     "castOnOther": "Someone  feels much better.",
     "wearsOff": ""
   },
-  {
+  "Ring of Butcher": {
     "name": "Ring of Butcher",
     "mana": "150",
     "skill": "Alteration",
@@ -858,12 +1091,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "Someone  fades away.",
     "wearsOff": ""
   },
-  {
+  "Ring of Commons": {
     "name": "Ring of Commons",
     "mana": "150",
     "skill": "Alteration",
@@ -874,12 +1107,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "Someone  fades away.",
     "wearsOff": ""
   },
-  {
+  "Ring of Karana": {
     "name": "Ring of Karana",
     "mana": "150",
     "skill": "Alteration",
@@ -890,12 +1123,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "Someone  fades away.",
     "wearsOff": ""
   },
-  {
+  "Ring of Surefall Glade": {
     "name": "Ring of Surefall Glade",
     "mana": "150",
     "skill": "Alteration",
@@ -906,12 +1139,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "Someone  fades away.",
     "wearsOff": ""
   },
-  {
+  "Ring of Toxxulia": {
     "name": "Ring of Toxxulia",
     "mana": "150",
     "skill": "Alteration",
@@ -922,12 +1155,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "Someone  fades away.",
     "wearsOff": ""
   },
-  {
+  "Shield of Barbs": {
     "name": "Shield of Barbs",
     "mana": "60",
     "skill": "Abjuration",
@@ -938,12 +1171,22 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "1.9 minutes @L19 to 6.5 minutes @L65",
+    "duration": {
+      "durationString": "1.9 minutes @L19 to 6.5 minutes @L65",
+      "minDuration": {
+        "duration": 114,
+        "level": "19"
+      },
+      "maxDuration": {
+        "duration": 504,
+        "level": "65"
+      }
+    },
     "castOnYou": "You are surrounded by a thorny barrier.",
     "castOnOther": "Someone  is surrounded by a thorny barrier.",
     "wearsOff": "The brambles fall away."
   },
-  {
+  "Superior Camouflage": {
     "name": "Superior Camouflage",
     "mana": "40",
     "skill": "Divination",
@@ -954,12 +1197,17 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "24 minutes",
+    "duration": {
+      "durationString": "24 minutes",
+      "minDuration": {
+        "duration": 1440
+      }
+    },
     "castOnYou": "You vanish.",
     "castOnOther": "Someone  fades away.",
     "wearsOff": "You appear."
   },
-  {
+  "Terrorize Animal": {
     "name": "Terrorize Animal",
     "mana": "30",
     "skill": "Alteration",
@@ -970,12 +1218,17 @@
     "range": "200",
     "targetType": "Animal",
     "spellType": "Detrimental",
-    "duration": "9 ticks",
+    "duration": {
+      "durationString": "9 ticks",
+      "minDuration": {
+        "duration": 54
+      }
+    },
     "castOnYou": "",
     "castOnOther": "Someone  runs away in terror!",
     "wearsOff": ""
   },
-  {
+  "Charm Animals": {
     "name": "Charm Animals",
     "mana": "120",
     "skill": "Alteration",
@@ -986,12 +1239,22 @@
     "range": "200",
     "targetType": "Animal",
     "spellType": "Detrimental",
-    "duration": "8.2 minutes @L24 to 20.5 minutes @L65",
+    "duration": {
+      "durationString": "8.2 minutes @L24 to 20.5 minutes @L65",
+      "minDuration": {
+        "duration": 491.99999999999994,
+        "level": "24"
+      },
+      "maxDuration": {
+        "duration": 1722,
+        "level": "65"
+      }
+    },
     "castOnYou": "",
     "castOnOther": "Someone  blinks.",
     "wearsOff": ""
   },
-  {
+  "Creeping Crud": {
     "name": "Creeping Crud",
     "mana": "100",
     "skill": "Conjuration",
@@ -1002,12 +1265,17 @@
     "range": "250",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "1 minute 6 seconds",
+    "duration": {
+      "durationString": "1 minute 6 seconds",
+      "minDuration": {
+        "duration": 66
+      }
+    },
     "castOnYou": "You feel the pain of a thousand stings.",
     "castOnOther": "Someone  is engulfed in a swarm.",
     "wearsOff": "The swarm departs."
   },
-  {
+  "Dismiss Summoned": {
     "name": "Dismiss Summoned",
     "mana": "90",
     "skill": "Evocation",
@@ -1018,12 +1286,12 @@
     "range": "200",
     "targetType": "Summoned",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "Someone  staggers.",
     "wearsOff": ""
   },
-  {
+  "Ensnaring Roots": {
     "name": "Ensnaring Roots",
     "mana": "60",
     "skill": "Alteration",
@@ -1034,12 +1302,22 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "1.4 minutes @L24 to 1.6 minutes @L27",
+    "duration": {
+      "durationString": "1.4 minutes @L24 to 1.6 minutes @L27",
+      "minDuration": {
+        "duration": 84,
+        "level": "24"
+      },
+      "maxDuration": {
+        "duration": 180,
+        "level": "27"
+      }
+    },
     "castOnYou": "Your feet become entwined.",
     "castOnOther": "Someone's feet become entwined.",
     "wearsOff": "The roots fall from your feet."
   },
-  {
+  "Pogonip": {
     "name": "Pogonip",
     "mana": "125",
     "skill": "Evocation",
@@ -1050,12 +1328,12 @@
     "range": "150",
     "targetType": "Targeted AE",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You are sheathed in ice crystals.",
     "castOnOther": "Someone  is sheathed in ice crystals.",
     "wearsOff": ""
   },
-  {
+  "Resist Fire": {
     "name": "Resist Fire",
     "mana": "50",
     "skill": "Abjuration",
@@ -1066,12 +1344,17 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "36 minutes",
+    "duration": {
+      "durationString": "36 minutes",
+      "minDuration": {
+        "duration": 2160
+      }
+    },
     "castOnYou": "You feel resistant from fire.",
     "castOnOther": "Someone is resistant to fire.",
     "wearsOff": "Your resist fire fades."
   },
-  {
+  "Ring of Feerrott": {
     "name": "Ring of Feerrott",
     "mana": "150",
     "skill": "Alteration",
@@ -1082,12 +1365,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "Someone  fades away.",
     "wearsOff": ""
   },
-  {
+  "Ring of Lavastorm": {
     "name": "Ring of Lavastorm",
     "mana": "150",
     "skill": "Alteration",
@@ -1098,12 +1381,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "Someone  fades away.",
     "wearsOff": ""
   },
-  {
+  "Ring of Ro": {
     "name": "Ring of Ro",
     "mana": "150",
     "skill": "Alteration",
@@ -1114,12 +1397,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "Someone  fades away.",
     "wearsOff": ""
   },
-  {
+  "Ring of Steamfont": {
     "name": "Ring of Steamfont",
     "mana": "150",
     "skill": "Alteration",
@@ -1130,12 +1413,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "Someone  fades away.",
     "wearsOff": ""
   },
-  {
+  "Ring of the Combines": {
     "name": "Ring of the Combines",
     "mana": "150",
     "skill": "Alteration",
@@ -1146,12 +1429,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "Someone  fades away.",
     "wearsOff": ""
   },
-  {
+  "Scale of Wolf": {
     "name": "Scale of Wolf",
     "mana": "60",
     "skill": "Alteration",
@@ -1162,12 +1445,17 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "45 minutes",
+    "duration": {
+      "durationString": "45 minutes",
+      "minDuration": {
+        "duration": 2700
+      }
+    },
     "castOnYou": "You feel the spirit-scale of wolf enter you.",
     "castOnOther": "Someone  is surrounded by a dark lupine aura.",
     "wearsOff": "The scale of wolf leaves you."
   },
-  {
+  "Skin Like Steel": {
     "name": "Skin Like Steel",
     "mana": "100",
     "skill": "Abjuration",
@@ -1178,12 +1466,17 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "36 minutes",
+    "duration": {
+      "durationString": "36 minutes",
+      "minDuration": {
+        "duration": 2160
+      }
+    },
     "castOnYou": "Your skin turns hard as steel.",
     "castOnOther": "Someone 's skin turns hard as steel.",
     "wearsOff": "Your skin returns to normal."
   },
-  {
+  "Spirit of Cheetah": {
     "name": "Spirit of Cheetah",
     "mana": "20",
     "skill": "Alteration",
@@ -1194,12 +1487,17 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "8 ticks",
+    "duration": {
+      "durationString": "8 ticks",
+      "minDuration": {
+        "duration": 48
+      }
+    },
     "castOnYou": "You feel the spirit of cheetah enter you.",
     "castOnOther": "Someone  is surrounded by a brief feline aura.",
     "wearsOff": "The spirit of cheetah fades."
   },
-  {
+  "Sunbeam": {
     "name": "Sunbeam",
     "mana": "40",
     "skill": "Divination",
@@ -1210,12 +1508,17 @@
     "range": "200",
     "targetType": "Targeted AE",
     "spellType": "Detrimental",
-    "duration": "3 ticks",
+    "duration": {
+      "durationString": "3 ticks",
+      "minDuration": {
+        "duration": 18
+      }
+    },
     "castOnYou": "You are blinded by a sunbeam.",
     "castOnOther": "Someone  is blinded by a sunbeam.",
     "wearsOff": "Your sight returns."
   },
-  {
+  "Tremor": {
     "name": "Tremor",
     "mana": "200",
     "skill": "Evocation",
@@ -1226,12 +1529,12 @@
     "range": "30",
     "targetType": "PB AE",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You hear the ground rumble.",
     "castOnOther": "",
     "wearsOff": ""
   },
-  {
+  "Wolf Form": {
     "name": "Wolf Form",
     "mana": "60",
     "skill": "Alteration",
@@ -1242,12 +1545,17 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "1 hour 12 minutes",
+    "duration": {
+      "durationString": "1 hour 12 minutes",
+      "minDuration": {
+        "duration": 4320
+      }
+    },
     "castOnYou": "You are now a wolf.",
     "castOnOther": "Someone  turns into a wolf.",
     "wearsOff": "You are no longer a wolf."
   },
-  {
+  "Beguile Plants": {
     "name": "Beguile Plants",
     "mana": "170",
     "skill": "Alteration",
@@ -1258,12 +1566,22 @@
     "range": "200",
     "targetType": "Plant",
     "spellType": "Detrimental",
-    "duration": "9.7 minutes @L29 to 20.5 minutes @L65",
+    "duration": {
+      "durationString": "9.7 minutes @L29 to 20.5 minutes @L65",
+      "minDuration": {
+        "duration": 582,
+        "level": "29"
+      },
+      "maxDuration": {
+        "duration": 1812,
+        "level": "65"
+      }
+    },
     "castOnYou": "",
     "castOnOther": "Someone  blinks.",
     "wearsOff": ""
   },
-  {
+  "Bramblecoat": {
     "name": "Bramblecoat",
     "mana": "75",
     "skill": "Abjuration",
@@ -1274,12 +1592,22 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "1 hour 27 minutes @L29 to 3 hours 15 minutes @L65",
+    "duration": {
+      "durationString": "1 hour 27 minutes @L29 to 3 hours 15 minutes @L65",
+      "minDuration": {
+        "duration": 5220,
+        "level": "29"
+      },
+      "maxDuration": {
+        "duration": 16920,
+        "level": "65"
+      }
+    },
     "castOnYou": "Brambles spring from your skin.",
     "castOnOther": "Someone 's skin sprouts brambles.",
     "wearsOff": "Your skin returns to normal."
   },
-  {
+  "Circle of Butcher": {
     "name": "Circle of Butcher",
     "mana": "300",
     "skill": "Alteration",
@@ -1290,12 +1618,12 @@
     "range": "0",
     "targetType": "Group v1",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "Someone  creates a mystic portal.",
     "wearsOff": "The portal shimmers and fades."
   },
-  {
+  "Circle of Commons": {
     "name": "Circle of Commons",
     "mana": "300",
     "skill": "Alteration",
@@ -1306,12 +1634,12 @@
     "range": "0",
     "targetType": "Group v1",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "Someone  creates a mystic portal.",
     "wearsOff": "The portal shimmers and fades."
   },
-  {
+  "Circle of Karana": {
     "name": "Circle of Karana",
     "mana": "300",
     "skill": "Alteration",
@@ -1322,12 +1650,12 @@
     "range": "0",
     "targetType": "Group v1",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "Someone  creates a mystic portal.",
     "wearsOff": "The portal shimmers and fades."
   },
-  {
+  "Circle of Surefall Glade": {
     "name": "Circle of Surefall Glade",
     "mana": "300",
     "skill": "Alteration",
@@ -1338,12 +1666,12 @@
     "range": "0",
     "targetType": "Group v1",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "Someone  creates a mystic portal.",
     "wearsOff": "The portal shimmers and fades."
   },
-  {
+  "Circle of Toxxulia": {
     "name": "Circle of Toxxulia",
     "mana": "300",
     "skill": "Alteration",
@@ -1354,12 +1682,12 @@
     "range": "0",
     "targetType": "Group v1",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "Someone  creates a mystic portal.",
     "wearsOff": "The portal shimmers and fades."
   },
-  {
+  "Combust": {
     "name": "Combust",
     "mana": "110",
     "skill": "Evocation",
@@ -1370,12 +1698,12 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You feel your skin combust.",
     "castOnOther": "Someone 's skin combusts.",
     "wearsOff": ""
   },
-  {
+  "Counteract Disease": {
     "name": "Counteract Disease",
     "mana": "50",
     "skill": "Alteration",
@@ -1386,12 +1714,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
     "wearsOff": ""
   },
-  {
+  "Counteract Poison": {
     "name": "Counteract Poison",
     "mana": "50",
     "skill": "Alteration",
@@ -1402,12 +1730,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
     "wearsOff": ""
   },
-  {
+  "Ensnare": {
     "name": "Ensnare",
     "mana": "35",
     "skill": "Alteration",
@@ -1418,12 +1746,22 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "6.8 minutes @L29 to 13 minutes @L60",
+    "duration": {
+      "durationString": "6.8 minutes @L29 to 13 minutes @L60",
+      "minDuration": {
+        "duration": 408,
+        "level": "29"
+      },
+      "maxDuration": {
+        "duration": 1188,
+        "level": "60"
+      }
+    },
     "castOnYou": "You are ensnared.",
     "castOnOther": "Someone  has been ensnared.",
     "wearsOff": "You are no longer ensnared."
   },
-  {
+  "Extinguish Fatigue": {
     "name": "Extinguish Fatigue",
     "mana": "35",
     "skill": "Alteration",
@@ -1434,12 +1772,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "Your body zings with energy.",
     "castOnOther": "Someone  looks energized.",
     "wearsOff": ""
   },
-  {
+  "Greater Healing": {
     "name": "Greater Healing",
     "mana": "150",
     "skill": "Alteration",
@@ -1450,12 +1788,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You feel much better.",
     "castOnOther": "Someone  feels much better.",
     "wearsOff": ""
   },
-  {
+  "Imbue Emerald": {
     "name": "Imbue Emerald",
     "mana": "200",
     "skill": "Alteration",
@@ -1466,12 +1804,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
     "wearsOff": ""
   },
-  {
+  "Imbue Plains Pebble": {
     "name": "Imbue Plains Pebble",
     "mana": "200",
     "skill": "Alteration",
@@ -1482,12 +1820,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
     "wearsOff": ""
   },
-  {
+  "Immolate": {
     "name": "Immolate",
     "mana": "120",
     "skill": "Evocation",
@@ -1498,12 +1836,17 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "1 minute 6 seconds",
+    "duration": {
+      "durationString": "1 minute 6 seconds",
+      "minDuration": {
+        "duration": 66
+      }
+    },
     "castOnYou": "You are surrounded by blazing flames.",
     "castOnOther": "Someone  is surrounded by blazing flames.",
     "wearsOff": "The flames are extinguished."
   },
-  {
+  "Ring of Misty": {
     "name": "Ring of Misty",
     "mana": "150",
     "skill": "Alteration",
@@ -1514,12 +1857,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "Someone  fades away.",
     "wearsOff": ""
   },
-  {
+  "Shield of Brambles": {
     "name": "Shield of Brambles",
     "mana": "80",
     "skill": "Abjuration",
@@ -1530,12 +1873,22 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "2.9 minutes @L29 to 6.5 minutes @L65",
+    "duration": {
+      "durationString": "2.9 minutes @L29 to 6.5 minutes @L65",
+      "minDuration": {
+        "duration": 174,
+        "level": "29"
+      },
+      "maxDuration": {
+        "duration": 564,
+        "level": "65"
+      }
+    },
     "castOnYou": "You are surrounded by a thorny barrier.",
     "castOnOther": "Someone  is surrounded by a thorny barrier.",
     "wearsOff": "The brambles fall away."
   },
-  {
+  "Succor: East": {
     "name": "Succor: East",
     "mana": "300",
     "skill": "Alteration",
@@ -1546,12 +1899,12 @@
     "range": "0",
     "targetType": "Group v1",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "Someone  creates a mystic portal.",
     "wearsOff": "The portal shimmers and fades."
   },
-  {
+  "Beguile Animals": {
     "name": "Beguile Animals",
     "mana": "170",
     "skill": "Alteration",
@@ -1562,12 +1915,22 @@
     "range": "200",
     "targetType": "Animal",
     "spellType": "Detrimental",
-    "duration": "11.2 minutes @L34 to 20.5 minutes @L65",
+    "duration": {
+      "durationString": "11.2 minutes @L34 to 20.5 minutes @L65",
+      "minDuration": {
+        "duration": 672,
+        "level": "34"
+      },
+      "maxDuration": {
+        "duration": 1902,
+        "level": "65"
+      }
+    },
     "castOnYou": "",
     "castOnOther": "Someone  blinks.",
     "wearsOff": ""
   },
-  {
+  "Circle of Feerrott": {
     "name": "Circle of Feerrott",
     "mana": "300",
     "skill": "Alteration",
@@ -1578,12 +1941,12 @@
     "range": "0",
     "targetType": "Group v1",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "Someone  creates a mystic portal.",
     "wearsOff": "The portal shimmers and fades."
   },
-  {
+  "Circle of Iceclad": {
     "name": "Circle of Iceclad",
     "mana": "300",
     "skill": "Alteration",
@@ -1594,12 +1957,12 @@
     "range": "0",
     "targetType": "Group v1",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "Someone  creates a mystic portal.",
     "wearsOff": "The portal shimmers and fades."
   },
-  {
+  "Circle of Lavastorm": {
     "name": "Circle of Lavastorm",
     "mana": "300",
     "skill": "Alteration",
@@ -1610,12 +1973,12 @@
     "range": "0",
     "targetType": "Group v1",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "Someone  creates a mystic portal.",
     "wearsOff": "The portal shimmers and fades."
   },
-  {
+  "Circle of Ro": {
     "name": "Circle of Ro",
     "mana": "300",
     "skill": "Alteration",
@@ -1626,12 +1989,12 @@
     "range": "0",
     "targetType": "Group v1",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "Someone  creates a mystic portal.",
     "wearsOff": "The portal shimmers and fades."
   },
-  {
+  "Circle of Steamfont": {
     "name": "Circle of Steamfont",
     "mana": "300",
     "skill": "Alteration",
@@ -1642,12 +2005,12 @@
     "range": "0",
     "targetType": "Group v1",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "Someone  creates a mystic portal.",
     "wearsOff": "The portal shimmers and fades."
   },
-  {
+  "Circle of the Combines": {
     "name": "Circle of the Combines",
     "mana": "300",
     "skill": "Alteration",
@@ -1658,12 +2021,12 @@
     "range": "0",
     "targetType": "Group v1",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "Someone  creates a mystic portal.",
     "wearsOff": "The portal shimmers and fades."
   },
-  {
+  "Drones of Doom": {
     "name": "Drones of Doom",
     "mana": "141",
     "skill": "Conjuration",
@@ -1674,12 +2037,17 @@
     "range": "250",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "1 minute",
+    "duration": {
+      "durationString": "1 minute",
+      "minDuration": {
+        "duration": 60
+      }
+    },
     "castOnYou": "You feel the pain of a thousand stings.",
     "castOnOther": "Someone  is engulfed in a swarm.",
     "wearsOff": "The swarm departs."
   },
-  {
+  "Earthquake": {
     "name": "Earthquake",
     "mana": "375",
     "skill": "Evocation",
@@ -1690,12 +2058,12 @@
     "range": "30",
     "targetType": "PB AE",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You feel the ground shake.",
     "castOnOther": "Someone  is smashed by the heaving ground.",
     "wearsOff": ""
   },
-  {
+  "Endure Magic": {
     "name": "Endure Magic",
     "mana": "40",
     "skill": "Abjuration",
@@ -1706,12 +2074,17 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "27 minutes",
+    "duration": {
+      "durationString": "27 minutes",
+      "minDuration": {
+        "duration": 1620
+      }
+    },
     "castOnYou": "You feel protected from magic.",
     "castOnOther": "Someone  is protected from magic.",
     "wearsOff": "Your endurance to magic fades."
   },
-  {
+  "Expel Summoned": {
     "name": "Expel Summoned",
     "mana": "130",
     "skill": "Evocation",
@@ -1722,12 +2095,12 @@
     "range": "200",
     "targetType": "Summoned",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
     "wearsOff": ""
   },
-  {
+  "Fury of Air": {
     "name": "Fury of Air",
     "mana": "150",
     "skill": "Evocation",
@@ -1738,12 +2111,12 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "Lightning surges through your body.",
     "castOnOther": "Someone  has been struck by lightning.",
     "wearsOff": ""
   },
-  {
+  "Greater Wolf Form": {
     "name": "Greater Wolf Form",
     "mana": "90",
     "skill": "Alteration",
@@ -1754,12 +2127,22 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "1 hour 42 minutes @L34 to 1 hour 50 minutes @L37",
+    "duration": {
+      "durationString": "1 hour 42 minutes @L34 to 1 hour 50 minutes @L37",
+      "minDuration": {
+        "duration": 6120,
+        "level": "34"
+      },
+      "maxDuration": {
+        "duration": 12720,
+        "level": "37"
+      }
+    },
     "castOnYou": "You are now a wolf.",
     "castOnOther": "Someone  turns into a wolf.",
     "wearsOff": "You are no longer a wolf."
   },
-  {
+  "Lightning Strike": {
     "name": "Lightning Strike",
     "mana": "149",
     "skill": "Evocation",
@@ -1770,12 +2153,12 @@
     "range": "200",
     "targetType": "Targeted AE",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "Lightning surges through your body.",
     "castOnOther": "Someone  has been struck by lightning.",
     "wearsOff": ""
   },
-  {
+  "Regeneration": {
     "name": "Regeneration",
     "mana": "100",
     "skill": "Alteration",
@@ -1786,12 +2169,22 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "8.2 minutes @L24 to 20.5 minutes @L65",
+    "duration": {
+      "durationString": "8.2 minutes @L24 to 20.5 minutes @L65",
+      "minDuration": {
+        "duration": 491.99999999999994,
+        "level": "24"
+      },
+      "maxDuration": {
+        "duration": 1722,
+        "level": "65"
+      }
+    },
     "castOnYou": "You begin to regenerate.",
     "castOnOther": "Someone  begins to regenerate.",
     "wearsOff": "You have stopped regenerating."
   },
-  {
+  "Resist Cold": {
     "name": "Resist Cold",
     "mana": "50",
     "skill": "Abjuration",
@@ -1802,12 +2195,17 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "36 minutes",
+    "duration": {
+      "durationString": "36 minutes",
+      "minDuration": {
+        "duration": 2160
+      }
+    },
     "castOnYou": "You feel resistant from cold.",
     "castOnOther": "Someone  is resistant to cold.",
     "wearsOff": "Your cold resistance fades."
   },
-  {
+  "Ring of Great Divide": {
     "name": "Ring of Great Divide",
     "mana": "150",
     "skill": "Alteration",
@@ -1818,12 +2216,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "Someone  fades away.",
     "wearsOff": ""
   },
-  {
+  "Ring of Iceclad": {
     "name": "Ring of Iceclad",
     "mana": "150",
     "skill": "Alteration",
@@ -1834,12 +2232,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "Someone  fades away.",
     "wearsOff": ""
   },
-  {
+  "Strength of Stone": {
     "name": "Strength of Stone",
     "mana": "65",
     "skill": "Alteration",
@@ -1850,12 +2248,17 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "36 minutes",
+    "duration": {
+      "durationString": "36 minutes",
+      "minDuration": {
+        "duration": 2160
+      }
+    },
     "castOnYou": "You feel stronger.",
     "castOnOther": "Someone  looks stronger.",
     "wearsOff": "Your strength fades."
   },
-  {
+  "Succor: Butcher": {
     "name": "Succor: Butcher",
     "mana": "300",
     "skill": "Alteration",
@@ -1866,12 +2269,12 @@
     "range": "0",
     "targetType": "Group v1",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "Someone  creates a mystic portal.",
     "wearsOff": "The portal shimmers and fades."
   },
-  {
+  "Avalanche": {
     "name": "Avalanche",
     "mana": "200",
     "skill": "Evocation",
@@ -1882,12 +2285,12 @@
     "range": "150",
     "targetType": "Targeted AE",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You are entombed in ice.",
     "castOnOther": "Someone  is entombed in ice.",
     "wearsOff": ""
   },
-  {
+  "Circle of Great Divide": {
     "name": "Circle of Great Divide",
     "mana": "300",
     "skill": "Alteration",
@@ -1898,12 +2301,12 @@
     "range": "0",
     "targetType": "Group v1",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "Someone  creates a mystic portal.",
     "wearsOff": "The portal shimmers and fades."
   },
-  {
+  "Circle of Misty": {
     "name": "Circle of Misty",
     "mana": "300",
     "skill": "Alteration",
@@ -1914,12 +2317,12 @@
     "range": "0",
     "targetType": "Group v1",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "Someone  creates a mystic portal.",
     "wearsOff": "The portal shimmers and fades."
   },
-  {
+  "Enveloping Roots": {
     "name": "Enveloping Roots",
     "mana": "80",
     "skill": "Alteration",
@@ -1930,12 +2333,17 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "1 minute",
+    "duration": {
+      "durationString": "1 minute",
+      "minDuration": {
+        "duration": 60
+      }
+    },
     "castOnYou": "Your feet become entwined.",
     "castOnOther": "Someone 's feet become entwined.",
     "wearsOff": "The roots fall from your feet."
   },
-  {
+  "Firestrike": {
     "name": "Firestrike",
     "mana": "155",
     "skill": "Evocation",
@@ -1946,12 +2354,12 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You feel your skin ignite.",
     "castOnOther": "Someone 's skin ignites.",
     "wearsOff": ""
   },
-  {
+  "Pack Regeneration": {
     "name": "Pack Regeneration",
     "mana": "200",
     "skill": "Alteration",
@@ -1962,12 +2370,22 @@
     "range": "100",
     "targetType": "Group v2",
     "spellType": "Beneficial",
-    "duration": "8.8 minutes @L39 to 14 minutes @L65",
+    "duration": {
+      "durationString": "8.8 minutes @L39 to 14 minutes @L65",
+      "minDuration": {
+        "duration": 528,
+        "level": "39"
+      },
+      "maxDuration": {
+        "duration": 1368,
+        "level": "65"
+      }
+    },
     "castOnYou": "You begin to regenerate.",
     "castOnOther": "Someone  begins to regenerate.",
     "wearsOff": "You have stopped regenerating."
   },
-  {
+  "Pack Spirit": {
     "name": "Pack Spirit",
     "mana": "120",
     "skill": "Alteration",
@@ -1978,12 +2396,17 @@
     "range": "100",
     "targetType": "Group v2",
     "spellType": "Beneficial",
-    "duration": "36 minutes",
+    "duration": {
+      "durationString": "36 minutes",
+      "minDuration": {
+        "duration": 2160
+      }
+    },
     "castOnYou": "You feel the spirit of wolf enter you.",
     "castOnOther": "Someone  is surrounded by a brief lupine aura.",
     "wearsOff": "The spirit of wolf leaves you."
   },
-  {
+  "Ring of Cobalt Scar": {
     "name": "Ring of Cobalt Scar",
     "mana": "150",
     "skill": "Alteration",
@@ -1994,12 +2417,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "Someone  fades away.",
     "wearsOff": ""
   },
-  {
+  "Ring of Wakening Lands": {
     "name": "Ring of Wakening Lands",
     "mana": "150",
     "skill": "Alteration",
@@ -2010,12 +2433,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "Someone  fades away.",
     "wearsOff": ""
   },
-  {
+  "Ro's Fiery Sundering": {
     "name": "Ro's Fiery Sundering",
     "mana": "50",
     "skill": "Evocation",
@@ -2026,12 +2449,22 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "1.9 minutes @L39 to 3 minutes @L60",
+    "duration": {
+      "durationString": "1.9 minutes @L39 to 3 minutes @L60",
+      "minDuration": {
+        "duration": 114,
+        "level": "39"
+      },
+      "maxDuration": {
+        "duration": 294,
+        "level": "60"
+      }
+    },
     "castOnYou": "You are immolated by blazing flames.",
     "castOnOther": "Someone  is immolated by blazing flames.",
     "wearsOff": "The flames die down."
   },
-  {
+  "Share Wolf Form": {
     "name": "Share Wolf Form",
     "mana": "120",
     "skill": "Alteration",
@@ -2042,12 +2475,17 @@
     "range": "0",
     "targetType": "Group v2",
     "spellType": "Beneficial",
-    "duration": "36 minutes",
+    "duration": {
+      "durationString": "36 minutes",
+      "minDuration": {
+        "duration": 2160
+      }
+    },
     "castOnYou": "You are now a wolf.",
     "castOnOther": "Someone  turns into a wolf.",
     "wearsOff": "You are no longer a wolf."
   },
-  {
+  "Shield of Spikes": {
     "name": "Shield of Spikes",
     "mana": "100",
     "skill": "Abjuration",
@@ -2058,12 +2496,22 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "3.9 minutes @L39 to 6.5 minutes @L65",
+    "duration": {
+      "durationString": "3.9 minutes @L39 to 6.5 minutes @L65",
+      "minDuration": {
+        "duration": 234,
+        "level": "39"
+      },
+      "maxDuration": {
+        "duration": 624,
+        "level": "65"
+      }
+    },
     "castOnYou": "You are surrounded by a thorny barrier.",
     "castOnOther": "Someone  is surrounded by a thorny barrier.",
     "wearsOff": "The brambles fall away."
   },
-  {
+  "Skin Like Diamond": {
     "name": "Skin Like Diamond",
     "mana": "200",
     "skill": "Abjuration",
@@ -2074,12 +2522,17 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "54 minutes",
+    "duration": {
+      "durationString": "54 minutes",
+      "minDuration": {
+        "duration": 3240
+      }
+    },
     "castOnYou": "Your skin turns hard as diamond.",
     "castOnOther": "Someone 's skin turns hard as diamond.",
     "wearsOff": "Your skin returns to normal."
   },
-  {
+  "Spikecoat": {
     "name": "Spikecoat",
     "mana": "110",
     "skill": "Abjuration",
@@ -2090,12 +2543,22 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "1 hour 57 minutes @L39 to 3 hours 15 minutes @L65",
+    "duration": {
+      "durationString": "1 hour 57 minutes @L39 to 3 hours 15 minutes @L65",
+      "minDuration": {
+        "duration": 7020,
+        "level": "39"
+      },
+      "maxDuration": {
+        "duration": 18720,
+        "level": "65"
+      }
+    },
     "castOnYou": "Spikes spring from your skin.",
     "castOnOther": "Someone 's skin sprouts spikes.",
     "wearsOff": "Your skin returns to normal."
   },
-  {
+  "Succor: Ro": {
     "name": "Succor: Ro",
     "mana": "300",
     "skill": "Alteration",
@@ -2106,12 +2569,12 @@
     "range": "0",
     "targetType": "Group v1",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "Someone  creates a mystic portal.",
     "wearsOff": "The portal shimmers and fades."
   },
-  {
+  "Wind of the North": {
     "name": "Wind of the North",
     "mana": "300",
     "skill": "Alteration",
@@ -2122,12 +2585,12 @@
     "range": "0",
     "targetType": "Group v1",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "Someone  discorporates in a portal of wind.",
     "wearsOff": "You appear in a gust of wind."
   },
-  {
+  "Wind of the South": {
     "name": "Wind of the South",
     "mana": "300",
     "skill": "Alteration",
@@ -2138,12 +2601,12 @@
     "range": "0",
     "targetType": "Group v1",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "Someone  discorporates in a portal of wind.",
     "wearsOff": "You appear in a gust of wind."
   },
-  {
+  "Allure of the Wild": {
     "name": "Allure of the Wild",
     "mana": "220",
     "skill": "Alteration",
@@ -2154,12 +2617,22 @@
     "range": "200",
     "targetType": "Animal",
     "spellType": "Detrimental",
-    "duration": "14.2 minutes @L44 to 19 minutes @L60",
+    "duration": {
+      "durationString": "14.2 minutes @L44 to 19 minutes @L60",
+      "minDuration": {
+        "duration": 852,
+        "level": "44"
+      },
+      "maxDuration": {
+        "duration": 1992,
+        "level": "60"
+      }
+    },
     "castOnYou": "",
     "castOnOther": "Someone  blinks.",
     "wearsOff": ""
   },
-  {
+  "Banish Summoned": {
     "name": "Banish Summoned",
     "mana": "225",
     "skill": "Evocation",
@@ -2170,12 +2643,12 @@
     "range": "200",
     "targetType": "Summoned",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "Someone  staggers.",
     "wearsOff": ""
   },
-  {
+  "Calefaction": {
     "name": "Calefaction",
     "mana": "250",
     "skill": "Evocation",
@@ -2186,12 +2659,12 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "Debris smashes against your body.",
     "castOnOther": "Someone 's body is crushed by flying debris.",
     "wearsOff": ""
   },
-  {
+  "Chloroplast": {
     "name": "Chloroplast",
     "mana": "200",
     "skill": "Alteration",
@@ -2202,12 +2675,22 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "12 minutes 42 seconds @L39 to 19 minutes 6 seconds @L60",
+    "duration": {
+      "durationString": "12 minutes 42 seconds @L39 to 19 minutes 6 seconds @L60",
+      "minDuration": {
+        "duration": 762,
+        "level": "39"
+      },
+      "maxDuration": {
+        "duration": 1908,
+        "level": "60"
+      }
+    },
     "castOnYou": "You begin to regenerate.",
     "castOnOther": "Someone  begins to regenerate.",
     "wearsOff": "You have stopped regenerating."
   },
-  {
+  "Circle of Cobalt Scar": {
     "name": "Circle of Cobalt Scar",
     "mana": "300",
     "skill": "Alteration",
@@ -2218,12 +2701,12 @@
     "range": "0",
     "targetType": "Group v1",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "Someone  creates a mystic portal.",
     "wearsOff": "The portal shimmers and fades."
   },
-  {
+  "Circle of Wakening Lands": {
     "name": "Circle of Wakening Lands",
     "mana": "300",
     "skill": "Alteration",
@@ -2234,12 +2717,12 @@
     "range": "0",
     "targetType": "Group v1",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "Someone  creates a shimmering portal.",
     "wearsOff": "The portal shimmers and fades."
   },
-  {
+  "Drifting Death": {
     "name": "Drifting Death",
     "mana": "200",
     "skill": "Conjuration",
@@ -2250,12 +2733,17 @@
     "range": "250",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "1 minute",
+    "duration": {
+      "durationString": "1 minute",
+      "minDuration": {
+        "duration": 60
+      }
+    },
     "castOnYou": "You feel the pain of a thousand stings.",
     "castOnOther": "Someone  is engulfed by a swarm.",
     "wearsOff": "The swarm departs."
   },
-  {
+  "Fixation of Ro": {
     "name": "Fixation of Ro",
     "mana": "100",
     "skill": "Alteration",
@@ -2266,12 +2754,22 @@
     "range": "150",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "9.8 minutes @L44 to 10 minutes @L45",
+    "duration": {
+      "durationString": "9.8 minutes @L44 to 10 minutes @L45",
+      "minDuration": {
+        "duration": 588,
+        "level": "44"
+      },
+      "maxDuration": {
+        "duration": 1188,
+        "level": "45"
+      }
+    },
     "castOnYou": "You are surrounded by an outline of cold flame.",
     "castOnOther": "Someone  is surrounded by an outline of cold flame.",
     "wearsOff": "The flames die away."
   },
-  {
+  "Form of the Great Wolf": {
     "name": "Form of the Great Wolf",
     "mana": "135",
     "skill": "Alteration",
@@ -2282,12 +2780,22 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "2 hours 12 minutes @L44 to 2 hours 24 minutes @L48",
+    "duration": {
+      "durationString": "2 hours 12 minutes @L44 to 2 hours 24 minutes @L48",
+      "minDuration": {
+        "duration": 7920,
+        "level": "44"
+      },
+      "maxDuration": {
+        "duration": 16560,
+        "level": "48"
+      }
+    },
     "castOnYou": "You are now a wolf.",
     "castOnOther": "Someone  turns into a wolf.",
     "wearsOff": "You are no longer a wolf."
   },
-  {
+  "Nullify Magic": {
     "name": "Nullify Magic",
     "mana": "50",
     "skill": "Abjuration",
@@ -2298,12 +2806,12 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You feel dispelled.",
     "castOnOther": "Someone  feels dispelled.",
     "wearsOff": ""
   },
-  {
+  "Resist Disease": {
     "name": "Resist Disease",
     "mana": "50",
     "skill": "Abjuration",
@@ -2314,12 +2822,17 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "36 minutes",
+    "duration": {
+      "durationString": "36 minutes",
+      "minDuration": {
+        "duration": 2160
+      }
+    },
     "castOnYou": "You feel resistant from disease.",
     "castOnOther": "Someone  is resistant to disease.",
     "wearsOff": "Your disease resistance fades."
   },
-  {
+  "Resist Poison": {
     "name": "Resist Poison",
     "mana": "50",
     "skill": "Abjuration",
@@ -2330,12 +2843,17 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "36 minutes",
+    "duration": {
+      "durationString": "36 minutes",
+      "minDuration": {
+        "duration": 2160
+      }
+    },
     "castOnYou": "You feel resistant from poison.",
     "castOnOther": "Someone  is resistant to poison.",
     "wearsOff": "Your poison resistance fades."
   },
-  {
+  "Savage Spirit": {
     "name": "Savage Spirit",
     "mana": "100",
     "skill": "Alteration",
@@ -2346,12 +2864,22 @@
     "range": "100",
     "targetType": "Pet",
     "spellType": "Beneficial",
-    "duration": "5.4 minutes @L44 to 7.5 minutes @L65",
+    "duration": {
+      "durationString": "5.4 minutes @L44 to 7.5 minutes @L65",
+      "minDuration": {
+        "duration": 324,
+        "level": "44"
+      },
+      "maxDuration": {
+        "duration": 774,
+        "level": "65"
+      }
+    },
     "castOnYou": "",
     "castOnOther": "Someone 's eyes gleam with madness.",
     "wearsOff": ""
   },
-  {
+  "Storm Strength": {
     "name": "Storm Strength",
     "mana": "85",
     "skill": "Alteration",
@@ -2362,12 +2890,17 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "54 minutes 6 seconds",
+    "duration": {
+      "durationString": "54 minutes 6 seconds",
+      "minDuration": {
+        "duration": 3246
+      }
+    },
     "castOnYou": "You feel stronger.",
     "castOnOther": "Someone  looks stronger.",
     "wearsOff": "Your strength fades."
   },
-  {
+  "Succor: Lavastorm": {
     "name": "Succor: Lavastorm",
     "mana": "300",
     "skill": "Alteration",
@@ -2378,12 +2911,12 @@
     "range": "0",
     "targetType": "Group v1",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "Someone  creates a mystic portal.",
     "wearsOff": "The portal shimmers and fades."
   },
-  {
+  "Engulfing Roots": {
     "name": "Engulfing Roots",
     "mana": "100",
     "skill": "Alteration",
@@ -2394,12 +2927,17 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "3 minutes",
+    "duration": {
+      "durationString": "3 minutes",
+      "minDuration": {
+        "duration": 180
+      }
+    },
     "castOnYou": "Your feet become entwined.",
     "castOnOther": "Someone 's feet become entwined.",
     "wearsOff": "The roots fall from your feet."
   },
-  {
+  "Fire": {
     "name": "Fire",
     "mana": "260",
     "skill": "Evocation",
@@ -2410,12 +2948,17 @@
     "range": "200",
     "targetType": "Targeted AE",
     "spellType": "Detrimental",
-    "duration": "3 ticks",
+    "duration": {
+      "durationString": "3 ticks",
+      "minDuration": {
+        "duration": 18
+      }
+    },
     "castOnYou": "You are immolated by flame.",
     "castOnOther": "Someone  is immolated by flame.",
     "wearsOff": ""
   },
-  {
+  "Ice": {
     "name": "Ice",
     "mana": "250",
     "skill": "Evocation",
@@ -2426,12 +2969,17 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "3 ticks",
+    "duration": {
+      "durationString": "3 ticks",
+      "minDuration": {
+        "duration": 18
+      }
+    },
     "castOnYou": "You are encased in frost.",
     "castOnOther": "Someone  is encased in frost.",
     "wearsOff": ""
   },
-  {
+  "Lightning Blast": {
     "name": "Lightning Blast",
     "mana": "234",
     "skill": "Evocation",
@@ -2442,12 +2990,12 @@
     "range": "200",
     "targetType": "Targeted AE",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "Lightning surges through your body.",
     "castOnOther": "Someone  has been struck by lightning.",
     "wearsOff": ""
   },
-  {
+  "Pack Chloroplast": {
     "name": "Pack Chloroplast",
     "mana": "400",
     "skill": "Alteration",
@@ -2458,12 +3006,22 @@
     "range": "100",
     "targetType": "Group v2",
     "spellType": "Beneficial",
-    "duration": "10.8 minutes @L49 to 14 minutes @L65",
+    "duration": {
+      "durationString": "10.8 minutes @L49 to 14 minutes @L65",
+      "minDuration": {
+        "duration": 648,
+        "level": "49"
+      },
+      "maxDuration": {
+        "duration": 1488,
+        "level": "65"
+      }
+    },
     "castOnYou": "You begin to regenerate.",
     "castOnOther": "Someone  begins to regenerate.",
     "wearsOff": "You have stopped regenerating."
   },
-  {
+  "Resist Magic": {
     "name": "Resist Magic",
     "mana": "85",
     "skill": "Abjuration",
@@ -2474,12 +3032,17 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "36 minutes",
+    "duration": {
+      "durationString": "36 minutes",
+      "minDuration": {
+        "duration": 2160
+      }
+    },
     "castOnYou": "You feel resistant from magic.",
     "castOnOther": "Someone  is resistant to magic.",
     "wearsOff": "Your resist magic fades."
   },
-  {
+  "Shield of Thorns (Spell)": {
     "name": "Shield of Thorns (Spell)",
     "mana": "120",
     "skill": "Abjuration",
@@ -2490,12 +3053,22 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "4.9 minutes @L49 to 6.5 minutes @L65",
+    "duration": {
+      "durationString": "4.9 minutes @L49 to 6.5 minutes @L65",
+      "minDuration": {
+        "duration": 294,
+        "level": "49"
+      },
+      "maxDuration": {
+        "duration": 684,
+        "level": "65"
+      }
+    },
     "castOnYou": "You are surrounded by a thorny barrier.",
     "castOnOther": "Someone  is surrounded by a thorny barrier.",
     "wearsOff": "The brambles fall away."
   },
-  {
+  "Skin Like Nature": {
     "name": "Skin Like Nature",
     "mana": "300",
     "skill": "Abjuration",
@@ -2506,12 +3079,17 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "1 hour 12 minutes 24 seconds",
+    "duration": {
+      "durationString": "1 hour 12 minutes 24 seconds",
+      "minDuration": {
+        "duration": 4344
+      }
+    },
     "castOnYou": "Your skin shimmers with divine power.",
     "castOnOther": "Someone 's skin shimmers with divine power.",
     "wearsOff": "Your skin returns to normal."
   },
-  {
+  "Starfire": {
     "name": "Starfire",
     "mana": "250",
     "skill": "Evocation",
@@ -2522,12 +3100,12 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You feel the glare of the heavens.",
     "castOnOther": "Someone  is bathed in starfire.",
     "wearsOff": ""
   },
-  {
+  "Succor: North": {
     "name": "Succor: North",
     "mana": "300",
     "skill": "Alteration",
@@ -2538,12 +3116,12 @@
     "range": "0",
     "targetType": "Group v1",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "Someone  creates a mystic portal.",
     "wearsOff": "The portal shimmers and fades."
   },
-  {
+  "Thorncoat": {
     "name": "Thorncoat",
     "mana": "175",
     "skill": "Abjuration",
@@ -2554,12 +3132,22 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "2 hours 27 minutes @L49 to 3 hours 15 minutes @L65",
+    "duration": {
+      "durationString": "2 hours 27 minutes @L49 to 3 hours 15 minutes @L65",
+      "minDuration": {
+        "duration": 8820,
+        "level": "49"
+      },
+      "maxDuration": {
+        "duration": 20520,
+        "level": "65"
+      }
+    },
     "castOnYou": "Thorns spring from your skin.",
     "castOnOther": "Someone 's skin sprouts thorns.",
     "wearsOff": "Your skin returns to normal."
   },
-  {
+  "Improved Superior Camouflage": {
     "name": "Improved Superior Camouflage",
     "mana": "75",
     "skill": "Divination",
@@ -2570,12 +3158,17 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "10 minutes",
+    "duration": {
+      "durationString": "10 minutes",
+      "minDuration": {
+        "duration": 600
+      }
+    },
     "castOnYou": "You vanish.",
     "castOnOther": "Someone  fades away.",
     "wearsOff": "You appear."
   },
-  {
+  "Circle of Winter": {
     "name": "Circle of Winter",
     "mana": "150",
     "skill": "Abjuration",
@@ -2586,12 +3179,17 @@
     "range": "0",
     "targetType": "Group v2",
     "spellType": "Beneficial",
-    "duration": "36 minutes",
+    "duration": {
+      "durationString": "36 minutes",
+      "minDuration": {
+        "duration": 2160
+      }
+    },
     "castOnYou": "You are surrounded by a winter haze.",
     "castOnOther": "Someone  is surrounded by a winter haze.",
     "wearsOff": "Your winter haze clears."
   },
-  {
+  "Legacy of Spike": {
     "name": "Legacy of Spike",
     "mana": "300",
     "skill": "Abjuration",
@@ -2602,12 +3200,22 @@
     "range": "0",
     "targetType": "Group v2",
     "spellType": "Beneficial",
-    "duration": "5.1 minutes @L51 to 6.5 minutes @L65",
+    "duration": {
+      "durationString": "5.1 minutes @L51 to 6.5 minutes @L65",
+      "minDuration": {
+        "duration": 306,
+        "level": "51"
+      },
+      "maxDuration": {
+        "duration": 696,
+        "level": "65"
+      }
+    },
     "castOnYou": "You are surrounded by a thorny barrier.",
     "castOnOther": "Someone  is surrounded by a thorny barrier.",
     "wearsOff": "The brambles fall away."
   },
-  {
+  "Repulse Animal": {
     "name": "Repulse Animal",
     "mana": "100",
     "skill": "Alteration",
@@ -2618,12 +3226,17 @@
     "range": "200",
     "targetType": "Animal",
     "spellType": "Detrimental",
-    "duration": "8 ticks",
+    "duration": {
+      "durationString": "8 ticks",
+      "minDuration": {
+        "duration": 48
+      }
+    },
     "castOnYou": "",
     "castOnOther": "Someone  is utterly repulsed!",
     "wearsOff": ""
   },
-  {
+  "Superior Healing": {
     "name": "Superior Healing",
     "mana": "250",
     "skill": "Alteration",
@@ -2634,12 +3247,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You feel much better.",
     "castOnOther": "Someone  feels much better.",
     "wearsOff": ""
   },
-  {
+  "Upheaval": {
     "name": "Upheaval",
     "mana": "625",
     "skill": "Evocation",
@@ -2650,12 +3263,12 @@
     "range": "",
     "targetType": "PB AE",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You feel the ground scream and heave.",
     "castOnOther": "Someone  is mauled by the moving ground.",
     "wearsOff": ""
   },
-  {
+  "Breath of Ro": {
     "name": "Breath of Ro",
     "mana": "250",
     "skill": "Evocation",
@@ -2666,12 +3279,17 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "1 minute",
+    "duration": {
+      "durationString": "1 minute",
+      "minDuration": {
+        "duration": 60
+      }
+    },
     "castOnYou": "You are immolated by blazing flames.",
     "castOnOther": "Someone  is immolated by blazing flames.",
     "wearsOff": "The flames die down."
   },
-  {
+  "Call of Karana": {
     "name": "Call of Karana",
     "mana": "220",
     "skill": "Alteration",
@@ -2682,12 +3300,22 @@
     "range": "200",
     "targetType": "Animal",
     "spellType": "Detrimental",
-    "duration": "16.6 minutes @L52 to 19 minutes @L60",
+    "duration": {
+      "durationString": "16.6 minutes @L52 to 19 minutes @L60",
+      "minDuration": {
+        "duration": 996.0000000000001,
+        "level": "52"
+      },
+      "maxDuration": {
+        "duration": 2136,
+        "level": "60"
+      }
+    },
     "castOnYou": "",
     "castOnOther": "Someone  blinks.",
     "wearsOff": ""
   },
-  {
+  "Circle of Summer": {
     "name": "Circle of Summer",
     "mana": "150",
     "skill": "Abjuration",
@@ -2698,12 +3326,17 @@
     "range": "0",
     "targetType": "Group v2",
     "spellType": "Beneficial",
-    "duration": "36 minutes",
+    "duration": {
+      "durationString": "36 minutes",
+      "minDuration": {
+        "duration": 2160
+      }
+    },
     "castOnYou": "You are surrounded by a summer haze.",
     "castOnOther": "Someone  is surrounded by a summer haze.",
     "wearsOff": "Your summer haze clears."
   },
-  {
+  "Egress": {
     "name": "Egress",
     "mana": "500",
     "skill": "Alteration",
@@ -2714,12 +3347,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "Someone  sinks into the ground.",
     "wearsOff": ""
   },
-  {
+  "Glamour of Tunare": {
     "name": "Glamour of Tunare",
     "mana": "10",
     "skill": "Abjuration",
@@ -2730,12 +3363,22 @@
     "range": "200",
     "targetType": "Animal",
     "spellType": "Detrimental",
-    "duration": "16.9 minutes @L53 to 19 minutes @L60",
+    "duration": {
+      "durationString": "16.9 minutes @L53 to 19 minutes @L60",
+      "minDuration": {
+        "duration": 1013.9999999999999,
+        "level": "53"
+      },
+      "maxDuration": {
+        "duration": 2154,
+        "level": "60"
+      }
+    },
     "castOnYou": "",
     "castOnOther": "Someone  is surrounded by a Tunarian glamour.",
     "wearsOff": "The glamour fades."
   },
-  {
+  "Spirit of Scale": {
     "name": "Spirit of Scale",
     "mana": "150",
     "skill": "Alteration",
@@ -2746,28 +3389,17 @@
     "range": "100",
     "targetType": "Group v2",
     "spellType": "Beneficial",
-    "duration": "1 hour 12 minutes",
+    "duration": {
+      "durationString": "1 hour 12 minutes",
+      "minDuration": {
+        "duration": 4320
+      }
+    },
     "castOnYou": "You feel the spirit of the scaled wolf enter you.",
     "castOnOther": "Someone  is surrounded by a brief lupine aura.",
     "wearsOff": "The spirit of scale leaves you."
   },
-  {
-    "name": "Superior Healing",
-    "mana": "250",
-    "skill": "Alteration",
-    "castTime": "4.50",
-    "recastTime": "2.25",
-    "fizzleTime": "2.50",
-    "resist": "Unresistable",
-    "range": "100",
-    "targetType": "Single",
-    "spellType": "Beneficial",
-    "duration": "Instant",
-    "castOnYou": "You feel much better.",
-    "castOnOther": "Someone  feels much better.",
-    "wearsOff": ""
-  },
-  {
+  "Winged Death": {
     "name": "Winged Death",
     "mana": "350",
     "skill": "Conjuration",
@@ -2778,12 +3410,17 @@
     "range": "250",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "10 ticks",
+    "duration": {
+      "durationString": "10 ticks",
+      "minDuration": {
+        "duration": 60
+      }
+    },
     "castOnYou": "You feel the pain of a million stings.",
     "castOnOther": "Someone  is engulfed in a swarm of deadly insects.",
     "wearsOff": "The swarm departs."
   },
-  {
+  "Blizzard": {
     "name": "Blizzard",
     "mana": "332",
     "skill": "Evocation",
@@ -2794,12 +3431,12 @@
     "range": "150",
     "targetType": "Targeted AE",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You are caught in a raging blizzard.",
     "castOnOther": "Someone  is caught in a raging blizzard.",
     "wearsOff": ""
   },
-  {
+  "Form of the Howler": {
     "name": "Form of the Howler",
     "mana": "100",
     "skill": "Alteration",
@@ -2810,12 +3447,17 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "2 hours 24 minutes",
+    "duration": {
+      "durationString": "2 hours 24 minutes",
+      "minDuration": {
+        "duration": 8640
+      }
+    },
     "castOnYou": "You are now a wolf.",
     "castOnOther": "Someone  turns into a wolf.",
     "wearsOff": "You are no longer a wolf."
   },
-  {
+  "Regrowth": {
     "name": "Regrowth",
     "mana": "300",
     "skill": "Alteration",
@@ -2826,12 +3468,22 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "16.6 minutes @L52 to 20.5 minutes @L65 (19 mins @L60)",
+    "duration": {
+      "durationString": "16.6 minutes @L52 to 20.5 minutes @L65 (19 mins @L60)",
+      "minDuration": {
+        "duration": 996.0000000000001,
+        "level": "52"
+      },
+      "maxDuration": {
+        "duration": 2226,
+        "level": "60)"
+      }
+    },
     "castOnYou": "You begin to regenerate.",
     "castOnOther": "Someone  begins to regenerate.",
     "wearsOff": "You have stopped regenerating."
   },
-  {
+  "Scoriae": {
     "name": "Scoriae",
     "mana": "250",
     "skill": "Evocation",
@@ -2842,12 +3494,12 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "Your skin melts.",
     "castOnOther": "Someone 's skin melts.",
     "wearsOff": ""
   },
-  {
+  "Annul Magic": {
     "name": "Annul Magic",
     "mana": "75",
     "skill": "Abjuration",
@@ -2858,12 +3510,12 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You feel annulled.",
     "castOnOther": "Someone  feels annulled.",
     "wearsOff": ""
   },
-  {
+  "Chloroblast": {
     "name": "Chloroblast",
     "mana": "175",
     "skill": "Alteration",
@@ -2874,12 +3526,12 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You are blasted with chlorophyll.",
     "castOnOther": "Someone  is blasted with chlorophyll.",
     "wearsOff": ""
   },
-  {
+  "Exile Summoned": {
     "name": "Exile Summoned",
     "mana": "250",
     "skill": "Evocation",
@@ -2890,12 +3542,12 @@
     "range": "200",
     "targetType": "Summoned",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "Someone  staggers.",
     "wearsOff": ""
   },
-  {
+  "Girdle of Karana": {
     "name": "Girdle of Karana",
     "mana": "105",
     "skill": "Alteration",
@@ -2906,12 +3558,17 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "1 hour 12 minutes",
+    "duration": {
+      "durationString": "1 hour 12 minutes",
+      "minDuration": {
+        "duration": 4320
+      }
+    },
     "castOnYou": "You feel the strength of Karana infuse you.",
     "castOnOther": "Someone  looks stronger.",
     "wearsOff": "Your Karanic strength fades."
   },
-  {
+  "Nature Walkers Behest": {
     "name": "Nature Walkers Behest",
     "mana": "600",
     "skill": "Conjuration",
@@ -2922,12 +3579,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You summon a spirit of nature.",
     "castOnOther": "Someone  summons a spirit of nature.",
     "wearsOff": ""
   },
-  {
+  "Tunare's Request": {
     "name": "Tunare's Request",
     "mana": "350",
     "skill": "Alteration",
@@ -2938,12 +3595,22 @@
     "range": "200",
     "targetType": "Animal",
     "spellType": "Detrimental",
-    "duration": "2 hours 45 minutes @L55 to 3 hours 15 minutes @L65",
+    "duration": {
+      "durationString": "2 hours 45 minutes @L55 to 3 hours 15 minutes @L65",
+      "minDuration": {
+        "duration": 9900,
+        "level": "55"
+      },
+      "maxDuration": {
+        "duration": 21600,
+        "level": "65"
+      }
+    },
     "castOnYou": "",
     "castOnOther": "Someone  blinks.",
     "wearsOff": ""
   },
-  {
+  "Bladecoat": {
     "name": "Bladecoat",
     "mana": "235",
     "skill": "Abjuration",
@@ -2954,12 +3621,22 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "2 hours 48 minutes @L56 to 3 hours 15 minutes @L65",
+    "duration": {
+      "durationString": "2 hours 48 minutes @L56 to 3 hours 15 minutes @L65",
+      "minDuration": {
+        "duration": 10080,
+        "level": "56"
+      },
+      "maxDuration": {
+        "duration": 21780,
+        "level": "65"
+      }
+    },
     "castOnYou": "Blades spring from your skin.",
     "castOnOther": "Someone 's skin sprouts blades.",
     "wearsOff": "Your skin returns to normal."
   },
-  {
+  "Breath of Karana": {
     "name": "Breath of Karana",
     "mana": "250",
     "skill": "Conjuration",
@@ -2970,12 +3647,12 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You are slammed by an intense gust of wind.",
     "castOnOther": "Someone  is slammed by an intense gust of wind.",
     "wearsOff": ""
   },
-  {
+  "Engorging Roots": {
     "name": "Engorging Roots",
     "mana": "75",
     "skill": "Alteration",
@@ -2986,12 +3663,17 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "3 minutes",
+    "duration": {
+      "durationString": "3 minutes",
+      "minDuration": {
+        "duration": 180
+      }
+    },
     "castOnYou": "Your feet become entangled.",
     "castOnOther": "Someone 's feet become entangled.",
     "wearsOff": "The roots fall from your feet."
   },
-  {
+  "Wake of Karana": {
     "name": "Wake of Karana",
     "mana": "400",
     "skill": "Alteration",
@@ -3002,12 +3684,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You call out to Karana.",
     "castOnOther": "",
     "wearsOff": ""
   },
-  {
+  "Bonds of Tunare": {
     "name": "Bonds of Tunare",
     "mana": "115",
     "skill": "Alteration",
@@ -3018,12 +3700,17 @@
     "range": "200",
     "targetType": "Targeted AE",
     "spellType": "Detrimental",
-    "duration": "1.8 minutes",
+    "duration": {
+      "durationString": "1.8 minutes",
+      "minDuration": {
+        "duration": 108
+      }
+    },
     "castOnYou": "Dark vines drag your feet into the ground.",
     "castOnOther": "Someone  is dragged down by dark vines.",
     "wearsOff": "Your feet come free."
   },
-  {
+  "Frost": {
     "name": "Frost",
     "mana": "250",
     "skill": "Evocation",
@@ -3034,12 +3721,12 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "Your blood freezes as you are iced by an intense cone of frost.",
     "castOnOther": "Someone  is iced by an intense cone of frost.",
     "wearsOff": ""
   },
-  {
+  "Natureskin": {
     "name": "Natureskin",
     "mana": "400",
     "skill": "Abjuration",
@@ -3050,12 +3737,17 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "1 hour 21 minutes",
+    "duration": {
+      "durationString": "1 hour 21 minutes",
+      "minDuration": {
+        "duration": 4860
+      }
+    },
     "castOnYou": "Your skin shimmers.",
     "castOnOther": "Someone 's skin shimmers.",
     "wearsOff": "Your skin returns to normal."
   },
-  {
+  "Succor": {
     "name": "Succor",
     "mana": "350",
     "skill": "Alteration",
@@ -3066,12 +3758,12 @@
     "range": "0",
     "targetType": "Group v2",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "Someone  creates a mystic portal.",
     "wearsOff": "The portal shimmers and fades."
   },
-  {
+  "Fist of Karana": {
     "name": "Fist of Karana",
     "mana": "357",
     "skill": "Evocation",
@@ -3082,12 +3774,12 @@
     "range": "200",
     "targetType": "Targeted AE",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You have been struck by the shocking Fist of Karana.",
     "castOnOther": "Someone  has been struck by the shocking Fist of Karana.",
     "wearsOff": ""
   },
-  {
+  "Regrowth of the Grove": {
     "name": "Regrowth of the Grove",
     "mana": "600",
     "skill": "Alteration",
@@ -3098,12 +3790,22 @@
     "range": "0",
     "targetType": "Group v2",
     "spellType": "Beneficial",
-    "duration": "18.4 minutes @L58 to 20.5 minutes @L65",
+    "duration": {
+      "durationString": "18.4 minutes @L58 to 20.5 minutes @L65",
+      "minDuration": {
+        "duration": 1104,
+        "level": "58"
+      },
+      "maxDuration": {
+        "duration": 2334,
+        "level": "65"
+      }
+    },
     "castOnYou": "You begin to regenerate.",
     "castOnOther": "Someone  begins to regenerate.",
     "wearsOff": "You have stopped regenerating."
   },
-  {
+  "Shield of Blades": {
     "name": "Shield of Blades",
     "mana": "150",
     "skill": "Abjuration",
@@ -3114,12 +3816,22 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "6.8 minutes @L58 to 7.5 minutes @L65",
+    "duration": {
+      "durationString": "6.8 minutes @L58 to 7.5 minutes @L65",
+      "minDuration": {
+        "duration": 408,
+        "level": "58"
+      },
+      "maxDuration": {
+        "duration": 858,
+        "level": "65"
+      }
+    },
     "castOnYou": "You are surrounded by a thorny barrier of blades.",
     "castOnOther": "Someone  is surrounded by a thorny barrier of blades.",
     "wearsOff": "The blades fall away."
   },
-  {
+  "Legacy of Thorn": {
     "name": "Legacy of Thorn",
     "mana": "350",
     "skill": "Abjuration",
@@ -3130,12 +3842,22 @@
     "range": "0",
     "targetType": "Group v2",
     "spellType": "Beneficial",
-    "duration": "5.9 minutes @L59 to 6.5 minutes @L65",
+    "duration": {
+      "durationString": "5.9 minutes @L59 to 6.5 minutes @L65",
+      "minDuration": {
+        "duration": 354,
+        "level": "59"
+      },
+      "maxDuration": {
+        "duration": 744,
+        "level": "65"
+      }
+    },
     "castOnYou": "You are surrounded by a thorny barrier.",
     "castOnOther": "Someone  is surrounded by a thorny barrier.",
     "wearsOff": "The brambles fall away."
   },
-  {
+  "Spirit of Oak": {
     "name": "Spirit of Oak",
     "mana": "25",
     "skill": "Alteration",
@@ -3146,12 +3868,17 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "36 minutes",
+    "duration": {
+      "durationString": "36 minutes",
+      "minDuration": {
+        "duration": 2160
+      }
+    },
     "castOnYou": "You have taken root.",
     "castOnOther": "Someone  turns into a tree.",
     "wearsOff": "You are no longer a tree."
   },
-  {
+  "Wildfire": {
     "name": "Wildfire",
     "mana": "320",
     "skill": "Evocation",
@@ -3162,12 +3889,12 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "Your skin ignites as wildfire courses over your body.",
     "castOnOther": "Someone 's skin ignites as wildfire courses over them.",
     "wearsOff": ""
   },
-  {
+  "Banishment": {
     "name": "Banishment",
     "mana": "500",
     "skill": "Evocation",
@@ -3178,12 +3905,12 @@
     "range": "200",
     "targetType": "Summoned",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
     "wearsOff": ""
   },
-  {
+  "Entrapping Roots": {
     "name": "Entrapping Roots",
     "mana": "200",
     "skill": "Alteration",
@@ -3194,12 +3921,17 @@
     "range": "200",
     "targetType": "Targeted AE",
     "spellType": "Detrimental",
-    "duration": "3 minutes",
+    "duration": {
+      "durationString": "3 minutes",
+      "minDuration": {
+        "duration": 180
+      }
+    },
     "castOnYou": "Your feet become entwined.",
     "castOnOther": "Someone  is entrapped by roots.",
     "wearsOff": "The roots fall from your feet."
   },
-  {
+  "Form of the Hunter": {
     "name": "Form of the Hunter",
     "mana": "150",
     "skill": "Alteration",
@@ -3210,12 +3942,18 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "3 hours 0 minutes @L60",
+    "duration": {
+      "durationString": "3 hours 0 minutes @L60",
+      "minDuration": {
+        "duration": 10800,
+        "level": "60"
+      }
+    },
     "castOnYou": "You are now a wolf.",
     "castOnOther": "Someone  turns into a wolf.",
     "wearsOff": "You are no longer a wolf."
   },
-  {
+  "Mask of the Hunter": {
     "name": "Mask of the Hunter",
     "mana": "100",
     "skill": "Alteration",
@@ -3226,12 +3964,18 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "3 hours 0 minutes @L60",
+    "duration": {
+      "durationString": "3 hours 0 minutes @L60",
+      "minDuration": {
+        "duration": 10800,
+        "level": "60"
+      }
+    },
     "castOnYou": "Your features sharpen.",
     "castOnOther": "Someone 's features sharpen.",
     "wearsOff": "Your features return to normal."
   },
-  {
+  "Nature's Touch": {
     "name": "Nature's Touch",
     "mana": "400",
     "skill": "Alteration",
@@ -3242,12 +3986,12 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You feel much better.",
     "castOnOther": "Someone  feels much better.",
     "wearsOff": ""
   },
-  {
+  "Protection of the Glades": {
     "name": "Protection of the Glades",
     "mana": "1200",
     "skill": "Abjuration",
@@ -3258,9 +4002,14 @@
     "range": "100",
     "targetType": "Group v2",
     "spellType": "Beneficial",
-    "duration": "1 hour 40 minutes",
+    "duration": {
+      "durationString": "1 hour 40 minutes",
+      "minDuration": {
+        "duration": 6000
+      }
+    },
     "castOnYou": "Your skin shimmers.",
     "castOnOther": "Someone 's skin shimmers.",
     "wearsOff": "Your skin returns to normal."
   }
-]
+}

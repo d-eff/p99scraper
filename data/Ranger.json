@@ -10,7 +10,17 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "3 minutes @L1 to 27 minutes @L9",
+    "duration": {
+      "durationString": "3 minutes @L1 to 27 minutes @L9",
+      "minDuration": {
+        "duration": 180,
+        "level": "1"
+      },
+      "maxDuration": {
+        "duration": 1800,
+        "level": "9"
+      }
+    },
     "castOnYou": "You feel protected from fire.",
     "castOnOther": "Someone  is protected from fire.",
     "wearsOff": "Your endurance to fire fades."
@@ -26,7 +36,17 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "1 ticks @L1 to 9 ticks @L14",
+    "duration": {
+      "durationString": "1 ticks @L1 to 9 ticks @L14",
+      "minDuration": {
+        "duration": 6,
+        "level": "1"
+      },
+      "maxDuration": {
+        "duration": 60,
+        "level": "14"
+      }
+    },
     "castOnYou": "You are surrounded by flickering flames.",
     "castOnOther": "Someone  is surrounded by flickering flames.",
     "wearsOff": "The flames are extinguished."
@@ -42,7 +62,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "13 seconds",
+    "duration": {
+      "durationString": "13 seconds",
+      "minDuration": {
+        "duration": 13
+      }
+    },
     "castOnYou": "Your eyes feel stronger.",
     "castOnOther": "Someone 's eyes gleam.",
     "wearsOff": "Your vision fades."
@@ -58,7 +83,17 @@
     "range": "200",
     "targetType": "Animal",
     "spellType": "Beneficial",
-    "duration": "1.2 minutes @L1 to 2 minutes @L5",
+    "duration": {
+      "durationString": "1.2 minutes @L1 to 2 minutes @L5",
+      "minDuration": {
+        "duration": 72,
+        "level": "1"
+      },
+      "maxDuration": {
+        "duration": 192,
+        "level": "5"
+      }
+    },
     "castOnYou": "",
     "castOnOther": "",
     "wearsOff": ""
@@ -74,7 +109,7 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You feel a little better.",
     "castOnOther": "Someone  feels a little better.",
     "wearsOff": ""
@@ -90,7 +125,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "27 minutes",
+    "duration": {
+      "durationString": "27 minutes",
+      "minDuration": {
+        "duration": 1620
+      }
+    },
     "castOnYou": "Your skin turns hard as wood.",
     "castOnOther": "Someone 's skin turns hard as wood.",
     "wearsOff": "Your skin returns to normal."
@@ -106,7 +146,17 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "6 seconds @L1 to 3 minutes 54 seconds @L60",
+    "duration": {
+      "durationString": "6 seconds @L1 to 3 minutes 54 seconds @L60",
+      "minDuration": {
+        "duration": 6,
+        "level": "1"
+      },
+      "maxDuration": {
+        "duration": 240,
+        "level": "60"
+      }
+    },
     "castOnYou": "You are ensnared.",
     "castOnOther": "Someone  has been ensnared.",
     "wearsOff": "You are no longer ensnared."
@@ -122,7 +172,7 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You feel your skin singe as the Burst of Fire hits you.",
     "castOnOther": "Someone  singes as the Burst of Fire hits them.",
     "wearsOff": ""
@@ -138,7 +188,17 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "15 minutes @L5 to 20 minutes @L7",
+    "duration": {
+      "durationString": "15 minutes @L5 to 20 minutes @L7",
+      "minDuration": {
+        "duration": 900,
+        "level": "5"
+      },
+      "maxDuration": {
+        "duration": 2100,
+        "level": "7"
+      }
+    },
     "castOnYou": "Your body fades away.",
     "castOnOther": "Someone  fades away.",
     "wearsOff": "You return to view."
@@ -154,7 +214,7 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
     "wearsOff": ""
@@ -170,7 +230,7 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "A swarm of fireflies shimmers around your hand.",
     "castOnOther": "Someone 's hands flicker.",
     "wearsOff": ""
@@ -186,7 +246,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "36 minutes",
+    "duration": {
+      "durationString": "36 minutes",
+      "minDuration": {
+        "duration": 2160
+      }
+    },
     "castOnYou": "You feel more agile.",
     "castOnOther": "Someone  looks more agile.",
     "wearsOff": "Your agility fades."
@@ -202,7 +267,17 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "18 seconds @L5 to 48 seconds @L14",
+    "duration": {
+      "durationString": "18 seconds @L5 to 48 seconds @L14",
+      "minDuration": {
+        "duration": 18,
+        "level": "5"
+      },
+      "maxDuration": {
+        "duration": 66,
+        "level": "14"
+      }
+    },
     "castOnYou": "Your feet become entwined.",
     "castOnOther": "Someone 's feet become entwined.",
     "wearsOff": "The roots fall from your feet."
@@ -218,7 +293,7 @@
     "range": "200",
     "targetType": "Targeted AE",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "Lightning surges through your body.",
     "castOnOther": "Someone  has been struck by lightning.",
     "wearsOff": ""
@@ -234,7 +309,17 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "27 minutes @L9 to 3 hours 15 minutes @L60",
+    "duration": {
+      "durationString": "27 minutes @L9 to 3 hours 15 minutes @L60",
+      "minDuration": {
+        "duration": 1620,
+        "level": "9"
+      },
+      "maxDuration": {
+        "duration": 13320,
+        "level": "60"
+      }
+    },
     "castOnYou": "Thistles spring from your skin.",
     "castOnOther": "Someone 's skin sprouts thistles.",
     "wearsOff": "Your skin returns to normal."
@@ -250,7 +335,17 @@
     "range": "10000",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "2.6 minutes @L8 to 14 minutes @L65",
+    "duration": {
+      "durationString": "2.6 minutes @L8 to 14 minutes @L65",
+      "minDuration": {
+        "duration": 156,
+        "level": "8"
+      },
+      "maxDuration": {
+        "duration": 996,
+        "level": "65"
+      }
+    },
     "castOnYou": "Your sight is bound.",
     "castOnOther": "Someone 's eyes gleam and then go dark.",
     "wearsOff": "Your binding ends."
@@ -266,7 +361,17 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "3 minutes @L1 to 27 minutes @L9",
+    "duration": {
+      "durationString": "3 minutes @L1 to 27 minutes @L9",
+      "minDuration": {
+        "duration": 180,
+        "level": "1"
+      },
+      "maxDuration": {
+        "duration": 1800,
+        "level": "9"
+      }
+    },
     "castOnYou": "You feel protected from cold.",
     "castOnOther": "Someone  is protected from cold.",
     "wearsOff": "Your endurance to cold fades."
@@ -282,7 +387,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "27 minutes 6 seconds",
+    "duration": {
+      "durationString": "27 minutes 6 seconds",
+      "minDuration": {
+        "duration": 1626
+      }
+    },
     "castOnYou": "You feel no need to breathe.",
     "castOnOther": "Someone  doesn't seem to be breathing anymore.",
     "wearsOff": "You resume breathing."
@@ -298,7 +408,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "12 minutes",
+    "duration": {
+      "durationString": "12 minutes",
+      "minDuration": {
+        "duration": 720
+      }
+    },
     "castOnYou": "Your fist bursts into flame.",
     "castOnOther": "Someone 's fist bursts into flame.",
     "wearsOff": "Your hand extinguishes."
@@ -314,7 +429,17 @@
     "range": "200",
     "targetType": "Targeted AE",
     "spellType": "Beneficial",
-    "duration": "3 ticks @L5 to 2 minutes @L34",
+    "duration": {
+      "durationString": "3 ticks @L5 to 2 minutes @L34",
+      "minDuration": {
+        "duration": 18,
+        "level": "5"
+      },
+      "maxDuration": {
+        "duration": 138,
+        "level": "34"
+      }
+    },
     "castOnYou": "",
     "castOnOther": "",
     "wearsOff": ""
@@ -330,7 +455,7 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You feel your skin ignite.",
     "castOnOther": "Someone 's skin ignites.",
     "wearsOff": ""
@@ -346,7 +471,7 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You feel better.",
     "castOnOther": "Someone  feels better.",
     "wearsOff": ""
@@ -362,7 +487,12 @@
     "range": "200",
     "targetType": "Animal",
     "spellType": "Detrimental",
-    "duration": "3 ticks",
+    "duration": {
+      "durationString": "3 ticks",
+      "minDuration": {
+        "duration": 18
+      }
+    },
     "castOnYou": "",
     "castOnOther": "Someone  flees in a state of total panic!",
     "wearsOff": ""
@@ -378,7 +508,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "27 minutes",
+    "duration": {
+      "durationString": "27 minutes",
+      "minDuration": {
+        "duration": 1620
+      }
+    },
     "castOnYou": "Your skin turns hard as stone.",
     "castOnOther": "Someone 's skin turns hard as stone.",
     "wearsOff": "Your skin returns to normal."
@@ -394,7 +529,7 @@
     "range": "200",
     "targetType": "Summoned",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "Someone  staggers.",
     "wearsOff": ""
@@ -410,7 +545,17 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "57 minutes @L19 to 3 hours @L60",
+    "duration": {
+      "durationString": "57 minutes @L19 to 3 hours @L60",
+      "minDuration": {
+        "duration": 3420,
+        "level": "19"
+      },
+      "maxDuration": {
+        "duration": 14220,
+        "level": "60"
+      }
+    },
     "castOnYou": "Barbs spring from your skin.",
     "castOnOther": "Someone 's skin sprouts barbs.",
     "wearsOff": "Your skin returns to normal."
@@ -426,7 +571,7 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You feel a bit dispelled.",
     "castOnOther": "Someone  feels a bit dispelled.",
     "wearsOff": ""
@@ -442,7 +587,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "27 minutes",
+    "duration": {
+      "durationString": "27 minutes",
+      "minDuration": {
+        "duration": 1620
+      }
+    },
     "castOnYou": "Your vision shifts.",
     "castOnOther": "Someone 's eyes glow green.",
     "wearsOff": "Your vision returns to normal."
@@ -458,7 +608,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "3 ticks",
+    "duration": {
+      "durationString": "3 ticks",
+      "minDuration": {
+        "duration": 18
+      }
+    },
     "castOnYou": "Your body zings with energy.",
     "castOnOther": "Someone  looks energized.",
     "wearsOff": ""
@@ -474,7 +629,17 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "9 ticks @L9 to 6.5 minutes @L65",
+    "duration": {
+      "durationString": "9 ticks @L9 to 6.5 minutes @L65",
+      "minDuration": {
+        "duration": 54,
+        "level": "9"
+      },
+      "maxDuration": {
+        "duration": 444,
+        "level": "65"
+      }
+    },
     "castOnYou": "You are surrounded by a thorny barrier.",
     "castOnOther": "Someone  is surrounded by a thorny barrier.",
     "wearsOff": "The brambles fall away."
@@ -490,7 +655,17 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "27.0 mins @L9 to 36.0 mins @L12",
+    "duration": {
+      "durationString": "27.0 mins @L9 to 36.0 mins @L12",
+      "minDuration": {
+        "duration": 1620,
+        "level": "9"
+      },
+      "maxDuration": {
+        "duration": 3780,
+        "level": "12"
+      }
+    },
     "castOnYou": "You feel the spirit of wolf enter you.",
     "castOnOther": "Someone  is surrounded by a brief lupine aura.",
     "wearsOff": "The spirit of wolf leaves you."
@@ -506,7 +681,17 @@
     "range": "250",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "7 ticks @L14 to 9 ticks @L18",
+    "duration": {
+      "durationString": "7 ticks @L14 to 9 ticks @L18",
+      "minDuration": {
+        "duration": 42,
+        "level": "14"
+      },
+      "maxDuration": {
+        "duration": 96,
+        "level": "18"
+      }
+    },
     "castOnYou": "You feel the pain of a thousand stings.",
     "castOnOther": "Someone  is engulfed in a swarm.",
     "wearsOff": "The swarm departs."
@@ -522,7 +707,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "27 minutes",
+    "duration": {
+      "durationString": "27 minutes",
+      "minDuration": {
+        "duration": 1620
+      }
+    },
     "castOnYou": "You feel stronger.",
     "castOnOther": "Someone  looks stronger.",
     "wearsOff": "Your strength fades."
@@ -538,7 +728,17 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "1 hour 27 minutes @L29 to 3 hours 15 minutes @L65",
+    "duration": {
+      "durationString": "1 hour 27 minutes @L29 to 3 hours 15 minutes @L65",
+      "minDuration": {
+        "duration": 5220,
+        "level": "29"
+      },
+      "maxDuration": {
+        "duration": 16920,
+        "level": "65"
+      }
+    },
     "castOnYou": "Brambles spring from your skin.",
     "castOnOther": "Someone 's skin sprouts brambles.",
     "wearsOff": "Your skin returns to normal."
@@ -554,7 +754,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "10 minutes",
+    "duration": {
+      "durationString": "10 minutes",
+      "minDuration": {
+        "duration": 600
+      }
+    },
     "castOnYou": "The Call of Sky fills your weapons with power.",
     "castOnOther": "Someone 's weapons gleam.",
     "wearsOff": "The Call of Sky leaves."
@@ -570,7 +775,12 @@
     "range": "200",
     "targetType": "Animal",
     "spellType": "Beneficial",
-    "duration": "7 ticks",
+    "duration": {
+      "durationString": "7 ticks",
+      "minDuration": {
+        "duration": 42
+      }
+    },
     "castOnYou": "You feel your aggression subside.",
     "castOnOther": "Someone  looks less aggressive.",
     "wearsOff": ""
@@ -586,7 +796,7 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "Lightning surges through your body.",
     "castOnOther": "Someone  has been struck by lightning.",
     "wearsOff": ""
@@ -602,7 +812,7 @@
     "range": "200",
     "targetType": "Summoned",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "Someone  staggers.",
     "wearsOff": ""
@@ -618,7 +828,7 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You feel much better.",
     "castOnOther": "Someone  feels much better.",
     "wearsOff": ""
@@ -634,7 +844,17 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "5.2 minutes @L14 to 19 minutes @L60",
+    "duration": {
+      "durationString": "5.2 minutes @L14 to 19 minutes @L60",
+      "minDuration": {
+        "duration": 312,
+        "level": "14"
+      },
+      "maxDuration": {
+        "duration": 1452,
+        "level": "60"
+      }
+    },
     "castOnYou": "Your feet leave the ground.",
     "castOnOther": "Someone's feet leave the ground.",
     "wearsOff": "You can no longer levitate."
@@ -650,7 +870,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "27 minutes",
+    "duration": {
+      "durationString": "27 minutes",
+      "minDuration": {
+        "duration": 1620
+      }
+    },
     "castOnYou": "Your eyes tingle.",
     "castOnOther": "",
     "wearsOff": "Your eyes stop tingling."
@@ -666,7 +891,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "36 minutes",
+    "duration": {
+      "durationString": "36 minutes",
+      "minDuration": {
+        "duration": 2160
+      }
+    },
     "castOnYou": "Your skin turns hard as steel.",
     "castOnOther": "Someone 's skin turns hard as steel.",
     "wearsOff": "Your skin returns to normal."
@@ -682,7 +912,7 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You feel your skin ignite.",
     "castOnOther": "Someone 's skin ignites.",
     "wearsOff": ""
@@ -698,7 +928,17 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "1.4 minutes @L24 to 1.6 minutes @L27",
+    "duration": {
+      "durationString": "1.4 minutes @L24 to 1.6 minutes @L27",
+      "minDuration": {
+        "duration": 84,
+        "level": "24"
+      },
+      "maxDuration": {
+        "duration": 180,
+        "level": "27"
+      }
+    },
     "castOnYou": "Your feet become entwined.",
     "castOnOther": "Someone's feet become entwined.",
     "wearsOff": "The roots fall from your feet."
@@ -714,7 +954,12 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "1 minute 6 seconds",
+    "duration": {
+      "durationString": "1 minute 6 seconds",
+      "minDuration": {
+        "duration": 66
+      }
+    },
     "castOnYou": "You are surrounded by blazing flames.",
     "castOnOther": "Someone  is surrounded by blazing flames.",
     "wearsOff": "The flames are extinguished."
@@ -730,7 +975,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "36 minutes",
+    "duration": {
+      "durationString": "36 minutes",
+      "minDuration": {
+        "duration": 2160
+      }
+    },
     "castOnYou": "You feel resistant from fire.",
     "castOnOther": "Someone is resistant to fire.",
     "wearsOff": "Your resist fire fades."
@@ -746,7 +996,17 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "2.9 minutes @L29 to 6.5 minutes @L65",
+    "duration": {
+      "durationString": "2.9 minutes @L29 to 6.5 minutes @L65",
+      "minDuration": {
+        "duration": 174,
+        "level": "29"
+      },
+      "maxDuration": {
+        "duration": 564,
+        "level": "65"
+      }
+    },
     "castOnYou": "You are surrounded by a thorny barrier.",
     "castOnOther": "Someone  is surrounded by a thorny barrier.",
     "wearsOff": "The brambles fall away."
@@ -762,7 +1022,17 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "1 hour 57 minutes @L39 to 3 hours 15 minutes @L65",
+    "duration": {
+      "durationString": "1 hour 57 minutes @L39 to 3 hours 15 minutes @L65",
+      "minDuration": {
+        "duration": 7020,
+        "level": "39"
+      },
+      "maxDuration": {
+        "duration": 18720,
+        "level": "65"
+      }
+    },
     "castOnYou": "Spikes spring from your skin.",
     "castOnOther": "Someone 's skin sprouts spikes.",
     "wearsOff": "Your skin returns to normal."
@@ -778,7 +1048,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "24 minutes",
+    "duration": {
+      "durationString": "24 minutes",
+      "minDuration": {
+        "duration": 1440
+      }
+    },
     "castOnYou": "You vanish.",
     "castOnOther": "Someone  fades away.",
     "wearsOff": "You appear."
@@ -794,7 +1069,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "1 hour 12 minutes",
+    "duration": {
+      "durationString": "1 hour 12 minutes",
+      "minDuration": {
+        "duration": 4320
+      }
+    },
     "castOnYou": "You are now a wolf.",
     "castOnOther": "Someone  turns into a wolf.",
     "wearsOff": "You are no longer a wolf."
@@ -810,7 +1090,12 @@
     "range": "150",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "1 hour 0 minutes",
+    "duration": {
+      "durationString": "1 hour 0 minutes",
+      "minDuration": {
+        "duration": 3600
+      }
+    },
     "castOnYou": "The Call of Earth surrounds your body protectively.",
     "castOnOther": "Someone 's body is surrounded by the Call of Earth.",
     "wearsOff": "The Call of Earth leaves."
@@ -826,7 +1111,17 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "6.8 minutes @L29 to 13 minutes @L60",
+    "duration": {
+      "durationString": "6.8 minutes @L29 to 13 minutes @L60",
+      "minDuration": {
+        "duration": 408,
+        "level": "29"
+      },
+      "maxDuration": {
+        "duration": 1188,
+        "level": "60"
+      }
+    },
     "castOnYou": "You are ensnared.",
     "castOnOther": "Someone  has been ensnared.",
     "wearsOff": "You are no longer ensnared."
@@ -842,7 +1137,7 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "Your head snaps back.",
     "castOnOther": "Someone 's head snaps back.",
     "wearsOff": ""
@@ -858,7 +1153,12 @@
     "range": "150",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "1 hour 0 minutes",
+    "duration": {
+      "durationString": "1 hour 0 minutes",
+      "minDuration": {
+        "duration": 3600
+      }
+    },
     "castOnYou": "Nature's strength flows through your muscles.",
     "castOnOther": "Someone 's body is strengthened by nature.",
     "wearsOff": "Nature's strength ebbs."
@@ -874,7 +1174,7 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "Your body zings with energy.",
     "castOnOther": "Someone  looks energized.",
     "wearsOff": ""
@@ -890,7 +1190,7 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You feel your skin ignite.",
     "castOnOther": "Someone 's skin ignites.",
     "wearsOff": ""
@@ -906,7 +1206,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "54 minutes 6 seconds",
+    "duration": {
+      "durationString": "54 minutes 6 seconds",
+      "minDuration": {
+        "duration": 3246
+      }
+    },
     "castOnYou": "You feel stronger.",
     "castOnOther": "Someone  looks stronger.",
     "wearsOff": "Your strength fades."
@@ -922,7 +1227,12 @@
     "range": "250",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "1 minute",
+    "duration": {
+      "durationString": "1 minute",
+      "minDuration": {
+        "duration": 60
+      }
+    },
     "castOnYou": "You feel the pain of a thousand stings.",
     "castOnOther": "Someone  is engulfed in a swarm.",
     "wearsOff": "The swarm departs."
@@ -938,7 +1248,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "54 minutes",
+    "duration": {
+      "durationString": "54 minutes",
+      "minDuration": {
+        "duration": 3240
+      }
+    },
     "castOnYou": "Your skin turns hard as diamond.",
     "castOnOther": "Someone 's skin turns hard as diamond.",
     "wearsOff": "Your skin returns to normal."
@@ -954,7 +1269,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "10 minutes",
+    "duration": {
+      "durationString": "10 minutes",
+      "minDuration": {
+        "duration": 600
+      }
+    },
     "castOnYou": "The Call of Fire fills your weapons with power.",
     "castOnOther": "Someone 's weapons gleam.",
     "wearsOff": "The Call of Fire leaves."
@@ -970,7 +1290,17 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "12 minutes 42 seconds @L39 to 19 minutes 6 seconds @L60",
+    "duration": {
+      "durationString": "12 minutes 42 seconds @L39 to 19 minutes 6 seconds @L60",
+      "minDuration": {
+        "duration": 762,
+        "level": "39"
+      },
+      "maxDuration": {
+        "duration": 1908,
+        "level": "60"
+      }
+    },
     "castOnYou": "You begin to regenerate.",
     "castOnOther": "Someone  begins to regenerate.",
     "wearsOff": "You have stopped regenerating."
@@ -986,7 +1316,7 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "Your head snaps back.",
     "castOnOther": "Someone 's head snaps back.",
     "wearsOff": ""
@@ -1002,7 +1332,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "36 minutes",
+    "duration": {
+      "durationString": "36 minutes",
+      "minDuration": {
+        "duration": 2160
+      }
+    },
     "castOnYou": "You feel resistant from cold.",
     "castOnOther": "Someone  is resistant to cold.",
     "wearsOff": "Your cold resistance fades."
@@ -1018,7 +1353,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "36 minutes",
+    "duration": {
+      "durationString": "36 minutes",
+      "minDuration": {
+        "duration": 2160
+      }
+    },
     "castOnYou": "Your eyes tingle.",
     "castOnOther": "Someone 's eyes glow violet.",
     "wearsOff": "Your ultravision fades."
@@ -1034,7 +1374,17 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "1 hour 42 minutes @L34 to 1 hour 50 minutes @L37",
+    "duration": {
+      "durationString": "1 hour 42 minutes @L34 to 1 hour 50 minutes @L37",
+      "minDuration": {
+        "duration": 6120,
+        "level": "34"
+      },
+      "maxDuration": {
+        "duration": 12720,
+        "level": "37"
+      }
+    },
     "castOnYou": "You are now a wolf.",
     "castOnOther": "Someone  turns into a wolf.",
     "wearsOff": "You are no longer a wolf."
@@ -1050,7 +1400,7 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You feel much better.",
     "castOnOther": "Someone  feels much better.",
     "wearsOff": ""
@@ -1066,7 +1416,7 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You feel dispelled.",
     "castOnOther": "Someone  feels dispelled.",
     "wearsOff": ""
@@ -1082,7 +1432,17 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "3.9 minutes @L39 to 6.5 minutes @L65",
+    "duration": {
+      "durationString": "3.9 minutes @L39 to 6.5 minutes @L65",
+      "minDuration": {
+        "duration": 234,
+        "level": "39"
+      },
+      "maxDuration": {
+        "duration": 624,
+        "level": "65"
+      }
+    },
     "castOnYou": "You are surrounded by a thorny barrier.",
     "castOnOther": "Someone  is surrounded by a thorny barrier.",
     "wearsOff": "The brambles fall away."
@@ -1098,7 +1458,7 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "Debris smashes against your body.",
     "castOnOther": "Someone 's body is crushed by flying debris.",
     "wearsOff": ""
@@ -1114,7 +1474,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "1 hour 12 minutes 24 seconds",
+    "duration": {
+      "durationString": "1 hour 12 minutes 24 seconds",
+      "minDuration": {
+        "duration": 4344
+      }
+    },
     "castOnYou": "Your skin shimmers with divine power.",
     "castOnOther": "Someone 's skin shimmers with divine power.",
     "wearsOff": "Your skin returns to normal."
@@ -1130,7 +1495,12 @@
     "range": "150",
     "targetType": "Group v2",
     "spellType": "Beneficial",
-    "duration": "1 hour 15 minutes 24 seconds",
+    "duration": {
+      "durationString": "1 hour 15 minutes 24 seconds",
+      "minDuration": {
+        "duration": 4524
+      }
+    },
     "castOnYou": "The spirit of the predator strengthens your attacks.",
     "castOnOther": "Someone  growls as a whisper of the predator pervades the air.",
     "wearsOff": "The predator's spirit departs."
@@ -1146,7 +1516,12 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "1 minute",
+    "duration": {
+      "durationString": "1 minute",
+      "minDuration": {
+        "duration": 60
+      }
+    },
     "castOnYou": "Your feet become entwined.",
     "castOnOther": "Someone 's feet become entwined.",
     "wearsOff": "The roots fall from your feet."
@@ -1162,7 +1537,17 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "2 hours 27 minutes @L49 to 3 hours 15 minutes @L65",
+    "duration": {
+      "durationString": "2 hours 27 minutes @L49 to 3 hours 15 minutes @L65",
+      "minDuration": {
+        "duration": 8820,
+        "level": "49"
+      },
+      "maxDuration": {
+        "duration": 20520,
+        "level": "65"
+      }
+    },
     "castOnYou": "Thorns spring from your skin.",
     "castOnOther": "Someone 's skin sprouts thorns.",
     "wearsOff": "Your skin returns to normal."

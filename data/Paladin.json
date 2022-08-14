@@ -10,7 +10,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "27 minutes",
+    "duration": {
+      "durationString": "27 minutes",
+      "minDuration": {
+        "duration": 1620
+      }
+    },
     "castOnYou": "You feel a rush of courage.",
     "castOnOther": "Someone  looks courageous.",
     "wearsOff": "You feel less courageous."
@@ -26,7 +31,7 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
     "wearsOff": ""
@@ -42,7 +47,12 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "2 ticks",
+    "duration": {
+      "durationString": "2 ticks",
+      "minDuration": {
+        "duration": 12
+      }
+    },
     "castOnYou": "You are blinded by a flash of light.",
     "castOnOther": "Someone  is blinded by a flash of light.",
     "wearsOff": "Your sight returns."
@@ -58,7 +68,7 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You feel a little better.",
     "castOnOther": "Someone  feels a little better.",
     "wearsOff": ""
@@ -74,7 +84,17 @@
     "range": "200",
     "targetType": "Undead",
     "spellType": "Detrimental",
-    "duration": "1 ticks @L1 to 3 ticks @L5",
+    "duration": {
+      "durationString": "1 ticks @L1 to 3 ticks @L5",
+      "minDuration": {
+        "duration": 6,
+        "level": "1"
+      },
+      "maxDuration": {
+        "duration": 24,
+        "level": "5"
+      }
+    },
     "castOnYou": "Your bones tingle.",
     "castOnOther": "Someone  has the fear of life put in them.",
     "wearsOff": ""
@@ -90,7 +110,7 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You spin to face north.",
     "castOnOther": "",
     "wearsOff": ""
@@ -106,7 +126,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "4 ticks",
+    "duration": {
+      "durationString": "4 ticks",
+      "minDuration": {
+        "duration": 24
+      }
+    },
     "castOnYou": "You feel a surge of strength as you let forth a mighty yaulp.",
     "castOnOther": "Someone  lets loose a mighty yaulp.",
     "wearsOff": "Your surge of strength fades."
@@ -122,7 +147,7 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
     "wearsOff": ""
@@ -138,7 +163,7 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "A magical hammer appears in your hand.",
     "castOnOther": "",
     "wearsOff": ""
@@ -154,7 +179,17 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "15 minutes @L5 to 27 minutes @L9",
+    "duration": {
+      "durationString": "15 minutes @L5 to 27 minutes @L9",
+      "minDuration": {
+        "duration": 900,
+        "level": "5"
+      },
+      "maxDuration": {
+        "duration": 2520,
+        "level": "9"
+      }
+    },
     "castOnYou": "You feel the favor of the gods upon you.",
     "castOnOther": "Someone  feels the favor of the gods upon them.",
     "wearsOff": "You no longer feel blessed."
@@ -170,7 +205,7 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You feel better.",
     "castOnOther": "Someone  feels better.",
     "wearsOff": ""
@@ -186,7 +221,17 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "1.2 minutes @L1 to 2 minutes @L5",
+    "duration": {
+      "durationString": "1.2 minutes @L1 to 2 minutes @L5",
+      "minDuration": {
+        "duration": 72,
+        "level": "1"
+      },
+      "maxDuration": {
+        "duration": 192,
+        "level": "5"
+      }
+    },
     "castOnYou": "You feel less aggressive.",
     "castOnOther": "Someone  looks less aggressive.",
     "wearsOff": ""
@@ -202,7 +247,7 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
     "wearsOff": ""
@@ -218,7 +263,7 @@
     "range": "200",
     "targetType": "Undead",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
     "wearsOff": ""
@@ -234,7 +279,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "27 minutes",
+    "duration": {
+      "durationString": "27 minutes",
+      "minDuration": {
+        "duration": 1620
+      }
+    },
     "castOnYou": "You feel magnanimous of spirit.",
     "castOnOther": "Someone  is surrounded by a divine aura.",
     "wearsOff": "Your sense of center fades."
@@ -250,7 +300,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "27 minutes",
+    "duration": {
+      "durationString": "27 minutes",
+      "minDuration": {
+        "duration": 1620
+      }
+    },
     "castOnYou": "You feel protected from poison.",
     "castOnOther": "Someone  is protected from poison.",
     "wearsOff": "Your endurance to poison fades."
@@ -266,7 +321,7 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "A Halo of Light solidifies in your hand.",
     "castOnOther": "Someone 's hands are bathed in light.",
     "wearsOff": ""
@@ -282,7 +337,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "3 ticks",
+    "duration": {
+      "durationString": "3 ticks",
+      "minDuration": {
+        "duration": 18
+      }
+    },
     "castOnYou": "Your body zings with energy.",
     "castOnOther": "Someone  looks energized.",
     "wearsOff": ""
@@ -298,7 +358,17 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "3 minutes @L1 to 27 minutes @L9",
+    "duration": {
+      "durationString": "3 minutes @L1 to 27 minutes @L9",
+      "minDuration": {
+        "duration": 180,
+        "level": "1"
+      },
+      "maxDuration": {
+        "duration": 1800,
+        "level": "9"
+      }
+    },
     "castOnYou": "You feel your skin tingle.",
     "castOnOther": "Someone  fades a little.",
     "wearsOff": "Your skin stops tingling."
@@ -314,7 +384,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "3 minutes",
+    "duration": {
+      "durationString": "3 minutes",
+      "minDuration": {
+        "duration": 180
+      }
+    },
     "castOnYou": "Your muscles erupt with reckless strength.",
     "castOnOther": "Someone 's muscles bulge with reckless strength.",
     "wearsOff": "You feel your strength return."
@@ -330,7 +405,17 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "2 ticks @L4 to 8 ticks @L14",
+    "duration": {
+      "durationString": "2 ticks @L4 to 8 ticks @L14",
+      "minDuration": {
+        "duration": 12,
+        "level": "4"
+      },
+      "maxDuration": {
+        "duration": 60,
+        "level": "14"
+      }
+    },
     "castOnYou": "Your feet adhere to the ground.",
     "castOnOther": "Someone 's feet adhere to the ground.",
     "wearsOff": "Your feet come free."
@@ -346,7 +431,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "27 minutes",
+    "duration": {
+      "durationString": "27 minutes",
+      "minDuration": {
+        "duration": 1620
+      }
+    },
     "castOnYou": "You feel protected from magic.",
     "castOnOther": "Someone  is protected from magic.",
     "wearsOff": "Your endurance to magic fades."
@@ -362,7 +452,7 @@
     "range": "200",
     "targetType": "Undead",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
     "wearsOff": ""
@@ -378,7 +468,7 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "A magical hammer appears in your hand.",
     "castOnOther": "",
     "wearsOff": ""
@@ -394,7 +484,7 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You feel much better.",
     "castOnOther": "Someone  feels much better.",
     "wearsOff": ""
@@ -410,7 +500,17 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "1.8 minutes @L8 to 2.5 minutes @L15",
+    "duration": {
+      "durationString": "1.8 minutes @L8 to 2.5 minutes @L15",
+      "minDuration": {
+        "duration": 108,
+        "level": "8"
+      },
+      "maxDuration": {
+        "duration": 258,
+        "level": "15"
+      }
+    },
     "castOnYou": "You feel your aggression subside.",
     "castOnOther": "Someone  looks less aggressive.",
     "wearsOff": ""
@@ -426,7 +526,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "36 minutes",
+    "duration": {
+      "durationString": "36 minutes",
+      "minDuration": {
+        "duration": 2160
+      }
+    },
     "castOnYou": "Translucent armor gathers around you.",
     "castOnOther": "Someone  is coated in translucent armor.",
     "wearsOff": "Your spiritual armor fades."
@@ -442,7 +547,7 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You are stunned.",
     "castOnOther": "Someone  is stunned.",
     "wearsOff": "You are no longer stunned."
@@ -458,7 +563,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "27 minutes",
+    "duration": {
+      "durationString": "27 minutes",
+      "minDuration": {
+        "duration": 1620
+      }
+    },
     "castOnYou": "A mystic symbol flashes before your eyes.",
     "castOnOther": "Someone  is cloaked in a shimmer of glowing symbols.",
     "wearsOff": "The mystic symbol fades."
@@ -474,7 +584,7 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You feel a bit dispelled.",
     "castOnOther": "Someone  feels a bit dispelled.",
     "wearsOff": ""
@@ -490,7 +600,7 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
     "wearsOff": ""
@@ -506,7 +616,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "36 minutes",
+    "duration": {
+      "durationString": "36 minutes",
+      "minDuration": {
+        "duration": 2160
+      }
+    },
     "castOnYou": "You feel daring.",
     "castOnOther": "Someone  looks daring.",
     "wearsOff": "You no longer feel daring."
@@ -522,7 +637,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "15 minutes",
+    "duration": {
+      "durationString": "15 minutes",
+      "minDuration": {
+        "duration": 900
+      }
+    },
     "castOnYou": "A flame of divine purpose compels you.",
     "castOnOther": "Someone 's eyes are filled by the flame of a divine purpose.",
     "wearsOff": "The divine flame leaves."
@@ -538,7 +658,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "27 minutes",
+    "duration": {
+      "durationString": "27 minutes",
+      "minDuration": {
+        "duration": 1620
+      }
+    },
     "castOnYou": "You feel protected from disease.",
     "castOnOther": "Someone  is protected from disease.",
     "wearsOff": "Your endurance to disease fades."
@@ -554,7 +679,7 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You feel much better.",
     "castOnOther": "Someone  feels much better.",
     "wearsOff": ""
@@ -570,7 +695,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "45 minutes",
+    "duration": {
+      "durationString": "45 minutes",
+      "minDuration": {
+        "duration": 2700
+      }
+    },
     "castOnYou": "You feel the favor of the gods upon you.",
     "castOnOther": "Someone  feels the favor of the gods upon them.",
     "wearsOff": "You no longer feel blessed."
@@ -586,7 +716,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "36 minutes",
+    "duration": {
+      "durationString": "36 minutes",
+      "minDuration": {
+        "duration": 2160
+      }
+    },
     "castOnYou": "The symbol of Ryltan flashes before your eyes.",
     "castOnOther": "Someone  is cloaked in a shimmer of glowing symbols.",
     "wearsOff": "The mystic symbol fades."
@@ -602,7 +737,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "4 ticks",
+    "duration": {
+      "durationString": "4 ticks",
+      "minDuration": {
+        "duration": 24
+      }
+    },
     "castOnYou": "You feel a surge of strength as you let forth a mighty yaulp.",
     "castOnOther": "Someone  lets loose a mighty yaulp.",
     "wearsOff": "Your surge of strength fades."
@@ -618,7 +758,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "1 hour 3 minutes",
+    "duration": {
+      "durationString": "1 hour 3 minutes",
+      "minDuration": {
+        "duration": 3780
+      }
+    },
     "castOnYou": "You feel the favor of the gods upon you.",
     "castOnOther": "Someone  feels the favor of the gods upon them.",
     "wearsOff": "You no longer feel blessed."
@@ -634,7 +779,17 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "2.9 minutes @L19 to 3.0 minutes @L20",
+    "duration": {
+      "durationString": "2.9 minutes @L19 to 3.0 minutes @L20",
+      "minDuration": {
+        "duration": 174,
+        "level": "19"
+      },
+      "maxDuration": {
+        "duration": 354,
+        "level": "20"
+      }
+    },
     "castOnYou": "You feel your aggression subside.",
     "castOnOther": "Someone  looks less aggressive.",
     "wearsOff": ""
@@ -650,7 +805,7 @@
     "range": "200",
     "targetType": "Undead",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "Someone  staggers.",
     "wearsOff": ""
@@ -666,7 +821,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "20 minutes",
+    "duration": {
+      "durationString": "20 minutes",
+      "minDuration": {
+        "duration": 1200
+      }
+    },
     "castOnYou": "Your hand begins to glow with divine might.",
     "castOnOther": "Someone 's hands begin to glow with divine might.",
     "wearsOff": "Your hands stop glowing."
@@ -682,7 +842,7 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You are struck by a sudden force.",
     "castOnOther": "Someone  is stunned.",
     "wearsOff": "You are no longer stunned."
@@ -698,7 +858,7 @@
     "range": "200",
     "targetType": "Corpse",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
     "wearsOff": ""
@@ -714,7 +874,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "45 minutes",
+    "duration": {
+      "durationString": "45 minutes",
+      "minDuration": {
+        "duration": 2700
+      }
+    },
     "castOnYou": "A mystic symbol flashes before your eyes.",
     "castOnOther": "Someone  is cloaked in a shimmer of glowing symbols.",
     "wearsOff": "The mystic symbol fades."
@@ -730,7 +895,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "54 minutes",
+    "duration": {
+      "durationString": "54 minutes",
+      "minDuration": {
+        "duration": 3240
+      }
+    },
     "castOnYou": "You feel valorous.",
     "castOnOther": "Someone  looks valorous.",
     "wearsOff": "Your valor fades."
@@ -746,7 +916,7 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "A flame of divine light erupts around you.",
     "castOnOther": "Someone 's body erupts in a flame of divine light.",
     "wearsOff": ""
@@ -762,7 +932,17 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "4.9 minutes @L39 to 6.9 minutes @L59",
+    "duration": {
+      "durationString": "4.9 minutes @L39 to 6.9 minutes @L59",
+      "minDuration": {
+        "duration": 294,
+        "level": "39"
+      },
+      "maxDuration": {
+        "duration": 708,
+        "level": "59"
+      }
+    },
     "castOnYou": "You feel your aggression subside.",
     "castOnOther": "Someone  looks less aggressive.",
     "wearsOff": ""
@@ -778,7 +958,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "36 minutes",
+    "duration": {
+      "durationString": "36 minutes",
+      "minDuration": {
+        "duration": 2160
+      }
+    },
     "castOnYou": "You feel resistant from disease.",
     "castOnOther": "Someone  is resistant to disease.",
     "wearsOff": "Your disease resistance fades."
@@ -794,7 +979,7 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You are struck by a sudden force.",
     "castOnOther": "Someone  is struck by a sudden force.",
     "wearsOff": "You are no longer stunned."
@@ -810,7 +995,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "3 minutes",
+    "duration": {
+      "durationString": "3 minutes",
+      "minDuration": {
+        "duration": 180
+      }
+    },
     "castOnYou": "Your muscles erupt with frenzied strength.",
     "castOnOther": "Someone 's muscles bulge with frenzied strength.",
     "wearsOff": "You feel your strength return."
@@ -826,7 +1016,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "50 minutes",
+    "duration": {
+      "durationString": "50 minutes",
+      "minDuration": {
+        "duration": 3000
+      }
+    },
     "castOnYou": "You begin to radiate with divine glory.",
     "castOnOther": "Someone  begins to radiate with divine glory.",
     "wearsOff": "Your divine glory fades."
@@ -842,7 +1037,17 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "1.2 minutes @L20 to 1.6 minutes @L27",
+    "duration": {
+      "durationString": "1.2 minutes @L20 to 1.6 minutes @L27",
+      "minDuration": {
+        "duration": 72,
+        "level": "20"
+      },
+      "maxDuration": {
+        "duration": 168,
+        "level": "27"
+      }
+    },
     "castOnYou": "Your feet adhere to the ground.",
     "castOnOther": "Someone 's feet adhere to the ground.",
     "wearsOff": "Your feet come free."
@@ -858,7 +1063,7 @@
     "range": "200",
     "targetType": "Undead",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "Someone  staggers.",
     "wearsOff": ""
@@ -874,7 +1079,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "3 ticks",
+    "duration": {
+      "durationString": "3 ticks",
+      "minDuration": {
+        "duration": 18
+      }
+    },
     "castOnYou": "The gods have rendered you invulnerable.",
     "castOnOther": "",
     "wearsOff": "Your invulnerability fades."
@@ -890,7 +1100,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "5 minutes",
+    "duration": {
+      "durationString": "5 minutes",
+      "minDuration": {
+        "duration": 300
+      }
+    },
     "castOnYou": "You are surrounded by an aura of Divine Favor.",
     "castOnOther": "Someone  is surrounded by an aura of Divine Favor.",
     "wearsOff": "The Divine Favor fades."
@@ -906,7 +1121,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "36 minutes",
+    "duration": {
+      "durationString": "36 minutes",
+      "minDuration": {
+        "duration": 2160
+      }
+    },
     "castOnYou": "You feel resistant from magic.",
     "castOnOther": "Someone  is resistant to magic.",
     "wearsOff": "Your resist magic fades."
@@ -922,7 +1142,7 @@
     "range": "100",
     "targetType": "Group v2",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "A wave of healing washes over you.",
     "castOnOther": "Someone  is surrounded by a wave of healing.",
     "wearsOff": ""
@@ -938,7 +1158,7 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
     "wearsOff": ""
@@ -954,7 +1174,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "4 ticks",
+    "duration": {
+      "durationString": "4 ticks",
+      "minDuration": {
+        "duration": 24
+      }
+    },
     "castOnYou": "You feel a surge of strength as you let forth a mighty yaulp.",
     "castOnOther": "Someone  lets loose a mighty yaulp.",
     "wearsOff": "Your surge of strength fades."
@@ -970,7 +1195,7 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You feel much better.",
     "castOnOther": "Someone  feels much better.",
     "wearsOff": ""
@@ -986,7 +1211,7 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You feel dispelled.",
     "castOnOther": "Someone  feels dispelled.",
     "wearsOff": ""
@@ -1002,7 +1227,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "54 minutes",
+    "duration": {
+      "durationString": "54 minutes",
+      "minDuration": {
+        "duration": 3240
+      }
+    },
     "castOnYou": "A mystic symbol flashes before your eyes.",
     "castOnOther": "Someone  is cloaked in a shimmer of glowing symbols.",
     "wearsOff": "The mystic symbol fades."
@@ -1018,7 +1248,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "4 ticks",
+    "duration": {
+      "durationString": "4 ticks",
+      "minDuration": {
+        "duration": 24
+      }
+    },
     "castOnYou": "Celestial light pumps through your body.",
     "castOnOther": "Someone 's body is covered with a soft glow.",
     "wearsOff": "The celestial light fades."
@@ -1034,7 +1269,7 @@
     "range": "200",
     "targetType": "Corpse",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
     "wearsOff": ""
@@ -1050,7 +1285,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "50 minutes",
+    "duration": {
+      "durationString": "50 minutes",
+      "minDuration": {
+        "duration": 3000
+      }
+    },
     "castOnYou": "You begin to radiate with divine strength.",
     "castOnOther": "Someone  begins to radiate with divine strength.",
     "wearsOff": "Your divine strength fades."
@@ -1066,7 +1306,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "1 hour 3 minutes",
+    "duration": {
+      "durationString": "1 hour 3 minutes",
+      "minDuration": {
+        "duration": 3780
+      }
+    },
     "castOnYou": "You feel resolute.",
     "castOnOther": "Someone  looks resolute.",
     "wearsOff": "Your resolution fades."
@@ -1082,7 +1327,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "1 hour 12 minutes",
+    "duration": {
+      "durationString": "1 hour 12 minutes",
+      "minDuration": {
+        "duration": 4320
+      }
+    },
     "castOnYou": "You feel the favor of the gods upon you.",
     "castOnOther": "Someone  feels the favor of the gods upon them.",
     "wearsOff": "You no longer feel blessed."
@@ -1098,7 +1348,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "4 ticks",
+    "duration": {
+      "durationString": "4 ticks",
+      "minDuration": {
+        "duration": 24
+      }
+    },
     "castOnYou": "You feel a surge of strength as you let forth a mighty yaulp.",
     "castOnOther": "Someone  lets loose a mighty yaulp.",
     "wearsOff": "Your surge of strength fades."

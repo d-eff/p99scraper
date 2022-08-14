@@ -120,7 +120,6 @@ function processDurationString (durationString) {
       // token is a number
       runningTotal = token;
     } else if(timeUnits[token]) {
-      console.log("TIME");
       // token is a time unit (hour, etc)
       const unit = timeUnits[token];
       runningTotal *= unit;
@@ -128,7 +127,6 @@ function processDurationString (durationString) {
       runningTotal = 0;
       durationObject[currentKey] = { duration: duration };
     } else if(token.includes('@')) {
-      console.log(`writing ${token} to ${durationObject}, ${currentKey}`)
       durationObject[currentKey].level = token.replace('@L', '');
     } else if (token === 'to') {
       currentKey = 'maxDuration';
@@ -141,7 +139,7 @@ function processDurationString (durationString) {
 
 
 function main () {
-  fixDurations("Ranger");
-  // scrapeData();
+  // fixDurations("Magician");
+  // scrapeData("Druid");
 }
 main();
