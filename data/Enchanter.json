@@ -10,7 +10,17 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "1.2 minutes @L1 to 2 minutes @L5",
+    "duration": {
+      "durationString": "1.2 minutes @L1 to 2 minutes @L5",
+      "minDuration": {
+        "duration": 72,
+        "level": "1"
+      },
+      "maxDuration": {
+        "duration": 192,
+        "level": "5"
+      }
+    },
     "castOnYou": "You feel less aggressive.",
     "castOnOther": "Someone  looks less aggressive.",
     "wearsOff": ""
@@ -26,7 +36,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "36 minutes 6 seconds",
+    "duration": {
+      "durationString": "36 minutes 6 seconds",
+      "minDuration": {
+        "duration": 2166
+      }
+    },
     "castOnYou": "You feel different.",
     "castOnOther": "Someone 's image shimmers.",
     "wearsOff": "Your illusion fades."
@@ -42,7 +57,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "27 minutes",
+    "duration": {
+      "durationString": "27 minutes",
+      "minDuration": {
+        "duration": 1620
+      }
+    },
     "castOnYou": "You feel armored.",
     "castOnOther": "Someone  is surrounded by a translucent shield.",
     "wearsOff": "Your shielding fades away."
@@ -58,7 +78,7 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
     "wearsOff": ""
@@ -74,7 +94,7 @@
     "range": "100",
     "targetType": "Pet",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "Someone  disperses.",
     "wearsOff": ""
@@ -90,7 +110,12 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "3 ticks",
+    "duration": {
+      "durationString": "3 ticks",
+      "minDuration": {
+        "duration": 18
+      }
+    },
     "castOnYou": "You feel a shortness of breath.",
     "castOnOther": "Someone  begins to choke.",
     "wearsOff": "You can breathe again."
@@ -106,7 +131,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "27 minutes",
+    "duration": {
+      "durationString": "27 minutes",
+      "minDuration": {
+        "duration": 1620
+      }
+    },
     "castOnYou": "You feel stronger.",
     "castOnOther": "Someone  looks stronger.",
     "wearsOff": "Your strength fades."
@@ -122,7 +152,7 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "The air crackles around you.",
     "castOnOther": "Someone  is surrounded by a crackling static energy.",
     "wearsOff": ""
@@ -138,7 +168,7 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You spin to face north.",
     "castOnOther": "",
     "wearsOff": ""
@@ -154,7 +184,17 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "1.1 minutes @L1 to 6 minutes @L50",
+    "duration": {
+      "durationString": "1.1 minutes @L1 to 6 minutes @L50",
+      "minDuration": {
+        "duration": 66,
+        "level": "1"
+      },
+      "maxDuration": {
+        "duration": 426,
+        "level": "50"
+      }
+    },
     "castOnYou": "You feel weaker.",
     "castOnOther": "Someone  weakens.",
     "wearsOff": ""
@@ -170,7 +210,7 @@
     "range": "20 (AOE)",
     "targetType": "PB AE",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "Scintillating colors pound through your brain.",
     "castOnOther": "Someone  is stunned by scintillating colors.",
     "wearsOff": "The pretty colors fade."
@@ -186,7 +226,17 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "1.4 minutes @L4 to 6 minutes @L50",
+    "duration": {
+      "durationString": "1.4 minutes @L4 to 6 minutes @L50",
+      "minDuration": {
+        "duration": 84,
+        "level": "4"
+      },
+      "maxDuration": {
+        "duration": 444,
+        "level": "50"
+      }
+    },
     "castOnYou": "You feel enfeebled.",
     "castOnOther": "Someone  is enfeebled.",
     "wearsOff": "Your strength returns."
@@ -202,7 +252,12 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "18 seconds",
+    "duration": {
+      "durationString": "18 seconds",
+      "minDuration": {
+        "duration": 18
+      }
+    },
     "castOnYou": "Your mind fills with fear.",
     "castOnOther": "Someone  looks very afraid.",
     "wearsOff": "You are no longer afraid."
@@ -218,7 +273,7 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "Someone  fades away.",
     "wearsOff": ""
@@ -234,7 +289,17 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "12 minutes @L4 to 27 minutes @L9",
+    "duration": {
+      "durationString": "12 minutes @L4 to 27 minutes @L9",
+      "minDuration": {
+        "duration": 720,
+        "level": "4"
+      },
+      "maxDuration": {
+        "duration": 2340,
+        "level": "9"
+      }
+    },
     "castOnYou": "Your image blurs.",
     "castOnOther": "Someone 's image blurs.",
     "wearsOff": "You come into focus."
@@ -250,7 +315,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "36 minutes 6 seconds",
+    "duration": {
+      "durationString": "36 minutes 6 seconds",
+      "minDuration": {
+        "duration": 2166
+      }
+    },
     "castOnYou": "You feel different.",
     "castOnOther": "Someone 's image shimmers.",
     "wearsOff": "Your illusion fades."
@@ -266,7 +336,17 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "12 minutes @L4 to 36 minutes 6 seconds @L12",
+    "duration": {
+      "durationString": "12 minutes @L4 to 36 minutes 6 seconds @L12",
+      "minDuration": {
+        "duration": 720,
+        "level": "4"
+      },
+      "maxDuration": {
+        "duration": 2886,
+        "level": "12"
+      }
+    },
     "castOnYou": "You feel different.",
     "castOnOther": "Someone 's image shimmers.",
     "wearsOff": "Your illusion fades."
@@ -282,7 +362,17 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "12 minutes @L4 to 20 minutes @L7",
+    "duration": {
+      "durationString": "12 minutes @L4 to 20 minutes @L7",
+      "minDuration": {
+        "duration": 720,
+        "level": "4"
+      },
+      "maxDuration": {
+        "duration": 1920,
+        "level": "7"
+      }
+    },
     "castOnYou": "You vanish.",
     "castOnOther": "Someone  fades away.",
     "wearsOff": "You appear."
@@ -298,7 +388,7 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
     "wearsOff": ""
@@ -314,7 +404,12 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "4 ticks",
+    "duration": {
+      "durationString": "4 ticks",
+      "minDuration": {
+        "duration": 24
+      }
+    },
     "castOnYou": "You are mesmerized.",
     "castOnOther": "Someone  has been mesmerized.",
     "wearsOff": "You are no longer mesmerized."
@@ -330,7 +425,12 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "3 ticks",
+    "duration": {
+      "durationString": "3 ticks",
+      "minDuration": {
+        "duration": 18
+      }
+    },
     "castOnYou": "You gasp for breath.",
     "castOnOther": "Someone  gasps for breath.",
     "wearsOff": "You stop gasping."
@@ -346,7 +446,17 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "1.8 minutes @L4 to 13 minutes @L60",
+    "duration": {
+      "durationString": "1.8 minutes @L4 to 13 minutes @L60",
+      "minDuration": {
+        "duration": 108,
+        "level": "4"
+      },
+      "maxDuration": {
+        "duration": 888,
+        "level": "60"
+      }
+    },
     "castOnYou": "You hear the barking of Tashan.",
     "castOnOther": "Someone  glances nervously about.",
     "wearsOff": "The barking fades."
@@ -362,7 +472,7 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You feel quite amicable.",
     "castOnOther": "Someone  looks friendly.",
     "wearsOff": "You no longer feel amicable."
@@ -378,7 +488,17 @@
     "range": "10000",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "2.6 minutes @L8 to 14 minutes @L65",
+    "duration": {
+      "durationString": "2.6 minutes @L8 to 14 minutes @L65",
+      "minDuration": {
+        "duration": 156,
+        "level": "8"
+      },
+      "maxDuration": {
+        "duration": 996,
+        "level": "65"
+      }
+    },
     "castOnYou": "Your sight is bound.",
     "castOnOther": "Someone 's eyes gleam and then go dark.",
     "wearsOff": "Your binding ends."
@@ -394,7 +514,7 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You feel a bit dispelled.",
     "castOnOther": "Someone  feels a bit dispelled.",
     "wearsOff": ""
@@ -410,7 +530,7 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "Your brain begins to smolder.",
     "castOnOther": "Someone 's brain begins to smolder.",
     "wearsOff": ""
@@ -426,7 +546,7 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
     "wearsOff": ""
@@ -442,7 +562,7 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
     "wearsOff": ""
@@ -458,7 +578,12 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "3 ticks",
+    "duration": {
+      "durationString": "3 ticks",
+      "minDuration": {
+        "duration": 18
+      }
+    },
     "castOnYou": "You feel confused.",
     "castOnOther": "Someone  looks confused.",
     "wearsOff": "You are no longer confused."
@@ -474,7 +599,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "36 minutes 6 seconds",
+    "duration": {
+      "durationString": "36 minutes 6 seconds",
+      "minDuration": {
+        "duration": 2166
+      }
+    },
     "castOnYou": "You feel different.",
     "castOnOther": "Someone 's image shimmers.",
     "wearsOff": "Your illusion fades."
@@ -490,7 +620,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "36 minutes 6 seconds",
+    "duration": {
+      "durationString": "36 minutes 6 seconds",
+      "minDuration": {
+        "duration": 2166
+      }
+    },
     "castOnYou": "You feel different.",
     "castOnOther": "Someone 's image shimmers.",
     "wearsOff": "Your illusion fades."
@@ -506,7 +641,17 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "24 minutes @L8 to 27 minutes @L9",
+    "duration": {
+      "durationString": "24 minutes @L8 to 27 minutes @L9",
+      "minDuration": {
+        "duration": 1440,
+        "level": "8"
+      },
+      "maxDuration": {
+        "duration": 3060,
+        "level": "9"
+      }
+    },
     "castOnYou": "You feel armored.",
     "castOnOther": "",
     "wearsOff": "Your shielding fades."
@@ -522,7 +667,7 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
     "wearsOff": ""
@@ -538,7 +683,17 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "2 ticks @L4 to 8 ticks @L14",
+    "duration": {
+      "durationString": "2 ticks @L4 to 8 ticks @L14",
+      "minDuration": {
+        "duration": 12,
+        "level": "4"
+      },
+      "maxDuration": {
+        "duration": 60,
+        "level": "14"
+      }
+    },
     "castOnYou": "Your feet adhere to the ground.",
     "castOnOther": "Someone 's feet adhere to the ground.",
     "wearsOff": "Your feet come free."
@@ -554,7 +709,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "27 minutes",
+    "duration": {
+      "durationString": "27 minutes",
+      "minDuration": {
+        "duration": 1620
+      }
+    },
     "castOnYou": "Your eyes tingle.",
     "castOnOther": "",
     "wearsOff": "Your eyes stop tingling."
@@ -570,7 +730,12 @@
     "range": "0",
     "targetType": "Targeted AE",
     "spellType": "Beneficial",
-    "duration": "6 minutes",
+    "duration": {
+      "durationString": "6 minutes",
+      "minDuration": {
+        "duration": 360
+      }
+    },
     "castOnYou": "You sense that you are being watched.",
     "castOnOther": "",
     "wearsOff": ""
@@ -586,7 +751,17 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "1.8 minutes @L8 to 2.5 minutes @L15",
+    "duration": {
+      "durationString": "1.8 minutes @L8 to 2.5 minutes @L15",
+      "minDuration": {
+        "duration": 108,
+        "level": "8"
+      },
+      "maxDuration": {
+        "duration": 258,
+        "level": "15"
+      }
+    },
     "castOnYou": "You feel your aggression subside.",
     "castOnOther": "Someone  looks less aggressive.",
     "wearsOff": ""
@@ -602,7 +777,7 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You feel yourself bind to the area.",
     "castOnOther": "Someone  is bound to the area.",
     "wearsOff": ""
@@ -618,7 +793,17 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "4.6 minutes @L12 to 20.5 minutes @L65",
+    "duration": {
+      "durationString": "4.6 minutes @L12 to 20.5 minutes @L65",
+      "minDuration": {
+        "duration": 276,
+        "level": "12"
+      },
+      "maxDuration": {
+        "duration": 1506,
+        "level": "65"
+      }
+    },
     "castOnYou": "You have been charmed.",
     "castOnOther": "Someone  has been charmed.",
     "wearsOff": "You are no longer charmed."
@@ -634,7 +819,12 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "6 ticks",
+    "duration": {
+      "durationString": "6 ticks",
+      "minDuration": {
+        "duration": 36
+      }
+    },
     "castOnYou": "You feel a shortness of breath.",
     "castOnOther": "Someone  begins to choke.",
     "wearsOff": "You can breathe again."
@@ -650,7 +840,17 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "2.2 minutes @L12 to 7.5 minutes @L65",
+    "duration": {
+      "durationString": "2.2 minutes @L12 to 7.5 minutes @L65",
+      "minDuration": {
+        "duration": 132,
+        "level": "12"
+      },
+      "maxDuration": {
+        "duration": 582,
+        "level": "65"
+      }
+    },
     "castOnYou": "You feel weaker.",
     "castOnOther": "Someone  weakens.",
     "wearsOff": "Your weakness fades."
@@ -666,7 +866,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "27 minutes 6 seconds",
+    "duration": {
+      "durationString": "27 minutes 6 seconds",
+      "minDuration": {
+        "duration": 1626
+      }
+    },
     "castOnYou": "You feel no need to breathe.",
     "castOnOther": "Someone  doesn't seem to be breathing anymore.",
     "wearsOff": "You resume breathing."
@@ -682,7 +887,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "36 minutes 6 seconds",
+    "duration": {
+      "durationString": "36 minutes 6 seconds",
+      "minDuration": {
+        "duration": 2166
+      }
+    },
     "castOnYou": "You feel different.",
     "castOnOther": "Someone 's image shimmers.",
     "wearsOff": "Your illusion fades."
@@ -698,7 +908,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "36 minutes 6 seconds",
+    "duration": {
+      "durationString": "36 minutes 6 seconds",
+      "minDuration": {
+        "duration": 2166
+      }
+    },
     "castOnYou": "You feel different.",
     "castOnOther": "Someone 's image shimmers.",
     "wearsOff": "Your illusion fades."
@@ -714,7 +929,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "36 minutes 6 seconds",
+    "duration": {
+      "durationString": "36 minutes 6 seconds",
+      "minDuration": {
+        "duration": 2166
+      }
+    },
     "castOnYou": "You feel different.",
     "castOnOther": "Someone 's image shimmers.",
     "wearsOff": "Your illusion fades."
@@ -730,7 +950,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "36 minutes 6 seconds",
+    "duration": {
+      "durationString": "36 minutes 6 seconds",
+      "minDuration": {
+        "duration": 2166
+      }
+    },
     "castOnYou": "You feel different.",
     "castOnOther": "Someone 's image shimmers.",
     "wearsOff": "Your illusion fades."
@@ -746,7 +971,7 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
     "wearsOff": ""
@@ -762,7 +987,17 @@
     "range": "250",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "36 seconds @L12 to 3.2 minutes @L65",
+    "duration": {
+      "durationString": "36 seconds @L12 to 3.2 minutes @L65",
+      "minDuration": {
+        "duration": 36,
+        "level": "12"
+      },
+      "maxDuration": {
+        "duration": 228,
+        "level": "65"
+      }
+    },
     "castOnYou": "You slow down.",
     "castOnOther": "Someone  slows down.",
     "wearsOff": "You speed back up."
@@ -778,7 +1013,7 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You feel your mind fog.",
     "castOnOther": "Someone  blinks a few times.",
     "wearsOff": ""
@@ -794,7 +1029,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "27 minutes",
+    "duration": {
+      "durationString": "27 minutes",
+      "minDuration": {
+        "duration": 1620
+      }
+    },
     "castOnYou": "Your image blurs.",
     "castOnOther": "Someone 's image blurs.",
     "wearsOff": "You come into focus."
@@ -810,7 +1050,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "27 minutes",
+    "duration": {
+      "durationString": "27 minutes",
+      "minDuration": {
+        "duration": 1620
+      }
+    },
     "castOnYou": "Your eyes tingle.",
     "castOnOther": "Someone 's eyes glow red.",
     "wearsOff": "Your infravision fades."
@@ -826,7 +1071,7 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
     "wearsOff": ""
@@ -842,7 +1087,12 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "Up to 2 ticks",
+    "duration": {
+      "durationString": "Up to 2 ticks",
+      "maxDuration": {
+        "duration": 12
+      }
+    },
     "castOnYou": "You begin to spin.",
     "castOnOther": "Someone  begins to spin.",
     "wearsOff": "You feel dizzy."
@@ -858,7 +1108,12 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "27 minutes 6 seconds",
+    "duration": {
+      "durationString": "27 minutes 6 seconds",
+      "minDuration": {
+        "duration": 1626
+      }
+    },
     "castOnYou": "A light breeze slips through your mind.",
     "castOnOther": "Someone  sighs in tranquility.",
     "wearsOff": "The light breeze fades."
@@ -874,7 +1129,12 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "6 ticks",
+    "duration": {
+      "durationString": "6 ticks",
+      "minDuration": {
+        "duration": 36
+      }
+    },
     "castOnYou": "You begin to run.",
     "castOnOther": "Someone  begins to run.",
     "wearsOff": "You stop."
@@ -890,7 +1150,17 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "1.4 minutes @L14 to 2 minutes @L20",
+    "duration": {
+      "durationString": "1.4 minutes @L14 to 2 minutes @L20",
+      "minDuration": {
+        "duration": 84,
+        "level": "14"
+      },
+      "maxDuration": {
+        "duration": 204,
+        "level": "20"
+      }
+    },
     "castOnYou": "You feel frail.",
     "castOnOther": "Someone  looks frail.",
     "wearsOff": "You feel your strength return."
@@ -906,7 +1176,7 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
     "wearsOff": ""
@@ -922,7 +1192,12 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "8 ticks",
+    "duration": {
+      "durationString": "8 ticks",
+      "minDuration": {
+        "duration": 48
+      }
+    },
     "castOnYou": "You have been enthralled.",
     "castOnOther": "Someone  has been enthralled.",
     "wearsOff": "You are no longer enthralled."
@@ -938,7 +1213,7 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
     "wearsOff": ""
@@ -954,7 +1229,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "36 minutes 6 seconds",
+    "duration": {
+      "durationString": "36 minutes 6 seconds",
+      "minDuration": {
+        "duration": 2166
+      }
+    },
     "castOnYou": "You feel different.",
     "castOnOther": "Someone 's image shimmers.",
     "wearsOff": "Your illusion fades."
@@ -970,7 +1250,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "36 minutes 6 seconds",
+    "duration": {
+      "durationString": "36 minutes 6 seconds",
+      "minDuration": {
+        "duration": 2166
+      }
+    },
     "castOnYou": "You feel different.",
     "castOnOther": "Someone 's image shimmers.",
     "wearsOff": "Your illusion fades."
@@ -986,7 +1271,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "36 minutes 6 seconds",
+    "duration": {
+      "durationString": "36 minutes 6 seconds",
+      "minDuration": {
+        "duration": 2166
+      }
+    },
     "castOnYou": "You feel different.",
     "castOnOther": "Someone 's image shimmers.",
     "wearsOff": "Your illusion fades."
@@ -1002,7 +1292,17 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "3 minutes @L1 to 27 minutes @L9",
+    "duration": {
+      "durationString": "3 minutes @L1 to 27 minutes @L9",
+      "minDuration": {
+        "duration": 180,
+        "level": "1"
+      },
+      "maxDuration": {
+        "duration": 1800,
+        "level": "9"
+      }
+    },
     "castOnYou": "You feel your skin tingle.",
     "castOnOther": "Someone  fades a little.",
     "wearsOff": "Your skin stops tingling."
@@ -1018,7 +1318,17 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "5.2 minutes @L14 to 19 minutes @L60",
+    "duration": {
+      "durationString": "5.2 minutes @L14 to 19 minutes @L60",
+      "minDuration": {
+        "duration": 312,
+        "level": "14"
+      },
+      "maxDuration": {
+        "duration": 1452,
+        "level": "60"
+      }
+    },
     "castOnYou": "Your feet leave the ground.",
     "castOnOther": "Someone's feet leave the ground.",
     "wearsOff": "You can no longer levitate."
@@ -1034,7 +1344,12 @@
     "range": "200 (AE Range: 30)",
     "targetType": "Targeted AE",
     "spellType": "Detrimental",
-    "duration": "4 ticks",
+    "duration": {
+      "durationString": "4 ticks",
+      "minDuration": {
+        "duration": 24
+      }
+    },
     "castOnYou": "You are mesmerized.",
     "castOnOther": "Someone  has been mesmerized.",
     "wearsOff": "You are no longer mesmerized."
@@ -1050,7 +1365,17 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "4.2 minutes @L16 to 11 minutes @L50",
+    "duration": {
+      "durationString": "4.2 minutes @L16 to 11 minutes @L50",
+      "minDuration": {
+        "duration": 252,
+        "level": "16"
+      },
+      "maxDuration": {
+        "duration": 912,
+        "level": "50"
+      }
+    },
     "castOnYou": "You feel much faster.",
     "castOnOther": "Someone  feels much faster.",
     "wearsOff": "Your speed returns to normal."
@@ -1066,7 +1391,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "36 minutes",
+    "duration": {
+      "durationString": "36 minutes",
+      "minDuration": {
+        "duration": 2160
+      }
+    },
     "castOnYou": "A light shimmer of runes surround you.",
     "castOnOther": "Someone  is surrounded by a shimmer of runes.",
     "wearsOff": "The shimmer of runes fades."
@@ -1082,7 +1412,7 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "Reality runs amok.",
     "castOnOther": "Someone  looks delirious.",
     "wearsOff": "Reality returns."
@@ -1098,7 +1428,7 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
     "wearsOff": ""
@@ -1114,7 +1444,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "36 minutes",
+    "duration": {
+      "durationString": "36 minutes",
+      "minDuration": {
+        "duration": 2160
+      }
+    },
     "castOnYou": "You feel armored.",
     "castOnOther": "",
     "wearsOff": "Your shielding fades away."
@@ -1130,7 +1465,7 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You feel quite amicable.",
     "castOnOther": "Someone  looks friendly.",
     "wearsOff": "You no longer feel amicable."
@@ -1146,7 +1481,17 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "2 minutes @L20 to 3 minutes @L30",
+    "duration": {
+      "durationString": "2 minutes @L20 to 3 minutes @L30",
+      "minDuration": {
+        "duration": 120,
+        "level": "20"
+      },
+      "maxDuration": {
+        "duration": 300,
+        "level": "30"
+      }
+    },
     "castOnYou": "Your muscles bulge with berserker strength.",
     "castOnOther": "Someone 's muscles bulge with berserker strength.",
     "wearsOff": "You feel your agility return."
@@ -1162,7 +1507,17 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "2.9 minutes @L19 to 3.0 minutes @L20",
+    "duration": {
+      "durationString": "2.9 minutes @L19 to 3.0 minutes @L20",
+      "minDuration": {
+        "duration": 174,
+        "level": "19"
+      },
+      "maxDuration": {
+        "duration": 354,
+        "level": "20"
+      }
+    },
     "castOnYou": "You feel your aggression subside.",
     "castOnOther": "Someone  looks less aggressive.",
     "wearsOff": ""
@@ -1178,7 +1533,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "36 minutes",
+    "duration": {
+      "durationString": "36 minutes",
+      "minDuration": {
+        "duration": 2160
+      }
+    },
     "castOnYou": "Your image clouds.",
     "castOnOther": "Someone 's image clouds.",
     "wearsOff": "You come into focus."
@@ -1194,7 +1554,7 @@
     "range": "25 (AOE)",
     "targetType": "PB AE",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "Scintillating colors pound through your brain.",
     "castOnOther": "Someone  is stunned by scintillating colors.",
     "wearsOff": "The pretty colors fade."
@@ -1210,7 +1570,7 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
     "wearsOff": ""
@@ -1226,7 +1586,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "27 minutes",
+    "duration": {
+      "durationString": "27 minutes",
+      "minDuration": {
+        "duration": 1620
+      }
+    },
     "castOnYou": "You feel protected from magic.",
     "castOnOther": "Someone  is protected from magic.",
     "wearsOff": "Your endurance to magic fades."
@@ -1242,7 +1607,17 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "2 minutes @L20 to 6.5 minutes @L65",
+    "duration": {
+      "durationString": "2 minutes @L20 to 6.5 minutes @L65",
+      "minDuration": {
+        "duration": 120,
+        "level": "20"
+      },
+      "maxDuration": {
+        "duration": 510,
+        "level": "65"
+      }
+    },
     "castOnYou": "You feel weak.",
     "castOnOther": "Someone  is weakened.",
     "wearsOff": "Your strength returns."
@@ -1258,7 +1633,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "36 minutes 6 seconds",
+    "duration": {
+      "durationString": "36 minutes 6 seconds",
+      "minDuration": {
+        "duration": 2166
+      }
+    },
     "castOnYou": "You feel different.",
     "castOnOther": "Someone 's image shimmers.",
     "wearsOff": "Your illusion fades."
@@ -1274,7 +1654,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "36 minutes 6 seconds",
+    "duration": {
+      "durationString": "36 minutes 6 seconds",
+      "minDuration": {
+        "duration": 2166
+      }
+    },
     "castOnYou": "You feel different.",
     "castOnOther": "Someone 's image shimmers.",
     "wearsOff": "Your illusion fades."
@@ -1290,7 +1675,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "36 minutes 6 seconds",
+    "duration": {
+      "durationString": "36 minutes 6 seconds",
+      "minDuration": {
+        "duration": 2166
+      }
+    },
     "castOnYou": "You feel different.",
     "castOnOther": "Someone 's image shimmers.",
     "wearsOff": "Your illusion fades."
@@ -1306,7 +1696,17 @@
     "range": "10000",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "7 minutes @L20 to 19 minutes @L60",
+    "duration": {
+      "durationString": "7 minutes @L20 to 19 minutes @L60",
+      "minDuration": {
+        "duration": 420,
+        "level": "20"
+      },
+      "maxDuration": {
+        "duration": 1560,
+        "level": "60"
+      }
+    },
     "castOnYou": "You shift your sight.",
     "castOnOther": "Someone 's eyes gleam and then go dark.",
     "wearsOff": "Your shifting sight ends."
@@ -1322,7 +1722,7 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
     "wearsOff": ""
@@ -1338,7 +1738,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "36 minutes",
+    "duration": {
+      "durationString": "36 minutes",
+      "minDuration": {
+        "duration": 2160
+      }
+    },
     "castOnYou": "You feel a warm aura surround you.",
     "castOnOther": "Someone  is surrounded by a warm aura.",
     "wearsOff": "Your sympathetic aura fades."
@@ -1354,7 +1759,17 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "5 minutes @L20 to 13 minutes @L60",
+    "duration": {
+      "durationString": "5 minutes @L20 to 13 minutes @L60",
+      "minDuration": {
+        "duration": 300,
+        "level": "20"
+      },
+      "maxDuration": {
+        "duration": 1080,
+        "level": "60"
+      }
+    },
     "castOnYou": "You hear the barking of the Tashani.",
     "castOnOther": "Someone  glances nervously about.",
     "wearsOff": "The barking fades."
@@ -1370,7 +1785,17 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "5.8 minutes @L24 to 11 minutes @L50",
+    "duration": {
+      "durationString": "5.8 minutes @L24 to 11 minutes @L50",
+      "minDuration": {
+        "duration": 348,
+        "level": "24"
+      },
+      "maxDuration": {
+        "duration": 1008,
+        "level": "50"
+      }
+    },
     "castOnYou": "You feel much faster.",
     "castOnOther": "Someone  feels much faster.",
     "wearsOff": "Your speed returns to normal."
@@ -1386,7 +1811,17 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "8.2 minutes @L24 to 20.5 minutes @L65",
+    "duration": {
+      "durationString": "8.2 minutes @L24 to 20.5 minutes @L65",
+      "minDuration": {
+        "duration": 491.99999999999994,
+        "level": "24"
+      },
+      "maxDuration": {
+        "duration": 1722,
+        "level": "65"
+      }
+    },
     "castOnYou": "You have been charmed.",
     "castOnOther": "Someone  has been charmed.",
     "wearsOff": "You are no longer charmed."
@@ -1402,7 +1837,7 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "Your world goes mad as chaos flows through you.",
     "castOnOther": "Someone  is surrounded by fluxing strands of chaos.",
     "wearsOff": ""
@@ -1418,7 +1853,7 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
     "wearsOff": ""
@@ -1434,7 +1869,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "36 minutes",
+    "duration": {
+      "durationString": "36 minutes",
+      "minDuration": {
+        "duration": 2160
+      }
+    },
     "castOnYou": "You feel different.",
     "castOnOther": "Someone 's image shimmers.",
     "wearsOff": "Your illusion fades."
@@ -1450,7 +1890,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "36 minutes",
+    "duration": {
+      "durationString": "36 minutes",
+      "minDuration": {
+        "duration": 2160
+      }
+    },
     "castOnYou": "You feel different.",
     "castOnOther": "Someone 's image shimmers.",
     "wearsOff": "Your illusion fades."
@@ -1466,7 +1911,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "3 ticks",
+    "duration": {
+      "durationString": "3 ticks",
+      "minDuration": {
+        "duration": 18
+      }
+    },
     "castOnYou": "Your body zings with energy.",
     "castOnOther": "Someone  looks energized.",
     "wearsOff": ""
@@ -1482,7 +1932,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "45 minutes",
+    "duration": {
+      "durationString": "45 minutes",
+      "minDuration": {
+        "duration": 2700
+      }
+    },
     "castOnYou": "You feel armored.",
     "castOnOther": "",
     "wearsOff": "Your shielding fades."
@@ -1498,7 +1953,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "54 minutes",
+    "duration": {
+      "durationString": "54 minutes",
+      "minDuration": {
+        "duration": 3240
+      }
+    },
     "castOnYou": "A shimmer of runes surround you.",
     "castOnOther": "Someone  is surrounded by a shimmer of runes.",
     "wearsOff": "The shimmer of runes fades."
@@ -1514,7 +1974,7 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
     "wearsOff": ""
@@ -1530,7 +1990,7 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You feel very dispelled.",
     "castOnOther": "Someone  feels very dispelled.",
     "wearsOff": ""
@@ -1546,7 +2006,17 @@
     "range": "250",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "1.2 minutes @L24 to 3.0 minutes @L60",
+    "duration": {
+      "durationString": "1.2 minutes @L24 to 3.0 minutes @L60",
+      "minDuration": {
+        "duration": 72,
+        "level": "24"
+      },
+      "maxDuration": {
+        "duration": 252,
+        "level": "60"
+      }
+    },
     "castOnYou": "You slow down.",
     "castOnOther": "Someone  slows down.",
     "wearsOff": "Your speed returns."
@@ -1562,7 +2032,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "27 minutes",
+    "duration": {
+      "durationString": "27 minutes",
+      "minDuration": {
+        "duration": 1620
+      }
+    },
     "castOnYou": "You feel your body pulse with energy.",
     "castOnOther": "Someone 's body pulses with energy.",
     "wearsOff": "The pulsing energy fades."
@@ -1578,7 +2053,7 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
     "wearsOff": ""
@@ -1594,7 +2069,12 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "27 minutes",
+    "duration": {
+      "durationString": "27 minutes",
+      "minDuration": {
+        "duration": 1620
+      }
+    },
     "castOnYou": "A cool breeze slips through your mind.",
     "castOnOther": "Someone  looks tranquil.",
     "wearsOff": "The cool breeze fades."
@@ -1610,7 +2090,17 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "3.9 minutes @L29 to 7.0 minutes @L60",
+    "duration": {
+      "durationString": "3.9 minutes @L29 to 7.0 minutes @L60",
+      "minDuration": {
+        "duration": 234,
+        "level": "29"
+      },
+      "maxDuration": {
+        "duration": 654,
+        "level": "60"
+      }
+    },
     "castOnYou": "You feel stupid.",
     "castOnOther": "Someone  looks stupid.",
     "wearsOff": "You feel less stupid."
@@ -1626,7 +2116,9 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "2 Ticks",
+    "duration": {
+      "durationString": "2 Ticks"
+    },
     "castOnYou": "You begin to spin.",
     "castOnOther": "Someone  begins to spin.",
     "wearsOff": "You feel dizzy."
@@ -1642,7 +2134,17 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "1.2 minutes @L20 to 1.6 minutes @L27",
+    "duration": {
+      "durationString": "1.2 minutes @L20 to 1.6 minutes @L27",
+      "minDuration": {
+        "duration": 72,
+        "level": "20"
+      },
+      "maxDuration": {
+        "duration": 168,
+        "level": "27"
+      }
+    },
     "castOnYou": "Your feet adhere to the ground.",
     "castOnOther": "Someone 's feet adhere to the ground.",
     "wearsOff": "Your feet come free."
@@ -1658,7 +2160,17 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "1.7 minutes @L29 to 3.6 minutes @L60",
+    "duration": {
+      "durationString": "1.7 minutes @L29 to 3.6 minutes @L60",
+      "minDuration": {
+        "duration": 102,
+        "level": "29"
+      },
+      "maxDuration": {
+        "duration": 318,
+        "level": "60"
+      }
+    },
     "castOnYou": "You are enveloped in blazing energy.",
     "castOnOther": "Someone  is enveloped in blazing energy.",
     "wearsOff": "The energy flames die down."
@@ -1674,7 +2186,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "36 minutes",
+    "duration": {
+      "durationString": "36 minutes",
+      "minDuration": {
+        "duration": 2160
+      }
+    },
     "castOnYou": "You feel different.",
     "castOnOther": "Someone 's image shimmers.",
     "wearsOff": "Your illusion fades."
@@ -1690,7 +2207,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "36 minutes",
+    "duration": {
+      "durationString": "36 minutes",
+      "minDuration": {
+        "duration": 2160
+      }
+    },
     "castOnYou": "You feel different.",
     "castOnOther": "Someone 's image shimmers.",
     "wearsOff": "Your illusion fades."
@@ -1706,7 +2228,17 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "2.9 minutes @L29 to 6.5 minutes @L65",
+    "duration": {
+      "durationString": "2.9 minutes @L29 to 6.5 minutes @L65",
+      "minDuration": {
+        "duration": 174,
+        "level": "29"
+      },
+      "maxDuration": {
+        "duration": 564,
+        "level": "65"
+      }
+    },
     "castOnYou": "You feel frail.",
     "castOnOther": "Someone  looks frail.",
     "wearsOff": "You feel your strength return."
@@ -1722,7 +2254,7 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You feel dispelled.",
     "castOnOther": "Someone  feels dispelled.",
     "wearsOff": ""
@@ -1738,7 +2270,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "45 minutes",
+    "duration": {
+      "durationString": "45 minutes",
+      "minDuration": {
+        "duration": 2700
+      }
+    },
     "castOnYou": "Your image has been obscured.",
     "castOnOther": "Someone 's image shifts out of focus.",
     "wearsOff": "You come into focus."
@@ -1754,7 +2291,17 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "1.4 minutes @L29 to 1.8 minutes @L36",
+    "duration": {
+      "durationString": "1.4 minutes @L29 to 1.8 minutes @L36",
+      "minDuration": {
+        "duration": 84,
+        "level": "29"
+      },
+      "maxDuration": {
+        "duration": 192,
+        "level": "36"
+      }
+    },
     "castOnYou": "You feel a shortness of breath.",
     "castOnOther": "Someone  begins to choke.",
     "wearsOff": "You can breathe again."
@@ -1770,7 +2317,7 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
     "wearsOff": ""
@@ -1786,7 +2333,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "36 minutes",
+    "duration": {
+      "durationString": "36 minutes",
+      "minDuration": {
+        "duration": 2160
+      }
+    },
     "castOnYou": "Your eyes tingle.",
     "castOnOther": "Someone 's eyes glow violet.",
     "wearsOff": "Your ultravision fades."
@@ -1802,7 +2354,7 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "Your world dissolves into anarchy.",
     "castOnOther": "Someone 's world dissolves into anarchy.",
     "wearsOff": ""
@@ -1818,7 +2370,7 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
     "wearsOff": ""
@@ -1834,7 +2386,17 @@
     "range": "12000",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "1 hour 42 minutes @L34 to 3 hours @L60",
+    "duration": {
+      "durationString": "1 hour 42 minutes @L34 to 3 hours @L60",
+      "minDuration": {
+        "duration": 6120,
+        "level": "34"
+      },
+      "maxDuration": {
+        "duration": 16920,
+        "level": "60"
+      }
+    },
     "castOnYou": "You cast your sight.",
     "castOnOther": "Someone 's eyes gleam and then go dark.",
     "wearsOff": "Your casting ends."
@@ -1850,7 +2412,7 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
     "wearsOff": ""
@@ -1866,7 +2428,12 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "1.2 minutes",
+    "duration": {
+      "durationString": "1.2 minutes",
+      "minDuration": {
+        "duration": 72
+      }
+    },
     "castOnYou": "You have been entranced.",
     "castOnOther": "Someone  has been entranced.",
     "wearsOff": "You are no longer entranced."
@@ -1882,7 +2449,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "1 hour 0 minutes",
+    "duration": {
+      "durationString": "1 hour 0 minutes",
+      "minDuration": {
+        "duration": 3600
+      }
+    },
     "castOnYou": "Your thoughts begin to race and flow faster.",
     "castOnOther": "Someone  appears to be staring into nothingness.",
     "wearsOff": "Your gift of magic fades."
@@ -1898,7 +2470,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "54 minutes",
+    "duration": {
+      "durationString": "54 minutes",
+      "minDuration": {
+        "duration": 3240
+      }
+    },
     "castOnYou": "You feel armored.",
     "castOnOther": "",
     "wearsOff": "Your shielding fades."
@@ -1914,7 +2491,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "36 minutes",
+    "duration": {
+      "durationString": "36 minutes",
+      "minDuration": {
+        "duration": 2160
+      }
+    },
     "castOnYou": "You feel different.",
     "castOnOther": "Someone 's image shimmers.",
     "wearsOff": "Your illusion fades."
@@ -1930,7 +2512,17 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "2 minutes @L34 to 3.9 minutes @L65",
+    "duration": {
+      "durationString": "2 minutes @L34 to 3.9 minutes @L65",
+      "minDuration": {
+        "duration": 120,
+        "level": "34"
+      },
+      "maxDuration": {
+        "duration": 354,
+        "level": "65"
+      }
+    },
     "castOnYou": "You feel weak.",
     "castOnOther": "Someone  is weakened.",
     "wearsOff": "Your strength returns."
@@ -1946,7 +2538,7 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You feel your mental energies slip away.",
     "castOnOther": "Someone  staggers with mental anguish. (?)  Someone staggers in pain. (on Green Feb 2020) (and Blue Sep 2020)",
     "wearsOff": ""
@@ -1962,7 +2554,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "36 minutes",
+    "duration": {
+      "durationString": "36 minutes",
+      "minDuration": {
+        "duration": 2160
+      }
+    },
     "castOnYou": "You feel radiant.",
     "castOnOther": "Someone's face takes on a radiant visage.",
     "wearsOff": "Your radiance fades."
@@ -1978,7 +2575,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "1 hour 12 minutes",
+    "duration": {
+      "durationString": "1 hour 12 minutes",
+      "minDuration": {
+        "duration": 4320
+      }
+    },
     "castOnYou": "A dark shimmer of runes surround you.",
     "castOnOther": "Someone  is surrounded by a shimmer of runes.",
     "wearsOff": "The shimmer of runes fade."
@@ -1994,7 +2596,7 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
     "wearsOff": ""
@@ -2010,7 +2612,17 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "12.7 minutes @L39 to 20.5 minutes @L65",
+    "duration": {
+      "durationString": "12.7 minutes @L39 to 20.5 minutes @L65",
+      "minDuration": {
+        "duration": 762,
+        "level": "39"
+      },
+      "maxDuration": {
+        "duration": 1992,
+        "level": "65"
+      }
+    },
     "castOnYou": "You have been charmed.",
     "castOnOther": "Someone  has been charmed.",
     "wearsOff": "You are no longer charmed."
@@ -2026,7 +2638,17 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "12.7 minutes @L39 to 16 minutes @L50",
+    "duration": {
+      "durationString": "12.7 minutes @L39 to 16 minutes @L50",
+      "minDuration": {
+        "duration": 762,
+        "level": "39"
+      },
+      "maxDuration": {
+        "duration": 1722,
+        "level": "50"
+      }
+    },
     "castOnYou": "You feel much faster.",
     "castOnOther": "Someone  feels much faster.",
     "wearsOff": "Your speed returns to normal."
@@ -2042,7 +2664,7 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
     "wearsOff": ""
@@ -2058,7 +2680,7 @@
     "range": "200",
     "targetType": "Targeted AE",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You experience chaotic weightlessness.",
     "castOnOther": "Someone  rises chaotically into the air.",
     "wearsOff": ""
@@ -2074,7 +2696,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "36 minutes",
+    "duration": {
+      "durationString": "36 minutes",
+      "minDuration": {
+        "duration": 2160
+      }
+    },
     "castOnYou": "You feel different.",
     "castOnOther": "Someone 's image shimmers.",
     "wearsOff": "Your illusion fades."
@@ -2090,7 +2717,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "36 minutes",
+    "duration": {
+      "durationString": "36 minutes",
+      "minDuration": {
+        "duration": 2160
+      }
+    },
     "castOnYou": "You feel different.",
     "castOnOther": "Someone 's image shimmers.",
     "wearsOff": "Your illusion fades."
@@ -2106,7 +2738,12 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "1 minute",
+    "duration": {
+      "durationString": "1 minute",
+      "minDuration": {
+        "duration": 60
+      }
+    },
     "castOnYou": "Your feet adhere to the ground.",
     "castOnOther": "Someone's feet adhere to the ground.",
     "wearsOff": "Your feet come free."
@@ -2122,7 +2759,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "40 minutes",
+    "duration": {
+      "durationString": "40 minutes",
+      "minDuration": {
+        "duration": 2400
+      }
+    },
     "castOnYou": "Your mind fills with wisdom.",
     "castOnOther": "Someone  looks wise.",
     "wearsOff": "Your wisdom fades."
@@ -2138,7 +2780,12 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "42 seconds",
+    "duration": {
+      "durationString": "42 seconds",
+      "minDuration": {
+        "duration": 42
+      }
+    },
     "castOnYou": "Your mind fills with fear.",
     "castOnOther": "Someone  looks very afraid.",
     "wearsOff": "You are no longer afraid."
@@ -2154,7 +2801,7 @@
     "range": "200 (AE Range: 60)",
     "targetType": "Targeted AE",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You feel your mind fog.",
     "castOnOther": "Someone  blinks a few times.",
     "wearsOff": ""
@@ -2170,7 +2817,17 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "4.9 minutes @L39 to 6.9 minutes @L59",
+    "duration": {
+      "durationString": "4.9 minutes @L39 to 6.9 minutes @L59",
+      "minDuration": {
+        "duration": 294,
+        "level": "39"
+      },
+      "maxDuration": {
+        "duration": 708,
+        "level": "59"
+      }
+    },
     "castOnYou": "You feel your aggression subside.",
     "castOnOther": "Someone  looks less aggressive.",
     "wearsOff": ""
@@ -2186,7 +2843,17 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "3.9 minutes @L39 to 6.5 minutes @L65",
+    "duration": {
+      "durationString": "3.9 minutes @L39 to 6.5 minutes @L65",
+      "minDuration": {
+        "duration": 234,
+        "level": "39"
+      },
+      "maxDuration": {
+        "duration": 624,
+        "level": "65"
+      }
+    },
     "castOnYou": "You feel the urge to rampage.",
     "castOnOther": "Someone  begins to rampage.",
     "wearsOff": "You feel your agility return."
@@ -2202,7 +2869,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "36 minutes",
+    "duration": {
+      "durationString": "36 minutes",
+      "minDuration": {
+        "duration": 2160
+      }
+    },
     "castOnYou": "You feel resistant from magic.",
     "castOnOther": "Someone  is resistant to magic.",
     "wearsOff": "Your resist magic fades."
@@ -2218,7 +2890,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "1 hour 12 minutes",
+    "duration": {
+      "durationString": "1 hour 12 minutes",
+      "minDuration": {
+        "duration": 4320
+      }
+    },
     "castOnYou": "Your image fades.",
     "castOnOther": "Someone 's image fades around the edges.",
     "wearsOff": "You come into focus."
@@ -2234,7 +2911,12 @@
     "range": "125",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "2 minutes",
+    "duration": {
+      "durationString": "2 minutes",
+      "minDuration": {
+        "duration": 120
+      }
+    },
     "castOnYou": "You forget what you were supposed to be.",
     "castOnOther": "Someone  stares off into space.",
     "wearsOff": "You remember where you are."
@@ -2250,7 +2932,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "1 hour 12 minutes",
+    "duration": {
+      "durationString": "1 hour 12 minutes",
+      "minDuration": {
+        "duration": 4320
+      }
+    },
     "castOnYou": "You feel armored.",
     "castOnOther": "",
     "wearsOff": "Your shielding fades."
@@ -2266,7 +2953,17 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "4.4 minutes @L44 to 6.0 minutes @L60",
+    "duration": {
+      "durationString": "4.4 minutes @L44 to 6.0 minutes @L60",
+      "minDuration": {
+        "duration": 264,
+        "level": "44"
+      },
+      "maxDuration": {
+        "duration": 624,
+        "level": "60"
+      }
+    },
     "castOnYou": "You feel... strange.",
     "castOnOther": "Someone 's face contorts and stretches, the skin breaking and peeling.",
     "wearsOff": "Your illusion fades."
@@ -2282,7 +2979,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "40 minutes",
+    "duration": {
+      "durationString": "40 minutes",
+      "minDuration": {
+        "duration": 2400
+      }
+    },
     "castOnYou": "Your mind clears.",
     "castOnOther": "Someone  gains a flash of insight.",
     "wearsOff": "Your brilliance fades."
@@ -2298,7 +3000,7 @@
     "range": "30 (AOE)",
     "targetType": "PB AE",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "Scintillating colors pound through your brain.",
     "castOnOther": "Someone  is stunned by scintillating colors.",
     "wearsOff": "The pretty colors fade."
@@ -2314,7 +3016,7 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You feel part of your mind melt away.",
     "castOnOther": "Someone 's brain begins to melt.",
     "wearsOff": ""
@@ -2330,7 +3032,7 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
     "wearsOff": ""
@@ -2346,7 +3048,7 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "Your body zings with energy.",
     "castOnOther": "Someone  looks energized.",
     "wearsOff": ""
@@ -2362,7 +3064,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "36 minutes",
+    "duration": {
+      "durationString": "36 minutes",
+      "minDuration": {
+        "duration": 2160
+      }
+    },
     "castOnYou": "You feel different.",
     "castOnOther": "Someone 's image shimmers.",
     "wearsOff": "Your illusion fades."
@@ -2378,7 +3085,17 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "4.4 minutes @L44 to 6.5 minutes @L65",
+    "duration": {
+      "durationString": "4.4 minutes @L44 to 6.5 minutes @L65",
+      "minDuration": {
+        "duration": 264,
+        "level": "44"
+      },
+      "maxDuration": {
+        "duration": 654,
+        "level": "65"
+      }
+    },
     "castOnYou": "You feel frail.",
     "castOnOther": "Someone  looks frail.",
     "wearsOff": "You feel your strength return."
@@ -2394,7 +3111,7 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You feel very dispelled.",
     "castOnOther": "Someone  feels very dispelled.",
     "wearsOff": ""
@@ -2410,7 +3127,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "1 hour 30 minutes",
+    "duration": {
+      "durationString": "1 hour 30 minutes",
+      "minDuration": {
+        "duration": 5400
+      }
+    },
     "castOnYou": "A coat of shimmering runes surround you.",
     "castOnOther": "Someone  is surrounded by a shimmer of runes.",
     "wearsOff": "The shimmer of runes fade."
@@ -2426,7 +3148,17 @@
     "range": "250",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "2.2 minutes @L44 to 3.0 minutes @L60",
+    "duration": {
+      "durationString": "2.2 minutes @L44 to 3.0 minutes @L60",
+      "minDuration": {
+        "duration": 132,
+        "level": "44"
+      },
+      "maxDuration": {
+        "duration": 312,
+        "level": "60"
+      }
+    },
     "castOnYou": "You slow down.",
     "castOnOther": "Someone  slows down.",
     "wearsOff": "Your speed returns."
@@ -2442,7 +3174,7 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You summon your companion to your side.",
     "castOnOther": "Someone  summons a companion to their side.",
     "wearsOff": ""
@@ -2458,7 +3190,17 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "9.8 minutes @L44 to 13 minutes @L60",
+    "duration": {
+      "durationString": "9.8 minutes @L44 to 13 minutes @L60",
+      "minDuration": {
+        "duration": 588,
+        "level": "44"
+      },
+      "maxDuration": {
+        "duration": 1368,
+        "level": "60"
+      }
+    },
     "castOnYou": "You hear the barking of Tashania.",
     "castOnOther": "Someone  glances nervously about.",
     "wearsOff": "The barking fades."
@@ -2474,7 +3216,17 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "2.6 minutes @L44 to 3.9 minutes @L65",
+    "duration": {
+      "durationString": "2.6 minutes @L44 to 3.9 minutes @L65",
+      "minDuration": {
+        "duration": 156,
+        "level": "44"
+      },
+      "maxDuration": {
+        "duration": 390,
+        "level": "65"
+      }
+    },
     "castOnYou": "You feel weak.",
     "castOnOther": "Someone  is weakened.",
     "wearsOff": "Your strength returns."
@@ -2490,7 +3242,7 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
     "wearsOff": ""
@@ -2506,7 +3258,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "1 hour 12 minutes",
+    "duration": {
+      "durationString": "1 hour 12 minutes",
+      "minDuration": {
+        "duration": 4320
+      }
+    },
     "castOnYou": "You are adorned by an aura of radiant grace.",
     "castOnOther": "Someone  is adorned by an aura of radiant grace.",
     "wearsOff": "Your grace fades."
@@ -2522,7 +3279,17 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "15.7 minutes @L49 to 19.0 minutes @L60",
+    "duration": {
+      "durationString": "15.7 minutes @L49 to 19.0 minutes @L60",
+      "minDuration": {
+        "duration": 942,
+        "level": "49"
+      },
+      "maxDuration": {
+        "duration": 2082,
+        "level": "60"
+      }
+    },
     "castOnYou": "You have been charmed.",
     "castOnOther": "Someone  has been charmed.",
     "wearsOff": "You are no longer charmed."
@@ -2538,7 +3305,17 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "4.9 minutes @L49 to 5 minutes @L50",
+    "duration": {
+      "durationString": "4.9 minutes @L49 to 5 minutes @L50",
+      "minDuration": {
+        "duration": 294,
+        "level": "49"
+      },
+      "maxDuration": {
+        "duration": 594,
+        "level": "50"
+      }
+    },
     "castOnYou": "Your spirit screams with berserker strength.",
     "castOnOther": "Someone  lets loose a berserk yell.",
     "wearsOff": "The berserker spirit fades."
@@ -2554,7 +3331,7 @@
     "range": "200 (AE Range: 60)",
     "targetType": "Targeted AE",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You feel your mind fog.",
     "castOnOther": "Someone  blinks a few times.",
     "wearsOff": ""
@@ -2570,7 +3347,12 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "1.6 minutes",
+    "duration": {
+      "durationString": "1.6 minutes",
+      "minDuration": {
+        "duration": 96
+      }
+    },
     "castOnYou": "You are mesmerized.",
     "castOnOther": "Someone  has been mesmerized.",
     "wearsOff": "You are no longer mesmerized."
@@ -2586,7 +3368,7 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
     "wearsOff": ""
@@ -2602,7 +3384,7 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
     "wearsOff": ""
@@ -2618,7 +3400,7 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
     "wearsOff": ""
@@ -2634,7 +3416,7 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
     "wearsOff": ""
@@ -2650,7 +3432,12 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "2 minutes",
+    "duration": {
+      "durationString": "2 minutes",
+      "minDuration": {
+        "duration": 120
+      }
+    },
     "castOnYou": "You feel a shortness of breath.",
     "castOnOther": "Someone  begins to choke.",
     "wearsOff": "You can breathe again."
@@ -2666,7 +3453,12 @@
     "range": "100",
     "targetType": "Group v2",
     "spellType": "Beneficial",
-    "duration": "36 minutes (*Note: Spell seems level dependent.  Level 60, duration = 36 minutes.  Level 50, duration = ~27 minutes)",
+    "duration": {
+      "durationString": "36 minutes (*Note: Spell seems level dependent.  Level 60, duration = 36 minutes.  Level 50, duration = ~27 minutes)",
+      "minDuration": {
+        "duration": 2160
+      }
+    },
     "castOnYou": "You feel protected from magic.",
     "castOnOther": "Someone  is resistant to magic.",
     "wearsOff": "Your protection fades."
@@ -2682,7 +3474,7 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
     "wearsOff": ""
@@ -2698,7 +3490,12 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "3 minutes",
+    "duration": {
+      "durationString": "3 minutes",
+      "minDuration": {
+        "duration": 180
+      }
+    },
     "castOnYou": "Your feet adhere to the ground.",
     "castOnOther": "Someone 's feet adhere to the ground.",
     "wearsOff": "Your feet come free."
@@ -2714,7 +3511,7 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
     "wearsOff": ""
@@ -2730,7 +3527,12 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "Instant (Supposed to be 4 tick duration)",
+    "duration": {
+      "durationString": "Instant (Supposed to be 4 tick duration)",
+      "maxDuration": {
+        "duration": 24
+      }
+    },
     "castOnYou": "You feel your mind fog.",
     "castOnOther": "Someone  blinks a few times.",
     "wearsOff": ""
@@ -2746,7 +3548,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "1 hour 30 minutes",
+    "duration": {
+      "durationString": "1 hour 30 minutes",
+      "minDuration": {
+        "duration": 5400
+      }
+    },
     "castOnYou": "Your image fades into shadow.",
     "castOnOther": "Someone 's image fades into the shadows.",
     "wearsOff": "You come into focus."
@@ -2762,7 +3569,17 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "15.7 minutes @L49 to 16 minutes @L50",
+    "duration": {
+      "durationString": "15.7 minutes @L49 to 16 minutes @L50",
+      "minDuration": {
+        "duration": 942,
+        "level": "49"
+      },
+      "maxDuration": {
+        "duration": 1902,
+        "level": "50"
+      }
+    },
     "castOnYou": "You feel much faster.",
     "castOnOther": "Someone  feels much faster.",
     "wearsOff": "Your speed returns to normal."
@@ -2778,7 +3595,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "10 minutes",
+    "duration": {
+      "durationString": "10 minutes",
+      "minDuration": {
+        "duration": 600
+      }
+    },
     "castOnYou": "You vanish.",
     "castOnOther": "Someone  fades away.",
     "wearsOff": "You appear."
@@ -2794,7 +3616,7 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You feel quite amicable.",
     "castOnOther": "Someone  looks friendly.",
     "wearsOff": "You no longer feel amicable."
@@ -2810,7 +3632,7 @@
     "range": "200",
     "targetType": "Lifetap",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You feel your mental energies drain away.",
     "castOnOther": "Someone  staggers.",
     "wearsOff": ""
@@ -2826,7 +3648,17 @@
     "range": "200",
     "targetType": "Targeted AE",
     "spellType": "Beneficial",
-    "duration": "6.1 minutes @L51 to 7.0 minutes @L60",
+    "duration": {
+      "durationString": "6.1 minutes @L51 to 7.0 minutes @L60",
+      "minDuration": {
+        "duration": 366,
+        "level": "51"
+      },
+      "maxDuration": {
+        "duration": 786,
+        "level": "60"
+      }
+    },
     "castOnYou": "You feel your aggression subside.",
     "castOnOther": "Someone  looks less aggressive.",
     "wearsOff": ""
@@ -2842,7 +3674,12 @@
     "range": "0",
     "targetType": "Group v2",
     "spellType": "Beneficial",
-    "duration": "27 minutes",
+    "duration": {
+      "durationString": "27 minutes",
+      "minDuration": {
+        "duration": 1620
+      }
+    },
     "castOnYou": "A cool breeze slips through your mind.",
     "castOnOther": "Someone  looks tranquil.",
     "wearsOff": "The cool breeze fades."
@@ -2858,7 +3695,7 @@
     "range": "35 (AOE)",
     "targetType": "PB AE",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "Scintillating colors dazzle your brain.",
     "castOnOther": "Someone  is dazzled by scintillating colors.",
     "wearsOff": "The pretty colors fade."
@@ -2874,7 +3711,12 @@
     "range": "200 (AE Range: 35)",
     "targetType": "Targeted AE",
     "spellType": "Detrimental",
-    "duration": "6 ticks",
+    "duration": {
+      "durationString": "6 ticks",
+      "minDuration": {
+        "duration": 36
+      }
+    },
     "castOnYou": "You are fascinated by the pretty colors.",
     "castOnOther": "Someone  has been fascinated.",
     "wearsOff": "You are no longer fascinated."
@@ -2890,7 +3732,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "1 hour 50 minutes",
+    "duration": {
+      "durationString": "1 hour 50 minutes",
+      "minDuration": {
+        "duration": 6600
+      }
+    },
     "castOnYou": "A coat of shimmering runes surround you.",
     "castOnOther": "Someone  is surrounded by a shimmer of runes.",
     "wearsOff": "The shimmer of runes fade."
@@ -2906,7 +3753,12 @@
     "range": "125",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "24 minutes",
+    "duration": {
+      "durationString": "24 minutes",
+      "minDuration": {
+        "duration": 1440
+      }
+    },
     "castOnYou": "You experience a quickening.",
     "castOnOther": "Someone  experiences a quickening.",
     "wearsOff": "Your speed returns to normal."
@@ -2922,7 +3774,17 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "6.3 minutes @L53 to 7.0 minutes @L60",
+    "duration": {
+      "durationString": "6.3 minutes @L53 to 7.0 minutes @L60",
+      "minDuration": {
+        "duration": 378,
+        "level": "53"
+      },
+      "maxDuration": {
+        "duration": 798,
+        "level": "60"
+      }
+    },
     "castOnYou": "You have been charmed.",
     "castOnOther": "Someone  has been charmed.",
     "wearsOff": "You are no longer charmed."
@@ -2938,7 +3800,17 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "6.3 minutes @L53 to 7.0 minutes @L60",
+    "duration": {
+      "durationString": "6.3 minutes @L53 to 7.0 minutes @L60",
+      "minDuration": {
+        "duration": 378,
+        "level": "53"
+      },
+      "maxDuration": {
+        "duration": 798,
+        "level": "60"
+      }
+    },
     "castOnYou": "You have been crippled.",
     "castOnOther": "Someone  has been crippled.",
     "wearsOff": "You feel your strength return."
@@ -2954,7 +3826,7 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You feel your enchantments being stripped away.",
     "castOnOther": "Someone 's enchantments begin to fade.",
     "wearsOff": ""
@@ -2970,7 +3842,12 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "35 minutes",
+    "duration": {
+      "durationString": "35 minutes",
+      "minDuration": {
+        "duration": 2100
+      }
+    },
     "castOnYou": "A soft breeze slips through your mind.",
     "castOnOther": "Someone  looks very tranquil.",
     "wearsOff": "The soft breeze fades."
@@ -2986,7 +3863,7 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "Twisted logic warps your mind.",
     "castOnOther": "Someone 's mind warps.",
     "wearsOff": ""
@@ -3002,7 +3879,12 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "5 ticks",
+    "duration": {
+      "durationString": "5 ticks",
+      "minDuration": {
+        "duration": 30
+      }
+    },
     "castOnYou": "You are mesmerized by the Glamour of Kintaz.",
     "castOnOther": "Someone  has been mesmerized by the Glamour of Kintaz.",
     "wearsOff": "You are no longer mesmerized."
@@ -3018,7 +3900,12 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "1 hour 30 minutes",
+    "duration": {
+      "durationString": "1 hour 30 minutes",
+      "minDuration": {
+        "duration": 5400
+      }
+    },
     "castOnYou": "You feel armored.",
     "castOnOther": "",
     "wearsOff": "Your shielding fades."
@@ -3034,7 +3921,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "1 hour 15 minutes",
+    "duration": {
+      "durationString": "1 hour 15 minutes",
+      "minDuration": {
+        "duration": 4500
+      }
+    },
     "castOnYou": "Your thoughts begin to race and flow faster.",
     "castOnOther": "Someone  appears to be staring into nothingness.",
     "wearsOff": "Your gift of insight fades."
@@ -3050,7 +3942,7 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You are overcome by sadness.",
     "castOnOther": "Someone  begins to weep.",
     "wearsOff": "You are no longer sad."
@@ -3066,7 +3958,7 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "You feel your mind fog.",
     "castOnOther": "Someone  blinks a few times.",
     "wearsOff": ""
@@ -3082,7 +3974,17 @@
     "range": "200 (AE Range: 35)",
     "targetType": "Targeted AE",
     "spellType": "Detrimental",
-    "duration": "12 minutes @L55 to 13 minutes @L60",
+    "duration": {
+      "durationString": "12 minutes @L55 to 13 minutes @L60",
+      "minDuration": {
+        "duration": 720,
+        "level": "55"
+      },
+      "maxDuration": {
+        "duration": 1500,
+        "level": "60"
+      }
+    },
     "castOnYou": "You hear the barking of the Tashani.",
     "castOnOther": "Someone  glances nervously about.",
     "wearsOff": "The barking fades."
@@ -3098,7 +4000,7 @@
     "range": "",
     "targetType": "Self",
     "spellType": "Beneficial",
-    "duration": "Instant",
+    "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
     "wearsOff": ""
@@ -3114,7 +4016,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "36 minutes",
+    "duration": {
+      "durationString": "36 minutes",
+      "minDuration": {
+        "duration": 2160
+      }
+    },
     "castOnYou": "You feel your body pulse with energy.",
     "castOnOther": "Someone 's body pulses with energy.",
     "wearsOff": "The pulsing energy fades."
@@ -3130,7 +4037,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "1 hour 21 minutes",
+    "duration": {
+      "durationString": "1 hour 21 minutes",
+      "minDuration": {
+        "duration": 4860
+      }
+    },
     "castOnYou": "You are adorned in an aura of radiant grace.",
     "castOnOther": "Someone  is adorned by an aura of radiant grace.",
     "wearsOff": "Your grace fades."
@@ -3146,7 +4058,12 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "2 minutes",
+    "duration": {
+      "durationString": "2 minutes",
+      "minDuration": {
+        "duration": 120
+      }
+    },
     "castOnYou": "Your thoughts muddle from the Torment of Argli.",
     "castOnOther": "Someone  screams from the Torment of Argli.",
     "wearsOff": "Your torment has ended."
@@ -3162,7 +4079,12 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "6 ticks (36 seconds)",
+    "duration": {
+      "durationString": "6 ticks (36 seconds)",
+      "minDuration": {
+        "duration": 36
+      }
+    },
     "castOnYou": "Your mind fills with trepidation.",
     "castOnOther": "Someone  is filled with trepidation.",
     "wearsOff": "The trepidation fades."
@@ -3178,7 +4100,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "1 hour 0 minutes",
+    "duration": {
+      "durationString": "1 hour 0 minutes",
+      "minDuration": {
+        "duration": 3600
+      }
+    },
     "castOnYou": "You have been enlightened.",
     "castOnOther": "Someone  has been enlightened.",
     "wearsOff": "Your enlightenment fades."
@@ -3194,7 +4121,17 @@
     "range": "250",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "2.9 minutes @L57 to 3.0 minutes @L60",
+    "duration": {
+      "durationString": "2.9 minutes @L57 to 3.0 minutes @L60",
+      "minDuration": {
+        "duration": 174,
+        "level": "57"
+      },
+      "maxDuration": {
+        "duration": 354,
+        "level": "60"
+      }
+    },
     "castOnYou": "You slow down.",
     "castOnOther": "Someone  slows down.",
     "wearsOff": "Your speed returns."
@@ -3210,7 +4147,17 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "12.4 minutes @L57 to 13 minutes @L60",
+    "duration": {
+      "durationString": "12.4 minutes @L57 to 13 minutes @L60",
+      "minDuration": {
+        "duration": 744,
+        "level": "57"
+      },
+      "maxDuration": {
+        "duration": 1524,
+        "level": "60"
+      }
+    },
     "castOnYou": "You hear the barking of Tashania.",
     "castOnOther": "Someone  glances nervously about.",
     "wearsOff": "The barking fades."
@@ -3226,7 +4173,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "1 hour 39 minutes",
+    "duration": {
+      "durationString": "1 hour 39 minutes",
+      "minDuration": {
+        "duration": 5940
+      }
+    },
     "castOnYou": "Your image fades into the umbra.",
     "castOnOther": "Someone 's image fades into the umbra.",
     "wearsOff": "You come into focus."
@@ -3242,7 +4194,17 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "6.8 minutes @L58 to 7.0 minutes @L60",
+    "duration": {
+      "durationString": "6.8 minutes @L58 to 7.0 minutes @L60",
+      "minDuration": {
+        "duration": 408,
+        "level": "58"
+      },
+      "maxDuration": {
+        "duration": 828,
+        "level": "60"
+      }
+    },
     "castOnYou": "Your eyes gleam with bedlam.",
     "castOnOther": "Someone 's eyes gleam with bedlam.",
     "wearsOff": "Your bedlam fades."
@@ -3258,7 +4220,12 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "3 minutes",
+    "duration": {
+      "durationString": "3 minutes",
+      "minDuration": {
+        "duration": 180
+      }
+    },
     "castOnYou": "Your feet adhere to the ground.",
     "castOnOther": "Someone 's feet adhere to the ground.",
     "wearsOff": "Your feet come free."
@@ -3274,7 +4241,17 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "18.4 minutes @L58 to 20.5 minutes @L65",
+    "duration": {
+      "durationString": "18.4 minutes @L58 to 20.5 minutes @L65",
+      "minDuration": {
+        "duration": 1104,
+        "level": "58"
+      },
+      "maxDuration": {
+        "duration": 2334,
+        "level": "65"
+      }
+    },
     "castOnYou": "You begin to move with wonderous rapidity.",
     "castOnOther": "Someone  begins to move with wonderous rapidity.",
     "wearsOff": "Your speed returns to normal."
@@ -3290,7 +4267,12 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "2 minutes",
+    "duration": {
+      "durationString": "2 minutes",
+      "minDuration": {
+        "duration": 120
+      }
+    },
     "castOnYou": "You feel a shortness of breath.",
     "castOnOther": "Someone  begins to choke.",
     "wearsOff": "You can breathe again."
@@ -3306,7 +4288,12 @@
     "range": "0",
     "targetType": "Group v2",
     "spellType": "Beneficial",
-    "duration": "33 minutes",
+    "duration": {
+      "durationString": "33 minutes",
+      "minDuration": {
+        "duration": 1980
+      }
+    },
     "castOnYou": "A soft breeze slips through your mind.",
     "castOnOther": "Someone  looks very tranquil.",
     "wearsOff": "The soft breeze fades."
@@ -3322,7 +4309,12 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "4 ticks",
+    "duration": {
+      "durationString": "4 ticks",
+      "minDuration": {
+        "duration": 24
+      }
+    },
     "castOnYou": "You swoon, overcome by rapture.",
     "castOnOther": "Someone  swoons in raptured bliss.",
     "wearsOff": "The rapture fades."
@@ -3338,7 +4330,12 @@
     "range": "200",
     "targetType": "Single",
     "spellType": "Detrimental",
-    "duration": "8 ticks",
+    "duration": {
+      "durationString": "8 ticks",
+      "minDuration": {
+        "duration": 48
+      }
+    },
     "castOnYou": "You have been charmed.",
     "castOnOther": "Someone  has been charmed.",
     "wearsOff": "You are no longer charmed."
@@ -3354,7 +4351,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "1 hour 40 minutes",
+    "duration": {
+      "durationString": "1 hour 40 minutes",
+      "minDuration": {
+        "duration": 6000
+      }
+    },
     "castOnYou": "Your thoughts begin to race and flow faster.",
     "castOnOther": "Someone  appears to be staring into nothingness.",
     "wearsOff": "Your gift of brilliance fades."
@@ -3370,7 +4372,12 @@
     "range": "100",
     "targetType": "Single",
     "spellType": "Beneficial",
-    "duration": "42 minutes",
+    "duration": {
+      "durationString": "42 minutes",
+      "minDuration": {
+        "duration": 2520
+      }
+    },
     "castOnYou": "You experience visions of grandeur.",
     "castOnOther": "Someone  experiences visions of grandeur.",
     "wearsOff": "Your visions fade."
@@ -3386,7 +4393,13 @@
     "range": "200 (AE Range: 40)",
     "targetType": "Targeted AE",
     "spellType": "Detrimental",
-    "duration": "13 minutes @L60",
+    "duration": {
+      "durationString": "13 minutes @L60",
+      "minDuration": {
+        "duration": 780,
+        "level": "60"
+      }
+    },
     "castOnYou": "You hear the barking of Tashania.",
     "castOnOther": "Someone  glances nervously about.",
     "wearsOff": "The barking fades."
