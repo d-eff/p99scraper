@@ -12,7 +12,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You feel your skin singe as the Burst of Flame hits you.",
-    "castOnOther": "Someone  singes as the Burst of Flame hits them.",
+    "castOnOther": "singes as the Burst of Flame hits them.",
     "wearsOff": ""
   },
   "Flare": {
@@ -49,7 +49,7 @@
       }
     },
     "castOnYou": "You feel armored.",
-    "castOnOther": "Someone  is surrounded by a translucent shield.",
+    "castOnOther": "is surrounded by a translucent shield.",
     "wearsOff": "Your shielding fades away."
   },
   "Reclaim Energy": {
@@ -65,7 +65,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "",
-    "castOnOther": "Someone  disperses.",
+    "castOnOther": "disperses.",
     "wearsOff": ""
   },
   "Summon Dagger": {
@@ -145,7 +145,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You feel your skin blister and burn.",
-    "castOnOther": "Someone 's skin blisters and burns.",
+    "castOnOther": "'s skin blisters and burns.",
     "wearsOff": ""
   },
   "Elementalkin: Air": {
@@ -225,7 +225,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "Flames race across your body.",
-    "castOnOther": "Someone  is covered in flames.",
+    "castOnOther": "is covered in flames.",
     "wearsOff": ""
   },
   "Gate": {
@@ -241,7 +241,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "",
-    "castOnOther": "Someone  fades away.",
+    "castOnOther": "fades away.",
     "wearsOff": ""
   },
   "Sense Summoned": {
@@ -289,7 +289,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "A wisp settles into your hand.",
-    "castOnOther": "Someone 's hands pulse with soft light.",
+    "castOnOther": "'s hands pulse with soft light.",
     "wearsOff": ""
   },
   "Dimensional Pocket": {
@@ -406,7 +406,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "A stream of fire washes over you.",
-    "castOnOther": "Someone  is bathed in fire.",
+    "castOnOther": "is bathed in fire.",
     "wearsOff": ""
   },
   "Invisibility": {
@@ -432,7 +432,7 @@
       }
     },
     "castOnYou": "You vanish.",
-    "castOnOther": "Someone  fades away.",
+    "castOnOther": "fades away.",
     "wearsOff": "You appear."
   },
   "Lesser Shielding": {
@@ -474,7 +474,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "",
-    "castOnOther": "Someone 's form pulses red.",
+    "castOnOther": "'s form pulses red.",
     "wearsOff": ""
   },
   "Shield of Fire": {
@@ -500,7 +500,7 @@
       }
     },
     "castOnYou": "You are enveloped by flame.",
-    "castOnOther": "Someone  is enveloped by flame.",
+    "castOnOther": "is enveloped by flame.",
     "wearsOff": "The flames die down."
   },
   "Shock of Blades": {
@@ -516,7 +516,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You have been lacerated.",
-    "castOnOther": "Someone  is lacerated by steel.",
+    "castOnOther": "is lacerated by steel.",
     "wearsOff": ""
   },
   "Staff of Tracing": {
@@ -548,7 +548,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel yourself bind to the area.",
-    "castOnOther": "Someone  is bound to the area.",
+    "castOnOther": "is bound to the area.",
     "wearsOff": ""
   },
   "Burnout": {
@@ -569,7 +569,7 @@
       }
     },
     "castOnYou": "",
-    "castOnOther": "Someone  goes berserk.",
+    "castOnOther": "goes berserk.",
     "wearsOff": ""
   },
   "Cancel Magic": {
@@ -585,7 +585,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel a bit dispelled.",
-    "castOnOther": "Someone  feels a bit dispelled.",
+    "castOnOther": "feels a bit dispelled.",
     "wearsOff": ""
   },
   "Column of Fire": {
@@ -601,7 +601,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You are immolated by flame.",
-    "castOnOther": "Someone  is immolated by flame.",
+    "castOnOther": "is immolated by flame.",
     "wearsOff": ""
   },
   "Elemental: Air": {
@@ -681,7 +681,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "Your skin shreds as blades rain down from above.",
-    "castOnOther": "Someone 's skin shreds as blades rain down from above.",
+    "castOnOther": "'s skin shreds as blades rain down from above.",
     "wearsOff": ""
   },
   "Summon Fang": {
@@ -713,7 +713,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "",
-    "castOnOther": "Someone  staggers.",
+    "castOnOther": "staggers.",
     "wearsOff": ""
   },
   "Identify": {
@@ -814,7 +814,7 @@
       }
     },
     "castOnYou": "You are covered in illusionary leather armor.",
-    "castOnOther": "Someone  dons leather armor.",
+    "castOnOther": "dons leather armor.",
     "wearsOff": "Your illusionary armor fades."
   },
   "See Invisible": {
@@ -872,7 +872,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You feel your skin ignite.",
-    "castOnOther": "Someone 's skin ignites.",
+    "castOnOther": "'s skin ignites.",
     "wearsOff": ""
   },
   "Staff of Warding": {
@@ -936,7 +936,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "A stream of fire washes over you.",
-    "castOnOther": "Someone  is bathed in fire.",
+    "castOnOther": "is bathed in fire.",
     "wearsOff": ""
   },
   "Elemental Shield": {
@@ -957,7 +957,7 @@
       }
     },
     "castOnYou": "You feel protected from fire and ice.",
-    "castOnOther": "Someone  feels protected from fire and ice.",
+    "castOnOther": "feels protected from fire and ice.",
     "wearsOff": "Your elemental shield fades."
   },
   "Expulse Summoned": {
@@ -1053,7 +1053,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "Your skin blisters as fire rains down from above.",
-    "castOnOther": "Someone 's skin blisters as fire rains down from above.",
+    "castOnOther": "'s skin blisters as fire rains down from above.",
     "wearsOff": ""
   },
   "Renew Summoning": {
@@ -1069,7 +1069,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "",
-    "castOnOther": "Someone 's form shimmers red.",
+    "castOnOther": "'s form shimmers red.",
     "wearsOff": ""
   },
   "Shield of Flame": {
@@ -1095,7 +1095,7 @@
       }
     },
     "castOnYou": "You are enveloped in flame.",
-    "castOnOther": "Someone  is enveloped in flame.",
+    "castOnOther": "is enveloped in flame.",
     "wearsOff": "The flames die down."
   },
   "Spear of Warding": {
@@ -1191,7 +1191,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "Flames race across your body.",
-    "castOnOther": "Someone  is covered in flames.",
+    "castOnOther": "is covered in flames.",
     "wearsOff": ""
   },
   "Major Shielding": {
@@ -1238,7 +1238,7 @@
       }
     },
     "castOnYou": "You feel somewhat vulnerable.",
-    "castOnOther": "Someone  looks somewhat uncomfortable.",
+    "castOnOther": "looks somewhat uncomfortable.",
     "wearsOff": "Your vulnerability fades."
   },
   "Shock of Spikes": {
@@ -1254,7 +1254,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You have been lacerated.",
-    "castOnOther": "Someone  is lacerated by steel.",
+    "castOnOther": "is lacerated by steel.",
     "wearsOff": ""
   },
   "Staff of Runes": {
@@ -1360,7 +1360,7 @@
       }
     },
     "castOnYou": "",
-    "castOnOther": "Someone  goes berserk.",
+    "castOnOther": "goes berserk.",
     "wearsOff": ""
   },
   "Dismiss Summoned": {
@@ -1376,7 +1376,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "",
-    "castOnOther": "Someone  staggers.",
+    "castOnOther": "staggers.",
     "wearsOff": ""
   },
   "Expedience": {
@@ -1397,7 +1397,7 @@
       }
     },
     "castOnYou": "",
-    "castOnOther": "Someone  shimmers and blurs.",
+    "castOnOther": "shimmers and blurs.",
     "wearsOff": ""
   },
   "Greater Summoning: Air": {
@@ -1487,7 +1487,7 @@
       }
     },
     "castOnYou": "You are enveloped by flame.",
-    "castOnOther": "Someone is enveloped in flame.",
+    "castOnOther": "is enveloped in flame.",
     "wearsOff": "The flames die down."
   },
   "Phantom Chain": {
@@ -1508,7 +1508,7 @@
       }
     },
     "castOnYou": "You are covered in illusionary chainmail armor.",
-    "castOnOther": "Someone  dons chainmail armor.",
+    "castOnOther": "dons chainmail armor.",
     "wearsOff": "Your illusionary armor fades."
   },
   "Rain of Spikes": {
@@ -1524,7 +1524,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "Your skin shreds as spikes rain down from above.",
-    "castOnOther": "Someone 's skin shreds as spikes rain down from above.",
+    "castOnOther": "'s skin shreds as spikes rain down from above.",
     "wearsOff": ""
   },
   "Summon Coldstone": {
@@ -1572,7 +1572,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You feel your skin ignite.",
-    "castOnOther": "Someone 's skin ignites.",
+    "castOnOther": "'s skin ignites.",
     "wearsOff": ""
   },
   "Cinder Bolt": {
@@ -1588,7 +1588,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "A stream of fire washes over you.",
-    "castOnOther": "Someone  is bathed in fire.",
+    "castOnOther": "is bathed in fire.",
     "wearsOff": ""
   },
   "Dimensional Hole": {
@@ -1721,7 +1721,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel dispelled.",
-    "castOnOther": "Someone  feels dispelled.",
+    "castOnOther": "feels dispelled.",
     "wearsOff": ""
   },
   "Staff of Symbols": {
@@ -1779,7 +1779,7 @@
       }
     },
     "castOnYou": "You are enveloped by flame.",
-    "castOnOther": "Someone  is enveloped by flame.",
+    "castOnOther": "is enveloped by flame.",
     "wearsOff": "The flames die down."
   },
   "Dagger of Symbols": {
@@ -1827,7 +1827,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "Flames race across your body.",
-    "castOnOther": "Someone  is covered in flames.",
+    "castOnOther": "is covered in flames.",
     "wearsOff": ""
   },
   "Lesser Conjuration: Air": {
@@ -1907,7 +1907,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "Your skin blisters as lava rains down from above.",
-    "castOnOther": "Someone 's skin blisters as lava rains down from above.",
+    "castOnOther": "'s skin blisters as lava rains down from above.",
     "wearsOff": ""
   },
   "Summon Companion": {
@@ -1923,7 +1923,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You summon your companion to your side.",
-    "castOnOther": "Someone  summons a companion to their side.",
+    "castOnOther": "summons a companion to their side.",
     "wearsOff": ""
   },
   "Summon Ring of Flight": {
@@ -2045,7 +2045,7 @@
       }
     },
     "castOnYou": "You feel protected from fire and ice.",
-    "castOnOther": "Someone  feels protected from fire and ice.",
+    "castOnOther": "feels protected from fire and ice.",
     "wearsOff": "Your elemental armor fades."
   },
   "Elemental Maelstrom": {
@@ -2066,7 +2066,7 @@
       }
     },
     "castOnYou": "Your skin tears as bolts of elemental power strike you.",
-    "castOnOther": "Someone 's skin shreds and tears as bolts of elemental power strike.",
+    "castOnOther": "'s skin shreds and tears as bolts of elemental power strike.",
     "wearsOff": "The elemental storm departs."
   },
   "Malaisement": {
@@ -2092,7 +2092,7 @@
       }
     },
     "castOnYou": "You feel vulnerable.",
-    "castOnOther": "Someone  looks uncomfortable.",
+    "castOnOther": "looks uncomfortable.",
     "wearsOff": "Your vulnerability fades."
   },
   "Modulating Rod": {
@@ -2129,7 +2129,7 @@
       }
     },
     "castOnYou": "You are covered in illusionary platemail armor.",
-    "castOnOther": "Someone  dons platemail armor.",
+    "castOnOther": "dons platemail armor.",
     "wearsOff": "Your illusionary armor fades."
   },
   "Shock of Swords": {
@@ -2145,7 +2145,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You have been lacerated.",
-    "castOnOther": "Someone  is lacerated by steel.",
+    "castOnOther": "is lacerated by steel.",
     "wearsOff": ""
   },
   "Summon Orb": {
@@ -2161,7 +2161,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "A swirling orb of elements forms in your hand.",
-    "castOnOther": "Someone  summons a swirling orb of elements.",
+    "castOnOther": "summons a swirling orb of elements.",
     "wearsOff": ""
   },
   "Banish Summoned": {
@@ -2177,7 +2177,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "",
-    "castOnOther": "Someone  staggers.",
+    "castOnOther": "staggers.",
     "wearsOff": ""
   },
   "Burnout III": {
@@ -2198,7 +2198,7 @@
       }
     },
     "castOnYou": "",
-    "castOnOther": "Someone  goes berserk.",
+    "castOnOther": "goes berserk.",
     "wearsOff": ""
   },
   "Greater Conjuration: Air": {
@@ -2278,7 +2278,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "A stream of fire washes over you.",
-    "castOnOther": "Someone  is bathed in fire.",
+    "castOnOther": "is bathed in fire.",
     "wearsOff": ""
   },
   "Rain of Swords": {
@@ -2294,7 +2294,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "Your skin shreds as swords rain down from above.",
-    "castOnOther": "Someone 's skin shreds as swords rain down from above.",
+    "castOnOther": "'s skin shreds as swords rain down from above.",
     "wearsOff": ""
   },
   "Shield of Lava": {
@@ -2320,7 +2320,7 @@
       }
     },
     "castOnYou": "You are enveloped in lava.",
-    "castOnOther": "Someone  is enveloped in flame.",
+    "castOnOther": "is enveloped in flame.",
     "wearsOff": "The flames die down."
   },
   "Monster Summoning II": {
@@ -2378,7 +2378,7 @@
       }
     },
     "castOnYou": "You feel very vulnerable.",
-    "castOnOther": "Someone  looks very uncomfortable.",
+    "castOnOther": "looks very uncomfortable.",
     "wearsOff": "Your vulnerability fades."
   },
   "Scintillation": {
@@ -2394,7 +2394,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "Scintillating flames race across your body.",
-    "castOnOther": "Someone  is covered in scintillating flames.",
+    "castOnOther": "is covered in scintillating flames.",
     "wearsOff": ""
   },
   "Vocarate: Earth": {
@@ -2442,7 +2442,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You feel your skin ignite and char.",
-    "castOnOther": "Someone 's skin ignites and chars.",
+    "castOnOther": "'s skin ignites and chars.",
     "wearsOff": ""
   },
   "Phantom Armor": {
@@ -2463,7 +2463,7 @@
       }
     },
     "castOnYou": "You are covered in illusionary armor.",
-    "castOnOther": "Someone  dons gleaming armor.",
+    "castOnOther": "dons gleaming armor.",
     "wearsOff": "Your illusionary armor fades."
   },
   "Vocarate: Fire": {
@@ -2495,7 +2495,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel annulled.",
-    "castOnOther": "Someone  feels annulled.",
+    "castOnOther": "feels annulled.",
     "wearsOff": ""
   },
   "Boon of Immolation": {
@@ -2521,7 +2521,7 @@
       }
     },
     "castOnYou": "You are enveloped in lava.",
-    "castOnOther": "Someone  is enveloped by flame.",
+    "castOnOther": "is enveloped by flame.",
     "wearsOff": "The flames die down."
   },
   "Quiver of Marr": {
@@ -2585,7 +2585,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "The Scars of Sigil burn you.",
-    "castOnOther": "Someone  is burned by the Scars of Sigil.",
+    "castOnOther": "is burned by the Scars of Sigil.",
     "wearsOff": ""
   },
   "Shield of the Magi": {
@@ -2643,7 +2643,7 @@
       }
     },
     "castOnYou": "",
-    "castOnOther": "Someone  goes berserk.",
+    "castOnOther": "goes berserk.",
     "wearsOff": ""
   },
   "Call of the Hero": {
@@ -2659,7 +2659,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "",
-    "castOnOther": "Someone  steps into a mystic portal.",
+    "castOnOther": "steps into a mystic portal.",
     "wearsOff": ""
   },
   "Pouch of Quellious": {
@@ -2707,7 +2707,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "A blistering wind envelops your body.",
-    "castOnOther": "Someone 's skin blisters as sirocco envelops them.",
+    "castOnOther": "'s skin blisters as sirocco envelops them.",
     "wearsOff": ""
   },
   "Wrath of the Elements": {
@@ -2728,7 +2728,7 @@
       }
     },
     "castOnYou": "Your body is consumed by the wrath of the elements.",
-    "castOnOther": "Someone  is assaulted by the wrath of the elements.",
+    "castOnOther": "is assaulted by the wrath of the elements.",
     "wearsOff": "The elemental assault departs."
   },
   "Cadeau of Flame": {
@@ -2754,7 +2754,7 @@
       }
     },
     "castOnYou": "You are enveloped in a cadeau of flame.",
-    "castOnOther": "Someone  is enveloped in a cadeau of flame.",
+    "castOnOther": "is enveloped in a cadeau of flame.",
     "wearsOff": "The flames die down."
   },
   "Dyzil's Deafening Decoy": {
@@ -2786,7 +2786,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "",
-    "castOnOther": "Someone  staggers.",
+    "castOnOther": "staggers.",
     "wearsOff": ""
   },
   "Muzzle of Mardu": {
@@ -2855,7 +2855,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You have been lacerated by deadly steel.",
-    "castOnOther": "Someone  is lacerated by deadly steel.",
+    "castOnOther": "is lacerated by deadly steel.",
     "wearsOff": ""
   },
   "Greater Vocaration: Fire": {
@@ -2897,7 +2897,7 @@
       }
     },
     "castOnYou": "You feel very vulnerable.",
-    "castOnOther": "Someone  looks very uncomfortable.",
+    "castOnOther": "looks very uncomfortable.",
     "wearsOff": "Your vulnerability fades."
   },
   "Velocity": {
@@ -2918,7 +2918,7 @@
       }
     },
     "castOnYou": "",
-    "castOnOther": "Someone  shimmers and blurs.",
+    "castOnOther": "shimmers and blurs.",
     "wearsOff": ""
   },
   "Greater Vocaration: Air": {
@@ -2950,7 +2950,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "Your skin numbs as deadly mana rains down from above.",
-    "castOnOther": "Someone 's skin numbs as deadly mana rains down from above.",
+    "castOnOther": "'s skin numbs as deadly mana rains down from above.",
     "wearsOff": ""
   },
   "Seeking Flame of Seukor": {
@@ -2966,7 +2966,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You are seared by the Seeking Flame of Seukor.",
-    "castOnOther": "Someone  is burnt by the Seeking Flame of Seukor.",
+    "castOnOther": "is burnt by the Seeking Flame of Seukor.",
     "wearsOff": ""
   },
   "Valiant Companion": {
@@ -2987,7 +2987,7 @@
       }
     },
     "castOnYou": "",
-    "castOnOther": "Someone  has become fearless!",
+    "castOnOther": "has become fearless!",
     "wearsOff": ""
   },
   "Aegis of Ro": {
@@ -3009,7 +3009,7 @@
       }
     },
     "castOnYou": "You are enveloped by the Aegis of Ro.",
-    "castOnOther": "Someone  is enveloped by the Aegis of Ro.",
+    "castOnOther": "is enveloped by the Aegis of Ro.",
     "wearsOff": "The Aegis dies down."
   },
   "Banishment": {
@@ -3063,7 +3063,7 @@
       }
     },
     "castOnYou": "You feel very vulnerable.",
-    "castOnOther": "Someone  looks very uncomfortable.",
+    "castOnOther": "looks very uncomfortable.",
     "wearsOff": "Your vulnerability fades."
   },
   "Monster Summoning III": {

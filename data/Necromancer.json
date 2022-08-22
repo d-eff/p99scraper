@@ -12,7 +12,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "",
-    "castOnOther": "Someone  animates an undead servant.",
+    "castOnOther": "animates an undead servant.",
     "wearsOff": ""
   },
   "Coldlight": {
@@ -28,7 +28,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "A globe of cold light forms in your hand.",
-    "castOnOther": "Someone 's hands pulse blue.",
+    "castOnOther": "'s hands pulse blue.",
     "wearsOff": ""
   },
   "Disease Cloud": {
@@ -54,7 +54,7 @@
       }
     },
     "castOnYou": "Your stomach begins to cramp.",
-    "castOnOther": "Someone  doubles over in pain.",
+    "castOnOther": "doubles over in pain.",
     "wearsOff": "Your stomach feels better."
   },
   "Invisibility versus Undead": {
@@ -80,7 +80,7 @@
       }
     },
     "castOnYou": "You feel your skin tingle.",
-    "castOnOther": "Someone  fades a little.",
+    "castOnOther": "fades a little.",
     "wearsOff": "Your skin stops tingling."
   },
   "Lifetap": {
@@ -96,7 +96,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You feel your life force drain away.",
-    "castOnOther": "Someone  staggers.",
+    "castOnOther": "staggers.",
     "wearsOff": ""
   },
   "Locate Corpse": {
@@ -133,7 +133,7 @@
       }
     },
     "castOnYou": "You feel armored.",
-    "castOnOther": "Someone  is surrounded by a translucent shield.",
+    "castOnOther": "is surrounded by a translucent shield.",
     "wearsOff": "Your shielding fades away."
   },
   "Reclaim Energy": {
@@ -149,7 +149,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "",
-    "castOnOther": "Someone  disperses.",
+    "castOnOther": "disperses.",
     "wearsOff": ""
   },
   "Sense the Dead": {
@@ -191,7 +191,7 @@
       }
     },
     "castOnYou": "You feel your strength grow.",
-    "castOnOther": "Someone  weakens.",
+    "castOnOther": "weakens.",
     "wearsOff": "Your strength returns."
   },
   "Clinging Darkness": {
@@ -217,7 +217,7 @@
       }
     },
     "castOnYou": "You are in the grip of darkness.",
-    "castOnOther": "Someone  is surrounded by darkness.",
+    "castOnOther": "is surrounded by darkness.",
     "wearsOff": "The darkness fades."
   },
   "Endure Cold": {
@@ -243,7 +243,7 @@
       }
     },
     "castOnYou": "You feel protected from cold.",
-    "castOnOther": "Someone  is protected from cold.",
+    "castOnOther": "is protected from cold.",
     "wearsOff": "Your endurance to cold fades."
   },
   "Fear": {
@@ -264,7 +264,7 @@
       }
     },
     "castOnYou": "Your mind fills with fear.",
-    "castOnOther": "Someone  looks very afraid.",
+    "castOnOther": "looks very afraid.",
     "wearsOff": "You are no longer afraid."
   },
   "Gate": {
@@ -280,7 +280,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "",
-    "castOnOther": "Someone  fades away.",
+    "castOnOther": "fades away.",
     "wearsOff": ""
   },
   "Grim Aura": {
@@ -306,7 +306,7 @@
       }
     },
     "castOnYou": "A dull aura covers your hand.",
-    "castOnOther": "Someone 's hand is covered with a dull aura.",
+    "castOnOther": "'s hand is covered with a dull aura.",
     "wearsOff": "The grim aura fades."
   },
   "Leering Corpse": {
@@ -322,7 +322,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "",
-    "castOnOther": "Someone  animates an undead servant.",
+    "castOnOther": "animates an undead servant.",
     "wearsOff": ""
   },
   "Lifespike": {
@@ -338,7 +338,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You feel your life force drain away.",
-    "castOnOther": "Someone  staggers.",
+    "castOnOther": "staggers.",
     "wearsOff": ""
   },
   "Numb the Dead": {
@@ -364,7 +364,7 @@
       }
     },
     "castOnYou": "",
-    "castOnOther": "Someone  looks ambivalent.",
+    "castOnOther": "looks ambivalent.",
     "wearsOff": ""
   },
   "Poison Bolt": {
@@ -390,7 +390,7 @@
       }
     },
     "castOnYou": "You have been poisoned.",
-    "castOnOther": "Someone  has been poisoned.",
+    "castOnOther": "has been poisoned.",
     "wearsOff": "The poison has run its course."
   },
   "True North": {
@@ -422,7 +422,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "",
-    "castOnOther": "Someone  animates an undead servant.",
+    "castOnOther": "animates an undead servant.",
     "wearsOff": ""
   },
   "Dark Empathy": {
@@ -438,7 +438,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "Your wounds disappear.",
-    "castOnOther": "Someone 's wounds disappear.",
+    "castOnOther": "'s wounds disappear.",
     "wearsOff": ""
   },
   "Dark Pact": {
@@ -464,7 +464,7 @@
       }
     },
     "castOnYou": "You feel your health begin to drain.",
-    "castOnOther": "Someone  looks sick.",
+    "castOnOther": "looks sick.",
     "wearsOff": "You feel better."
   },
   "Deadeye": {
@@ -490,7 +490,7 @@
       }
     },
     "castOnYou": "Your vision shifts.",
-    "castOnOther": "Someone 's eyes glow red.",
+    "castOnOther": "'s eyes glow red.",
     "wearsOff": "Your vision returns to normal."
   },
   "Gather Shadows": {
@@ -511,7 +511,7 @@
       }
     },
     "castOnYou": "You gather shadows about you.",
-    "castOnOther": "Someone  steps into the shadows and disappears.",
+    "castOnOther": "steps into the shadows and disappears.",
     "wearsOff": "Your shadows fade."
   },
   "Impart Strength": {
@@ -532,7 +532,7 @@
       }
     },
     "castOnYou": "You feel stronger.",
-    "castOnOther": "Someone  looks stronger.",
+    "castOnOther": "looks stronger.",
     "wearsOff": "Your strength leaves you."
   },
   "Lesser Shielding": {
@@ -574,7 +574,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "",
-    "castOnOther": "Someone  begins to mend.",
+    "castOnOther": "begins to mend.",
     "wearsOff": ""
   },
   "Shadow Step": {
@@ -590,7 +590,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "",
-    "castOnOther": "Someone  fades away.",
+    "castOnOther": "fades away.",
     "wearsOff": ""
   },
   "Vampiric Embrace": {
@@ -616,7 +616,7 @@
       }
     },
     "castOnYou": "Your hand begins to glow.",
-    "castOnOther": "Someone 's hands begin to glow.",
+    "castOnOther": "'s hands begin to glow.",
     "wearsOff": ""
   },
   "Ward Undead": {
@@ -648,7 +648,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel yourself bind to the area.",
-    "castOnOther": "Someone  is bound to the area.",
+    "castOnOther": "is bound to the area.",
     "wearsOff": ""
   },
   "Convoke Shadow": {
@@ -664,7 +664,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "",
-    "castOnOther": "Someone  animates an undead servant.",
+    "castOnOther": "animates an undead servant.",
     "wearsOff": ""
   },
   "Endure Disease": {
@@ -685,7 +685,7 @@
       }
     },
     "castOnYou": "You feel protected from disease.",
-    "castOnOther": "Someone  is protected from disease.",
+    "castOnOther": "is protected from disease.",
     "wearsOff": "Your endurance to disease fades."
   },
   "Engulfing Darkness": {
@@ -707,7 +707,7 @@
       }
     },
     "castOnYou": "You are engulfed by darkness.",
-    "castOnOther": "Someone  is engulfed in darkness.",
+    "castOnOther": "is engulfed in darkness.",
     "wearsOff": "The darkness fades."
   },
   "Heat Blood": {
@@ -733,7 +733,7 @@
       }
     },
     "castOnYou": "Your blood simmers.",
-    "castOnOther": "Someone 's blood simmers.",
+    "castOnOther": "'s blood simmers.",
     "wearsOff": "Your blood cools."
   },
   "Leach": {
@@ -759,7 +759,7 @@
       }
     },
     "castOnYou": "You feel your blood begin to leech away.",
-    "castOnOther": "Someone  pales.",
+    "castOnOther": "pales.",
     "wearsOff": ""
   },
   "Lifedraw": {
@@ -775,7 +775,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You feel your lifeforce drain away.",
-    "castOnOther": "Someone  staggers.",
+    "castOnOther": "staggers.",
     "wearsOff": ""
   },
   "Scent of Dusk": {
@@ -801,7 +801,7 @@
       }
     },
     "castOnYou": "You smell the faint scent of dusk.",
-    "castOnOther": "Someone  is surrounded by a dull haze.",
+    "castOnOther": "is surrounded by a dull haze.",
     "wearsOff": "The scent of dusk fades."
   },
   "Sight Graft": {
@@ -822,7 +822,7 @@
       }
     },
     "castOnYou": "",
-    "castOnOther": "Someone 's eyes shimmer.",
+    "castOnOther": "'s eyes shimmer.",
     "wearsOff": ""
   },
   "Spook the Dead": {
@@ -848,7 +848,7 @@
       }
     },
     "castOnYou": "Your bones tingle.",
-    "castOnOther": "Someone  has the fear of life put in them.",
+    "castOnOther": "has the fear of life put in them.",
     "wearsOff": ""
   },
   "Wave of Enfeeblement": {
@@ -874,7 +874,7 @@
       }
     },
     "castOnYou": "You feel your strength dwindle.",
-    "castOnOther": "Someone  weakens.",
+    "castOnOther": "weakens.",
     "wearsOff": "You feel your strength return."
   },
   "Banshee Aura": {
@@ -900,7 +900,7 @@
       }
     },
     "castOnYou": "A shrieking aura surrounds you.",
-    "castOnOther": "Someone  is surrounded by a shrieking aura.",
+    "castOnOther": "is surrounded by a shrieking aura.",
     "wearsOff": "The shrieking aura fades."
   },
   "Cancel Magic": {
@@ -916,7 +916,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel a bit dispelled.",
-    "castOnOther": "Someone  feels a bit dispelled.",
+    "castOnOther": "feels a bit dispelled.",
     "wearsOff": ""
   },
   "Cure Disease": {
@@ -948,7 +948,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "",
-    "castOnOther": "Someone  dies.",
+    "castOnOther": "dies.",
     "wearsOff": "You no longer appear dead."
   },
   "Heart Flutter": {
@@ -974,7 +974,7 @@
       }
     },
     "castOnYou": "Your heartbeat becomes irregular.",
-    "castOnOther": "Someone  clutches their chest.",
+    "castOnOther": "clutches their chest.",
     "wearsOff": "Your heartbeat steadies."
   },
   "Hungry Earth": {
@@ -995,7 +995,7 @@
       }
     },
     "castOnYou": "",
-    "castOnOther": "Someone 's feet sink into the ground.",
+    "castOnOther": "'s feet sink into the ground.",
     "wearsOff": ""
   },
   "Infectious Cloud": {
@@ -1016,7 +1016,7 @@
       }
     },
     "castOnYou": "The bile wells up in your throat.",
-    "castOnOther": "Someone  starts to retch.",
+    "castOnOther": "starts to retch.",
     "wearsOff": "You feel better."
   },
   "Restless Bones": {
@@ -1032,7 +1032,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "",
-    "castOnOther": "Someone  animates an undead servant.",
+    "castOnOther": "animates an undead servant.",
     "wearsOff": ""
   },
   "Shielding": {
@@ -1074,7 +1074,7 @@
       }
     },
     "castOnYou": "A mystic force shields your skin.",
-    "castOnOther": "Someone 's skin is covered in a mystic glow.",
+    "castOnOther": "'s skin is covered in a mystic glow.",
     "wearsOff": "Your skin returns to normal."
   },
   "Spirit Armor": {
@@ -1095,7 +1095,7 @@
       }
     },
     "castOnYou": "Translucent armor gathers around you.",
-    "castOnOther": "Someone  is coated in translucent armor.",
+    "castOnOther": "is coated in translucent armor.",
     "wearsOff": "Your spiritual armor fades."
   },
   "Voice Graft": {
@@ -1114,7 +1114,7 @@
       "minDuration": {}
     },
     "castOnYou": "10",
-    "castOnOther": "Divination",
+    "castOnOther": "",
     "wearsOff": "6.00"
   },
   "Allure of Death": {
@@ -1140,7 +1140,7 @@
       }
     },
     "castOnYou": "You feel your health begin to drain away.",
-    "castOnOther": "Someone  looks sick.",
+    "castOnOther": "looks sick.",
     "wearsOff": "You feel better."
   },
   "Animate Dead": {
@@ -1156,7 +1156,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "",
-    "castOnOther": "Someone  animates an undead servant.",
+    "castOnOther": "animates an undead servant.",
     "wearsOff": ""
   },
   "Dominate Undead": {
@@ -1182,7 +1182,7 @@
       }
     },
     "castOnYou": "",
-    "castOnOther": "Someone  moans.",
+    "castOnOther": "moans.",
     "wearsOff": ""
   },
   "Expulse Undead": {
@@ -1256,7 +1256,7 @@
       }
     },
     "castOnYou": "Your wounds begin to heal.",
-    "castOnOther": "Someone  pulses with a blue-green aura.",
+    "castOnOther": "pulses with a blue-green aura.",
     "wearsOff": "Your pact has faded."
   },
   "Shadow Vortex": {
@@ -1282,7 +1282,7 @@
       }
     },
     "castOnYou": "You feel a shadow pass over you.",
-    "castOnOther": "Someone  is surrounded by a vortex of shadows.",
+    "castOnOther": "is surrounded by a vortex of shadows.",
     "wearsOff": "The vortex of shadows fades."
   },
   "Siphon Life": {
@@ -1298,7 +1298,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You feel your life force drain away.",
-    "castOnOther": "Someone  staggers.",
+    "castOnOther": "staggers.",
     "wearsOff": ""
   },
   "Track Corpse": {
@@ -1335,7 +1335,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You are wracked with pain.",
-    "castOnOther": "Someone  writhes in pain.",
+    "castOnOther": "writhes in pain.",
     "wearsOff": ""
   },
   "Breath of the Dead": {
@@ -1356,7 +1356,7 @@
       }
     },
     "castOnYou": "You feel your heart stop beating.",
-    "castOnOther": "Someone  stops breathing.",
+    "castOnOther": "stops breathing.",
     "wearsOff": "You resume breathing."
   },
   "Haunting Corpse": {
@@ -1372,7 +1372,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "",
-    "castOnOther": "Someone  animates an undead servant.",
+    "castOnOther": "animates an undead servant.",
     "wearsOff": ""
   },
   "Intensify Death": {
@@ -1398,7 +1398,7 @@
       }
     },
     "castOnYou": "",
-    "castOnOther": "Someone 's eyes gleam with madness.",
+    "castOnOther": "'s eyes gleam with madness.",
     "wearsOff": ""
   },
   "Leatherskin": {
@@ -1419,7 +1419,7 @@
       }
     },
     "castOnYou": "Your skin becomes leathery.",
-    "castOnOther": "Someone 's skin looks like leather.",
+    "castOnOther": "'s skin looks like leather.",
     "wearsOff": "Your skin returns to normal."
   },
   "Major Shielding": {
@@ -1456,7 +1456,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "A foreign surge of mana refreshes your mind.",
-    "castOnOther": "Someone  twitches.",
+    "castOnOther": "twitches.",
     "wearsOff": ""
   },
   "Resist Cold": {
@@ -1477,7 +1477,7 @@
       }
     },
     "castOnYou": "You feel resistant from cold.",
-    "castOnOther": "Someone  is resistant to cold.",
+    "castOnOther": "is resistant to cold.",
     "wearsOff": "Your cold resistance fades."
   },
   "Rest the Dead": {
@@ -1498,7 +1498,7 @@
       }
     },
     "castOnYou": "",
-    "castOnOther": "Someone  looks ambivalent.",
+    "castOnOther": "looks ambivalent.",
     "wearsOff": ""
   },
   "Scent of Shadow": {
@@ -1524,7 +1524,7 @@
       }
     },
     "castOnYou": "You smell the faint scent of shadow.",
-    "castOnOther": "Someone  is surrounded by a dim haze.",
+    "castOnOther": "is surrounded by a dim haze.",
     "wearsOff": "The scent of shadow fades."
   },
   "Screaming Terror": {
@@ -1545,7 +1545,7 @@
       }
     },
     "castOnYou": "You begin to scream.",
-    "castOnOther": "Someone  begins to scream.",
+    "castOnOther": "begins to scream.",
     "wearsOff": "You stop screaming."
   },
   "Shadow Sight": {
@@ -1566,7 +1566,7 @@
       }
     },
     "castOnYou": "The shadows fade.",
-    "castOnOther": "Someone 's eyes glow violet.",
+    "castOnOther": "'s eyes glow violet.",
     "wearsOff": "Your shadow sight fades."
   },
   "Shock of Poison": {
@@ -1582,7 +1582,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You feel your skin burn as poison seeps through your skin.",
-    "castOnOther": "Someone  screams in agony.",
+    "castOnOther": "screams in agony.",
     "wearsOff": ""
   },
   "Boil Blood": {
@@ -1608,7 +1608,7 @@
       }
     },
     "castOnYou": "Your blood boils.",
-    "castOnOther": "Someone 's blood boils.",
+    "castOnOther": "'s blood boils.",
     "wearsOff": "Your blood cools."
   },
   "Dismiss Undead": {
@@ -1624,7 +1624,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "",
-    "castOnOther": "Someone  staggers.",
+    "castOnOther": "staggers.",
     "wearsOff": ""
   },
   "Dooming Darkness": {
@@ -1650,7 +1650,7 @@
       }
     },
     "castOnYou": "You are engulfed in darkness.",
-    "castOnOther": "Someone  is engulfed in darkness.",
+    "castOnOther": "is engulfed in darkness.",
     "wearsOff": "The darkness fades."
   },
   "Panic the Dead": {
@@ -1671,7 +1671,7 @@
       }
     },
     "castOnYou": "Your bones tingle.",
-    "castOnOther": "Someone  has the fear of life put in them.",
+    "castOnOther": "has the fear of life put in them.",
     "wearsOff": ""
   },
   "Renew Bones": {
@@ -1687,7 +1687,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "",
-    "castOnOther": "Someone  begins to mend.",
+    "castOnOther": "begins to mend.",
     "wearsOff": ""
   },
   "Spirit Tap": {
@@ -1703,7 +1703,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You feel your life force drain away.",
-    "castOnOther": "Someone  staggers.",
+    "castOnOther": "staggers.",
     "wearsOff": ""
   },
   "Summon Dead": {
@@ -1719,7 +1719,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "",
-    "castOnOther": "Someone  animates an undead servant.",
+    "castOnOther": "animates an undead servant.",
     "wearsOff": ""
   },
   "Vampiric Curse": {
@@ -1740,7 +1740,7 @@
       }
     },
     "castOnYou": "You feel your blood being drained away.",
-    "castOnOther": "Someone  pales.",
+    "castOnOther": "pales.",
     "wearsOff": "The curse fades."
   },
   "Word of Spirit": {
@@ -1756,7 +1756,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You are wracked with pain.",
-    "castOnOther": "Someone  writhes in pain.",
+    "castOnOther": "writhes in pain.",
     "wearsOff": ""
   },
   "Beguile Undead": {
@@ -1782,7 +1782,7 @@
       }
     },
     "castOnYou": "",
-    "castOnOther": "Someone  moans.",
+    "castOnOther": "moans.",
     "wearsOff": ""
   },
   "Call of Bones": {
@@ -1801,7 +1801,7 @@
       "minDuration": {}
     },
     "castOnYou": "You feel the skin peel from your bones.",
-    "castOnOther": "Someone 's skin peels away.",
+    "castOnOther": "'s skin peels away.",
     "wearsOff": "Your flesh returns."
   },
   "Greater Shielding": {
@@ -1843,7 +1843,7 @@
       }
     },
     "castOnYou": "Your mind fills with fear.",
-    "castOnOther": "Someone  looks very afraid.",
+    "castOnOther": "looks very afraid.",
     "wearsOff": "You are no longer afraid."
   },
   "Invoke Shadow": {
@@ -1859,7 +1859,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "",
-    "castOnOther": "Someone  animates an undead servant.",
+    "castOnOther": "animates an undead servant.",
     "wearsOff": ""
   },
   "Resist Disease": {
@@ -1880,7 +1880,7 @@
       }
     },
     "castOnYou": "You feel resistant from disease.",
-    "castOnOther": "Someone  is resistant to disease.",
+    "castOnOther": "is resistant to disease.",
     "wearsOff": "Your disease resistance fades."
   },
   "Root": {
@@ -1906,7 +1906,7 @@
       }
     },
     "castOnYou": "Your feet adhere to the ground.",
-    "castOnOther": "Someone 's feet adhere to the ground.",
+    "castOnOther": "'s feet adhere to the ground.",
     "wearsOff": "Your feet come free."
   },
   "Steelskin": {
@@ -1927,7 +1927,7 @@
       }
     },
     "castOnYou": "Your skin becomes like steel.",
-    "castOnOther": "Someone's skin looks like steel.",
+    "castOnOther": "skin looks like steel.",
     "wearsOff": "Your skin returns to normal."
   },
   "Surge of Enfeeblement": {
@@ -1948,7 +1948,7 @@
       }
     },
     "castOnYou": "You feel your strength dwindle.",
-    "castOnOther": "Someone  weakens.",
+    "castOnOther": "weakens.",
     "wearsOff": "You feel your strength return."
   },
   "Torbas' Acid Blast": {
@@ -1964,7 +1964,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "A blast of acid eats at your skin.",
-    "castOnOther": "Someone  is blasted by a jet of acid.",
+    "castOnOther": "is blasted by a jet of acid.",
     "wearsOff": ""
   },
   "Venom of the Snake": {
@@ -1990,7 +1990,7 @@
       }
     },
     "castOnYou": "You have been poisoned.",
-    "castOnOther": "Someone  has been poisoned.",
+    "castOnOther": "has been poisoned.",
     "wearsOff": "The poison has run its course."
   },
   "Augment Death": {
@@ -2016,7 +2016,7 @@
       }
     },
     "castOnYou": "",
-    "castOnOther": "Someone 's eyes gleam with madness.",
+    "castOnOther": "'s eyes gleam with madness.",
     "wearsOff": ""
   },
   "Chilling Embrace": {
@@ -2037,7 +2037,7 @@
       }
     },
     "castOnYou": "You are wracked by chilling poison.",
-    "castOnOther": "Someone  is wracked by chilling poison.",
+    "castOnOther": "is wracked by chilling poison.",
     "wearsOff": "The poison leaves."
   },
   "Counteract Disease": {
@@ -2069,7 +2069,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You feel your life force drain away.",
-    "castOnOther": "Someone  staggers.",
+    "castOnOther": "staggers.",
     "wearsOff": ""
   },
   "Expel Undead": {
@@ -2085,7 +2085,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "",
-    "castOnOther": "Someone  staggers.",
+    "castOnOther": "staggers.",
     "wearsOff": ""
   },
   "Malignant Dead": {
@@ -2101,7 +2101,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "",
-    "castOnOther": "Someone  animates an undead servant.",
+    "castOnOther": "animates an undead servant.",
     "wearsOff": ""
   },
   "Nullify Magic": {
@@ -2117,7 +2117,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel dispelled.",
-    "castOnOther": "Someone  feels dispelled.",
+    "castOnOther": "feels dispelled.",
     "wearsOff": ""
   },
   "Scent of Darkness": {
@@ -2143,7 +2143,7 @@
       }
     },
     "castOnYou": "You smell the faint scent of darkness.",
-    "castOnOther": "Someone  is surrounded by a dark haze.",
+    "castOnOther": "is surrounded by a dark haze.",
     "wearsOff": "The scent of darkness fades."
   },
   "Scourge": {
@@ -2164,7 +2164,7 @@
       }
     },
     "castOnYou": "You feel feverish.",
-    "castOnOther": "Someone  sweats and shivers, looking feverish.",
+    "castOnOther": "sweats and shivers, looking feverish.",
     "wearsOff": "Your fever has broken."
   },
   "Summon Corpse": {
@@ -2196,7 +2196,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You are wracked with pain.",
-    "castOnOther": "Someone  writhes in pain.",
+    "castOnOther": "writhes in pain.",
     "wearsOff": ""
   },
   "Arch Shielding": {
@@ -2238,7 +2238,7 @@
       }
     },
     "castOnYou": "Your heart stops.",
-    "castOnOther": "Someone  clutches their chest.",
+    "castOnOther": "clutches their chest.",
     "wearsOff": "Your heartbeat resumes."
   },
   "Cackling Bones": {
@@ -2254,7 +2254,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "",
-    "castOnOther": "Someone  animates an undead servant.",
+    "castOnOther": "animates an undead servant.",
     "wearsOff": ""
   },
   "Corporeal Empathy": {
@@ -2270,7 +2270,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "Your wounds disappear.",
-    "castOnOther": "Someone 's wounds disappear.",
+    "castOnOther": "'s wounds disappear.",
     "wearsOff": ""
   },
   "Covetous Subversion": {
@@ -2286,7 +2286,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "A foreign surge of mana refreshes your mind.",
-    "castOnOther": "Someone  twitches.",
+    "castOnOther": "twitches.",
     "wearsOff": ""
   },
   "Dead Man Floating": {
@@ -2307,7 +2307,7 @@
       }
     },
     "castOnYou": "You become like the dead.",
-    "castOnOther": "Someone  looks dead.",
+    "castOnOther": "looks dead.",
     "wearsOff": "You return to life."
   },
   "Diamondskin": {
@@ -2328,7 +2328,7 @@
       }
     },
     "castOnYou": "Your skin becomes like diamond.",
-    "castOnOther": "Someone 's skin sparkles like a diamond.",
+    "castOnOther": "'s skin sparkles like a diamond.",
     "wearsOff": "Your skin returns to normal."
   },
   "Ignite Bones": {
@@ -2349,7 +2349,7 @@
       }
     },
     "castOnYou": "You feel your skin burn from your body.",
-    "castOnOther": "Someone 's skin burns away.",
+    "castOnOther": "'s skin burns away.",
     "wearsOff": ""
   },
   "Incinerate Bones": {
@@ -2365,7 +2365,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You shriek as your bones are ablaze.",
-    "castOnOther": "Someone  shrieks as their bones are set ablaze.",
+    "castOnOther": "shrieks as their bones are set ablaze.",
     "wearsOff": ""
   },
   "Pact of Shadow": {
@@ -2386,7 +2386,7 @@
       }
     },
     "castOnYou": "Your wounds begin to heal.",
-    "castOnOther": "Someone  pulses with a blue-green aura.",
+    "castOnOther": "pulses with a blue-green aura.",
     "wearsOff": "Your pact has faded."
   },
   "Summon Companion": {
@@ -2402,7 +2402,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You summon your companion to your side.",
-    "castOnOther": "Someone  summons a companion to their side.",
+    "castOnOther": "summons a companion to their side.",
     "wearsOff": ""
   },
   "Banish Undead": {
@@ -2418,7 +2418,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "",
-    "castOnOther": "Someone  staggers.",
+    "castOnOther": "staggers.",
     "wearsOff": ""
   },
   "Bond of Death": {
@@ -2439,7 +2439,7 @@
       }
     },
     "castOnYou": "You feel your life force drain away.",
-    "castOnOther": "Someone  staggers.",
+    "castOnOther": "staggers.",
     "wearsOff": "The bond fades."
   },
   "Cajole Undead": {
@@ -2465,7 +2465,7 @@
       }
     },
     "castOnYou": "",
-    "castOnOther": "Someone  moans.",
+    "castOnOther": "moans.",
     "wearsOff": ""
   },
   "Cascading Darkness": {
@@ -2486,7 +2486,7 @@
       }
     },
     "castOnYou": "You are engulfed in darkness.",
-    "castOnOther": "Someone  is engulfed in darkness.",
+    "castOnOther": "is engulfed in darkness.",
     "wearsOff": "The darkness fades."
   },
   "Dead Men Floating": {
@@ -2507,7 +2507,7 @@
       }
     },
     "castOnYou": "You become like the dead.",
-    "castOnOther": "Someone  looks dead.",
+    "castOnOther": "looks dead.",
     "wearsOff": "You return to life."
   },
   "Drain Soul": {
@@ -2523,7 +2523,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You feel your life force drain away.",
-    "castOnOther": "Someone  staggers.",
+    "castOnOther": "staggers.",
     "wearsOff": ""
   },
   "Ignite Blood": {
@@ -2544,7 +2544,7 @@
       }
     },
     "castOnYou": "Your blood ignites.",
-    "castOnOther": "Someone 's blood ignites.",
+    "castOnOther": "'s blood ignites.",
     "wearsOff": "Your blood cools."
   },
   "Invoke Death": {
@@ -2560,7 +2560,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "",
-    "castOnOther": "Someone  animates an undead servant.",
+    "castOnOther": "animates an undead servant.",
     "wearsOff": ""
   },
   "Lich": {
@@ -2586,7 +2586,7 @@
       }
     },
     "castOnYou": "You feel the skin peel from your bones.",
-    "castOnOther": "Someone 's skin peels away.",
+    "castOnOther": "'s skin peels away.",
     "wearsOff": "Your flesh returns."
   },
   "Paralyzing Earth": {
@@ -2607,7 +2607,7 @@
       }
     },
     "castOnYou": "Your feet adhere to the ground.",
-    "castOnOther": "Someone 's feet adhere to the ground.",
+    "castOnOther": "'s feet adhere to the ground.",
     "wearsOff": "Your feet come free."
   },
   "Improved Invis to Undead": {
@@ -2628,7 +2628,7 @@
       }
     },
     "castOnYou": "You feel your skin tingle.",
-    "castOnOther": "Someone  fades a little.",
+    "castOnOther": "fades a little.",
     "wearsOff": "Your skin stops tingling."
   },
   "Dread of Night": {
@@ -2649,7 +2649,7 @@
       }
     },
     "castOnYou": "Your bones tingle.",
-    "castOnOther": "Someone  has been instilled with the dread of night.",
+    "castOnOther": "has been instilled with the dread of night.",
     "wearsOff": ""
   },
   "Envenomed Bolt": {
@@ -2670,7 +2670,7 @@
       }
     },
     "castOnYou": "You have been poisoned.",
-    "castOnOther": "Someone  has been poisoned.",
+    "castOnOther": "has been poisoned.",
     "wearsOff": "The poison has run its course."
   },
   "Sacrifice": {
@@ -2710,7 +2710,7 @@
       }
     },
     "castOnYou": "Your body begins to splurt.",
-    "castOnOther": "Someone 's body begins to splurt.",
+    "castOnOther": "'s body begins to splurt.",
     "wearsOff": "Your body stops splurting."
   },
   "Defoliation": {
@@ -2726,7 +2726,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "",
-    "castOnOther": "Someone  wilts.",
+    "castOnOther": "wilts.",
     "wearsOff": ""
   },
   "Manaskin": {
@@ -2747,7 +2747,7 @@
       }
     },
     "castOnYou": "Your skin gleams with an incandescent glow.",
-    "castOnOther": "Someone 's skin gleams with an incandescent glow.",
+    "castOnOther": "'s skin gleams with an incandescent glow.",
     "wearsOff": "Your skin returns to normal."
   },
   "Plague": {
@@ -2768,7 +2768,7 @@
       }
     },
     "castOnYou": "You feel feverish.",
-    "castOnOther": "Someone  sweats and shivers, looking feverish.",
+    "castOnOther": "sweats and shivers, looking feverish.",
     "wearsOff": "Your fever has broken."
   },
   "Scent of Terris": {
@@ -2794,7 +2794,7 @@
       }
     },
     "castOnYou": "You smell the faint scent of Terris.",
-    "castOnOther": "Someone  is surrounded by a dark haze.",
+    "castOnOther": "is surrounded by a dark haze.",
     "wearsOff": "The scent of Terris fades."
   },
   "Annul Magic": {
@@ -2810,7 +2810,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel annulled.",
-    "castOnOther": "Someone  feels annulled.",
+    "castOnOther": "feels annulled.",
     "wearsOff": ""
   },
   "Convergence": {
@@ -2852,7 +2852,7 @@
       }
     },
     "castOnYou": "Your feet adhere to the ground.",
-    "castOnOther": "Someone 's feet adhere to the ground.",
+    "castOnOther": "'s feet adhere to the ground.",
     "wearsOff": "Your feet come free."
   },
   "Minion of Shadows": {
@@ -2868,7 +2868,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "",
-    "castOnOther": "Someone  animates an undead servant.",
+    "castOnOther": "animates an undead servant.",
     "wearsOff": ""
   },
   "Deflux": {
@@ -2884,7 +2884,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You feel your life force drain away.",
-    "castOnOther": "Someone  staggers.",
+    "castOnOther": "staggers.",
     "wearsOff": ""
   },
   "Shadowbond": {
@@ -2905,7 +2905,7 @@
       }
     },
     "castOnYou": "Your wounds begin to heal.",
-    "castOnOther": "Someone  pulses with a blue-green aura.",
+    "castOnOther": "pulses with a blue-green aura.",
     "wearsOff": "Your pact fades."
   },
   "Shield of the Magi": {
@@ -2952,7 +2952,7 @@
       }
     },
     "castOnYou": "",
-    "castOnOther": "Someone  moans.",
+    "castOnOther": "moans.",
     "wearsOff": ""
   },
   "Augmentation of Death": {
@@ -2973,7 +2973,7 @@
       }
     },
     "castOnYou": "",
-    "castOnOther": "Someone 's eyes gleam with madness.",
+    "castOnOther": "'s eyes gleam with madness.",
     "wearsOff": ""
   },
   "Chill Bones": {
@@ -2994,7 +2994,7 @@
       }
     },
     "castOnYou": "You feel your skin harden and crack from the frost.",
-    "castOnOther": "Someone 's skin freezes and cracks off.",
+    "castOnOther": "'s skin freezes and cracks off.",
     "wearsOff": ""
   },
   "Conglaciation of Bone": {
@@ -3013,7 +3013,7 @@
       "minDuration": {}
     },
     "castOnYou": "210",
-    "castOnOther": "Evocation",
+    "castOnOther": "",
     "wearsOff": "6.00"
   },
   "Infusion": {
@@ -3029,7 +3029,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "Your mind clears as a rush of essence fills you.",
-    "castOnOther": "Someone  radiates with essence.",
+    "castOnOther": "radiates with essence.",
     "wearsOff": ""
   },
   "Levant": {
@@ -3045,7 +3045,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "",
-    "castOnOther": "Someone  steps into the shadows.",
+    "castOnOther": "steps into the shadows.",
     "wearsOff": ""
   },
   "Skin of the Shadow": {
@@ -3071,7 +3071,7 @@
       }
     },
     "castOnYou": "Your skin becomes shadow.",
-    "castOnOther": "Someone 's skin turns to shadow.",
+    "castOnOther": "'s skin turns to shadow.",
     "wearsOff": "Your skin returns to normal."
   },
   "Cessation of Cor": {
@@ -3092,7 +3092,7 @@
       }
     },
     "castOnYou": "The blood stops flowing in your veins.",
-    "castOnOther": "Someone 's blood stills within their veins.",
+    "castOnOther": "'s blood stills within their veins.",
     "wearsOff": "Your blood resumes movement."
   },
   "Sedulous Subversion": {
@@ -3108,7 +3108,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "A foreign surge of mana refreshes your mind.",
-    "castOnOther": "Someone  twitches.",
+    "castOnOther": "twitches.",
     "wearsOff": ""
   },
   "Servant of Bones": {
@@ -3124,7 +3124,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "",
-    "castOnOther": "Someone  animates an undead servant.",
+    "castOnOther": "animates an undead servant.",
     "wearsOff": ""
   },
   "Trepidation": {
@@ -3145,7 +3145,7 @@
       }
     },
     "castOnYou": "Your mind fills with trepidation.",
-    "castOnOther": "Someone  is filled with trepidation.",
+    "castOnOther": "is filled with trepidation.",
     "wearsOff": "The trepidation fades."
   },
   "Conjure Corpse": {
@@ -3177,7 +3177,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "",
-    "castOnOther": "Someone  staggers.",
+    "castOnOther": "staggers.",
     "wearsOff": ""
   },
   "Vexing Mordinia": {
@@ -3198,7 +3198,7 @@
       }
     },
     "castOnYou": "Vexing Mordinia begins to drain your life away.",
-    "castOnOther": "Someone  staggers under the curse of Vexing Mordinia.",
+    "castOnOther": "staggers under the curse of Vexing Mordinia.",
     "wearsOff": "The Mordinia fades."
   },
   "Immobilize": {
@@ -3219,7 +3219,7 @@
       }
     },
     "castOnYou": "Your feet adhere to the ground.",
-    "castOnOther": "Someone's feet adhere to the ground.",
+    "castOnOther": "feet adhere to the ground.",
     "wearsOff": "Your feet come free."
   },
   "Pyrocruor": {
@@ -3240,7 +3240,7 @@
       }
     },
     "castOnYou": "Your blood ignites.",
-    "castOnOther": "Someone 's blood ignites.",
+    "castOnOther": "'s blood ignites.",
     "wearsOff": "Your blood cools."
   },
   "Quivering Veil of Xarn": {
@@ -3261,7 +3261,7 @@
       }
     },
     "castOnYou": "You are surrounded by the Quivering Veil of Xarn.",
-    "castOnOther": "Someone  has been surrounded by the Quivering Veil of Xarn.",
+    "castOnOther": "has been surrounded by the Quivering Veil of Xarn.",
     "wearsOff": "Your invulnerability fades."
   },
   "Devouring Darkness": {
@@ -3282,7 +3282,7 @@
       }
     },
     "castOnYou": "You are engulfed by devouring darkness.",
-    "castOnOther": "Someone  is engulfed in devouring darkness.",
+    "castOnOther": "is engulfed in devouring darkness.",
     "wearsOff": "The darkness fades."
   },
   "Emissary of Thule": {
@@ -3298,7 +3298,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "",
-    "castOnOther": "Someone  calls forth a servant of fear.",
+    "castOnOther": "calls forth a servant of fear.",
     "wearsOff": ""
   },
   "Touch of Night": {
@@ -3314,7 +3314,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "Your life force drains away at the Touch of Night.",
-    "castOnOther": "Someone  staggers.",
+    "castOnOther": "staggers.",
     "wearsOff": ""
   },
   "Arch Lich": {
@@ -3335,7 +3335,7 @@
       }
     },
     "castOnYou": "You feel the skin peel from your bones.",
-    "castOnOther": "Someone 's skin peels away.",
+    "castOnOther": "'s skin peels away.",
     "wearsOff": "Your flesh returns."
   },
   "Banishment of Shadows": {
@@ -3372,7 +3372,7 @@
       }
     },
     "castOnYou": "You feel the skin peel from your bones.",
-    "castOnOther": "Someone 's skin peels away.",
+    "castOnOther": "'s skin peels away.",
     "wearsOff": "Your flesh returns."
   },
   "Enslave Death": {
@@ -3393,7 +3393,7 @@
       }
     },
     "castOnYou": "",
-    "castOnOther": "Someone  moans.",
+    "castOnOther": "moans.",
     "wearsOff": ""
   },
   "Gangrenous Touch of Zum`uul": {
@@ -3409,7 +3409,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "Your life force drains away at the Gangrenous Touch of Zum`uul.",
-    "castOnOther": "Someone  staggers.",
+    "castOnOther": "staggers.",
     "wearsOff": ""
   },
   "Trucidation": {
@@ -3425,7 +3425,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "Your essence drains away.",
-    "castOnOther": "Someone  seems drained.",
+    "castOnOther": "seems drained.",
     "wearsOff": ""
   }
 }

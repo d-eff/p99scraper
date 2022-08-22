@@ -60,7 +60,7 @@ async function scrapeData(className) {
         spellType: spellPage(spellMeta[17]).text().trim(),
         duration: processDurationString(spellPage(spellMeta[19]).text().trim()),
         castOnYou: spellPage(spellEffects[1]).text().trim(),
-        castOnOther: spellPage(spellEffects[3]).text().trim(),
+        castOnOther: cleanTargetString(spellPage(spellEffects[3]).text().trim()),
         wearsOff: spellPage(spellEffects[5]).text().trim(),
       }
 
@@ -79,10 +79,12 @@ function fixDurations (className) {
     const fileData = fs.readFileSync(`data/${className}.json`, 'utf8');
     const spells = JSON.parse(fileData);
     for (spell in spells) {
-      const durationObj = processDurationString(spells[spell]['duration']);
-      spells[spell]['duration'] = durationObj;
+      //can be "someone" or "someone 's"
+      spells[spell].castOnOther = cleanTargetString(spells[spell].castOnOther);
+      // const durationObj = processDurationString(spells[spell]['duration']);
+      // spells[spell]['duration'] = durationObj;
     }
-    writeToFile(`${className}-fixed`, spells)
+    writeToFile(`${className}`, spells)
   } catch (err) {
     console.error(err);
   }
@@ -137,9 +139,15 @@ function processDurationString (durationString) {
   return durationObject;
 }
 
+function cleanTargetString (inString) {
+  return inString.split(' ').slice(1).join(' ').trim();
+}
 
 function main () {
-  // fixDurations("Magician");
+  const classes = ['Cleric', 'Druid', 'Enchanter', 'Magician', 'Necromancer', 'Paladin', 'Ranger', 'Shaman'];
+  for(const className of classes) {
+    fixDurations(className);
+  }
   // scrapeData("Druid");
 }
 main();

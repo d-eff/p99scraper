@@ -12,7 +12,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You feel your skin singe as the Burst of Flame hits you.",
-    "castOnOther": "Someone  singes as the Burst of Flame hits them.",
+    "castOnOther": "singes as the Burst of Flame hits them.",
     "wearsOff": ""
   },
   "Cure Disease": {
@@ -49,7 +49,7 @@
       }
     },
     "castOnYou": "You feel dexterous.",
-    "castOnOther": "Someone  looks more dexterous.",
+    "castOnOther": "looks more dexterous.",
     "wearsOff": "Your magical dexterity fades."
   },
   "Endure Cold": {
@@ -75,7 +75,7 @@
       }
     },
     "castOnYou": "You feel protected from cold.",
-    "castOnOther": "Someone  is protected from cold.",
+    "castOnOther": "is protected from cold.",
     "wearsOff": "Your endurance to cold fades."
   },
   "Flash of Light": {
@@ -96,7 +96,7 @@
       }
     },
     "castOnYou": "You are blinded by a flash of light.",
-    "castOnOther": "Someone  is blinded by a flash of light.",
+    "castOnOther": "is blinded by a flash of light.",
     "wearsOff": "Your sight returns."
   },
   "Inner Fire": {
@@ -117,7 +117,7 @@
       }
     },
     "castOnYou": "You feel your body pulse with energy.",
-    "castOnOther": "Someone 's body pulses with energy.",
+    "castOnOther": "'s body pulses with energy.",
     "wearsOff": "The inner fire fades."
   },
   "Minor Healing": {
@@ -133,7 +133,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel a little better.",
-    "castOnOther": "Someone  feels a little better.",
+    "castOnOther": "feels a little better.",
     "wearsOff": ""
   },
   "Strengthen": {
@@ -154,7 +154,7 @@
       }
     },
     "castOnYou": "You feel stronger.",
-    "castOnOther": "Someone  looks stronger.",
+    "castOnOther": "looks stronger.",
     "wearsOff": "Your strength fades."
   },
   "True North": {
@@ -212,7 +212,7 @@
       }
     },
     "castOnYou": "You feel drowsy.",
-    "castOnOther": "Someone  yawns.",
+    "castOnOther": "yawns.",
     "wearsOff": "You feel less drowsy."
   },
   "Endure Fire": {
@@ -238,7 +238,7 @@
       }
     },
     "castOnYou": "You feel protected from fire.",
-    "castOnOther": "Someone  is protected from fire.",
+    "castOnOther": "is protected from fire.",
     "wearsOff": "Your endurance to fire fades."
   },
   "Feet like Cat": {
@@ -259,7 +259,7 @@
       }
     },
     "castOnYou": "You feel more agile.",
-    "castOnOther": "Someone  looks more agile.",
+    "castOnOther": "looks more agile.",
     "wearsOff": "Your agility fades."
   },
   "Fleeting Fury": {
@@ -285,7 +285,7 @@
       }
     },
     "castOnYou": "You simmer with fury.",
-    "castOnOther": "Someone  simmers with fury.",
+    "castOnOther": "simmers with fury.",
     "wearsOff": "Your fury fades."
   },
   "Frost Rift": {
@@ -301,7 +301,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You feel your skin numb as the frost rift strikes you.",
-    "castOnOther": "Someone  is struck by the frost rift.",
+    "castOnOther": "is struck by the frost rift.",
     "wearsOff": ""
   },
   "Gate": {
@@ -317,7 +317,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "",
-    "castOnOther": "Someone  fades away.",
+    "castOnOther": "fades away.",
     "wearsOff": ""
   },
   "Scale Skin": {
@@ -343,7 +343,7 @@
       }
     },
     "castOnYou": "You grow scales.",
-    "castOnOther": "Someone  grows scales.",
+    "castOnOther": "grows scales.",
     "wearsOff": "You shed your scales."
   },
   "Sicken": {
@@ -369,7 +369,7 @@
       }
     },
     "castOnYou": "You feel feverish.",
-    "castOnOther": "Someone  sweats and shivers, looking feverish.",
+    "castOnOther": "sweats and shivers, looking feverish.",
     "wearsOff": "Your fever has broken."
   },
   "Spirit Pouch": {
@@ -417,7 +417,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "",
-    "castOnOther": "Someone 's eyes sparkle.",
+    "castOnOther": "'s eyes sparkle.",
     "wearsOff": ""
   },
   "Endure Disease": {
@@ -438,7 +438,7 @@
       }
     },
     "castOnYou": "You feel protected from disease.",
-    "castOnOther": "Someone  is protected from disease.",
+    "castOnOther": "is protected from disease.",
     "wearsOff": "Your endurance to disease fades."
   },
   "Light Healing": {
@@ -454,7 +454,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel better.",
-    "castOnOther": "Someone  feels better.",
+    "castOnOther": "feels better.",
     "wearsOff": ""
   },
   "Sense Animals": {
@@ -491,7 +491,7 @@
       }
     },
     "castOnYou": "Your eyes tingle.",
-    "castOnOther": "Someone 's eyes glow red.",
+    "castOnOther": "'s eyes glow red.",
     "wearsOff": "Your infravision fades."
   },
   "Spirit of Bear": {
@@ -517,7 +517,7 @@
       }
     },
     "castOnYou": "You feel the spirit of bear enter you.",
-    "castOnOther": "Someone  is surrounded by a brief ursine aura.",
+    "castOnOther": "is surrounded by a brief ursine aura.",
     "wearsOff": "The spirit of bear leaves you."
   },
   "Spirit of Wolf": {
@@ -543,7 +543,7 @@
       }
     },
     "castOnYou": "You feel the spirit of wolf enter you.",
-    "castOnOther": "Someone  is surrounded by a brief lupine aura.",
+    "castOnOther": "is surrounded by a brief lupine aura.",
     "wearsOff": "The spirit of wolf leaves you."
   },
   "Spirit Sight": {
@@ -564,7 +564,7 @@
       }
     },
     "castOnYou": "Your eyes tingle.",
-    "castOnOther": "Someone 's eyes tingle.",
+    "castOnOther": "'s eyes tingle.",
     "wearsOff": "Your eyes stop tingling."
   },
   "Summon Food": {
@@ -601,7 +601,7 @@
       }
     },
     "castOnYou": "You have been poisoned.",
-    "castOnOther": "Someone  has been poisoned.",
+    "castOnOther": "has been poisoned.",
     "wearsOff": "You are no longer poisoned."
   },
   "Bind Affinity": {
@@ -617,7 +617,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel yourself bind to the area.",
-    "castOnOther": "Someone  is bound to the area.",
+    "castOnOther": "is bound to the area.",
     "wearsOff": ""
   },
   "Burst of Strength": {
@@ -638,7 +638,7 @@
       }
     },
     "castOnYou": "Your muscles scream with strength.",
-    "castOnOther": "Someone  looks stronger.",
+    "castOnOther": "looks stronger.",
     "wearsOff": "Your strength fades."
   },
   "Disempower": {
@@ -664,7 +664,7 @@
       }
     },
     "castOnYou": "You feel frail.",
-    "castOnOther": "Someone  looks frail.",
+    "castOnOther": "looks frail.",
     "wearsOff": "You feel your strength return."
   },
   "Endure Poison": {
@@ -685,7 +685,7 @@
       }
     },
     "castOnYou": "You feel protected from poison.",
-    "castOnOther": "Someone  is protected from poison.",
+    "castOnOther": "is protected from poison.",
     "wearsOff": "Your endurance to poison fades."
   },
   "Enduring Breath": {
@@ -706,7 +706,7 @@
       }
     },
     "castOnYou": "You feel no need to breathe.",
-    "castOnOther": "Someone  doesn't seem to be breathing anymore.",
+    "castOnOther": "doesn't seem to be breathing anymore.",
     "wearsOff": "You resume breathing."
   },
   "Invisibility versus Animals": {
@@ -732,7 +732,7 @@
       }
     },
     "castOnYou": "Part of your image fades away.",
-    "castOnOther": "Someone  is surrounded by an aura which shimmers, and then fades away.",
+    "castOnOther": "is surrounded by an aura which shimmers, and then fades away.",
     "wearsOff": "Your image returns."
   },
   "Levitate": {
@@ -758,7 +758,7 @@
       }
     },
     "castOnYou": "Your feet leave the ground.",
-    "castOnOther": "Someone's feet leave the ground.",
+    "castOnOther": "feet leave the ground.",
     "wearsOff": "You can no longer levitate."
   },
   "Root": {
@@ -784,7 +784,7 @@
       }
     },
     "castOnYou": "Your feet adhere to the ground.",
-    "castOnOther": "Someone 's feet adhere to the ground.",
+    "castOnOther": "'s feet adhere to the ground.",
     "wearsOff": "Your feet come free."
   },
   "Spirit of Snake": {
@@ -805,7 +805,7 @@
       }
     },
     "castOnYou": "You feel the spirit of snake enter you.",
-    "castOnOther": "Someone  is surrounded by a brief serpentine aura.",
+    "castOnOther": "is surrounded by a brief serpentine aura.",
     "wearsOff": "The spirit of snake leaves you."
   },
   "Spirit Strike": {
@@ -821,7 +821,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You stagger as spirits of frost slam against you.",
-    "castOnOther": "Someone  staggers as spirits of frost slam against them.",
+    "castOnOther": "staggers as spirits of frost slam against them.",
     "wearsOff": ""
   },
   "Turtle Skin": {
@@ -842,7 +842,7 @@
       }
     },
     "castOnYou": "Your skin turns hard as turtle shell.",
-    "castOnOther": "Someone 's skin looks greener.",
+    "castOnOther": "'s skin looks greener.",
     "wearsOff": "Your skin returns to normal."
   },
   "Walking Sleep": {
@@ -868,7 +868,7 @@
       }
     },
     "castOnYou": "You feel drowsy.",
-    "castOnOther": "Someone  yawns.",
+    "castOnOther": "yawns.",
     "wearsOff": "You feel less drowsy."
   },
   "Affliction": {
@@ -889,7 +889,7 @@
       }
     },
     "castOnYou": "You feel feverish.",
-    "castOnOther": "Someone  sweats and shivers, looking feverish.",
+    "castOnOther": "sweats and shivers, looking feverish.",
     "wearsOff": "Your fever has broken."
   },
   "Cancel Magic": {
@@ -905,7 +905,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel a bit dispelled.",
-    "castOnOther": "Someone  feels a bit dispelled.",
+    "castOnOther": "feels a bit dispelled.",
     "wearsOff": ""
   },
   "Endure Magic": {
@@ -926,7 +926,7 @@
       }
     },
     "castOnYou": "You feel protected from magic.",
-    "castOnOther": "Someone  is protected from magic.",
+    "castOnOther": "is protected from magic.",
     "wearsOff": "Your endurance to magic fades."
   },
   "Frenzy": {
@@ -952,7 +952,7 @@
       }
     },
     "castOnYou": "You go berserk.",
-    "castOnOther": "Someone  goes berserk.",
+    "castOnOther": "goes berserk.",
     "wearsOff": "Your frenzy fades."
   },
   "Healing": {
@@ -968,7 +968,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel much better.",
-    "castOnOther": "Someone  feels much better.",
+    "castOnOther": "feels much better.",
     "wearsOff": ""
   },
   "Infectious Cloud": {
@@ -989,7 +989,7 @@
       }
     },
     "castOnYou": "The bile wells up in your throat.",
-    "castOnOther": "Someone  starts to retch.",
+    "castOnOther": "starts to retch.",
     "wearsOff": "You feel better."
   },
   "Insidious Fever": {
@@ -1015,7 +1015,7 @@
       }
     },
     "castOnYou": "You feel a fever settle upon you.",
-    "castOnOther": "Someone  sweats and shivers, looking feverish.",
+    "castOnOther": "sweats and shivers, looking feverish.",
     "wearsOff": "Your fever has broken."
   },
   "Malaise": {
@@ -1041,7 +1041,7 @@
       }
     },
     "castOnYou": "You feel somewhat vulnerable.",
-    "castOnOther": "Someone  looks somewhat uncomfortable.",
+    "castOnOther": "looks somewhat uncomfortable.",
     "wearsOff": "Your vulnerability fades."
   },
   "Shrink": {
@@ -1057,7 +1057,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel smaller.",
-    "castOnOther": "Someone  shrinks.",
+    "castOnOther": "shrinks.",
     "wearsOff": "You return to normal height."
   },
   "Spirit of Cat": {
@@ -1078,7 +1078,7 @@
       }
     },
     "castOnYou": "You feel the spirit of cat enter you.",
-    "castOnOther": "Someone  is surrounded by a brief feline aura.",
+    "castOnOther": "is surrounded by a brief feline aura.",
     "wearsOff": "The spirit of cat leaves you."
   },
   "Spirit Strength": {
@@ -1099,7 +1099,7 @@
       }
     },
     "castOnYou": "You feel stronger.",
-    "castOnOther": "Someone  looks stronger.",
+    "castOnOther": "looks stronger.",
     "wearsOff": "Your strength fades."
   },
   "Vision": {
@@ -1125,7 +1125,7 @@
       }
     },
     "castOnYou": "Your spirit drifts from your body.",
-    "castOnOther": "Someone 's eyes shimmer.",
+    "castOnOther": "'s eyes shimmer.",
     "wearsOff": "You return to your body."
   },
   "Cannibalize": {
@@ -1141,7 +1141,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "Your body aches as your mind clears.",
-    "castOnOther": "Someone  winces.",
+    "castOnOther": "winces.",
     "wearsOff": ""
   },
   "Counteract Disease": {
@@ -1178,7 +1178,7 @@
       }
     },
     "castOnYou": "Your eyes begin to focus.",
-    "castOnOther": "Someone 's eyes shimmer and gleam.",
+    "castOnOther": "'s eyes shimmer and gleam.",
     "wearsOff": "Your focus fades."
   },
   "Envenomed Breath": {
@@ -1199,7 +1199,7 @@
       }
     },
     "castOnYou": "You have been poisoned.",
-    "castOnOther": "Someone  has been poisoned.",
+    "castOnOther": "has been poisoned.",
     "wearsOff": "The poison has run its course."
   },
   "Frost Strike": {
@@ -1215,7 +1215,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You stagger as spirits of frost slam against you.",
-    "castOnOther": "Someone  staggers as spirits of frost slam against them.",
+    "castOnOther": "staggers as spirits of frost slam against them.",
     "wearsOff": ""
   },
   "Invigor": {
@@ -1236,7 +1236,7 @@
       }
     },
     "castOnYou": "Your body zings with energy.",
-    "castOnOther": "Someone  looks energized.",
+    "castOnOther": "looks energized.",
     "wearsOff": ""
   },
   "Poison Storm": {
@@ -1252,7 +1252,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "Your skin blisters as poison rains down on you.",
-    "castOnOther": "Someone 's skin blisters.",
+    "castOnOther": "'s skin blisters.",
     "wearsOff": ""
   },
   "Protect": {
@@ -1273,7 +1273,7 @@
       }
     },
     "castOnYou": "A protective aura settles over you.",
-    "castOnOther": "Someone  is covered in a protective aura.",
+    "castOnOther": "is covered in a protective aura.",
     "wearsOff": "Your protection fades."
   },
   "Regeneration": {
@@ -1299,7 +1299,7 @@
       }
     },
     "castOnYou": "You begin to regenerate.",
-    "castOnOther": "Someone  begins to regenerate.",
+    "castOnOther": "begins to regenerate.",
     "wearsOff": "You have stopped regenerating."
   },
   "Resist Cold": {
@@ -1320,7 +1320,7 @@
       }
     },
     "castOnYou": "You feel resistant from cold.",
-    "castOnOther": "Someone  is resistant to cold.",
+    "castOnOther": "is resistant to cold.",
     "wearsOff": "Your cold resistance fades."
   },
   "Spirit of Cheetah": {
@@ -1341,7 +1341,7 @@
       }
     },
     "castOnYou": "You feel the spirit of cheetah enter you.",
-    "castOnOther": "Someone  is surrounded by a brief feline aura.",
+    "castOnOther": "is surrounded by a brief feline aura.",
     "wearsOff": "The spirit of cheetah fades."
   },
   "Spirit of Monkey": {
@@ -1362,7 +1362,7 @@
       }
     },
     "castOnYou": "You feel the spirit of monkey enter you.",
-    "castOnOther": "Someone  is surrounded by a brief simian aura.",
+    "castOnOther": "is surrounded by a brief simian aura.",
     "wearsOff": "The spirit of monkey leaves."
   },
   "Spirit of Ox": {
@@ -1383,7 +1383,7 @@
       }
     },
     "castOnYou": "You feel the spirit of ox enter you.",
-    "castOnOther": "Someone  is surrounded by a brief bovine aura.",
+    "castOnOther": "is surrounded by a brief bovine aura.",
     "wearsOff": "The spirit of ox leaves you."
   },
   "Scale of Wolf": {
@@ -1404,7 +1404,7 @@
       }
     },
     "castOnYou": "You feel the spirit-scale of wolf enter you.",
-    "castOnOther": "Someone  is surrounded by a dark lupine aura.",
+    "castOnOther": "is surrounded by a dark lupine aura.",
     "wearsOff": "The scale of wolf leaves you."
   },
   "Alluring Aura": {
@@ -1425,7 +1425,7 @@
       }
     },
     "castOnYou": "You feel alluring.",
-    "castOnOther": "Someone  is surrounded by an alluring aura.",
+    "castOnOther": "is surrounded by an alluring aura.",
     "wearsOff": "Your aura fades."
   },
   "Befriend Animal": {
@@ -1449,7 +1449,7 @@
       }
     },
     "castOnYou": "",
-    "castOnOther": "Someone  blinks.",
+    "castOnOther": "blinks.",
     "wearsOff": ""
   },
   "Counteract Poison": {
@@ -1481,7 +1481,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel much better.",
-    "castOnOther": "Someone  feels much better.",
+    "castOnOther": "feels much better.",
     "wearsOff": ""
   },
   "Imbue Amber": {
@@ -1571,7 +1571,7 @@
       }
     },
     "castOnYou": "You vanish.",
-    "castOnOther": "Someone  fades away.",
+    "castOnOther": "fades away.",
     "wearsOff": "You appear."
   },
   "Listless Power": {
@@ -1597,7 +1597,7 @@
       }
     },
     "castOnYou": "You feel frail.",
-    "castOnOther": "Someone  looks frail.",
+    "castOnOther": "looks frail.",
     "wearsOff": "You feel your strength return."
   },
   "Quickness": {
@@ -1623,7 +1623,7 @@
       }
     },
     "castOnYou": "You feel much faster.",
-    "castOnOther": "Someone  feels much faster.",
+    "castOnOther": "feels much faster.",
     "wearsOff": "Your speed returns to normal."
   },
   "Raging Strength": {
@@ -1644,7 +1644,7 @@
       }
     },
     "castOnYou": "You feel stronger.",
-    "castOnOther": "Someone  looks stronger.",
+    "castOnOther": "looks stronger.",
     "wearsOff": "Your strength fades."
   },
   "Resist Fire": {
@@ -1665,7 +1665,7 @@
       }
     },
     "castOnYou": "You feel resistant from fire.",
-    "castOnOther": "Someone is resistant to fire.",
+    "castOnOther": "is resistant to fire.",
     "wearsOff": "Your resist fire fades."
   },
   "Rising Dexterity": {
@@ -1686,7 +1686,7 @@
       }
     },
     "castOnYou": "You feel dexterous.",
-    "castOnOther": "Someone  looks dexterous.",
+    "castOnOther": "looks dexterous.",
     "wearsOff": "Your dexterity fades."
   },
   "Tagar's Insects": {
@@ -1712,7 +1712,7 @@
       }
     },
     "castOnYou": "You feel drowsy.",
-    "castOnOther": "Someone  yawns.",
+    "castOnOther": "yawns.",
     "wearsOff": "You feel less drowsy."
   },
   "Ultravision": {
@@ -1733,7 +1733,7 @@
       }
     },
     "castOnYou": "Your eyes tingle.",
-    "castOnOther": "Someone 's eyes glow violet.",
+    "castOnOther": "'s eyes glow violet.",
     "wearsOff": "Your ultravision fades."
   },
   "Charm Animals": {
@@ -1759,7 +1759,7 @@
       }
     },
     "castOnYou": "",
-    "castOnOther": "Someone  blinks.",
+    "castOnOther": "blinks.",
     "wearsOff": ""
   },
   "Companion Spirit": {
@@ -1775,7 +1775,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You summon a companion spirit.",
-    "castOnOther": "Someone  summons a companion spirit.",
+    "castOnOther": "summons a companion spirit.",
     "wearsOff": ""
   },
   "Enstill": {
@@ -1801,7 +1801,7 @@
       }
     },
     "castOnYou": "Your feet adhere to the ground.",
-    "castOnOther": "Someone 's feet adhere to the ground.",
+    "castOnOther": "'s feet adhere to the ground.",
     "wearsOff": "Your feet come free."
   },
   "Fury": {
@@ -1827,7 +1827,7 @@
       }
     },
     "castOnYou": "You go berserk.",
-    "castOnOther": "Someone  goes berserk.",
+    "castOnOther": "goes berserk.",
     "wearsOff": "Your frenzy fades."
   },
   "Health": {
@@ -1848,7 +1848,7 @@
       }
     },
     "castOnYou": "You feel healthy.",
-    "castOnOther": "Someone  looks healthy.",
+    "castOnOther": "looks healthy.",
     "wearsOff": "Your health fades."
   },
   "Malaisement": {
@@ -1874,7 +1874,7 @@
       }
     },
     "castOnYou": "You feel vulnerable.",
-    "castOnOther": "Someone  looks uncomfortable.",
+    "castOnOther": "looks uncomfortable.",
     "wearsOff": "Your vulnerability fades."
   },
   "Nimble": {
@@ -1895,7 +1895,7 @@
       }
     },
     "castOnYou": "You feel nimble.",
-    "castOnOther": "Someone  looks nimble.",
+    "castOnOther": "looks nimble.",
     "wearsOff": "Your agility fades."
   },
   "Resist Disease": {
@@ -1916,7 +1916,7 @@
       }
     },
     "castOnYou": "You feel resistant from disease.",
-    "castOnOther": "Someone  is resistant to disease.",
+    "castOnOther": "is resistant to disease.",
     "wearsOff": "Your disease resistance fades."
   },
   "Scourge": {
@@ -1937,7 +1937,7 @@
       }
     },
     "castOnYou": "You feel feverish.",
-    "castOnOther": "Someone  sweats and shivers, looking feverish.",
+    "castOnOther": "sweats and shivers, looking feverish.",
     "wearsOff": "Your fever has broken."
   },
   "Shifting Shield": {
@@ -1958,7 +1958,7 @@
       }
     },
     "castOnYou": "A shifting spirit shield surrounds you.",
-    "castOnOther": "Someone  is surrounded by a shifting spirit shield.",
+    "castOnOther": "is surrounded by a shifting spirit shield.",
     "wearsOff": "You are no longer shielded."
   },
   "Shock of the Tainted": {
@@ -1974,7 +1974,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "Your body is wracked by shocks of poison.",
-    "castOnOther": "Someone  screams in pain.",
+    "castOnOther": "screams in pain.",
     "wearsOff": ""
   },
   "Talisman of Tnarg": {
@@ -1995,7 +1995,7 @@
       }
     },
     "castOnYou": "You feel tough.",
-    "castOnOther": "Someone  looks tougher.",
+    "castOnOther": "looks tougher.",
     "wearsOff": "Your hit points fade."
   },
   "Winter's Roar": {
@@ -2011,7 +2011,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You stagger as spirits of frost slam against you.",
-    "castOnOther": "Someone  staggers as spirits of frost slam against them.",
+    "castOnOther": "staggers as spirits of frost slam against them.",
     "wearsOff": ""
   },
   "Assiduous Vision": {
@@ -2037,7 +2037,7 @@
       }
     },
     "castOnYou": "Your spirit drifts from your body.",
-    "castOnOther": "Someone 's eyes shimmer.",
+    "castOnOther": "'s eyes shimmer.",
     "wearsOff": "You return to your body."
   },
   "Blinding Luminance": {
@@ -2058,7 +2058,7 @@
       }
     },
     "castOnYou": "You are blinded by a flash of light.",
-    "castOnOther": "Someone  is blinded by a flash of light.",
+    "castOnOther": "is blinded by a flash of light.",
     "wearsOff": "Your sight returns."
   },
   "Cannibalize II": {
@@ -2074,7 +2074,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "Your body aches as your mind clears.",
-    "castOnOther": "Someone  winces.",
+    "castOnOther": "winces.",
     "wearsOff": ""
   },
   "Chloroplast": {
@@ -2100,7 +2100,7 @@
       }
     },
     "castOnYou": "You begin to regenerate.",
-    "castOnOther": "Someone  begins to regenerate.",
+    "castOnOther": "begins to regenerate.",
     "wearsOff": "You have stopped regenerating."
   },
   "Deftness": {
@@ -2121,7 +2121,7 @@
       }
     },
     "castOnYou": "You feel dexterous.",
-    "castOnOther": "Someone  looks dexterous.",
+    "castOnOther": "looks dexterous.",
     "wearsOff": "Your dexterity fades."
   },
   "Extinguish Fatigue": {
@@ -2137,7 +2137,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "Your body zings with energy.",
-    "castOnOther": "Someone  looks energized.",
+    "castOnOther": "looks energized.",
     "wearsOff": ""
   },
   "Furious Strength": {
@@ -2158,7 +2158,7 @@
       }
     },
     "castOnYou": "You feel stronger.",
-    "castOnOther": "Someone  looks stronger.",
+    "castOnOther": "looks stronger.",
     "wearsOff": "Your strength fades."
   },
   "Gale of Poison": {
@@ -2174,7 +2174,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "Your skin blisters as poison rains down on you.",
-    "castOnOther": "Someone 's skin blisters.",
+    "castOnOther": "'s skin blisters.",
     "wearsOff": ""
   },
   "Glamour": {
@@ -2195,7 +2195,7 @@
       }
     },
     "castOnYou": "You feel charismatic.",
-    "castOnOther": "Someone looks charismatic.",
+    "castOnOther": "looks charismatic.",
     "wearsOff": "Your charisma fades."
   },
   "Insidious Malady": {
@@ -2221,7 +2221,7 @@
       }
     },
     "castOnYou": "You feel a fever settle upon you.",
-    "castOnOther": "Someone  sweats and shivers, looking feverish.",
+    "castOnOther": "sweats and shivers, looking feverish.",
     "wearsOff": "Your fever has broken."
   },
   "Resist Poison": {
@@ -2242,7 +2242,7 @@
       }
     },
     "castOnYou": "You feel resistant from poison.",
-    "castOnOther": "Someone  is resistant to poison.",
+    "castOnOther": "is resistant to poison.",
     "wearsOff": "Your poison resistance fades."
   },
   "Togor's Insects": {
@@ -2268,7 +2268,7 @@
       }
     },
     "castOnYou": "You feel drowsy.",
-    "castOnOther": "Someone  yawns.",
+    "castOnOther": "yawns.",
     "wearsOff": "You feel less drowsy."
   },
   "Tumultuous Strength": {
@@ -2289,7 +2289,7 @@
       }
     },
     "castOnYou": "You feel stronger.",
-    "castOnOther": "Someone  looks stronger.",
+    "castOnOther": "looks stronger.",
     "wearsOff": "Your strength fades."
   },
   "Venom of the Snake": {
@@ -2315,7 +2315,7 @@
       }
     },
     "castOnYou": "You have been poisoned.",
-    "castOnOther": "Someone  has been poisoned.",
+    "castOnOther": "has been poisoned.",
     "wearsOff": "The poison has run its course."
   },
   "Vigilant Spirit": {
@@ -2331,7 +2331,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You summon a vigilant spirit.",
-    "castOnOther": "Someone  summons a companion spirit.",
+    "castOnOther": "summons a companion spirit.",
     "wearsOff": ""
   },
   "Agility": {
@@ -2352,7 +2352,7 @@
       }
     },
     "castOnYou": "You feel agile.",
-    "castOnOther": "Someone  looks agile.",
+    "castOnOther": "looks agile.",
     "wearsOff": "Your agility fades."
   },
   "Alacrity": {
@@ -2378,7 +2378,7 @@
       }
     },
     "castOnYou": "You feel much faster.",
-    "castOnOther": "Someone  feels much faster.",
+    "castOnOther": "feels much faster.",
     "wearsOff": "Your speed returns to normal."
   },
   "Blast of Poison": {
@@ -2394,7 +2394,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "Your body is wracked by shocks of poison.",
-    "castOnOther": "Someone  screams in pain.",
+    "castOnOther": "screams in pain.",
     "wearsOff": ""
   },
   "Blizzard Blast": {
@@ -2410,7 +2410,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You stagger as spirits of frost slam against you.",
-    "castOnOther": "Someone  staggers as spirits of frost slam against them.",
+    "castOnOther": "staggers as spirits of frost slam against them.",
     "wearsOff": ""
   },
   "Guardian": {
@@ -2431,7 +2431,7 @@
       }
     },
     "castOnYou": "The protective presence of a guardian spirit surrounds you.",
-    "castOnOther": "Someone  is surrounded by a spirit aura.",
+    "castOnOther": "is surrounded by a spirit aura.",
     "wearsOff": "You are no longer guarded."
   },
   "Guardian Spirit": {
@@ -2447,7 +2447,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You summon a guardian spirit.",
-    "castOnOther": "Someone  summons a guardian spirit.",
+    "castOnOther": "summons a guardian spirit.",
     "wearsOff": ""
   },
   "Incapacitate": {
@@ -2473,7 +2473,7 @@
       }
     },
     "castOnYou": "You feel frail.",
-    "castOnOther": "Someone  looks frail.",
+    "castOnOther": "looks frail.",
     "wearsOff": "You feel your strength return."
   },
   "Nullify Magic": {
@@ -2489,7 +2489,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel dispelled.",
-    "castOnOther": "Someone  feels dispelled.",
+    "castOnOther": "feels dispelled.",
     "wearsOff": ""
   },
   "Resist Magic": {
@@ -2510,7 +2510,7 @@
       }
     },
     "castOnYou": "You feel resistant from magic.",
-    "castOnOther": "Someone  is resistant to magic.",
+    "castOnOther": "is resistant to magic.",
     "wearsOff": "Your resist magic fades."
   },
   "Stamina": {
@@ -2531,7 +2531,7 @@
       }
     },
     "castOnYou": "You feel robust.",
-    "castOnOther": "Someone  looks robust.",
+    "castOnOther": "looks robust.",
     "wearsOff": "Your stamina fades."
   },
   "Summon Companion": {
@@ -2547,7 +2547,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You summon your companion to your side.",
-    "castOnOther": "Someone  summons a companion to their side.",
+    "castOnOther": "summons a companion to their side.",
     "wearsOff": ""
   },
   "Talisman of Altuna": {
@@ -2568,7 +2568,7 @@
       }
     },
     "castOnYou": "You feel tough.",
-    "castOnOther": "Someone  looks tougher.",
+    "castOnOther": "looks tougher.",
     "wearsOff": "Your hit points fade."
   },
   "Abolish Disease": {
@@ -2605,7 +2605,7 @@
       }
     },
     "castOnYou": "You feel charismatic.",
-    "castOnOther": "Someone  looks charismatic.",
+    "castOnOther": "looks charismatic.",
     "wearsOff": "Your charisma fades."
   },
   "Dexterity": {
@@ -2626,7 +2626,7 @@
       }
     },
     "castOnYou": "You feel dexterous.",
-    "castOnOther": "Someone  looks dexterous.",
+    "castOnOther": "looks dexterous.",
     "wearsOff": "Your dexterity fades."
   },
   "Envenomed Bolt": {
@@ -2647,7 +2647,7 @@
       }
     },
     "castOnYou": "You have been poisoned.",
-    "castOnOther": "Someone  has been poisoned.",
+    "castOnOther": "has been poisoned.",
     "wearsOff": "The poison has run its course."
   },
   "Frenzied Spirit": {
@@ -2663,7 +2663,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You summon a frenzied spirit.",
-    "castOnOther": "Someone  summons a frenzied spirit.",
+    "castOnOther": "summons a frenzied spirit.",
     "wearsOff": ""
   },
   "Malosi": {
@@ -2689,7 +2689,7 @@
       }
     },
     "castOnYou": "You feel very vulnerable.",
-    "castOnOther": "Someone  looks very uncomfortable.",
+    "castOnOther": "looks very uncomfortable.",
     "wearsOff": "Your vulnerability fades."
   },
   "Plague": {
@@ -2710,7 +2710,7 @@
       }
     },
     "castOnYou": "You feel feverish.",
-    "castOnOther": "Someone  sweats and shivers, looking feverish.",
+    "castOnOther": "sweats and shivers, looking feverish.",
     "wearsOff": "Your fever has broken."
   },
   "Rage": {
@@ -2736,7 +2736,7 @@
       }
     },
     "castOnYou": "You lose yourself in your rage and go berserk.",
-    "castOnOther": "Someone  goes berserk.",
+    "castOnOther": "goes berserk.",
     "wearsOff": "Your frenzy fades."
   },
   "Strength": {
@@ -2757,7 +2757,7 @@
       }
     },
     "castOnYou": "You feel strong.",
-    "castOnOther": "Someone  looks strong.",
+    "castOnOther": "looks strong.",
     "wearsOff": "Your strength fades."
   },
   "Spirit Quickening": {
@@ -2783,7 +2783,7 @@
       }
     },
     "castOnYou": "",
-    "castOnOther": "Someone  foams at the mouth.",
+    "castOnOther": "foams at the mouth.",
     "wearsOff": ""
   },
   "Superior Healing": {
@@ -2799,7 +2799,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel much better.",
-    "castOnOther": "Someone  feels much better.",
+    "castOnOther": "feels much better.",
     "wearsOff": ""
   },
   "Immobilize": {
@@ -2820,7 +2820,7 @@
       }
     },
     "castOnYou": "Your feet adhere to the ground.",
-    "castOnOther": "Someone's feet adhere to the ground.",
+    "castOnOther": "feet adhere to the ground.",
     "wearsOff": "Your feet come free."
   },
   "Talisman of Jasinth": {
@@ -2841,7 +2841,7 @@
       }
     },
     "castOnYou": "You have been protected by the Talisman of Jasinth.",
-    "castOnOther": "Someone  has been protected by the Talisman of Jasinth.",
+    "castOnOther": "has been protected by the Talisman of Jasinth.",
     "wearsOff": "The Talisman fades."
   },
   "Turgur's Insects": {
@@ -2867,7 +2867,7 @@
       }
     },
     "castOnYou": "You feel drowsy.",
-    "castOnOther": "Someone  yawns.",
+    "castOnOther": "yawns.",
     "wearsOff": "You feel less drowsy."
   },
   "Insidious Decay": {
@@ -2893,7 +2893,7 @@
       }
     },
     "castOnYou": "You feel a fever settle upon you.",
-    "castOnOther": "Someone  sweats and shivers, looking feverish.",
+    "castOnOther": "sweats and shivers, looking feverish.",
     "wearsOff": "Your fever has broken."
   },
   "Regrowth": {
@@ -2919,7 +2919,7 @@
       }
     },
     "castOnYou": "You begin to regenerate.",
-    "castOnOther": "Someone  begins to regenerate.",
+    "castOnOther": "begins to regenerate.",
     "wearsOff": "You have stopped regenerating."
   },
   "Spirit of Scale": {
@@ -2940,7 +2940,7 @@
       }
     },
     "castOnYou": "You feel the spirit of the scaled wolf enter you.",
-    "castOnOther": "Someone  is surrounded by a brief lupine aura.",
+    "castOnOther": "is surrounded by a brief lupine aura.",
     "wearsOff": "The spirit of scale leaves you."
   },
   "Cripple": {
@@ -2966,7 +2966,7 @@
       }
     },
     "castOnYou": "You have been crippled.",
-    "castOnOther": "Someone  has been crippled.",
+    "castOnOther": "has been crippled.",
     "wearsOff": "You feel your strength return."
   },
   "Deliriously Nimble": {
@@ -2987,7 +2987,7 @@
       }
     },
     "castOnYou": "You feel deliriously nimble.",
-    "castOnOther": "Someone  twitches, deliriously nimble.",
+    "castOnOther": "twitches, deliriously nimble.",
     "wearsOff": "Your agility fades."
   },
   "Talisman of Shadoo": {
@@ -3008,7 +3008,7 @@
       }
     },
     "castOnYou": "You have been protected by the Talisman of Shadoo.",
-    "castOnOther": "Someone  has been protected by the Talisman of Shadoo.",
+    "castOnOther": "has been protected by the Talisman of Shadoo.",
     "wearsOff": "The Talisman fades."
   },
   "Cannibalize III": {
@@ -3024,7 +3024,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "Your body aches as your mind clears.",
-    "castOnOther": "Someone  winces.",
+    "castOnOther": "winces.",
     "wearsOff": ""
   },
   "Ice Strike": {
@@ -3040,7 +3040,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You stagger as spirits of ice slam against you.",
-    "castOnOther": "Someone  staggers as ice shards slam against them.",
+    "castOnOther": "staggers as ice shards slam against them.",
     "wearsOff": ""
   },
   "Riotous Health": {
@@ -3061,7 +3061,7 @@
       }
     },
     "castOnYou": "Your body shines with riotous health.",
-    "castOnOther": "Someone 's body shines with riotous health.",
+    "castOnOther": "'s body shines with riotous health.",
     "wearsOff": "Your health fades."
   },
   "Shroud of the Spirits": {
@@ -3082,7 +3082,7 @@
       }
     },
     "castOnYou": "A protective spirit shroud cloaks you.",
-    "castOnOther": "Someone  is surrounded by a spirit shroud.",
+    "castOnOther": "is surrounded by a spirit shroud.",
     "wearsOff": "You are no longer shrouded."
   },
   "Annul Magic": {
@@ -3098,7 +3098,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel annulled.",
-    "castOnOther": "Someone  feels annulled.",
+    "castOnOther": "feels annulled.",
     "wearsOff": ""
   },
   "Chloroblast": {
@@ -3114,7 +3114,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You are blasted with chlorophyll.",
-    "castOnOther": "Someone  is blasted with chlorophyll.",
+    "castOnOther": "is blasted with chlorophyll.",
     "wearsOff": ""
   },
   "Form of the Great Bear": {
@@ -3135,7 +3135,7 @@
       }
     },
     "castOnYou": "The spirit of the great bear blesses you.",
-    "castOnOther": "Someone  turns into a bear.",
+    "castOnOther": "turns into a bear.",
     "wearsOff": "You are no longer a bear."
   },
   "Spirit of the Howler": {
@@ -3151,7 +3151,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You summon a howling spirit.",
-    "castOnOther": "Someone  summons a howling spirit.",
+    "castOnOther": "summons a howling spirit.",
     "wearsOff": ""
   },
   "Talisman of Kragg": {
@@ -3172,7 +3172,7 @@
       }
     },
     "castOnYou": "You feel tough.",
-    "castOnOther": "Someone  looks tougher.",
+    "castOnOther": "looks tougher.",
     "wearsOff": "Your hit points fade."
   },
   "Torrent of Poison": {
@@ -3188,7 +3188,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "Your skin steams and melts as poison rains down on you.",
-    "castOnOther": "Someone 's skin steams and melts.",
+    "castOnOther": "'s skin steams and melts.",
     "wearsOff": ""
   },
   "Acumen": {
@@ -3209,7 +3209,7 @@
       }
     },
     "castOnYou": "Your eyes tingle.",
-    "castOnOther": "Someone 's eyes tingle.",
+    "castOnOther": "'s eyes tingle.",
     "wearsOff": "Your eyes stop tingling."
   },
   "Bane of Nife": {
@@ -3230,7 +3230,7 @@
       }
     },
     "castOnYou": "Your veins fill with deadly poison.",
-    "castOnOther": "Someone 's veins have been filled with deadly poison.",
+    "castOnOther": "'s veins have been filled with deadly poison.",
     "wearsOff": "The poison has run its course."
   },
   "Celerity": {
@@ -3256,7 +3256,7 @@
       }
     },
     "castOnYou": "You feel much faster.",
-    "castOnOther": "Someone  feels much faster.",
+    "castOnOther": "feels much faster.",
     "wearsOff": "Your speed returns to normal."
   },
   "Paralyzing Earth": {
@@ -3277,7 +3277,7 @@
       }
     },
     "castOnYou": "Your feet adhere to the ground.",
-    "castOnOther": "Someone 's feet adhere to the ground.",
+    "castOnOther": "'s feet adhere to the ground.",
     "wearsOff": "Your feet come free."
   },
   "Malosini": {
@@ -3303,7 +3303,7 @@
       }
     },
     "castOnYou": "You feel very vulnerable.",
-    "castOnOther": "Someone  looks very uncomfortable.",
+    "castOnOther": "looks very uncomfortable.",
     "wearsOff": "Your vulnerability fades."
   },
   "Maniacal Strength": {
@@ -3325,7 +3325,7 @@
       }
     },
     "castOnYou": "You are filled with maniacal strength.",
-    "castOnOther": "Someone 's muscles fill with maniacal strength.",
+    "castOnOther": "'s muscles fill with maniacal strength.",
     "wearsOff": "Your strength fades."
   },
   "Talisman of the Brute": {
@@ -3346,7 +3346,7 @@
       }
     },
     "castOnYou": "You feel the spirit of the brute channel through you.",
-    "castOnOther": "Someone  looks robust.",
+    "castOnOther": "looks robust.",
     "wearsOff": "Your brute spirit fades."
   },
   "Talisman of the Cat": {
@@ -3367,7 +3367,7 @@
       }
     },
     "castOnYou": "You feel the spirit of the cat channel through you.",
-    "castOnOther": "Someone  looks agile.",
+    "castOnOther": "looks agile.",
     "wearsOff": "Your feline spirit fades."
   },
   "Cannibalize IV": {
@@ -3383,7 +3383,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "Your body aches as your mind clears.",
-    "castOnOther": "Someone  winces.",
+    "castOnOther": "winces.",
     "wearsOff": ""
   },
   "Mortal Deftness": {
@@ -3404,7 +3404,7 @@
       }
     },
     "castOnYou": "Your muscles move with mortal deftness.",
-    "castOnOther": "Someone  begins to move with mortal deftness.",
+    "castOnOther": "begins to move with mortal deftness.",
     "wearsOff": "Your deftness fades."
   },
   "Talisman of the Rhino": {
@@ -3425,7 +3425,7 @@
       }
     },
     "castOnYou": "You feel the spirit of the rhino channel through you.",
-    "castOnOther": "Someone  looks strong.",
+    "castOnOther": "looks strong.",
     "wearsOff": "Your rhino spirit fades."
   },
   "Talisman of the Serpent": {
@@ -3446,7 +3446,7 @@
       }
     },
     "castOnYou": "You feel the spirit of the serpent channel through you.",
-    "castOnOther": "Someone  look charismatic.",
+    "castOnOther": "look charismatic.",
     "wearsOff": "Your serpent spirit fades."
   },
   "Tigir's Insects": {
@@ -3472,7 +3472,7 @@
       }
     },
     "castOnYou": "You feel drowsy.",
-    "castOnOther": "Someone  yawns.",
+    "castOnOther": "yawns.",
     "wearsOff": "You feel less drowsy."
   },
   "Pox of Bertoxxulous": {
@@ -3493,7 +3493,7 @@
       }
     },
     "castOnYou": "Your skin erupts in purulent pustules.",
-    "castOnOther": "Someone 's skin erupts in purulent pock marks.",
+    "castOnOther": "'s skin erupts in purulent pock marks.",
     "wearsOff": "The pox has run its course."
   },
   "Talisman of the Raptor": {
@@ -3514,7 +3514,7 @@
       }
     },
     "castOnYou": "You feel the spirit of the raptor channel through you.",
-    "castOnOther": "Someone  looks dexterous.",
+    "castOnOther": "looks dexterous.",
     "wearsOff": "Your raptor spirit fades."
   },
   "Unfailing Reverence": {
@@ -3535,7 +3535,7 @@
       }
     },
     "castOnYou": "People look at you with unfailing reverence.",
-    "castOnOther": "Someone  exudes an aura of massive charisma.",
+    "castOnOther": "exudes an aura of massive charisma.",
     "wearsOff": "Your charisma fades."
   },
   "Voice of the Berserker": {
@@ -3561,7 +3561,7 @@
       }
     },
     "castOnYou": "You lose yourself in your rage and go berserk.",
-    "castOnOther": "Someone  goes berserk.",
+    "castOnOther": "goes berserk.",
     "wearsOff": "Your frenzy fades."
   },
   "Avatar": {
@@ -3582,7 +3582,7 @@
       }
     },
     "castOnYou": "Your body screams with the power of an Avatar.",
-    "castOnOther": "Someone  has been infused with the power of an Avatar.",
+    "castOnOther": "has been infused with the power of an Avatar.",
     "wearsOff": "The Avatar departs."
   },
   "Focus of Spirit": {
@@ -3603,7 +3603,7 @@
       }
     },
     "castOnYou": "You feel focused.",
-    "castOnOther": "Someone  looks focused.",
+    "castOnOther": "looks focused.",
     "wearsOff": "Your focus fades."
   },
   "Malo": {
@@ -3625,7 +3625,7 @@
       }
     },
     "castOnYou": "You feel very vulnerable.",
-    "castOnOther": "Someone  looks very uncomfortable.",
+    "castOnOther": "looks very uncomfortable.",
     "wearsOff": "Your vulnerability fades."
   },
   "Primal Avatar": {
@@ -3647,7 +3647,7 @@
       }
     },
     "castOnYou": "Your body screams with the power of an Avatar.",
-    "castOnOther": "Someone  has been infused with the power of an Avatar.",
+    "castOnOther": "has been infused with the power of an Avatar.",
     "wearsOff": "The Avatar departs."
   },
   "Torpor": {
@@ -3668,7 +3668,7 @@
       }
     },
     "castOnYou": "You fall into a state of torpor.",
-    "castOnOther": "Someone  falls into a state of torpor.",
+    "castOnOther": "falls into a state of torpor.",
     "wearsOff": "Your state of torpor ends."
   }
 }

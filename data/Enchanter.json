@@ -22,7 +22,7 @@
       }
     },
     "castOnYou": "You feel less aggressive.",
-    "castOnOther": "Someone  looks less aggressive.",
+    "castOnOther": "less aggressive.",
     "wearsOff": ""
   },
   "Minor Illusion": {
@@ -43,7 +43,7 @@
       }
     },
     "castOnYou": "You feel different.",
-    "castOnOther": "Someone 's image shimmers.",
+    "castOnOther": "image shimmers.",
     "wearsOff": "Your illusion fades."
   },
   "Minor Shielding": {
@@ -64,7 +64,7 @@
       }
     },
     "castOnYou": "You feel armored.",
-    "castOnOther": "Someone  is surrounded by a translucent shield.",
+    "castOnOther": "surrounded by a translucent shield.",
     "wearsOff": "Your shielding fades away."
   },
   "Pendril's Animation": {
@@ -96,7 +96,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "",
-    "castOnOther": "Someone  disperses.",
+    "castOnOther": "",
     "wearsOff": ""
   },
   "Shallow Breath": {
@@ -117,7 +117,7 @@
       }
     },
     "castOnYou": "You feel a shortness of breath.",
-    "castOnOther": "Someone  begins to choke.",
+    "castOnOther": "to choke.",
     "wearsOff": "You can breathe again."
   },
   "Strengthen": {
@@ -138,7 +138,7 @@
       }
     },
     "castOnYou": "You feel stronger.",
-    "castOnOther": "Someone  looks stronger.",
+    "castOnOther": "stronger.",
     "wearsOff": "Your strength fades."
   },
   "Taper Enchantment": {
@@ -154,7 +154,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "The air crackles around you.",
-    "castOnOther": "Someone  is surrounded by a crackling static energy.",
+    "castOnOther": "surrounded by a crackling static energy.",
     "wearsOff": ""
   },
   "True North": {
@@ -196,7 +196,7 @@
       }
     },
     "castOnYou": "You feel weaker.",
-    "castOnOther": "Someone  weakens.",
+    "castOnOther": "",
     "wearsOff": ""
   },
   "Color Flux": {
@@ -212,7 +212,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "Scintillating colors pound through your brain.",
-    "castOnOther": "Someone  is stunned by scintillating colors.",
+    "castOnOther": "stunned by scintillating colors.",
     "wearsOff": "The pretty colors fade."
   },
   "Enfeeblement": {
@@ -238,7 +238,7 @@
       }
     },
     "castOnYou": "You feel enfeebled.",
-    "castOnOther": "Someone  is enfeebled.",
+    "castOnOther": "enfeebled.",
     "wearsOff": "Your strength returns."
   },
   "Fear": {
@@ -259,7 +259,7 @@
       }
     },
     "castOnYou": "Your mind fills with fear.",
-    "castOnOther": "Someone  looks very afraid.",
+    "castOnOther": "very afraid.",
     "wearsOff": "You are no longer afraid."
   },
   "Gate": {
@@ -275,7 +275,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "",
-    "castOnOther": "Someone  fades away.",
+    "castOnOther": "away.",
     "wearsOff": ""
   },
   "Haze": {
@@ -301,7 +301,7 @@
       }
     },
     "castOnYou": "Your image blurs.",
-    "castOnOther": "Someone 's image blurs.",
+    "castOnOther": "image blurs.",
     "wearsOff": "You come into focus."
   },
   "Illusion: Half-Elf": {
@@ -322,7 +322,7 @@
       }
     },
     "castOnYou": "You feel different.",
-    "castOnOther": "Someone 's image shimmers.",
+    "castOnOther": "image shimmers.",
     "wearsOff": "Your illusion fades."
   },
   "Illusion: Human": {
@@ -348,7 +348,7 @@
       }
     },
     "castOnYou": "You feel different.",
-    "castOnOther": "Someone 's image shimmers.",
+    "castOnOther": "image shimmers.",
     "wearsOff": "Your illusion fades."
   },
   "Invisibility": {
@@ -374,7 +374,7 @@
       }
     },
     "castOnYou": "You vanish.",
-    "castOnOther": "Someone  fades away.",
+    "castOnOther": "away.",
     "wearsOff": "You appear."
   },
   "Juli's Animation": {
@@ -411,7 +411,7 @@
       }
     },
     "castOnYou": "You are mesmerized.",
-    "castOnOther": "Someone  has been mesmerized.",
+    "castOnOther": "been mesmerized.",
     "wearsOff": "You are no longer mesmerized."
   },
   "Suffocating Sphere": {
@@ -432,7 +432,7 @@
       }
     },
     "castOnYou": "You gasp for breath.",
-    "castOnOther": "Someone  gasps for breath.",
+    "castOnOther": "for breath.",
     "wearsOff": "You stop gasping."
   },
   "Tashan": {
@@ -458,7 +458,7 @@
       }
     },
     "castOnYou": "You hear the barking of Tashan.",
-    "castOnOther": "Someone  glances nervously about.",
+    "castOnOther": "nervously about.",
     "wearsOff": "The barking fades."
   },
   "Alliance": {
@@ -474,7 +474,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel quite amicable.",
-    "castOnOther": "Someone  looks friendly.",
+    "castOnOther": "friendly.",
     "wearsOff": "You no longer feel amicable."
   },
   "Bind Sight": {
@@ -500,7 +500,7 @@
       }
     },
     "castOnYou": "Your sight is bound.",
-    "castOnOther": "Someone 's eyes gleam and then go dark.",
+    "castOnOther": "eyes gleam and then go dark.",
     "wearsOff": "Your binding ends."
   },
   "Cancel Magic": {
@@ -516,7 +516,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel a bit dispelled.",
-    "castOnOther": "Someone  feels a bit dispelled.",
+    "castOnOther": "a bit dispelled.",
     "wearsOff": ""
   },
   "Chaotic Feedback": {
@@ -532,7 +532,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "Your brain begins to smolder.",
-    "castOnOther": "Someone 's brain begins to smolder.",
+    "castOnOther": "brain begins to smolder.",
     "wearsOff": ""
   },
   "Enchant Clay": {
@@ -585,7 +585,7 @@
       }
     },
     "castOnYou": "You feel confused.",
-    "castOnOther": "Someone  looks confused.",
+    "castOnOther": "confused.",
     "wearsOff": "You are no longer confused."
   },
   "Illusion: Gnome": {
@@ -606,7 +606,7 @@
       }
     },
     "castOnYou": "You feel different.",
-    "castOnOther": "Someone 's image shimmers.",
+    "castOnOther": "image shimmers.",
     "wearsOff": "Your illusion fades."
   },
   "Illusion: Wood Elf": {
@@ -627,7 +627,7 @@
       }
     },
     "castOnYou": "You feel different.",
-    "castOnOther": "Someone 's image shimmers.",
+    "castOnOther": "image shimmers.",
     "wearsOff": "Your illusion fades."
   },
   "Lesser Shielding": {
@@ -695,7 +695,7 @@
       }
     },
     "castOnYou": "Your feet adhere to the ground.",
-    "castOnOther": "Someone 's feet adhere to the ground.",
+    "castOnOther": "feet adhere to the ground.",
     "wearsOff": "Your feet come free."
   },
   "See Invisible": {
@@ -763,7 +763,7 @@
       }
     },
     "castOnYou": "You feel your aggression subside.",
-    "castOnOther": "Someone  looks less aggressive.",
+    "castOnOther": "less aggressive.",
     "wearsOff": ""
   },
   "Bind Affinity": {
@@ -779,7 +779,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel yourself bind to the area.",
-    "castOnOther": "Someone  is bound to the area.",
+    "castOnOther": "bound to the area.",
     "wearsOff": ""
   },
   "Charm": {
@@ -805,7 +805,7 @@
       }
     },
     "castOnYou": "You have been charmed.",
-    "castOnOther": "Someone  has been charmed.",
+    "castOnOther": "been charmed.",
     "wearsOff": "You are no longer charmed."
   },
   "Choke": {
@@ -826,7 +826,7 @@
       }
     },
     "castOnYou": "You feel a shortness of breath.",
-    "castOnOther": "Someone  begins to choke.",
+    "castOnOther": "to choke.",
     "wearsOff": "You can breathe again."
   },
   "Ebbing Strength": {
@@ -852,7 +852,7 @@
       }
     },
     "castOnYou": "You feel weaker.",
-    "castOnOther": "Someone  weakens.",
+    "castOnOther": "",
     "wearsOff": "Your weakness fades."
   },
   "Enduring Breath": {
@@ -873,7 +873,7 @@
       }
     },
     "castOnYou": "You feel no need to breathe.",
-    "castOnOther": "Someone  doesn't seem to be breathing anymore.",
+    "castOnOther": "seem to be breathing anymore.",
     "wearsOff": "You resume breathing."
   },
   "Illusion: Dark Elf": {
@@ -894,7 +894,7 @@
       }
     },
     "castOnYou": "You feel different.",
-    "castOnOther": "Someone 's image shimmers.",
+    "castOnOther": "image shimmers.",
     "wearsOff": "Your illusion fades."
   },
   "Illusion: Erudite": {
@@ -915,7 +915,7 @@
       }
     },
     "castOnYou": "You feel different.",
-    "castOnOther": "Someone 's image shimmers.",
+    "castOnOther": "image shimmers.",
     "wearsOff": "Your illusion fades."
   },
   "Illusion: Halfling": {
@@ -936,7 +936,7 @@
       }
     },
     "castOnYou": "You feel different.",
-    "castOnOther": "Someone 's image shimmers.",
+    "castOnOther": "image shimmers.",
     "wearsOff": "Your illusion fades."
   },
   "Illusion: High Elf": {
@@ -957,7 +957,7 @@
       }
     },
     "castOnYou": "You feel different.",
-    "castOnOther": "Someone 's image shimmers.",
+    "castOnOther": "image shimmers.",
     "wearsOff": "Your illusion fades."
   },
   "Kilan's Animation": {
@@ -999,7 +999,7 @@
       }
     },
     "castOnYou": "You slow down.",
-    "castOnOther": "Someone  slows down.",
+    "castOnOther": "down.",
     "wearsOff": "You speed back up."
   },
   "Memory Blur": {
@@ -1015,7 +1015,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel your mind fog.",
-    "castOnOther": "Someone  blinks a few times.",
+    "castOnOther": "a few times.",
     "wearsOff": ""
   },
   "Mist": {
@@ -1036,7 +1036,7 @@
       }
     },
     "castOnYou": "Your image blurs.",
-    "castOnOther": "Someone 's image blurs.",
+    "castOnOther": "image blurs.",
     "wearsOff": "You come into focus."
   },
   "Serpent Sight": {
@@ -1057,7 +1057,7 @@
       }
     },
     "castOnYou": "Your eyes tingle.",
-    "castOnOther": "Someone 's eyes glow red.",
+    "castOnOther": "eyes glow red.",
     "wearsOff": "Your infravision fades."
   },
   "Thicken Mana": {
@@ -1094,7 +1094,7 @@
       }
     },
     "castOnYou": "You begin to spin.",
-    "castOnOther": "Someone  begins to spin.",
+    "castOnOther": "to spin.",
     "wearsOff": "You feel dizzy."
   },
   "Breeze": {
@@ -1115,7 +1115,7 @@
       }
     },
     "castOnYou": "A light breeze slips through your mind.",
-    "castOnOther": "Someone  sighs in tranquility.",
+    "castOnOther": "in tranquility.",
     "wearsOff": "The light breeze fades."
   },
   "Chase the Moon": {
@@ -1136,7 +1136,7 @@
       }
     },
     "castOnYou": "You begin to run.",
-    "castOnOther": "Someone  begins to run.",
+    "castOnOther": "to run.",
     "wearsOff": "You stop."
   },
   "Disempower": {
@@ -1162,7 +1162,7 @@
       }
     },
     "castOnYou": "You feel frail.",
-    "castOnOther": "Someone  looks frail.",
+    "castOnOther": "frail.",
     "wearsOff": "You feel your strength return."
   },
   "Enchant Electrum": {
@@ -1199,7 +1199,7 @@
       }
     },
     "castOnYou": "You have been enthralled.",
-    "castOnOther": "Someone  has been enthralled.",
+    "castOnOther": "been enthralled.",
     "wearsOff": "You are no longer enthralled."
   },
   "Identify": {
@@ -1236,7 +1236,7 @@
       }
     },
     "castOnYou": "You feel different.",
-    "castOnOther": "Someone 's image shimmers.",
+    "castOnOther": "image shimmers.",
     "wearsOff": "Your illusion fades."
   },
   "Illusion: Dwarf": {
@@ -1257,7 +1257,7 @@
       }
     },
     "castOnYou": "You feel different.",
-    "castOnOther": "Someone 's image shimmers.",
+    "castOnOther": "image shimmers.",
     "wearsOff": "Your illusion fades."
   },
   "Illusion: Tree": {
@@ -1278,7 +1278,7 @@
       }
     },
     "castOnYou": "You feel different.",
-    "castOnOther": "Someone 's image shimmers.",
+    "castOnOther": "image shimmers.",
     "wearsOff": "Your illusion fades."
   },
   "Invisibility versus Undead": {
@@ -1304,7 +1304,7 @@
       }
     },
     "castOnYou": "You feel your skin tingle.",
-    "castOnOther": "Someone  fades a little.",
+    "castOnOther": "a little.",
     "wearsOff": "Your skin stops tingling."
   },
   "Levitate": {
@@ -1330,7 +1330,7 @@
       }
     },
     "castOnYou": "Your feet leave the ground.",
-    "castOnOther": "Someone's feet leave the ground.",
+    "castOnOther": "leave the ground.",
     "wearsOff": "You can no longer levitate."
   },
   "Mesmerization": {
@@ -1351,7 +1351,7 @@
       }
     },
     "castOnYou": "You are mesmerized.",
-    "castOnOther": "Someone  has been mesmerized.",
+    "castOnOther": "been mesmerized.",
     "wearsOff": "You are no longer mesmerized."
   },
   "Quickness": {
@@ -1377,7 +1377,7 @@
       }
     },
     "castOnYou": "You feel much faster.",
-    "castOnOther": "Someone  feels much faster.",
+    "castOnOther": "much faster.",
     "wearsOff": "Your speed returns to normal."
   },
   "Rune I": {
@@ -1398,7 +1398,7 @@
       }
     },
     "castOnYou": "A light shimmer of runes surround you.",
-    "castOnOther": "Someone  is surrounded by a shimmer of runes.",
+    "castOnOther": "surrounded by a shimmer of runes.",
     "wearsOff": "The shimmer of runes fades."
   },
   "Sanity Warp": {
@@ -1414,7 +1414,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "Reality runs amok.",
-    "castOnOther": "Someone  looks delirious.",
+    "castOnOther": "delirious.",
     "wearsOff": "Reality returns."
   },
   "Shalee's Animation": {
@@ -1467,7 +1467,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel quite amicable.",
-    "castOnOther": "Someone  looks friendly.",
+    "castOnOther": "friendly.",
     "wearsOff": "You no longer feel amicable."
   },
   "Berserker Strength": {
@@ -1493,7 +1493,7 @@
       }
     },
     "castOnYou": "Your muscles bulge with berserker strength.",
-    "castOnOther": "Someone 's muscles bulge with berserker strength.",
+    "castOnOther": "muscles bulge with berserker strength.",
     "wearsOff": "You feel your agility return."
   },
   "Calm": {
@@ -1519,7 +1519,7 @@
       }
     },
     "castOnYou": "You feel your aggression subside.",
-    "castOnOther": "Someone  looks less aggressive.",
+    "castOnOther": "less aggressive.",
     "wearsOff": ""
   },
   "Cloud": {
@@ -1540,7 +1540,7 @@
       }
     },
     "castOnYou": "Your image clouds.",
-    "castOnOther": "Someone 's image clouds.",
+    "castOnOther": "image clouds.",
     "wearsOff": "You come into focus."
   },
   "Color Shift": {
@@ -1556,7 +1556,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "Scintillating colors pound through your brain.",
-    "castOnOther": "Someone  is stunned by scintillating colors.",
+    "castOnOther": "stunned by scintillating colors.",
     "wearsOff": "The pretty colors fade."
   },
   "Crystallize Mana": {
@@ -1593,7 +1593,7 @@
       }
     },
     "castOnYou": "You feel protected from magic.",
-    "castOnOther": "Someone  is protected from magic.",
+    "castOnOther": "protected from magic.",
     "wearsOff": "Your endurance to magic fades."
   },
   "Feckless Might": {
@@ -1619,7 +1619,7 @@
       }
     },
     "castOnYou": "You feel weak.",
-    "castOnOther": "Someone  is weakened.",
+    "castOnOther": "weakened.",
     "wearsOff": "Your strength returns."
   },
   "Illusion: Iksar": {
@@ -1640,7 +1640,7 @@
       }
     },
     "castOnYou": "You feel different.",
-    "castOnOther": "Someone 's image shimmers.",
+    "castOnOther": "image shimmers.",
     "wearsOff": "Your illusion fades."
   },
   "Illusion: Ogre": {
@@ -1661,7 +1661,7 @@
       }
     },
     "castOnYou": "You feel different.",
-    "castOnOther": "Someone 's image shimmers.",
+    "castOnOther": "image shimmers.",
     "wearsOff": "Your illusion fades."
   },
   "Illusion: Troll": {
@@ -1682,7 +1682,7 @@
       }
     },
     "castOnYou": "You feel different.",
-    "castOnOther": "Someone 's image shimmers.",
+    "castOnOther": "image shimmers.",
     "wearsOff": "Your illusion fades."
   },
   "Shifting Sight": {
@@ -1708,7 +1708,7 @@
       }
     },
     "castOnYou": "You shift your sight.",
-    "castOnOther": "Someone 's eyes gleam and then go dark.",
+    "castOnOther": "eyes gleam and then go dark.",
     "wearsOff": "Your shifting sight ends."
   },
   "Sisna's Animation": {
@@ -1745,7 +1745,7 @@
       }
     },
     "castOnYou": "You feel a warm aura surround you.",
-    "castOnOther": "Someone  is surrounded by a warm aura.",
+    "castOnOther": "surrounded by a warm aura.",
     "wearsOff": "Your sympathetic aura fades."
   },
   "Tashani": {
@@ -1771,7 +1771,7 @@
       }
     },
     "castOnYou": "You hear the barking of the Tashani.",
-    "castOnOther": "Someone  glances nervously about.",
+    "castOnOther": "nervously about.",
     "wearsOff": "The barking fades."
   },
   "Alacrity": {
@@ -1797,7 +1797,7 @@
       }
     },
     "castOnYou": "You feel much faster.",
-    "castOnOther": "Someone  feels much faster.",
+    "castOnOther": "much faster.",
     "wearsOff": "Your speed returns to normal."
   },
   "Beguile": {
@@ -1823,7 +1823,7 @@
       }
     },
     "castOnYou": "You have been charmed.",
-    "castOnOther": "Someone  has been charmed.",
+    "castOnOther": "been charmed.",
     "wearsOff": "You are no longer charmed."
   },
   "Chaos Flux": {
@@ -1839,7 +1839,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "Your world goes mad as chaos flows through you.",
-    "castOnOther": "Someone  is surrounded by fluxing strands of chaos.",
+    "castOnOther": "surrounded by fluxing strands of chaos.",
     "wearsOff": ""
   },
   "Enchant Gold": {
@@ -1876,7 +1876,7 @@
       }
     },
     "castOnYou": "You feel different.",
-    "castOnOther": "Someone 's image shimmers.",
+    "castOnOther": "image shimmers.",
     "wearsOff": "Your illusion fades."
   },
   "Illusion: Skeleton": {
@@ -1897,7 +1897,7 @@
       }
     },
     "castOnYou": "You feel different.",
-    "castOnOther": "Someone 's image shimmers.",
+    "castOnOther": "image shimmers.",
     "wearsOff": "Your illusion fades."
   },
   "Invigor": {
@@ -1918,7 +1918,7 @@
       }
     },
     "castOnYou": "Your body zings with energy.",
-    "castOnOther": "Someone  looks energized.",
+    "castOnOther": "energized.",
     "wearsOff": ""
   },
   "Major Shielding": {
@@ -1960,7 +1960,7 @@
       }
     },
     "castOnYou": "A shimmer of runes surround you.",
-    "castOnOther": "Someone  is surrounded by a shimmer of runes.",
+    "castOnOther": "surrounded by a shimmer of runes.",
     "wearsOff": "The shimmer of runes fades."
   },
   "Sagar's Animation": {
@@ -1992,7 +1992,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel very dispelled.",
-    "castOnOther": "Someone  feels very dispelled.",
+    "castOnOther": "very dispelled.",
     "wearsOff": ""
   },
   "Tepid Deeds": {
@@ -2018,7 +2018,7 @@
       }
     },
     "castOnYou": "You slow down.",
-    "castOnOther": "Someone  slows down.",
+    "castOnOther": "down.",
     "wearsOff": "Your speed returns."
   },
   "Augmentation": {
@@ -2039,7 +2039,7 @@
       }
     },
     "castOnYou": "You feel your body pulse with energy.",
-    "castOnOther": "Someone 's body pulses with energy.",
+    "castOnOther": "body pulses with energy.",
     "wearsOff": "The pulsing energy fades."
   },
   "Clarify Mana": {
@@ -2076,7 +2076,7 @@
       }
     },
     "castOnYou": "A cool breeze slips through your mind.",
-    "castOnOther": "Someone  looks tranquil.",
+    "castOnOther": "tranquil.",
     "wearsOff": "The cool breeze fades."
   },
   "Curse of the Simple Mind": {
@@ -2102,7 +2102,7 @@
       }
     },
     "castOnYou": "You feel stupid.",
-    "castOnOther": "Someone  looks stupid.",
+    "castOnOther": "stupid.",
     "wearsOff": "You feel less stupid."
   },
   "Dyn's Dizzying Draught": {
@@ -2120,7 +2120,7 @@
       "durationString": "2 Ticks"
     },
     "castOnYou": "You begin to spin.",
-    "castOnOther": "Someone  begins to spin.",
+    "castOnOther": "to spin.",
     "wearsOff": "You feel dizzy."
   },
   "Enstill": {
@@ -2146,7 +2146,7 @@
       }
     },
     "castOnYou": "Your feet adhere to the ground.",
-    "castOnOther": "Someone 's feet adhere to the ground.",
+    "castOnOther": "feet adhere to the ground.",
     "wearsOff": "Your feet come free."
   },
   "Feedback": {
@@ -2172,7 +2172,7 @@
       }
     },
     "castOnYou": "You are enveloped in blazing energy.",
-    "castOnOther": "Someone  is enveloped in blazing energy.",
+    "castOnOther": "enveloped in blazing energy.",
     "wearsOff": "The energy flames die down."
   },
   "Illusion: Air Elemental": {
@@ -2193,7 +2193,7 @@
       }
     },
     "castOnYou": "You feel different.",
-    "castOnOther": "Someone 's image shimmers.",
+    "castOnOther": "image shimmers.",
     "wearsOff": "Your illusion fades."
   },
   "Illusion: Water Elemental": {
@@ -2214,7 +2214,7 @@
       }
     },
     "castOnYou": "You feel different.",
-    "castOnOther": "Someone 's image shimmers.",
+    "castOnOther": "image shimmers.",
     "wearsOff": "Your illusion fades."
   },
   "Listless Power": {
@@ -2240,7 +2240,7 @@
       }
     },
     "castOnYou": "You feel frail.",
-    "castOnOther": "Someone  looks frail.",
+    "castOnOther": "frail.",
     "wearsOff": "You feel your strength return."
   },
   "Nullify Magic": {
@@ -2256,7 +2256,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel dispelled.",
-    "castOnOther": "Someone  feels dispelled.",
+    "castOnOther": "dispelled.",
     "wearsOff": ""
   },
   "Obscure": {
@@ -2277,7 +2277,7 @@
       }
     },
     "castOnYou": "Your image has been obscured.",
-    "castOnOther": "Someone 's image shifts out of focus.",
+    "castOnOther": "image shifts out of focus.",
     "wearsOff": "You come into focus."
   },
   "Suffocate": {
@@ -2303,7 +2303,7 @@
       }
     },
     "castOnYou": "You feel a shortness of breath.",
-    "castOnOther": "Someone  begins to choke.",
+    "castOnOther": "to choke.",
     "wearsOff": "You can breathe again."
   },
   "Uleen's Animation": {
@@ -2340,7 +2340,7 @@
       }
     },
     "castOnYou": "Your eyes tingle.",
-    "castOnOther": "Someone 's eyes glow violet.",
+    "castOnOther": "eyes glow violet.",
     "wearsOff": "Your ultravision fades."
   },
   "Anarchy": {
@@ -2356,7 +2356,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "Your world dissolves into anarchy.",
-    "castOnOther": "Someone 's world dissolves into anarchy.",
+    "castOnOther": "world dissolves into anarchy.",
     "wearsOff": ""
   },
   "Boltran's Animation": {
@@ -2398,7 +2398,7 @@
       }
     },
     "castOnYou": "You cast your sight.",
-    "castOnOther": "Someone 's eyes gleam and then go dark.",
+    "castOnOther": "eyes gleam and then go dark.",
     "wearsOff": "Your casting ends."
   },
   "Enchant Platinum": {
@@ -2435,7 +2435,7 @@
       }
     },
     "castOnYou": "You have been entranced.",
-    "castOnOther": "Someone  has been entranced.",
+    "castOnOther": "been entranced.",
     "wearsOff": "You are no longer entranced."
   },
   "Gift of Magic": {
@@ -2456,7 +2456,7 @@
       }
     },
     "castOnYou": "Your thoughts begin to race and flow faster.",
-    "castOnOther": "Someone  appears to be staring into nothingness.",
+    "castOnOther": "to be staring into nothingness.",
     "wearsOff": "Your gift of magic fades."
   },
   "Greater Shielding": {
@@ -2498,7 +2498,7 @@
       }
     },
     "castOnYou": "You feel different.",
-    "castOnOther": "Someone 's image shimmers.",
+    "castOnOther": "image shimmers.",
     "wearsOff": "Your illusion fades."
   },
   "Insipid Weakness": {
@@ -2524,7 +2524,7 @@
       }
     },
     "castOnYou": "You feel weak.",
-    "castOnOther": "Someone  is weakened.",
+    "castOnOther": "weakened.",
     "wearsOff": "Your strength returns."
   },
   "Mana Sieve": {
@@ -2540,7 +2540,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You feel your mental energies slip away.",
-    "castOnOther": "Someone  staggers with mental anguish. (?)  Someone staggers in pain. (on Green Feb 2020) (and Blue Sep 2020)",
+    "castOnOther": "with mental anguish. (?)  Someone staggers in pain. (on Green Feb 2020) (and Blue Sep 2020)",
     "wearsOff": ""
   },
   "Radiant Visage": {
@@ -2561,7 +2561,7 @@
       }
     },
     "castOnYou": "You feel radiant.",
-    "castOnOther": "Someone's face takes on a radiant visage.",
+    "castOnOther": "takes on a radiant visage.",
     "wearsOff": "Your radiance fades."
   },
   "Rune III": {
@@ -2582,7 +2582,7 @@
       }
     },
     "castOnYou": "A dark shimmer of runes surround you.",
-    "castOnOther": "Someone  is surrounded by a shimmer of runes.",
+    "castOnOther": "surrounded by a shimmer of runes.",
     "wearsOff": "The shimmer of runes fade."
   },
   "Aanya's Animation": {
@@ -2624,7 +2624,7 @@
       }
     },
     "castOnYou": "You have been charmed.",
-    "castOnOther": "Someone  has been charmed.",
+    "castOnOther": "been charmed.",
     "wearsOff": "You are no longer charmed."
   },
   "Celerity": {
@@ -2650,7 +2650,7 @@
       }
     },
     "castOnYou": "You feel much faster.",
-    "castOnOther": "Someone  feels much faster.",
+    "castOnOther": "much faster.",
     "wearsOff": "Your speed returns to normal."
   },
   "Distill Mana": {
@@ -2682,7 +2682,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You experience chaotic weightlessness.",
-    "castOnOther": "Someone  rises chaotically into the air.",
+    "castOnOther": "chaotically into the air.",
     "wearsOff": ""
   },
   "Illusion: Dry Bone": {
@@ -2703,7 +2703,7 @@
       }
     },
     "castOnYou": "You feel different.",
-    "castOnOther": "Someone 's image shimmers.",
+    "castOnOther": "image shimmers.",
     "wearsOff": "Your illusion fades."
   },
   "Illusion: Spirit Wolf": {
@@ -2724,7 +2724,7 @@
       }
     },
     "castOnYou": "You feel different.",
-    "castOnOther": "Someone 's image shimmers.",
+    "castOnOther": "image shimmers.",
     "wearsOff": "Your illusion fades."
   },
   "Immobilize": {
@@ -2745,7 +2745,7 @@
       }
     },
     "castOnYou": "Your feet adhere to the ground.",
-    "castOnOther": "Someone's feet adhere to the ground.",
+    "castOnOther": "adhere to the ground.",
     "wearsOff": "Your feet come free."
   },
   "Insight": {
@@ -2766,7 +2766,7 @@
       }
     },
     "castOnYou": "Your mind fills with wisdom.",
-    "castOnOther": "Someone  looks wise.",
+    "castOnOther": "wise.",
     "wearsOff": "Your wisdom fades."
   },
   "Invoke Fear": {
@@ -2787,7 +2787,7 @@
       }
     },
     "castOnYou": "Your mind fills with fear.",
-    "castOnOther": "Someone  looks very afraid.",
+    "castOnOther": "very afraid.",
     "wearsOff": "You are no longer afraid."
   },
   "Mind Wipe": {
@@ -2803,7 +2803,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel your mind fog.",
-    "castOnOther": "Someone  blinks a few times.",
+    "castOnOther": "a few times.",
     "wearsOff": ""
   },
   "Pacify": {
@@ -2829,7 +2829,7 @@
       }
     },
     "castOnYou": "You feel your aggression subside.",
-    "castOnOther": "Someone  looks less aggressive.",
+    "castOnOther": "less aggressive.",
     "wearsOff": ""
   },
   "Rampage": {
@@ -2855,7 +2855,7 @@
       }
     },
     "castOnYou": "You feel the urge to rampage.",
-    "castOnOther": "Someone  begins to rampage.",
+    "castOnOther": "to rampage.",
     "wearsOff": "You feel your agility return."
   },
   "Resist Magic": {
@@ -2876,7 +2876,7 @@
       }
     },
     "castOnYou": "You feel resistant from magic.",
-    "castOnOther": "Someone  is resistant to magic.",
+    "castOnOther": "resistant to magic.",
     "wearsOff": "Your resist magic fades."
   },
   "Shade": {
@@ -2897,7 +2897,7 @@
       }
     },
     "castOnYou": "Your image fades.",
-    "castOnOther": "Someone 's image fades around the edges.",
+    "castOnOther": "image fades around the edges.",
     "wearsOff": "You come into focus."
   },
   "Wandering Mind": {
@@ -2918,7 +2918,7 @@
       }
     },
     "castOnYou": "You forget what you were supposed to be.",
-    "castOnOther": "Someone  stares off into space.",
+    "castOnOther": "off into space.",
     "wearsOff": "You remember where you are."
   },
   "Arch Shielding": {
@@ -2965,7 +2965,7 @@
       }
     },
     "castOnYou": "You feel... strange.",
-    "castOnOther": "Someone 's face contorts and stretches, the skin breaking and peeling.",
+    "castOnOther": "face contorts and stretches, the skin breaking and peeling.",
     "wearsOff": "Your illusion fades."
   },
   "Brilliance": {
@@ -2986,7 +2986,7 @@
       }
     },
     "castOnYou": "Your mind clears.",
-    "castOnOther": "Someone  gains a flash of insight.",
+    "castOnOther": "a flash of insight.",
     "wearsOff": "Your brilliance fades."
   },
   "Color Skew": {
@@ -3002,7 +3002,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "Scintillating colors pound through your brain.",
-    "castOnOther": "Someone  is stunned by scintillating colors.",
+    "castOnOther": "stunned by scintillating colors.",
     "wearsOff": "The pretty colors fade."
   },
   "Discordant Mind": {
@@ -3018,7 +3018,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You feel part of your mind melt away.",
-    "castOnOther": "Someone 's brain begins to melt.",
+    "castOnOther": "brain begins to melt.",
     "wearsOff": ""
   },
   "Enchant Velium": {
@@ -3050,7 +3050,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "Your body zings with energy.",
-    "castOnOther": "Someone  looks energized.",
+    "castOnOther": "energized.",
     "wearsOff": ""
   },
   "Illusion: Werewolf": {
@@ -3071,7 +3071,7 @@
       }
     },
     "castOnYou": "You feel different.",
-    "castOnOther": "Someone 's image shimmers.",
+    "castOnOther": "image shimmers.",
     "wearsOff": "Your illusion fades."
   },
   "Incapacitate": {
@@ -3097,7 +3097,7 @@
       }
     },
     "castOnYou": "You feel frail.",
-    "castOnOther": "Someone  looks frail.",
+    "castOnOther": "frail.",
     "wearsOff": "You feel your strength return."
   },
   "Pillage Enchantment": {
@@ -3113,7 +3113,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel very dispelled.",
-    "castOnOther": "Someone  feels very dispelled.",
+    "castOnOther": "very dispelled.",
     "wearsOff": ""
   },
   "Rune IV": {
@@ -3134,7 +3134,7 @@
       }
     },
     "castOnYou": "A coat of shimmering runes surround you.",
-    "castOnOther": "Someone  is surrounded by a shimmer of runes.",
+    "castOnOther": "surrounded by a shimmer of runes.",
     "wearsOff": "The shimmer of runes fade."
   },
   "Shiftless Deeds": {
@@ -3160,7 +3160,7 @@
       }
     },
     "castOnYou": "You slow down.",
-    "castOnOther": "Someone  slows down.",
+    "castOnOther": "down.",
     "wearsOff": "Your speed returns."
   },
   "Summon Companion": {
@@ -3176,7 +3176,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You summon your companion to your side.",
-    "castOnOther": "Someone  summons a companion to their side.",
+    "castOnOther": "a companion to their side.",
     "wearsOff": ""
   },
   "Tashania": {
@@ -3202,7 +3202,7 @@
       }
     },
     "castOnYou": "You hear the barking of Tashania.",
-    "castOnOther": "Someone  glances nervously about.",
+    "castOnOther": "nervously about.",
     "wearsOff": "The barking fades."
   },
   "Weakness": {
@@ -3228,7 +3228,7 @@
       }
     },
     "castOnYou": "You feel weak.",
-    "castOnOther": "Someone  is weakened.",
+    "castOnOther": "weakened.",
     "wearsOff": "Your strength returns."
   },
   "Yegoreff's Animation": {
@@ -3265,7 +3265,7 @@
       }
     },
     "castOnYou": "You are adorned by an aura of radiant grace.",
-    "castOnOther": "Someone  is adorned by an aura of radiant grace.",
+    "castOnOther": "adorned by an aura of radiant grace.",
     "wearsOff": "Your grace fades."
   },
   "Allure": {
@@ -3291,7 +3291,7 @@
       }
     },
     "castOnYou": "You have been charmed.",
-    "castOnOther": "Someone  has been charmed.",
+    "castOnOther": "been charmed.",
     "wearsOff": "You are no longer charmed."
   },
   "Berserker Spirit": {
@@ -3317,7 +3317,7 @@
       }
     },
     "castOnYou": "Your spirit screams with berserker strength.",
-    "castOnOther": "Someone  lets loose a berserk yell.",
+    "castOnOther": "loose a berserk yell.",
     "wearsOff": "The berserker spirit fades."
   },
   "Blanket of Forgetfulness": {
@@ -3333,7 +3333,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel your mind fog.",
-    "castOnOther": "Someone  blinks a few times.",
+    "castOnOther": "a few times.",
     "wearsOff": ""
   },
   "Dazzle": {
@@ -3354,7 +3354,7 @@
       }
     },
     "castOnYou": "You are mesmerized.",
-    "castOnOther": "Someone  has been mesmerized.",
+    "castOnOther": "been mesmerized.",
     "wearsOff": "You are no longer mesmerized."
   },
   "Enchant Adamantite": {
@@ -3439,7 +3439,7 @@
       }
     },
     "castOnYou": "You feel a shortness of breath.",
-    "castOnOther": "Someone  begins to choke.",
+    "castOnOther": "to choke.",
     "wearsOff": "You can breathe again."
   },
   "Group Resist Magic": {
@@ -3460,7 +3460,7 @@
       }
     },
     "castOnYou": "You feel protected from magic.",
-    "castOnOther": "Someone  is resistant to magic.",
+    "castOnOther": "resistant to magic.",
     "wearsOff": "Your protection fades."
   },
   "Kintaz's Animation": {
@@ -3497,7 +3497,7 @@
       }
     },
     "castOnYou": "Your feet adhere to the ground.",
-    "castOnOther": "Someone 's feet adhere to the ground.",
+    "castOnOther": "feet adhere to the ground.",
     "wearsOff": "Your feet come free."
   },
   "Purify Mana": {
@@ -3534,7 +3534,7 @@
       }
     },
     "castOnYou": "You feel your mind fog.",
-    "castOnOther": "Someone  blinks a few times.",
+    "castOnOther": "a few times.",
     "wearsOff": ""
   },
   "Shadow": {
@@ -3555,7 +3555,7 @@
       }
     },
     "castOnYou": "Your image fades into shadow.",
-    "castOnOther": "Someone 's image fades into the shadows.",
+    "castOnOther": "image fades into the shadows.",
     "wearsOff": "You come into focus."
   },
   "Swift Like The Wind": {
@@ -3581,7 +3581,7 @@
       }
     },
     "castOnYou": "You feel much faster.",
-    "castOnOther": "Someone  feels much faster.",
+    "castOnOther": "much faster.",
     "wearsOff": "Your speed returns to normal."
   },
   "Improved Invisibility": {
@@ -3602,7 +3602,7 @@
       }
     },
     "castOnYou": "You vanish.",
-    "castOnOther": "Someone  fades away.",
+    "castOnOther": "away.",
     "wearsOff": "You appear."
   },
   "Collaboration": {
@@ -3618,7 +3618,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel quite amicable.",
-    "castOnOther": "Someone  looks friendly.",
+    "castOnOther": "friendly.",
     "wearsOff": "You no longer feel amicable."
   },
   "Theft of Thought": {
@@ -3634,7 +3634,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You feel your mental energies drain away.",
-    "castOnOther": "Someone  staggers.",
+    "castOnOther": "",
     "wearsOff": ""
   },
   "Wake of Tranquility": {
@@ -3660,7 +3660,7 @@
       }
     },
     "castOnYou": "You feel your aggression subside.",
-    "castOnOther": "Someone  looks less aggressive.",
+    "castOnOther": "less aggressive.",
     "wearsOff": ""
   },
   "Boon of the Clear Mind": {
@@ -3681,7 +3681,7 @@
       }
     },
     "castOnYou": "A cool breeze slips through your mind.",
-    "castOnOther": "Someone  looks tranquil.",
+    "castOnOther": "tranquil.",
     "wearsOff": "The cool breeze fades."
   },
   "Color Slant": {
@@ -3697,7 +3697,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "Scintillating colors dazzle your brain.",
-    "castOnOther": "Someone  is dazzled by scintillating colors.",
+    "castOnOther": "dazzled by scintillating colors.",
     "wearsOff": "The pretty colors fade."
   },
   "Fascination": {
@@ -3718,7 +3718,7 @@
       }
     },
     "castOnYou": "You are fascinated by the pretty colors.",
-    "castOnOther": "Someone  has been fascinated.",
+    "castOnOther": "been fascinated.",
     "wearsOff": "You are no longer fascinated."
   },
   "Rune V": {
@@ -3739,7 +3739,7 @@
       }
     },
     "castOnYou": "A coat of shimmering runes surround you.",
-    "castOnOther": "Someone  is surrounded by a shimmer of runes.",
+    "castOnOther": "surrounded by a shimmer of runes.",
     "wearsOff": "The shimmer of runes fade."
   },
   "Aanya's Quickening": {
@@ -3760,7 +3760,7 @@
       }
     },
     "castOnYou": "You experience a quickening.",
-    "castOnOther": "Someone  experiences a quickening.",
+    "castOnOther": "a quickening.",
     "wearsOff": "Your speed returns to normal."
   },
   "Boltran's Agacerie": {
@@ -3786,7 +3786,7 @@
       }
     },
     "castOnYou": "You have been charmed.",
-    "castOnOther": "Someone  has been charmed.",
+    "castOnOther": "been charmed.",
     "wearsOff": "You are no longer charmed."
   },
   "Cripple": {
@@ -3812,7 +3812,7 @@
       }
     },
     "castOnYou": "You have been crippled.",
-    "castOnOther": "Someone  has been crippled.",
+    "castOnOther": "been crippled.",
     "wearsOff": "You feel your strength return."
   },
   "Recant Magic": {
@@ -3828,7 +3828,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel your enchantments being stripped away.",
-    "castOnOther": "Someone 's enchantments begin to fade.",
+    "castOnOther": "enchantments begin to fade.",
     "wearsOff": ""
   },
   "Clarity II": {
@@ -3849,7 +3849,7 @@
       }
     },
     "castOnYou": "A soft breeze slips through your mind.",
-    "castOnOther": "Someone  looks very tranquil.",
+    "castOnOther": "very tranquil.",
     "wearsOff": "The soft breeze fades."
   },
   "Dementia": {
@@ -3865,7 +3865,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "Twisted logic warps your mind.",
-    "castOnOther": "Someone 's mind warps.",
+    "castOnOther": "mind warps.",
     "wearsOff": ""
   },
   "Glamour of Kintaz": {
@@ -3886,7 +3886,7 @@
       }
     },
     "castOnYou": "You are mesmerized by the Glamour of Kintaz.",
-    "castOnOther": "Someone  has been mesmerized by the Glamour of Kintaz.",
+    "castOnOther": "been mesmerized by the Glamour of Kintaz.",
     "wearsOff": "You are no longer mesmerized."
   },
   "Shield of the Magi": {
@@ -3928,7 +3928,7 @@
       }
     },
     "castOnYou": "Your thoughts begin to race and flow faster.",
-    "castOnOther": "Someone  appears to be staring into nothingness.",
+    "castOnOther": "to be staring into nothingness.",
     "wearsOff": "Your gift of insight fades."
   },
   "Largarn's Lamentation": {
@@ -3944,7 +3944,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You are overcome by sadness.",
-    "castOnOther": "Someone  begins to weep.",
+    "castOnOther": "to weep.",
     "wearsOff": "You are no longer sad."
   },
   "Memory Flux": {
@@ -3960,7 +3960,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel your mind fog.",
-    "castOnOther": "Someone  blinks a few times.",
+    "castOnOther": "a few times.",
     "wearsOff": ""
   },
   "Wind of Tishani": {
@@ -3986,7 +3986,7 @@
       }
     },
     "castOnYou": "You hear the barking of the Tashani.",
-    "castOnOther": "Someone  glances nervously about.",
+    "castOnOther": "nervously about.",
     "wearsOff": "The barking fades."
   },
   "Zumaik`s Animation": {
@@ -4023,7 +4023,7 @@
       }
     },
     "castOnYou": "You feel your body pulse with energy.",
-    "castOnOther": "Someone 's body pulses with energy.",
+    "castOnOther": "body pulses with energy.",
     "wearsOff": "The pulsing energy fades."
   },
   "Overwhelming Splendor": {
@@ -4044,7 +4044,7 @@
       }
     },
     "castOnYou": "You are adorned in an aura of radiant grace.",
-    "castOnOther": "Someone  is adorned by an aura of radiant grace.",
+    "castOnOther": "adorned by an aura of radiant grace.",
     "wearsOff": "Your grace fades."
   },
   "Torment of Argli": {
@@ -4065,7 +4065,7 @@
       }
     },
     "castOnYou": "Your thoughts muddle from the Torment of Argli.",
-    "castOnOther": "Someone  screams from the Torment of Argli.",
+    "castOnOther": "from the Torment of Argli.",
     "wearsOff": "Your torment has ended."
   },
   "Trepidation": {
@@ -4086,7 +4086,7 @@
       }
     },
     "castOnYou": "Your mind fills with trepidation.",
-    "castOnOther": "Someone  is filled with trepidation.",
+    "castOnOther": "filled with trepidation.",
     "wearsOff": "The trepidation fades."
   },
   "Enlightenment": {
@@ -4107,7 +4107,7 @@
       }
     },
     "castOnYou": "You have been enlightened.",
-    "castOnOther": "Someone  has been enlightened.",
+    "castOnOther": "been enlightened.",
     "wearsOff": "Your enlightenment fades."
   },
   "Forlorn Deeds": {
@@ -4133,7 +4133,7 @@
       }
     },
     "castOnYou": "You slow down.",
-    "castOnOther": "Someone  slows down.",
+    "castOnOther": "down.",
     "wearsOff": "Your speed returns."
   },
   "Tashanian": {
@@ -4159,7 +4159,7 @@
       }
     },
     "castOnYou": "You hear the barking of Tashania.",
-    "castOnOther": "Someone  glances nervously about.",
+    "castOnOther": "nervously about.",
     "wearsOff": "The barking fades."
   },
   "Umbra": {
@@ -4180,7 +4180,7 @@
       }
     },
     "castOnYou": "Your image fades into the umbra.",
-    "castOnOther": "Someone 's image fades into the umbra.",
+    "castOnOther": "image fades into the umbra.",
     "wearsOff": "You come into focus."
   },
   "Bedlam": {
@@ -4206,7 +4206,7 @@
       }
     },
     "castOnYou": "Your eyes gleam with bedlam.",
-    "castOnOther": "Someone 's eyes gleam with bedlam.",
+    "castOnOther": "eyes gleam with bedlam.",
     "wearsOff": "Your bedlam fades."
   },
   "Fetter": {
@@ -4227,7 +4227,7 @@
       }
     },
     "castOnYou": "Your feet adhere to the ground.",
-    "castOnOther": "Someone 's feet adhere to the ground.",
+    "castOnOther": "feet adhere to the ground.",
     "wearsOff": "Your feet come free."
   },
   "Wonderous Rapidity": {
@@ -4253,7 +4253,7 @@
       }
     },
     "castOnYou": "You begin to move with wonderous rapidity.",
-    "castOnOther": "Someone  begins to move with wonderous rapidity.",
+    "castOnOther": "to move with wonderous rapidity.",
     "wearsOff": "Your speed returns to normal."
   },
   "Asphyxiate": {
@@ -4274,7 +4274,7 @@
       }
     },
     "castOnYou": "You feel a shortness of breath.",
-    "castOnOther": "Someone  begins to choke.",
+    "castOnOther": "to choke.",
     "wearsOff": "You can breathe again."
   },
   "Gift of Pure Thought": {
@@ -4295,7 +4295,7 @@
       }
     },
     "castOnYou": "A soft breeze slips through your mind.",
-    "castOnOther": "Someone  looks very tranquil.",
+    "castOnOther": "very tranquil.",
     "wearsOff": "The soft breeze fades."
   },
   "Rapture": {
@@ -4316,7 +4316,7 @@
       }
     },
     "castOnYou": "You swoon, overcome by rapture.",
-    "castOnOther": "Someone  swoons in raptured bliss.",
+    "castOnOther": "in raptured bliss.",
     "wearsOff": "The rapture fades."
   },
   "Dictate": {
@@ -4337,7 +4337,7 @@
       }
     },
     "castOnYou": "You have been charmed.",
-    "castOnOther": "Someone  has been charmed.",
+    "castOnOther": "been charmed.",
     "wearsOff": "You are no longer charmed."
   },
   "Gift of Brilliance": {
@@ -4358,7 +4358,7 @@
       }
     },
     "castOnYou": "Your thoughts begin to race and flow faster.",
-    "castOnOther": "Someone  appears to be staring into nothingness.",
+    "castOnOther": "to be staring into nothingness.",
     "wearsOff": "Your gift of brilliance fades."
   },
   "Visions of Grandeur": {
@@ -4379,7 +4379,7 @@
       }
     },
     "castOnYou": "You experience visions of grandeur.",
-    "castOnOther": "Someone  experiences visions of grandeur.",
+    "castOnOther": "visions of grandeur.",
     "wearsOff": "Your visions fade."
   },
   "Wind of Tishanian": {
@@ -4401,7 +4401,7 @@
       }
     },
     "castOnYou": "You hear the barking of Tashania.",
-    "castOnOther": "Someone  glances nervously about.",
+    "castOnOther": "nervously about.",
     "wearsOff": "The barking fades."
   }
 }

@@ -22,7 +22,7 @@
       }
     },
     "castOnYou": "You feel protected from fire.",
-    "castOnOther": "Someone  is protected from fire.",
+    "castOnOther": "is protected from fire.",
     "wearsOff": "Your endurance to fire fades."
   },
   "Flame Lick": {
@@ -48,7 +48,7 @@
       }
     },
     "castOnYou": "You are surrounded by flickering flames.",
-    "castOnOther": "Someone  is surrounded by flickering flames.",
+    "castOnOther": "is surrounded by flickering flames.",
     "wearsOff": "The flames are extinguished."
   },
   "Glimpse": {
@@ -69,7 +69,7 @@
       }
     },
     "castOnYou": "Your eyes feel stronger.",
-    "castOnOther": "Someone 's eyes gleam.",
+    "castOnOther": "'s eyes gleam.",
     "wearsOff": "Your vision fades."
   },
   "Lull Animal": {
@@ -111,7 +111,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel a little better.",
-    "castOnOther": "Someone  feels a little better.",
+    "castOnOther": "feels a little better.",
     "wearsOff": ""
   },
   "Skin Like Wood": {
@@ -132,7 +132,7 @@
       }
     },
     "castOnYou": "Your skin turns hard as wood.",
-    "castOnOther": "Someone 's skin turns hard as wood.",
+    "castOnOther": "'s skin turns hard as wood.",
     "wearsOff": "Your skin returns to normal."
   },
   "Snare": {
@@ -158,7 +158,7 @@
       }
     },
     "castOnYou": "You are ensnared.",
-    "castOnOther": "Someone  has been ensnared.",
+    "castOnOther": "has been ensnared.",
     "wearsOff": "You are no longer ensnared."
   },
   "Burst of Fire": {
@@ -174,7 +174,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You feel your skin singe as the Burst of Fire hits you.",
-    "castOnOther": "Someone  singes as the Burst of Fire hits them.",
+    "castOnOther": "singes as the Burst of Fire hits them.",
     "wearsOff": ""
   },
   "Camouflage": {
@@ -200,7 +200,7 @@
       }
     },
     "castOnYou": "Your body fades away.",
-    "castOnOther": "Someone  fades away.",
+    "castOnOther": "fades away.",
     "wearsOff": "You return to view."
   },
   "Cure Poison": {
@@ -232,7 +232,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "A swarm of fireflies shimmers around your hand.",
-    "castOnOther": "Someone 's hands flicker.",
+    "castOnOther": "'s hands flicker.",
     "wearsOff": ""
   },
   "Feet like Cat": {
@@ -253,7 +253,7 @@
       }
     },
     "castOnYou": "You feel more agile.",
-    "castOnOther": "Someone  looks more agile.",
+    "castOnOther": "looks more agile.",
     "wearsOff": "Your agility fades."
   },
   "Grasping Roots": {
@@ -279,7 +279,7 @@
       }
     },
     "castOnYou": "Your feet become entwined.",
-    "castOnOther": "Someone 's feet become entwined.",
+    "castOnOther": "'s feet become entwined.",
     "wearsOff": "The roots fall from your feet."
   },
   "Invoke Lightning": {
@@ -295,7 +295,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "Lightning surges through your body.",
-    "castOnOther": "Someone  has been struck by lightning.",
+    "castOnOther": "has been struck by lightning.",
     "wearsOff": ""
   },
   "Thistlecoat": {
@@ -321,7 +321,7 @@
       }
     },
     "castOnYou": "Thistles spring from your skin.",
-    "castOnOther": "Someone 's skin sprouts thistles.",
+    "castOnOther": "'s skin sprouts thistles.",
     "wearsOff": "Your skin returns to normal."
   },
   "Bind Sight": {
@@ -347,7 +347,7 @@
       }
     },
     "castOnYou": "Your sight is bound.",
-    "castOnOther": "Someone 's eyes gleam and then go dark.",
+    "castOnOther": "'s eyes gleam and then go dark.",
     "wearsOff": "Your binding ends."
   },
   "Endure Cold": {
@@ -373,7 +373,7 @@
       }
     },
     "castOnYou": "You feel protected from cold.",
-    "castOnOther": "Someone  is protected from cold.",
+    "castOnOther": "is protected from cold.",
     "wearsOff": "Your endurance to cold fades."
   },
   "Enduring Breath": {
@@ -394,7 +394,7 @@
       }
     },
     "castOnYou": "You feel no need to breathe.",
-    "castOnOther": "Someone  doesn't seem to be breathing anymore.",
+    "castOnOther": "doesn't seem to be breathing anymore.",
     "wearsOff": "You resume breathing."
   },
   "Firefist": {
@@ -415,7 +415,7 @@
       }
     },
     "castOnYou": "Your fist bursts into flame.",
-    "castOnOther": "Someone 's fist bursts into flame.",
+    "castOnOther": "'s fist bursts into flame.",
     "wearsOff": "Your hand extinguishes."
   },
   "Harmony": {
@@ -457,7 +457,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You feel your skin ignite.",
-    "castOnOther": "Someone 's skin ignites.",
+    "castOnOther": "'s skin ignites.",
     "wearsOff": ""
   },
   "Light Healing": {
@@ -473,7 +473,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel better.",
-    "castOnOther": "Someone  feels better.",
+    "castOnOther": "feels better.",
     "wearsOff": ""
   },
   "Panic Animal": {
@@ -494,7 +494,7 @@
       }
     },
     "castOnYou": "",
-    "castOnOther": "Someone  flees in a state of total panic!",
+    "castOnOther": "flees in a state of total panic!",
     "wearsOff": ""
   },
   "Skin Like Rock": {
@@ -515,7 +515,7 @@
       }
     },
     "castOnYou": "Your skin turns hard as stone.",
-    "castOnOther": "Someone 's skin turns hard as stone.",
+    "castOnOther": "'s skin turns hard as stone.",
     "wearsOff": "Your skin returns to normal."
   },
   "Ward Summoned": {
@@ -531,7 +531,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "",
-    "castOnOther": "Someone  staggers.",
+    "castOnOther": "staggers.",
     "wearsOff": ""
   },
   "Barbcoat": {
@@ -557,7 +557,7 @@
       }
     },
     "castOnYou": "Barbs spring from your skin.",
-    "castOnOther": "Someone 's skin sprouts barbs.",
+    "castOnOther": "'s skin sprouts barbs.",
     "wearsOff": "Your skin returns to normal."
   },
   "Cancel Magic": {
@@ -573,7 +573,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel a bit dispelled.",
-    "castOnOther": "Someone  feels a bit dispelled.",
+    "castOnOther": "feels a bit dispelled.",
     "wearsOff": ""
   },
   "Eyes of the Cat": {
@@ -594,7 +594,7 @@
       }
     },
     "castOnYou": "Your vision shifts.",
-    "castOnOther": "Someone 's eyes glow green.",
+    "castOnOther": "'s eyes glow green.",
     "wearsOff": "Your vision returns to normal."
   },
   "Invigor": {
@@ -615,7 +615,7 @@
       }
     },
     "castOnYou": "Your body zings with energy.",
-    "castOnOther": "Someone  looks energized.",
+    "castOnOther": "looks energized.",
     "wearsOff": ""
   },
   "Shield of Thistles": {
@@ -641,7 +641,7 @@
       }
     },
     "castOnYou": "You are surrounded by a thorny barrier.",
-    "castOnOther": "Someone  is surrounded by a thorny barrier.",
+    "castOnOther": "is surrounded by a thorny barrier.",
     "wearsOff": "The brambles fall away."
   },
   "Spirit of Wolf": {
@@ -667,7 +667,7 @@
       }
     },
     "castOnYou": "You feel the spirit of wolf enter you.",
-    "castOnOther": "Someone  is surrounded by a brief lupine aura.",
+    "castOnOther": "is surrounded by a brief lupine aura.",
     "wearsOff": "The spirit of wolf leaves you."
   },
   "Stinging Swarm": {
@@ -693,7 +693,7 @@
       }
     },
     "castOnYou": "You feel the pain of a thousand stings.",
-    "castOnOther": "Someone  is engulfed in a swarm.",
+    "castOnOther": "is engulfed in a swarm.",
     "wearsOff": "The swarm departs."
   },
   "Strength of Earth": {
@@ -714,7 +714,7 @@
       }
     },
     "castOnYou": "You feel stronger.",
-    "castOnOther": "Someone  looks stronger.",
+    "castOnOther": "looks stronger.",
     "wearsOff": "Your strength fades."
   },
   "Bramblecoat": {
@@ -740,7 +740,7 @@
       }
     },
     "castOnYou": "Brambles spring from your skin.",
-    "castOnOther": "Someone 's skin sprouts brambles.",
+    "castOnOther": "'s skin sprouts brambles.",
     "wearsOff": "Your skin returns to normal."
   },
   "Call of Sky": {
@@ -761,7 +761,7 @@
       }
     },
     "castOnYou": "The Call of Sky fills your weapons with power.",
-    "castOnOther": "Someone 's weapons gleam.",
+    "castOnOther": "'s weapons gleam.",
     "wearsOff": "The Call of Sky leaves."
   },
   "Calm Animal": {
@@ -782,7 +782,7 @@
       }
     },
     "castOnYou": "You feel your aggression subside.",
-    "castOnOther": "Someone  looks less aggressive.",
+    "castOnOther": "looks less aggressive.",
     "wearsOff": ""
   },
   "Careless Lightning": {
@@ -798,7 +798,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "Lightning surges through your body.",
-    "castOnOther": "Someone  has been struck by lightning.",
+    "castOnOther": "has been struck by lightning.",
     "wearsOff": ""
   },
   "Dismiss Summoned": {
@@ -814,7 +814,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "",
-    "castOnOther": "Someone  staggers.",
+    "castOnOther": "staggers.",
     "wearsOff": ""
   },
   "Healing": {
@@ -830,7 +830,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel much better.",
-    "castOnOther": "Someone  feels much better.",
+    "castOnOther": "feels much better.",
     "wearsOff": ""
   },
   "Levitate": {
@@ -856,7 +856,7 @@
       }
     },
     "castOnYou": "Your feet leave the ground.",
-    "castOnOther": "Someone's feet leave the ground.",
+    "castOnOther": "feet leave the ground.",
     "wearsOff": "You can no longer levitate."
   },
   "See Invisible": {
@@ -898,7 +898,7 @@
       }
     },
     "castOnYou": "Your skin turns hard as steel.",
-    "castOnOther": "Someone 's skin turns hard as steel.",
+    "castOnOther": "'s skin turns hard as steel.",
     "wearsOff": "Your skin returns to normal."
   },
   "Call of Flame": {
@@ -914,7 +914,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You feel your skin ignite.",
-    "castOnOther": "Someone 's skin ignites.",
+    "castOnOther": "'s skin ignites.",
     "wearsOff": ""
   },
   "Ensnaring Roots": {
@@ -940,7 +940,7 @@
       }
     },
     "castOnYou": "Your feet become entwined.",
-    "castOnOther": "Someone's feet become entwined.",
+    "castOnOther": "feet become entwined.",
     "wearsOff": "The roots fall from your feet."
   },
   "Immolate": {
@@ -961,7 +961,7 @@
       }
     },
     "castOnYou": "You are surrounded by blazing flames.",
-    "castOnOther": "Someone  is surrounded by blazing flames.",
+    "castOnOther": "is surrounded by blazing flames.",
     "wearsOff": "The flames are extinguished."
   },
   "Resist Fire": {
@@ -982,7 +982,7 @@
       }
     },
     "castOnYou": "You feel resistant from fire.",
-    "castOnOther": "Someone is resistant to fire.",
+    "castOnOther": "is resistant to fire.",
     "wearsOff": "Your resist fire fades."
   },
   "Shield of Brambles": {
@@ -1008,7 +1008,7 @@
       }
     },
     "castOnYou": "You are surrounded by a thorny barrier.",
-    "castOnOther": "Someone  is surrounded by a thorny barrier.",
+    "castOnOther": "is surrounded by a thorny barrier.",
     "wearsOff": "The brambles fall away."
   },
   "Spikecoat": {
@@ -1034,7 +1034,7 @@
       }
     },
     "castOnYou": "Spikes spring from your skin.",
-    "castOnOther": "Someone 's skin sprouts spikes.",
+    "castOnOther": "'s skin sprouts spikes.",
     "wearsOff": "Your skin returns to normal."
   },
   "Superior Camouflage": {
@@ -1055,7 +1055,7 @@
       }
     },
     "castOnYou": "You vanish.",
-    "castOnOther": "Someone  fades away.",
+    "castOnOther": "fades away.",
     "wearsOff": "You appear."
   },
   "Wolf Form": {
@@ -1076,7 +1076,7 @@
       }
     },
     "castOnYou": "You are now a wolf.",
-    "castOnOther": "Someone  turns into a wolf.",
+    "castOnOther": "turns into a wolf.",
     "wearsOff": "You are no longer a wolf."
   },
   "Call of Earth": {
@@ -1097,7 +1097,7 @@
       }
     },
     "castOnYou": "The Call of Earth surrounds your body protectively.",
-    "castOnOther": "Someone 's body is surrounded by the Call of Earth.",
+    "castOnOther": "'s body is surrounded by the Call of Earth.",
     "wearsOff": "The Call of Earth leaves."
   },
   "Ensnare": {
@@ -1123,7 +1123,7 @@
       }
     },
     "castOnYou": "You are ensnared.",
-    "castOnOther": "Someone  has been ensnared.",
+    "castOnOther": "has been ensnared.",
     "wearsOff": "You are no longer ensnared."
   },
   "Jolt": {
@@ -1139,7 +1139,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "Your head snaps back.",
-    "castOnOther": "Someone 's head snaps back.",
+    "castOnOther": "'s head snaps back.",
     "wearsOff": ""
   },
   "Strength of Nature": {
@@ -1160,7 +1160,7 @@
       }
     },
     "castOnYou": "Nature's strength flows through your muscles.",
-    "castOnOther": "Someone 's body is strengthened by nature.",
+    "castOnOther": "'s body is strengthened by nature.",
     "wearsOff": "Nature's strength ebbs."
   },
   "Extinguish Fatigue": {
@@ -1176,7 +1176,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "Your body zings with energy.",
-    "castOnOther": "Someone  looks energized.",
+    "castOnOther": "looks energized.",
     "wearsOff": ""
   },
   "Firestrike": {
@@ -1192,7 +1192,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You feel your skin ignite.",
-    "castOnOther": "Someone 's skin ignites.",
+    "castOnOther": "'s skin ignites.",
     "wearsOff": ""
   },
   "Storm Strength": {
@@ -1213,7 +1213,7 @@
       }
     },
     "castOnYou": "You feel stronger.",
-    "castOnOther": "Someone  looks stronger.",
+    "castOnOther": "looks stronger.",
     "wearsOff": "Your strength fades."
   },
   "Drones of Doom": {
@@ -1234,7 +1234,7 @@
       }
     },
     "castOnYou": "You feel the pain of a thousand stings.",
-    "castOnOther": "Someone  is engulfed in a swarm.",
+    "castOnOther": "is engulfed in a swarm.",
     "wearsOff": "The swarm departs."
   },
   "Skin Like Diamond": {
@@ -1255,7 +1255,7 @@
       }
     },
     "castOnYou": "Your skin turns hard as diamond.",
-    "castOnOther": "Someone 's skin turns hard as diamond.",
+    "castOnOther": "'s skin turns hard as diamond.",
     "wearsOff": "Your skin returns to normal."
   },
   "Call of Fire": {
@@ -1276,7 +1276,7 @@
       }
     },
     "castOnYou": "The Call of Fire fills your weapons with power.",
-    "castOnOther": "Someone 's weapons gleam.",
+    "castOnOther": "'s weapons gleam.",
     "wearsOff": "The Call of Fire leaves."
   },
   "Chloroplast": {
@@ -1302,7 +1302,7 @@
       }
     },
     "castOnYou": "You begin to regenerate.",
-    "castOnOther": "Someone  begins to regenerate.",
+    "castOnOther": "begins to regenerate.",
     "wearsOff": "You have stopped regenerating."
   },
   "Cinder Jolt": {
@@ -1318,7 +1318,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "Your head snaps back.",
-    "castOnOther": "Someone 's head snaps back.",
+    "castOnOther": "'s head snaps back.",
     "wearsOff": ""
   },
   "Resist Cold": {
@@ -1339,7 +1339,7 @@
       }
     },
     "castOnYou": "You feel resistant from cold.",
-    "castOnOther": "Someone  is resistant to cold.",
+    "castOnOther": "is resistant to cold.",
     "wearsOff": "Your cold resistance fades."
   },
   "Chill Sight": {
@@ -1360,7 +1360,7 @@
       }
     },
     "castOnYou": "Your eyes tingle.",
-    "castOnOther": "Someone 's eyes glow violet.",
+    "castOnOther": "'s eyes glow violet.",
     "wearsOff": "Your ultravision fades."
   },
   "Greater Wolf Form": {
@@ -1386,7 +1386,7 @@
       }
     },
     "castOnYou": "You are now a wolf.",
-    "castOnOther": "Someone  turns into a wolf.",
+    "castOnOther": "turns into a wolf.",
     "wearsOff": "You are no longer a wolf."
   },
   "Greater Healing": {
@@ -1402,7 +1402,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel much better.",
-    "castOnOther": "Someone  feels much better.",
+    "castOnOther": "feels much better.",
     "wearsOff": ""
   },
   "Nullify Magic": {
@@ -1418,7 +1418,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel dispelled.",
-    "castOnOther": "Someone  feels dispelled.",
+    "castOnOther": "feels dispelled.",
     "wearsOff": ""
   },
   "Shield of Spikes": {
@@ -1444,7 +1444,7 @@
       }
     },
     "castOnYou": "You are surrounded by a thorny barrier.",
-    "castOnOther": "Someone  is surrounded by a thorny barrier.",
+    "castOnOther": "is surrounded by a thorny barrier.",
     "wearsOff": "The brambles fall away."
   },
   "Calefaction": {
@@ -1460,7 +1460,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "Debris smashes against your body.",
-    "castOnOther": "Someone 's body is crushed by flying debris.",
+    "castOnOther": "'s body is crushed by flying debris.",
     "wearsOff": ""
   },
   "Skin Like Nature": {
@@ -1481,7 +1481,7 @@
       }
     },
     "castOnYou": "Your skin shimmers with divine power.",
-    "castOnOther": "Someone 's skin shimmers with divine power.",
+    "castOnOther": "'s skin shimmers with divine power.",
     "wearsOff": "Your skin returns to normal."
   },
   "Call of the Predator": {
@@ -1502,7 +1502,7 @@
       }
     },
     "castOnYou": "The spirit of the predator strengthens your attacks.",
-    "castOnOther": "Someone  growls as a whisper of the predator pervades the air.",
+    "castOnOther": "growls as a whisper of the predator pervades the air.",
     "wearsOff": "The predator's spirit departs."
   },
   "Enveloping Roots": {
@@ -1523,7 +1523,7 @@
       }
     },
     "castOnYou": "Your feet become entwined.",
-    "castOnOther": "Someone 's feet become entwined.",
+    "castOnOther": "'s feet become entwined.",
     "wearsOff": "The roots fall from your feet."
   },
   "Thorncoat": {
@@ -1549,7 +1549,7 @@
       }
     },
     "castOnYou": "Thorns spring from your skin.",
-    "castOnOther": "Someone 's skin sprouts thorns.",
+    "castOnOther": "'s skin sprouts thorns.",
     "wearsOff": "Your skin returns to normal."
   }
 }

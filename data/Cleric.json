@@ -17,7 +17,7 @@
       }
     },
     "castOnYou": "You feel a rush of courage.",
-    "castOnOther": "Someone  looks courageous.",
+    "castOnOther": "courageous.",
     "wearsOff": "You feel less courageous."
   },
   "Cure Poison": {
@@ -75,7 +75,7 @@
       }
     },
     "castOnYou": "You are blinded by a flash of light.",
-    "castOnOther": "Someone  is blinded by a flash of light.",
+    "castOnOther": "blinded by a flash of light.",
     "wearsOff": "Your sight returns."
   },
   "Lull": {
@@ -101,7 +101,7 @@
       }
     },
     "castOnYou": "You feel less aggressive.",
-    "castOnOther": "Someone  looks less aggressive.",
+    "castOnOther": "less aggressive.",
     "wearsOff": ""
   },
   "Minor Healing": {
@@ -117,7 +117,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel a little better.",
-    "castOnOther": "Someone  feels a little better.",
+    "castOnOther": "a little better.",
     "wearsOff": ""
   },
   "Spook the Dead": {
@@ -143,7 +143,7 @@
       }
     },
     "castOnYou": "Your bones tingle.",
-    "castOnOther": "Someone  has the fear of life put in them.",
+    "castOnOther": "the fear of life put in them.",
     "wearsOff": ""
   },
   "Strike": {
@@ -159,7 +159,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You have been struck.",
-    "castOnOther": "Someone  is struck.",
+    "castOnOther": "struck.",
     "wearsOff": ""
   },
   "True North": {
@@ -196,7 +196,7 @@
       }
     },
     "castOnYou": "You feel a surge of strength as you let forth a mighty yaulp.",
-    "castOnOther": "Someone  lets loose a mighty yaulp.",
+    "castOnOther": "loose a mighty yaulp.",
     "wearsOff": "Your surge of strength fades."
   },
   "Cure Blindness": {
@@ -212,7 +212,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "",
-    "castOnOther": "Someone 's eyes sparkle.",
+    "castOnOther": "eyes sparkle.",
     "wearsOff": ""
   },
   "Cure Disease": {
@@ -244,7 +244,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You are struck by a sudden burst of force.",
-    "castOnOther": "Someone  is struck by a sudden burst of force.",
+    "castOnOther": "struck by a sudden burst of force.",
     "wearsOff": ""
   },
   "Gate": {
@@ -260,7 +260,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "",
-    "castOnOther": "Someone  fades away.",
+    "castOnOther": "away.",
     "wearsOff": ""
   },
   "Holy Armor": {
@@ -286,7 +286,7 @@
       }
     },
     "castOnYou": "You feel the favor of the gods upon you.",
-    "castOnOther": "Someone  feels the favor of the gods upon them.",
+    "castOnOther": "the favor of the gods upon them.",
     "wearsOff": "You no longer feel blessed."
   },
   "Light Healing": {
@@ -302,7 +302,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel better.",
-    "castOnOther": "Someone  feels better.",
+    "castOnOther": "better.",
     "wearsOff": ""
   },
   "Reckless Strength": {
@@ -323,7 +323,7 @@
       }
     },
     "castOnYou": "Your muscles erupt with reckless strength.",
-    "castOnOther": "Someone 's muscles bulge with reckless strength.",
+    "castOnOther": "muscles bulge with reckless strength.",
     "wearsOff": "You feel your strength return."
   },
   "Stun": {
@@ -339,7 +339,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You are stunned.",
-    "castOnOther": "Someone  is stunned.",
+    "castOnOther": "stunned.",
     "wearsOff": "You are no longer stunned."
   },
   "Summon Drink": {
@@ -392,7 +392,7 @@
       }
     },
     "castOnYou": "You feel magnanimous of spirit.",
-    "castOnOther": "Someone  is surrounded by a divine aura.",
+    "castOnOther": "surrounded by a divine aura.",
     "wearsOff": "Your sense of center fades."
   },
   "Endure Fire": {
@@ -418,7 +418,7 @@
       }
     },
     "castOnYou": "You feel protected from fire.",
-    "castOnOther": "Someone  is protected from fire.",
+    "castOnOther": "protected from fire.",
     "wearsOff": "Your endurance to fire fades."
   },
   "Endure Poison": {
@@ -439,7 +439,7 @@
       }
     },
     "castOnYou": "You feel protected from poison.",
-    "castOnOther": "Someone  is protected from poison.",
+    "castOnOther": "protected from poison.",
     "wearsOff": "Your endurance to poison fades."
   },
   "Fear": {
@@ -460,7 +460,7 @@
       }
     },
     "castOnYou": "Your mind fills with fear.",
-    "castOnOther": "Someone  looks very afraid.",
+    "castOnOther": "very afraid.",
     "wearsOff": "You are no longer afraid."
   },
   "Hammer of Wrath": {
@@ -497,7 +497,7 @@
       }
     },
     "castOnYou": "Your body zings with energy.",
-    "castOnOther": "Someone  looks energized.",
+    "castOnOther": "energized.",
     "wearsOff": ""
   },
   "Root": {
@@ -523,7 +523,7 @@
       }
     },
     "castOnYou": "Your feet adhere to the ground.",
-    "castOnOther": "Someone 's feet adhere to the ground.",
+    "castOnOther": "feet adhere to the ground.",
     "wearsOff": "Your feet come free."
   },
   "Sense the Dead": {
@@ -565,7 +565,7 @@
       }
     },
     "castOnYou": "You feel your aggression subside.",
-    "castOnOther": "Someone  looks less aggressive.",
+    "castOnOther": "less aggressive.",
     "wearsOff": ""
   },
   "Summon Food": {
@@ -597,7 +597,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You are wracked by pain.",
-    "castOnOther": "Someone  writhes in pain.",
+    "castOnOther": "in pain.",
     "wearsOff": ""
   },
   "Bind Affinity": {
@@ -613,7 +613,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel yourself bind to the area.",
-    "castOnOther": "Someone  is bound to the area.",
+    "castOnOther": "bound to the area.",
     "wearsOff": ""
   },
   "Cancel Magic": {
@@ -629,7 +629,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel a bit dispelled.",
-    "castOnOther": "Someone  feels a bit dispelled.",
+    "castOnOther": "a bit dispelled.",
     "wearsOff": ""
   },
   "Endure Cold": {
@@ -655,7 +655,7 @@
       }
     },
     "castOnYou": "You feel protected from cold.",
-    "castOnOther": "Someone  is protected from cold.",
+    "castOnOther": "protected from cold.",
     "wearsOff": "Your endurance to cold fades."
   },
   "Endure Disease": {
@@ -676,7 +676,7 @@
       }
     },
     "castOnYou": "You feel protected from disease.",
-    "castOnOther": "Someone  is protected from disease.",
+    "castOnOther": "protected from disease.",
     "wearsOff": "Your endurance to disease fades."
   },
   "Expulse Undead": {
@@ -708,7 +708,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "A Halo of Light solidifies in your hand.",
-    "castOnOther": "Someone 's hands are bathed in light.",
+    "castOnOther": "hands are bathed in light.",
     "wearsOff": ""
   },
   "Healing": {
@@ -724,7 +724,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel much better.",
-    "castOnOther": "Someone  feels much better.",
+    "castOnOther": "much better.",
     "wearsOff": ""
   },
   "Invisibility versus Undead": {
@@ -750,7 +750,7 @@
       }
     },
     "castOnYou": "You feel your skin tingle.",
-    "castOnOther": "Someone  fades a little.",
+    "castOnOther": "a little.",
     "wearsOff": "Your skin stops tingling."
   },
   "Sense Summoned": {
@@ -782,7 +782,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You have been smitten.",
-    "castOnOther": "Someone  has been smitten.",
+    "castOnOther": "been smitten.",
     "wearsOff": ""
   },
   "Symbol of Transal": {
@@ -803,7 +803,7 @@
       }
     },
     "castOnYou": "A mystic symbol flashes before your eyes.",
-    "castOnOther": "Someone  is cloaked in a shimmer of glowing symbols.",
+    "castOnOther": "cloaked in a shimmer of glowing symbols.",
     "wearsOff": "The mystic symbol fades."
   },
   "Calm": {
@@ -829,7 +829,7 @@
       }
     },
     "castOnYou": "You feel your aggression subside.",
-    "castOnOther": "Someone  looks less aggressive.",
+    "castOnOther": "less aggressive.",
     "wearsOff": ""
   },
   "Daring": {
@@ -850,7 +850,7 @@
       }
     },
     "castOnYou": "You feel daring.",
-    "castOnOther": "Someone  looks daring.",
+    "castOnOther": "daring.",
     "wearsOff": "You no longer feel daring."
   },
   "Endure Magic": {
@@ -871,7 +871,7 @@
       }
     },
     "castOnYou": "You feel protected from magic.",
-    "castOnOther": "Someone  is protected from magic.",
+    "castOnOther": "protected from magic.",
     "wearsOff": "Your endurance to magic fades."
   },
   "Extinguish Fatigue": {
@@ -887,7 +887,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "Your body zings with energy.",
-    "castOnOther": "Someone  looks energized.",
+    "castOnOther": "energized.",
     "wearsOff": ""
   },
   "Holy Might": {
@@ -903,7 +903,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You are struck by a sudden force.",
-    "castOnOther": "Someone  is stunned.",
+    "castOnOther": "stunned.",
     "wearsOff": "You are no longer stunned."
   },
   "Spirit Armor": {
@@ -924,7 +924,7 @@
       }
     },
     "castOnYou": "Translucent armor gathers around you.",
-    "castOnOther": "Someone  is coated in translucent armor.",
+    "castOnOther": "coated in translucent armor.",
     "wearsOff": "Your spiritual armor fades."
   },
   "Ward Summoned": {
@@ -940,7 +940,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "",
-    "castOnOther": "Someone  staggers.",
+    "castOnOther": "",
     "wearsOff": ""
   },
   "Word of Shadow": {
@@ -956,7 +956,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You are wracked with pain.",
-    "castOnOther": "Someone  writhes in pain.",
+    "castOnOther": "in pain.",
     "wearsOff": ""
   },
   "Yaulp II": {
@@ -977,7 +977,7 @@
       }
     },
     "castOnYou": "You feel a surge of strength as you let forth a mighty yaulp.",
-    "castOnOther": "Someone  lets loose a mighty yaulp.",
+    "castOnOther": "loose a mighty yaulp.",
     "wearsOff": "Your surge of strength fades."
   },
   "Bravery": {
@@ -998,7 +998,7 @@
       }
     },
     "castOnYou": "You feel very brave.",
-    "castOnOther": "Someone  looks brave.",
+    "castOnOther": "brave.",
     "wearsOff": "Your bravery fades."
   },
   "Counteract Poison": {
@@ -1030,7 +1030,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "",
-    "castOnOther": "Someone  staggers.",
+    "castOnOther": "",
     "wearsOff": ""
   },
   "Greater Healing": {
@@ -1046,7 +1046,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel much better.",
-    "castOnOther": "Someone  feels much better.",
+    "castOnOther": "much better.",
     "wearsOff": ""
   },
   "Hammer of Striking": {
@@ -1083,7 +1083,7 @@
       }
     },
     "castOnYou": "Your mind fills with fear.",
-    "castOnOther": "Someone  looks very afraid.",
+    "castOnOther": "very afraid.",
     "wearsOff": "You are no longer afraid."
   },
   "Symbol of Ryltan": {
@@ -1104,7 +1104,7 @@
       }
     },
     "castOnYou": "The symbol of Ryltan flashes before your eyes.",
-    "castOnOther": "Someone  is cloaked in a shimmer of glowing symbols.",
+    "castOnOther": "cloaked in a shimmer of glowing symbols.",
     "wearsOff": "The mystic symbol fades."
   },
   "Wave of Fear": {
@@ -1125,7 +1125,7 @@
       }
     },
     "castOnYou": "Your mind fills with fear.",
-    "castOnOther": "Someone  looks very afraid.",
+    "castOnOther": "very afraid.",
     "wearsOff": "You are no longer afraid."
   },
   "Abundant Drink": {
@@ -1178,7 +1178,7 @@
       }
     },
     "castOnYou": "You are surrounded by a divine barrier.",
-    "castOnOther": "Someone  is surrounded by a divine barrier.",
+    "castOnOther": "surrounded by a divine barrier.",
     "wearsOff": "The barrier fades."
   },
   "Enstill": {
@@ -1204,7 +1204,7 @@
       }
     },
     "castOnYou": "Your feet adhere to the ground.",
-    "castOnOther": "Someone 's feet adhere to the ground.",
+    "castOnOther": "feet adhere to the ground.",
     "wearsOff": "Your feet come free."
   },
   "Expulse Summoned": {
@@ -1241,7 +1241,7 @@
       }
     },
     "castOnYou": "You feel the favor of the gods upon you.",
-    "castOnOther": "Someone  feels the favor of the gods upon them.",
+    "castOnOther": "the favor of the gods upon them.",
     "wearsOff": "You no longer feel blessed."
   },
   "Imbue Amber": {
@@ -1454,7 +1454,7 @@
       }
     },
     "castOnYou": "Your bones tingle.",
-    "castOnOther": "Someone  has the fear of life put in them.",
+    "castOnOther": "the fear of life put in them.",
     "wearsOff": ""
   },
   "Revive": {
@@ -1486,7 +1486,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You are wracked with pain.",
-    "castOnOther": "Someone  writhes in pain.",
+    "castOnOther": "in pain.",
     "wearsOff": ""
   },
   "Wrath": {
@@ -1502,7 +1502,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You have been struck down by wrath.",
-    "castOnOther": "Someone  has been struck down by wrath.",
+    "castOnOther": "been struck down by wrath.",
     "wearsOff": ""
   },
   "Abundant Food": {
@@ -1544,7 +1544,7 @@
       }
     },
     "castOnYou": "You feel protected.",
-    "castOnOther": "Someone  looks protected.",
+    "castOnOther": "protected.",
     "wearsOff": "Your protection fades."
   },
   "Atone": {
@@ -1560,7 +1560,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel forgiveness in your mind.",
-    "castOnOther": "Someone  calms down.",
+    "castOnOther": "down.",
     "wearsOff": ""
   },
   "Blinding Luminance": {
@@ -1581,7 +1581,7 @@
       }
     },
     "castOnYou": "You are blinded by a flash of light.",
-    "castOnOther": "Someone  is blinded by a flash of light.",
+    "castOnOther": "blinded by a flash of light.",
     "wearsOff": "Your sight returns."
   },
   "Expel Undead": {
@@ -1597,7 +1597,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "",
-    "castOnOther": "Someone  staggers.",
+    "castOnOther": "",
     "wearsOff": ""
   },
   "Force": {
@@ -1613,7 +1613,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You are struck by a sudden force.",
-    "castOnOther": "Someone  is struck by a sudden force.",
+    "castOnOther": "struck by a sudden force.",
     "wearsOff": "You are no longer stunned."
   },
   "Frenzied Strength": {
@@ -1634,7 +1634,7 @@
       }
     },
     "castOnYou": "Your muscles erupt with frenzied strength.",
-    "castOnOther": "Someone 's muscles bulge with frenzied strength.",
+    "castOnOther": "muscles bulge with frenzied strength.",
     "wearsOff": "You feel your strength return."
   },
   "Resist Fire": {
@@ -1655,7 +1655,7 @@
       }
     },
     "castOnYou": "You feel resistant from fire.",
-    "castOnOther": "Someone is resistant to fire.",
+    "castOnOther": "resistant to fire.",
     "wearsOff": "Your resist fire fades."
   },
   "Resist Poison": {
@@ -1676,7 +1676,7 @@
       }
     },
     "castOnYou": "You feel resistant from poison.",
-    "castOnOther": "Someone  is resistant to poison.",
+    "castOnOther": "resistant to poison.",
     "wearsOff": "Your poison resistance fades."
   },
   "Superior Healing": {
@@ -1692,7 +1692,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel much better.",
-    "castOnOther": "Someone  feels much better.",
+    "castOnOther": "much better.",
     "wearsOff": ""
   },
   "Symbol of Pinzarn": {
@@ -1713,7 +1713,7 @@
       }
     },
     "castOnYou": "A mystic symbol flashes before your eyes.",
-    "castOnOther": "Someone  is cloaked in a shimmer of glowing symbols.",
+    "castOnOther": "cloaked in a shimmer of glowing symbols.",
     "wearsOff": "The mystic symbol fades."
   },
   "Tremor": {
@@ -1750,7 +1750,7 @@
       }
     },
     "castOnYou": "You feel valorous.",
-    "castOnOther": "Someone  looks valorous.",
+    "castOnOther": "valorous.",
     "wearsOff": "Your valor fades."
   },
   "Word of Health": {
@@ -1766,7 +1766,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel much better.",
-    "castOnOther": "Someone  feels much better.",
+    "castOnOther": "much better.",
     "wearsOff": ""
   },
   "Armor of Faith": {
@@ -1787,7 +1787,7 @@
       }
     },
     "castOnYou": "You feel the favor of the gods upon you.",
-    "castOnOther": "Someone  feels the favor of the gods upon them.",
+    "castOnOther": "the favor of the gods upon them.",
     "wearsOff": "You no longer feel blessed."
   },
   "Complete Healing": {
@@ -1803,7 +1803,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You are completely healed.",
-    "castOnOther": "Someone  is completely healed.",
+    "castOnOther": "completely healed.",
     "wearsOff": ""
   },
   "Dismiss Summoned": {
@@ -1819,7 +1819,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "",
-    "castOnOther": "Someone  staggers.",
+    "castOnOther": "",
     "wearsOff": ""
   },
   "Invoke Fear": {
@@ -1840,7 +1840,7 @@
       }
     },
     "castOnYou": "Your mind fills with fear.",
-    "castOnOther": "Someone  looks very afraid.",
+    "castOnOther": "very afraid.",
     "wearsOff": "You are no longer afraid."
   },
   "Nullify Magic": {
@@ -1856,7 +1856,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel dispelled.",
-    "castOnOther": "Someone  feels dispelled.",
+    "castOnOther": "dispelled.",
     "wearsOff": ""
   },
   "Pacify": {
@@ -1882,7 +1882,7 @@
       }
     },
     "castOnYou": "You feel your aggression subside.",
-    "castOnOther": "Someone  looks less aggressive.",
+    "castOnOther": "less aggressive.",
     "wearsOff": ""
   },
   "Resist Cold": {
@@ -1903,7 +1903,7 @@
       }
     },
     "castOnYou": "You feel resistant from cold.",
-    "castOnOther": "Someone  is resistant to cold.",
+    "castOnOther": "resistant to cold.",
     "wearsOff": "Your cold resistance fades."
   },
   "Resist Disease": {
@@ -1924,7 +1924,7 @@
       }
     },
     "castOnYou": "You feel resistant from disease.",
-    "castOnOther": "Someone  is resistant to disease.",
+    "castOnOther": "resistant to disease.",
     "wearsOff": "Your disease resistance fades."
   },
   "Resuscitate": {
@@ -1961,7 +1961,7 @@
       }
     },
     "castOnYou": "You stagger as the light of divine words enter your mind.",
-    "castOnOther": "Someone  staggers under the weight of divine words.",
+    "castOnOther": "under the weight of divine words.",
     "wearsOff": "The words soften."
   },
   "Word of Souls": {
@@ -1977,7 +1977,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You are wracked with pain.",
-    "castOnOther": "Someone  writhes in pain.",
+    "castOnOther": "in pain.",
     "wearsOff": ""
   },
   "Banish Undead": {
@@ -1993,7 +1993,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "",
-    "castOnOther": "Someone  staggers.",
+    "castOnOther": "",
     "wearsOff": ""
   },
   "Celestial Healing": {
@@ -2014,7 +2014,7 @@
       }
     },
     "castOnYou": "Celestial light pumps through your body.",
-    "castOnOther": "Someone 's body is covered with a soft glow.",
+    "castOnOther": "body is covered with a soft glow.",
     "wearsOff": "The celestial light fades."
   },
   "Earthquake": {
@@ -2030,7 +2030,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You feel the ground shake.",
-    "castOnOther": "Someone  is smashed by the heaving ground.",
+    "castOnOther": "smashed by the heaving ground.",
     "wearsOff": ""
   },
   "Hammer of Requital": {
@@ -2067,7 +2067,7 @@
       }
     },
     "castOnYou": "You feel resistant from magic.",
-    "castOnOther": "Someone  is resistant to magic.",
+    "castOnOther": "resistant to magic.",
     "wearsOff": "Your resist magic fades."
   },
   "Resolution": {
@@ -2088,7 +2088,7 @@
       }
     },
     "castOnYou": "You feel resolute.",
-    "castOnOther": "Someone  looks resolute.",
+    "castOnOther": "resolute.",
     "wearsOff": "Your resolution fades."
   },
   "Retribution": {
@@ -2104,7 +2104,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You have been struck by the wrath of the gods.",
-    "castOnOther": "Someone  has been struck by the wrath of the gods.",
+    "castOnOther": "been struck by the wrath of the gods.",
     "wearsOff": ""
   },
   "Symbol of Naltron": {
@@ -2125,7 +2125,7 @@
       }
     },
     "castOnYou": "A mystic symbol flashes before your eyes.",
-    "castOnOther": "Someone  is cloaked in a shimmer of glowing symbols.",
+    "castOnOther": "cloaked in a shimmer of glowing symbols.",
     "wearsOff": "The mystic symbol fades."
   },
   "Yaulp III": {
@@ -2146,7 +2146,7 @@
       }
     },
     "castOnYou": "You feel a surge of strength as you let forth a mighty yaulp.",
-    "castOnOther": "Someone  lets loose a mighty yaulp.",
+    "castOnOther": "loose a mighty yaulp.",
     "wearsOff": "Your surge of strength fades."
   },
   "Abolish Poison": {
@@ -2199,7 +2199,7 @@
       }
     },
     "castOnYou": "Your feet adhere to the ground.",
-    "castOnOther": "Someone's feet adhere to the ground.",
+    "castOnOther": "adhere to the ground.",
     "wearsOff": "Your feet come free."
   },
   "Resurrection": {
@@ -2236,7 +2236,7 @@
       }
     },
     "castOnYou": "You feel the favor of the gods upon you.",
-    "castOnOther": "Someone  feels the favor of the gods upon them.",
+    "castOnOther": "the favor of the gods upon them.",
     "wearsOff": "You no longer feel blessed."
   },
   "Sound of Force": {
@@ -2252,7 +2252,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You are stunned.",
-    "castOnOther": "Someone  is stunned.",
+    "castOnOther": "stunned.",
     "wearsOff": "You are no longer stunned."
   },
   "Word Divine": {
@@ -2268,7 +2268,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You are wracked with pain.",
-    "castOnOther": "Someone  writhes in pain.",
+    "castOnOther": "in pain.",
     "wearsOff": ""
   },
   "Word of Healing": {
@@ -2284,7 +2284,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel much better.",
-    "castOnOther": "Someone  feels much better.",
+    "castOnOther": "much better.",
     "wearsOff": ""
   },
   "Improved Invis to Undead": {
@@ -2305,7 +2305,7 @@
       }
     },
     "castOnYou": "You feel your skin tingle.",
-    "castOnOther": "Someone  fades a little.",
+    "castOnOther": "a little.",
     "wearsOff": "Your skin stops tingling."
   },
   "Death Pact": {
@@ -2326,7 +2326,7 @@
       }
     },
     "castOnYou": "You are surrounded by a foreboding aura.",
-    "castOnOther": "Someone  is covered in a foreboding aura.",
+    "castOnOther": "covered in a foreboding aura.",
     "wearsOff": "The aura fades."
   },
   "Dread of Night": {
@@ -2347,7 +2347,7 @@
       }
     },
     "castOnYou": "Your bones tingle.",
-    "castOnOther": "Someone  has been instilled with the dread of night.",
+    "castOnOther": "been instilled with the dread of night.",
     "wearsOff": ""
   },
   "Remedy": {
@@ -2363,7 +2363,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "Your wounds fade.",
-    "castOnOther": "Someone 's wounds fade away.",
+    "castOnOther": "wounds fade away.",
     "wearsOff": ""
   },
   "Sunskin": {
@@ -2384,7 +2384,7 @@
       }
     },
     "castOnYou": "You feel your skin tingle.",
-    "castOnOther": "Someone  fades a little.",
+    "castOnOther": "a little.",
     "wearsOff": "Your skin stops tingling."
   },
   "Heroic Bond": {
@@ -2405,7 +2405,7 @@
       }
     },
     "castOnYou": "You feel heroic.",
-    "castOnOther": "Someone 's eyes gleam with heroic resolution.",
+    "castOnOther": "eyes gleam with heroic resolution.",
     "wearsOff": "Your heroism fades."
   },
   "Heroism": {
@@ -2426,7 +2426,7 @@
       }
     },
     "castOnYou": "You feel heroic.",
-    "castOnOther": "Someone 's eyes gleam with heroic resolution.",
+    "castOnOther": "eyes gleam with heroic resolution.",
     "wearsOff": "Your heroism fades."
   },
   "Upheaval": {
@@ -2442,7 +2442,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You feel the ground scream and heave.",
-    "castOnOther": "Someone  is mauled by the moving ground.",
+    "castOnOther": "mauled by the moving ground.",
     "wearsOff": ""
   },
   "Word of Vigor": {
@@ -2458,7 +2458,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel vigorous.",
-    "castOnOther": "Someone  looks vigorous.",
+    "castOnOther": "vigorous.",
     "wearsOff": ""
   },
   "Annul Magic": {
@@ -2474,7 +2474,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel annulled.",
-    "castOnOther": "Someone  feels annulled.",
+    "castOnOther": "annulled.",
     "wearsOff": ""
   },
   "Divine Light": {
@@ -2490,7 +2490,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You are bathed in a divine light.",
-    "castOnOther": "Someone  is bathed in a divine light.",
+    "castOnOther": "bathed in a divine light.",
     "wearsOff": ""
   },
   "Yaulp IV": {
@@ -2511,7 +2511,7 @@
       }
     },
     "castOnYou": "You feel a surge of strength as you let forth a mighty yaulp.",
-    "castOnOther": "Someone  lets loose a mighty yaulp.",
+    "castOnOther": "loose a mighty yaulp.",
     "wearsOff": "Your surge of strength fades."
   },
   "Reckoning": {
@@ -2527,7 +2527,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You have been struck down by the judgement of the gods.",
-    "castOnOther": "Someone  has been struck by the judgement of the gods.",
+    "castOnOther": "been struck by the judgement of the gods.",
     "wearsOff": ""
   },
   "Symbol of Marzin": {
@@ -2548,7 +2548,7 @@
       }
     },
     "castOnYou": "A mystic symbol flashes before your eyes.",
-    "castOnOther": "Someone  is cloaked in a shimmer of glowing symbols.",
+    "castOnOther": "cloaked in a shimmer of glowing symbols.",
     "wearsOff": "The mystic symbol fades."
   },
   "Unswerving Hammer": {
@@ -2580,7 +2580,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "",
-    "castOnOther": "Someone  staggers.",
+    "castOnOther": "",
     "wearsOff": ""
   },
   "Fortitude": {
@@ -2601,7 +2601,7 @@
       }
     },
     "castOnYou": "An aura of fortitude fills you.",
-    "castOnOther": "Someone 's body pulses with mystic fortitude.",
+    "castOnOther": "body pulses with mystic fortitude.",
     "wearsOff": "Your fortitude fades."
   },
   "Stun Command": {
@@ -2617,7 +2617,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You are struck by a sudden force.",
-    "castOnOther": "Someone  is struck by a sudden force.",
+    "castOnOther": "struck by a sudden force.",
     "wearsOff": "You are no longer stunned."
   },
   "Wake of Tranquility": {
@@ -2643,7 +2643,7 @@
       }
     },
     "castOnYou": "You feel your aggression subside.",
-    "castOnOther": "Someone  looks less aggressive.",
+    "castOnOther": "less aggressive.",
     "wearsOff": ""
   },
   "Banish Summoned": {
@@ -2659,7 +2659,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "",
-    "castOnOther": "Someone  staggers.",
+    "castOnOther": "",
     "wearsOff": ""
   },
   "Mark of Karn": {
@@ -2680,7 +2680,7 @@
       }
     },
     "castOnYou": "Your skin gleams with a pure aura.",
-    "castOnOther": "Someone 's skin gleams with a pure aura.",
+    "castOnOther": "skin gleams with a pure aura.",
     "wearsOff": "The aura fades."
   },
   "Paralyzing Earth": {
@@ -2701,7 +2701,7 @@
       }
     },
     "castOnYou": "Your feet adhere to the ground.",
-    "castOnOther": "Someone 's feet adhere to the ground.",
+    "castOnOther": "feet adhere to the ground.",
     "wearsOff": "Your feet come free."
   },
   "Reviviscence": {
@@ -2738,7 +2738,7 @@
       }
     },
     "castOnYou": "An aegis of faith engulfs you.",
-    "castOnOther": "Someone  is shielded behind an aegis of pure faith.",
+    "castOnOther": "shielded behind an aegis of pure faith.",
     "wearsOff": "You no longer feel shielded."
   },
   "Bulwark of Faith": {
@@ -2759,7 +2759,7 @@
       }
     },
     "castOnYou": "A bulwark of faith protects you.",
-    "castOnOther": "Someone  is protected by a bulwark of pure faith.",
+    "castOnOther": "protected by a bulwark of pure faith.",
     "wearsOff": "You no longer feel shielded."
   },
   "Trepidation": {
@@ -2780,7 +2780,7 @@
       }
     },
     "castOnYou": "Your mind fills with trepidation.",
-    "castOnOther": "Someone  is filled with trepidation.",
+    "castOnOther": "filled with trepidation.",
     "wearsOff": "The trepidation fades."
   },
   "Word of Restoration": {
@@ -2796,7 +2796,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel restored.",
-    "castOnOther": "Someone  feels restored.",
+    "castOnOther": "restored.",
     "wearsOff": ""
   },
   "Antidote": {
@@ -2828,7 +2828,7 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You are stunned into reverent awe.",
-    "castOnOther": "Someone  gapes in reverent awe.",
+    "castOnOther": "in reverent awe.",
     "wearsOff": "You are no longer stunned."
   },
   "Naltron's Mark": {
@@ -2849,7 +2849,7 @@
       }
     },
     "castOnYou": "A mystic symbol flashes before your eyes.",
-    "castOnOther": "Someone  is cloaked in a shimmer of glowing symbols.",
+    "castOnOther": "cloaked in a shimmer of glowing symbols.",
     "wearsOff": "The mystic symbol fades."
   },
   "Celestial Elixir": {
@@ -2870,7 +2870,7 @@
       }
     },
     "castOnYou": "Celestial Elixir pumps through your body.",
-    "castOnOther": "Someone 's body is covered with a soft glow.",
+    "castOnOther": "body is covered with a soft glow.",
     "wearsOff": "The Celestial Elixir fades."
   },
   "The Unspoken Word": {
@@ -2891,7 +2891,7 @@
       }
     },
     "castOnYou": "Your mind bleeds with wonder.",
-    "castOnOther": "Someone  writhes and staggers.",
+    "castOnOther": "and staggers.",
     "wearsOff": ""
   },
   "Aegolism": {
@@ -2912,7 +2912,7 @@
       }
     },
     "castOnYou": "You are filled with the power of Aegolism.",
-    "castOnOther": "Someone 's eye gleams with the power of Aegolism.",
+    "castOnOther": "eye gleams with the power of Aegolism.",
     "wearsOff": "Your aegolism fades."
   },
   "Banishment of Shadows": {
@@ -2949,7 +2949,7 @@
       }
     },
     "castOnYou": "You feel the watchful eyes of the gods upon you.",
-    "castOnOther": "Someone  feels the watchful eyes of the gods upon them.",
+    "castOnOther": "the watchful eyes of the gods upon them.",
     "wearsOff": "You are no longer watched."
   },
   "Word of Redemption": {
@@ -2965,7 +2965,7 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel the touch of Redemption.",
-    "castOnOther": "Someone  feels the touch of Redemption.",
+    "castOnOther": "the touch of Redemption.",
     "wearsOff": ""
   }
 }
