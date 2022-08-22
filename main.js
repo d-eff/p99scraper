@@ -3,6 +3,30 @@ const https = require("https");
 const cheerio = require("cheerio");
 const fs = require("fs");
 
+const ICONS = {
+  "": "dagger",
+  "": "boot",
+  "": "eye",
+  "": "redHand",
+  "": "redBrain",
+  "": "pox",
+  "": "water",
+  "": "reaper",
+  "": "blueBrain",
+  "": "redArm",
+  "Spellicon J.png": "blueHand",
+  "": "shield",
+  "": "summon",
+  "": "cyclone",
+  "": "fire",
+  "": "plant",
+  "": "earth",
+  "": "blueArm",
+  "": "snowflake",
+  "": "wolf",
+  "": "magic",
+  "": "gate"
+};
 
 function writeToFile(filename, data) {
   const fullPath = `data/${filename}.json`;
@@ -36,17 +60,16 @@ async function scrapeData(className) {
       spellUrls.push(`https://wiki.project1999.com${href}`)
     });
 
-    
-
     for(const spellUrl of spellUrls) {
       const { data: spellReq } = await axios.get(spellUrl, { httpsAgent });
       const spellPage = cheerio.load(spellReq);
       const spellName = spellPage('#firstHeading span').text();
-   
+      const spellThumbNail = spellPage('.thumbborder').title;
       const spellTables = spellPage('table:not([class])');
       const spellMeta = spellPage(spellTables[1]).find('td');
       const spellEffects = spellPage(spellTables[2]).find('td');
-      console.log(spellName);
+      console.log(spellName, spellThumbnail);
+
       const spell = {
         name: spellName,
         mana: spellPage(spellMeta[1]).text().trim(),
@@ -62,6 +85,7 @@ async function scrapeData(className) {
         castOnYou: spellPage(spellEffects[1]).text().trim(),
         castOnOther: cleanTargetString(spellPage(spellEffects[3]).text().trim()),
         wearsOff: spellPage(spellEffects[5]).text().trim(),
+        icon: ICONS[spellThumbNail]
       }
 
       // console.log(`pushing ${spellName}`);
@@ -129,7 +153,7 @@ function processDurationString (durationString) {
       runningTotal = 0;
       durationObject[currentKey] = { duration: duration };
     } else if(token.includes('@')) {
-      durationObject[currentKey].level = token.replace('@L', '');
+      durationObject[currentKey].level = parseInt(token.replace('@L', ''), 10);
     } else if (token === 'to') {
       currentKey = 'maxDuration';
       durationObject[currentKey] = {};
