@@ -4,28 +4,28 @@ const cheerio = require("cheerio");
 const fs = require("fs");
 
 const ICONS = {
-  "": "dagger",
-  "": "boot",
-  "": "eye",
-  "": "redHand",
-  "": "redBrain",
-  "": "pox",
-  "": "water",
-  "": "reaper",
-  "": "blueBrain",
-  "": "redArm",
+  "Spellicon A.png": "boot",
+  "Spellicon B.png": "eye",
+  "Spellicon C.png": "redHand",
+  "Spellicon D.png": "redBrain",
+  "Spellicon E.png": "pox",
+  "Spellicon F.png": "water",
+  "Spellicon G.png": "reaper",
+  "Spellicon H.png": "blueBrain",
+  "Spellicon I.png": "redArm",
   "Spellicon J.png": "blueHand",
-  "": "shield",
-  "": "summon",
-  "": "cyclone",
-  "": "fire",
-  "": "plant",
-  "": "earth",
-  "": "blueArm",
-  "": "snowflake",
-  "": "wolf",
-  "": "magic",
-  "": "gate"
+  "Spellicon K.png": "shield",
+  "Spellicon L.png": "summon",
+  "Spellicon M.png": "cyclone",
+  "Spellicon N.png": "dagger",
+  "Spellicon O.png": "fire",
+  "Spellicon P.png": "plant",
+  "Spellicon Q.png": "earth",
+  "Spellicon R.png": "blueArm",
+  "Spellicon S.png": "snowflake",
+  "Spellicon T.png": "wolf",
+  "Spellicon U.png": "magic",
+  "Spellicon V.png": "gate"
 };
 
 function writeToFile(filename, data) {
@@ -64,11 +64,10 @@ async function scrapeData(className) {
       const { data: spellReq } = await axios.get(spellUrl, { httpsAgent });
       const spellPage = cheerio.load(spellReq);
       const spellName = spellPage('#firstHeading span').text();
-      const spellThumbNail = spellPage('.thumbborder').title;
+      const spellThumbnail = spellPage('.thumbborder')[0].attribs.alt;
       const spellTables = spellPage('table:not([class])');
       const spellMeta = spellPage(spellTables[1]).find('td');
       const spellEffects = spellPage(spellTables[2]).find('td');
-      console.log(spellName, spellThumbnail);
 
       const spell = {
         name: spellName,
@@ -85,7 +84,7 @@ async function scrapeData(className) {
         castOnYou: spellPage(spellEffects[1]).text().trim(),
         castOnOther: cleanTargetString(spellPage(spellEffects[3]).text().trim()),
         wearsOff: spellPage(spellEffects[5]).text().trim(),
-        icon: ICONS[spellThumbNail]
+        icon: ICONS[spellThumbnail]
       }
 
       // console.log(`pushing ${spellName}`);
@@ -156,10 +155,10 @@ function processDurationString (durationString) {
       durationObject[currentKey].level = parseInt(token.replace('@L', ''), 10);
     } else if (token === 'to') {
       currentKey = 'maxDuration';
+      duration = 0;
       durationObject[currentKey] = {};
     }
   }
-  console.log(durationObject);
   return durationObject;
 }
 
@@ -170,8 +169,14 @@ function cleanTargetString (inString) {
 function main () {
   const classes = ['Cleric', 'Druid', 'Enchanter', 'Magician', 'Necromancer', 'Paladin', 'Ranger', 'Shaman'];
   for(const className of classes) {
-    fixDurations(className);
+    // fixDurations(className);
+    // scrapeData("Druid");
   }
-  // scrapeData("Druid");
+  scrapeData("Enchanter");
+  // processDurationString("15 minutes @L5 to 20 minutes @L7");
+  // processDurationString("18 seconds @L5 to 48 seconds @L14");
+  // processDurationString("27 minutes 6 seconds");
+  // processDurationString("9 ticks @L9 to 6.5 minutes @L65");
+  // processDurationString("27 minutes @L9 to 3 hours 15 minutes @L60");
 }
 main();

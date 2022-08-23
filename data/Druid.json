@@ -13,7 +13,8 @@
     "duration": 0,
     "castOnYou": "You feel your skin singe as the Burst of Flame hits you.",
     "castOnOther": "singes as the Burst of Flame hits them.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "fire"
   },
   "Dance of the Fireflies": {
     "name": "Dance of the Fireflies",
@@ -29,7 +30,8 @@
     "duration": 0,
     "castOnYou": "A swarm of fireflies shimmers around your hand.",
     "castOnOther": "'s hands flicker.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "eye"
   },
   "Endure Fire": {
     "name": "Endure Fire",
@@ -46,16 +48,17 @@
       "durationString": "3 minutes @L1 to 27 minutes @L9",
       "minDuration": {
         "duration": 180,
-        "level": "1"
+        "level": 1
       },
       "maxDuration": {
         "duration": 1800,
-        "level": "9"
+        "level": 9
       }
     },
     "castOnYou": "You feel protected from fire.",
     "castOnOther": "is protected from fire.",
-    "wearsOff": "Your endurance to fire fades."
+    "wearsOff": "Your endurance to fire fades.",
+    "icon": "shield"
   },
   "Flame Lick": {
     "name": "Flame Lick",
@@ -72,16 +75,17 @@
       "durationString": "1 ticks @L1 to 9 ticks @L14",
       "minDuration": {
         "duration": 6,
-        "level": "1"
+        "level": 1
       },
       "maxDuration": {
         "duration": 60,
-        "level": "14"
+        "level": 14
       }
     },
     "castOnYou": "You are surrounded by flickering flames.",
     "castOnOther": "is surrounded by flickering flames.",
-    "wearsOff": "The flames are extinguished."
+    "wearsOff": "The flames are extinguished.",
+    "icon": "fire"
   },
   "Lull Animal": {
     "name": "Lull Animal",
@@ -98,16 +102,17 @@
       "durationString": "1.2 minutes @L1 to 2 minutes @L5",
       "minDuration": {
         "duration": 72,
-        "level": "1"
+        "level": 1
       },
       "maxDuration": {
         "duration": 192,
-        "level": "5"
+        "level": 5
       }
     },
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "redBrain"
   },
   "Minor Healing": {
     "name": "Minor Healing",
@@ -123,7 +128,8 @@
     "duration": 0,
     "castOnYou": "You feel a little better.",
     "castOnOther": "feels a little better.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "blueHand"
   },
   "Panic Animal": {
     "name": "Panic Animal",
@@ -144,7 +150,8 @@
     },
     "castOnYou": "",
     "castOnOther": "flees in a state of total panic!",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "reaper"
   },
   "Sense Animals": {
     "name": "Sense Animals",
@@ -160,7 +167,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "eye"
   },
   "Skin Like Wood": {
     "name": "Skin Like Wood",
@@ -181,7 +189,8 @@
     },
     "castOnYou": "Your skin turns hard as wood.",
     "castOnOther": "'s skin turns hard as wood.",
-    "wearsOff": "Your skin returns to normal."
+    "wearsOff": "Your skin returns to normal.",
+    "icon": "shield"
   },
   "Snare": {
     "name": "Snare",
@@ -198,16 +207,17 @@
       "durationString": "6 seconds @L1 to 3 minutes 54 seconds @L60",
       "minDuration": {
         "duration": 6,
-        "level": "1"
+        "level": 1
       },
       "maxDuration": {
         "duration": 240,
-        "level": "60"
+        "level": 60
       }
     },
     "castOnYou": "You are ensnared.",
     "castOnOther": "has been ensnared.",
-    "wearsOff": "You are no longer ensnared."
+    "wearsOff": "You are no longer ensnared.",
+    "icon": "boot"
   },
   "Burst of Fire": {
     "name": "Burst of Fire",
@@ -223,7 +233,8 @@
     "duration": 0,
     "castOnYou": "You feel your skin singe as the Burst of Fire hits you.",
     "castOnOther": "singes as the Burst of Fire hits them.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "fire"
   },
   "Camouflage": {
     "name": "Camouflage",
@@ -240,16 +251,17 @@
       "durationString": "15 minutes @L5 to 20 minutes @L7",
       "minDuration": {
         "duration": 900,
-        "level": "5"
+        "level": 5
       },
       "maxDuration": {
         "duration": 2100,
-        "level": "7"
+        "level": 7
       }
     },
     "castOnYou": "Your body fades away.",
     "castOnOther": "fades away.",
-    "wearsOff": "You return to view."
+    "wearsOff": "You return to view.",
+    "icon": "eye"
   },
   "Cure Disease": {
     "name": "Cure Disease",
@@ -265,7 +277,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "blueHand"
   },
   "Cure Poison": {
     "name": "Cure Poison",
@@ -281,7 +294,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "blueHand"
   },
   "Gate": {
     "name": "Gate",
@@ -297,7 +311,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "fades away.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "gate"
   },
   "Grasping Roots": {
     "name": "Grasping Roots",
@@ -314,16 +329,17 @@
       "durationString": "18 seconds @L5 to 48 seconds @L14",
       "minDuration": {
         "duration": 18,
-        "level": "5"
+        "level": 5
       },
       "maxDuration": {
         "duration": 66,
-        "level": "14"
+        "level": 14
       }
     },
     "castOnYou": "Your feet become entwined.",
     "castOnOther": "'s feet become entwined.",
-    "wearsOff": "The roots fall from your feet."
+    "wearsOff": "The roots fall from your feet.",
+    "icon": "plant"
   },
   "Harmony": {
     "name": "Harmony",
@@ -340,16 +356,17 @@
       "durationString": "3 ticks @L5 to 2 minutes @L34",
       "minDuration": {
         "duration": 18,
-        "level": "5"
+        "level": 5
       },
       "maxDuration": {
         "duration": 138,
-        "level": "34"
+        "level": 34
       }
     },
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "redBrain"
   },
   "Invoke Lightning": {
     "name": "Invoke Lightning",
@@ -365,7 +382,8 @@
     "duration": 0,
     "castOnYou": "Lightning surges through your body.",
     "castOnOther": "has been struck by lightning.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "cyclone"
   },
   "Ward Summoned": {
     "name": "Ward Summoned",
@@ -381,7 +399,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "staggers.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "redHand"
   },
   "Whirling Wind": {
     "name": "Whirling Wind",
@@ -397,7 +416,8 @@
     "duration": 0,
     "castOnYou": "You are slammed by an intense gust of wind.",
     "castOnOther": "is slammed by an intense gust of wind.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "cyclone"
   },
   "Endure Cold": {
     "name": "Endure Cold",
@@ -414,16 +434,17 @@
       "durationString": "3 minutes @L1 to 27 minutes @L9",
       "minDuration": {
         "duration": 180,
-        "level": "1"
+        "level": 1
       },
       "maxDuration": {
         "duration": 1800,
-        "level": "9"
+        "level": 9
       }
     },
     "castOnYou": "You feel protected from cold.",
     "castOnOther": "is protected from cold.",
-    "wearsOff": "Your endurance to cold fades."
+    "wearsOff": "Your endurance to cold fades.",
+    "icon": "shield"
   },
   "Enduring Breath": {
     "name": "Enduring Breath",
@@ -444,7 +465,8 @@
     },
     "castOnYou": "You feel no need to breathe.",
     "castOnOther": "doesn't seem to be breathing anymore.",
-    "wearsOff": "You resume breathing."
+    "wearsOff": "You resume breathing.",
+    "icon": "water"
   },
   "Firefist": {
     "name": "Firefist",
@@ -465,7 +487,8 @@
     },
     "castOnYou": "Your fist bursts into flame.",
     "castOnOther": "'s fist bursts into flame.",
-    "wearsOff": "Your hand extinguishes."
+    "wearsOff": "Your hand extinguishes.",
+    "icon": "fire"
   },
   "Ignite": {
     "name": "Ignite",
@@ -481,7 +504,8 @@
     "duration": 0,
     "castOnYou": "You feel your skin ignite.",
     "castOnOther": "'s skin ignites.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "fire"
   },
   "Invisibility versus Animals": {
     "name": "Invisibility versus Animals",
@@ -498,16 +522,17 @@
       "durationString": "27 minutes @L9 to 36 minutes @L12",
       "minDuration": {
         "duration": 1620,
-        "level": "9"
+        "level": 9
       },
       "maxDuration": {
         "duration": 3780,
-        "level": "12"
+        "level": 12
       }
     },
     "castOnYou": "Part of your image fades away.",
     "castOnOther": "is surrounded by an aura which shimmers, and then fades away.",
-    "wearsOff": "Your image returns."
+    "wearsOff": "Your image returns.",
+    "icon": "eye"
   },
   "Light Healing": {
     "name": "Light Healing",
@@ -523,7 +548,8 @@
     "duration": 0,
     "castOnYou": "You feel better.",
     "castOnOther": "feels better.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "blueHand"
   },
   "Shield of Thistles": {
     "name": "Shield of Thistles",
@@ -540,16 +566,17 @@
       "durationString": "9 ticks @L9 to 6.5 minutes @L65",
       "minDuration": {
         "duration": 54,
-        "level": "9"
+        "level": 9
       },
       "maxDuration": {
         "duration": 444,
-        "level": "65"
+        "level": 65
       }
     },
     "castOnYou": "You are surrounded by a thorny barrier.",
     "castOnOther": "is surrounded by a thorny barrier.",
-    "wearsOff": "The brambles fall away."
+    "wearsOff": "The brambles fall away.",
+    "icon": "plant"
   },
   "Starshine": {
     "name": "Starshine",
@@ -565,7 +592,8 @@
     "duration": 0,
     "castOnYou": "A globe of stars forms within your hands.",
     "castOnOther": "'s hands pulse softly with light.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "eye"
   },
   "Strength of Earth": {
     "name": "Strength of Earth",
@@ -586,7 +614,8 @@
     },
     "castOnYou": "You feel stronger.",
     "castOnOther": "looks stronger.",
-    "wearsOff": "Your strength fades."
+    "wearsOff": "Your strength fades.",
+    "icon": "blueArm"
   },
   "Thistlecoat": {
     "name": "Thistlecoat",
@@ -603,16 +632,17 @@
       "durationString": "27 minutes @L9 to 3 hours 15 minutes @L60",
       "minDuration": {
         "duration": 1620,
-        "level": "9"
+        "level": 9
       },
       "maxDuration": {
         "duration": 13320,
-        "level": "60"
+        "level": 60
       }
     },
     "castOnYou": "Thistles spring from your skin.",
     "castOnOther": "'s skin sprouts thistles.",
-    "wearsOff": "Your skin returns to normal."
+    "wearsOff": "Your skin returns to normal.",
+    "icon": "shield"
   },
   "Treeform": {
     "name": "Treeform",
@@ -629,16 +659,17 @@
       "durationString": "27 minutes @L9 to 36 minutes @L12",
       "minDuration": {
         "duration": 1620,
-        "level": "9"
+        "level": 9
       },
       "maxDuration": {
         "duration": 3780,
-        "level": "12"
+        "level": 12
       }
     },
     "castOnYou": "You have taken root.",
     "castOnOther": "turns into a tree.",
-    "wearsOff": "You are no longer a tree."
+    "wearsOff": "You are no longer a tree.",
+    "icon": "plant"
   },
   "Befriend Animal": {
     "name": "Befriend Animal",
@@ -654,15 +685,16 @@
     "duration": {
       "durationString": "Between 0:03 - 5:00 @L14 to 0:03 - 20:00 @L65 (",
       "minDuration": {
-        "level": "14"
+        "level": 14
       },
       "maxDuration": {
-        "level": "65"
+        "level": 65
       }
     },
     "castOnYou": "",
     "castOnOther": "blinks.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "redBrain"
   },
   "Bind Affinity": {
     "name": "Bind Affinity",
@@ -678,7 +710,8 @@
     "duration": 0,
     "castOnYou": "You feel yourself bind to the area.",
     "castOnOther": "is bound to the area.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "magic"
   },
   "Cascade of Hail": {
     "name": "Cascade of Hail",
@@ -694,7 +727,8 @@
     "duration": 0,
     "castOnYou": "You are pelted by hailstones.",
     "castOnOther": "is pelted by hailstones.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "snowflake"
   },
   "Expulse Summoned": {
     "name": "Expulse Summoned",
@@ -710,7 +744,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "redHand"
   },
   "Halo of Light": {
     "name": "Halo of Light",
@@ -726,7 +761,8 @@
     "duration": 0,
     "castOnYou": "A Halo of Light solidifies in your hand.",
     "castOnOther": "'s hands are bathed in light.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "eye"
   },
   "Invigor": {
     "name": "Invigor",
@@ -747,7 +783,8 @@
     },
     "castOnYou": "Your body zings with energy.",
     "castOnOther": "looks energized.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "boot"
   },
   "Levitate": {
     "name": "Levitate",
@@ -764,16 +801,17 @@
       "durationString": "5.2 minutes @L14 to 19 minutes @L60",
       "minDuration": {
         "duration": 312,
-        "level": "14"
+        "level": 14
       },
       "maxDuration": {
         "duration": 1452,
-        "level": "60"
+        "level": 60
       }
     },
     "castOnYou": "Your feet leave the ground.",
     "castOnOther": "feet leave the ground.",
-    "wearsOff": "You can no longer levitate."
+    "wearsOff": "You can no longer levitate.",
+    "icon": "cyclone"
   },
   "See Invisible": {
     "name": "See Invisible",
@@ -794,7 +832,8 @@
     },
     "castOnYou": "Your eyes tingle.",
     "castOnOther": "",
-    "wearsOff": "Your eyes stop tingling."
+    "wearsOff": "Your eyes stop tingling.",
+    "icon": "eye"
   },
   "Skin Like Rock": {
     "name": "Skin Like Rock",
@@ -815,7 +854,8 @@
     },
     "castOnYou": "Your skin turns hard as stone.",
     "castOnOther": "'s skin turns hard as stone.",
-    "wearsOff": "Your skin returns to normal."
+    "wearsOff": "Your skin returns to normal.",
+    "icon": "shield"
   },
   "Spirit of Wolf": {
     "name": "Spirit of Wolf",
@@ -832,16 +872,17 @@
       "durationString": "27.0 mins @L9 to 36.0 mins @L12",
       "minDuration": {
         "duration": 1620,
-        "level": "9"
+        "level": 9
       },
       "maxDuration": {
         "duration": 3780,
-        "level": "12"
+        "level": 12
       }
     },
     "castOnYou": "You feel the spirit of wolf enter you.",
     "castOnOther": "is surrounded by a brief lupine aura.",
-    "wearsOff": "The spirit of wolf leaves you."
+    "wearsOff": "The spirit of wolf leaves you.",
+    "icon": "boot"
   },
   "Stinging Swarm": {
     "name": "Stinging Swarm",
@@ -858,16 +899,17 @@
       "durationString": "7 ticks @L14 to 9 ticks @L18",
       "minDuration": {
         "duration": 42,
-        "level": "14"
+        "level": 14
       },
       "maxDuration": {
         "duration": 96,
-        "level": "18"
+        "level": 18
       }
     },
     "castOnYou": "You feel the pain of a thousand stings.",
     "castOnOther": "is engulfed in a swarm.",
-    "wearsOff": "The swarm departs."
+    "wearsOff": "The swarm departs.",
+    "icon": "wolf"
   },
   "Summon Drink": {
     "name": "Summon Drink",
@@ -883,7 +925,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Summon Food": {
     "name": "Summon Food",
@@ -899,7 +942,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Barbcoat": {
     "name": "Barbcoat",
@@ -916,16 +960,17 @@
       "durationString": "57 minutes @L19 to 3 hours @L60",
       "minDuration": {
         "duration": 3420,
-        "level": "19"
+        "level": 19
       },
       "maxDuration": {
         "duration": 14220,
-        "level": "60"
+        "level": 60
       }
     },
     "castOnYou": "Barbs spring from your skin.",
     "castOnOther": "'s skin sprouts barbs.",
-    "wearsOff": "Your skin returns to normal."
+    "wearsOff": "Your skin returns to normal.",
+    "icon": "shield"
   },
   "Calm Animal": {
     "name": "Calm Animal",
@@ -946,7 +991,8 @@
     },
     "castOnYou": "You feel your aggression subside.",
     "castOnOther": "looks less aggressive.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "blueBrain"
   },
   "Cancel Magic": {
     "name": "Cancel Magic",
@@ -962,7 +1008,8 @@
     "duration": 0,
     "castOnYou": "You feel a bit dispelled.",
     "castOnOther": "feels a bit dispelled.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "magic"
   },
   "Careless Lightning": {
     "name": "Careless Lightning",
@@ -978,7 +1025,8 @@
     "duration": 0,
     "castOnYou": "Lightning surges through your body.",
     "castOnOther": "has been struck by lightning.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "cyclone"
   },
   "Dizzying Wind": {
     "name": "Dizzying Wind",
@@ -994,7 +1042,8 @@
     "duration": 0,
     "castOnYou": "You are slammed by an intense gust of wind.",
     "castOnOther": "is slammed by an intense gust of wind.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "cyclone"
   },
   "Endure Disease": {
     "name": "Endure Disease",
@@ -1015,7 +1064,8 @@
     },
     "castOnYou": "You feel protected from disease.",
     "castOnOther": "is protected from disease.",
-    "wearsOff": "Your endurance to disease fades."
+    "wearsOff": "Your endurance to disease fades.",
+    "icon": "shield"
   },
   "Endure Poison": {
     "name": "Endure Poison",
@@ -1036,7 +1086,8 @@
     },
     "castOnYou": "You feel protected from poison.",
     "castOnOther": "is protected from poison.",
-    "wearsOff": "Your endurance to poison fades."
+    "wearsOff": "Your endurance to poison fades.",
+    "icon": "shield"
   },
   "Feral Spirit": {
     "name": "Feral Spirit",
@@ -1053,16 +1104,17 @@
       "durationString": "2.9 minutes @L19 to 7.5 minutes @L65",
       "minDuration": {
         "duration": 174,
-        "level": "19"
+        "level": 19
       },
       "maxDuration": {
         "duration": 624,
-        "level": "65"
+        "level": 65
       }
     },
     "castOnYou": "",
     "castOnOther": "foams at the mouth.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "wolf"
   },
   "Healing": {
     "name": "Healing",
@@ -1078,7 +1130,8 @@
     "duration": 0,
     "castOnYou": "You feel much better.",
     "castOnOther": "feels much better.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "blueHand"
   },
   "Ring of Butcher": {
     "name": "Ring of Butcher",
@@ -1094,7 +1147,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "fades away.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "gate"
   },
   "Ring of Commons": {
     "name": "Ring of Commons",
@@ -1110,7 +1164,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "fades away.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "gate"
   },
   "Ring of Karana": {
     "name": "Ring of Karana",
@@ -1126,7 +1181,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "fades away.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "gate"
   },
   "Ring of Surefall Glade": {
     "name": "Ring of Surefall Glade",
@@ -1142,7 +1198,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "fades away.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "gate"
   },
   "Ring of Toxxulia": {
     "name": "Ring of Toxxulia",
@@ -1158,7 +1215,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "fades away.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "gate"
   },
   "Shield of Barbs": {
     "name": "Shield of Barbs",
@@ -1175,16 +1233,17 @@
       "durationString": "1.9 minutes @L19 to 6.5 minutes @L65",
       "minDuration": {
         "duration": 114,
-        "level": "19"
+        "level": 19
       },
       "maxDuration": {
         "duration": 504,
-        "level": "65"
+        "level": 65
       }
     },
     "castOnYou": "You are surrounded by a thorny barrier.",
     "castOnOther": "is surrounded by a thorny barrier.",
-    "wearsOff": "The brambles fall away."
+    "wearsOff": "The brambles fall away.",
+    "icon": "plant"
   },
   "Superior Camouflage": {
     "name": "Superior Camouflage",
@@ -1205,7 +1264,8 @@
     },
     "castOnYou": "You vanish.",
     "castOnOther": "fades away.",
-    "wearsOff": "You appear."
+    "wearsOff": "You appear.",
+    "icon": "eye"
   },
   "Terrorize Animal": {
     "name": "Terrorize Animal",
@@ -1226,7 +1286,8 @@
     },
     "castOnYou": "",
     "castOnOther": "runs away in terror!",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "reaper"
   },
   "Charm Animals": {
     "name": "Charm Animals",
@@ -1243,16 +1304,17 @@
       "durationString": "8.2 minutes @L24 to 20.5 minutes @L65",
       "minDuration": {
         "duration": 491.99999999999994,
-        "level": "24"
+        "level": 24
       },
       "maxDuration": {
         "duration": 1722,
-        "level": "65"
+        "level": 65
       }
     },
     "castOnYou": "",
     "castOnOther": "blinks.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "redBrain"
   },
   "Creeping Crud": {
     "name": "Creeping Crud",
@@ -1273,7 +1335,8 @@
     },
     "castOnYou": "You feel the pain of a thousand stings.",
     "castOnOther": "is engulfed in a swarm.",
-    "wearsOff": "The swarm departs."
+    "wearsOff": "The swarm departs.",
+    "icon": "wolf"
   },
   "Dismiss Summoned": {
     "name": "Dismiss Summoned",
@@ -1289,7 +1352,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "staggers.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "redHand"
   },
   "Ensnaring Roots": {
     "name": "Ensnaring Roots",
@@ -1306,16 +1370,17 @@
       "durationString": "1.4 minutes @L24 to 1.6 minutes @L27",
       "minDuration": {
         "duration": 84,
-        "level": "24"
+        "level": 24
       },
       "maxDuration": {
         "duration": 180,
-        "level": "27"
+        "level": 27
       }
     },
     "castOnYou": "Your feet become entwined.",
     "castOnOther": "feet become entwined.",
-    "wearsOff": "The roots fall from your feet."
+    "wearsOff": "The roots fall from your feet.",
+    "icon": "plant"
   },
   "Pogonip": {
     "name": "Pogonip",
@@ -1331,7 +1396,8 @@
     "duration": 0,
     "castOnYou": "You are sheathed in ice crystals.",
     "castOnOther": "is sheathed in ice crystals.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "snowflake"
   },
   "Resist Fire": {
     "name": "Resist Fire",
@@ -1352,7 +1418,8 @@
     },
     "castOnYou": "You feel resistant from fire.",
     "castOnOther": "is resistant to fire.",
-    "wearsOff": "Your resist fire fades."
+    "wearsOff": "Your resist fire fades.",
+    "icon": "shield"
   },
   "Ring of Feerrott": {
     "name": "Ring of Feerrott",
@@ -1368,7 +1435,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "fades away.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "gate"
   },
   "Ring of Lavastorm": {
     "name": "Ring of Lavastorm",
@@ -1384,7 +1452,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "fades away.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "gate"
   },
   "Ring of Ro": {
     "name": "Ring of Ro",
@@ -1400,7 +1469,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "fades away.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "gate"
   },
   "Ring of Steamfont": {
     "name": "Ring of Steamfont",
@@ -1416,7 +1486,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "fades away.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "gate"
   },
   "Ring of the Combines": {
     "name": "Ring of the Combines",
@@ -1432,7 +1503,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "fades away.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "gate"
   },
   "Scale of Wolf": {
     "name": "Scale of Wolf",
@@ -1453,7 +1525,8 @@
     },
     "castOnYou": "You feel the spirit-scale of wolf enter you.",
     "castOnOther": "is surrounded by a dark lupine aura.",
-    "wearsOff": "The scale of wolf leaves you."
+    "wearsOff": "The scale of wolf leaves you.",
+    "icon": "summon"
   },
   "Skin Like Steel": {
     "name": "Skin Like Steel",
@@ -1474,7 +1547,8 @@
     },
     "castOnYou": "Your skin turns hard as steel.",
     "castOnOther": "'s skin turns hard as steel.",
-    "wearsOff": "Your skin returns to normal."
+    "wearsOff": "Your skin returns to normal.",
+    "icon": "shield"
   },
   "Spirit of Cheetah": {
     "name": "Spirit of Cheetah",
@@ -1495,7 +1569,8 @@
     },
     "castOnYou": "You feel the spirit of cheetah enter you.",
     "castOnOther": "is surrounded by a brief feline aura.",
-    "wearsOff": "The spirit of cheetah fades."
+    "wearsOff": "The spirit of cheetah fades.",
+    "icon": "boot"
   },
   "Sunbeam": {
     "name": "Sunbeam",
@@ -1516,7 +1591,8 @@
     },
     "castOnYou": "You are blinded by a sunbeam.",
     "castOnOther": "is blinded by a sunbeam.",
-    "wearsOff": "Your sight returns."
+    "wearsOff": "Your sight returns.",
+    "icon": "eye"
   },
   "Tremor": {
     "name": "Tremor",
@@ -1532,7 +1608,8 @@
     "duration": 0,
     "castOnYou": "You hear the ground rumble.",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "earth"
   },
   "Wolf Form": {
     "name": "Wolf Form",
@@ -1553,7 +1630,8 @@
     },
     "castOnYou": "You are now a wolf.",
     "castOnOther": "turns into a wolf.",
-    "wearsOff": "You are no longer a wolf."
+    "wearsOff": "You are no longer a wolf.",
+    "icon": "boot"
   },
   "Beguile Plants": {
     "name": "Beguile Plants",
@@ -1570,16 +1648,17 @@
       "durationString": "9.7 minutes @L29 to 20.5 minutes @L65",
       "minDuration": {
         "duration": 582,
-        "level": "29"
+        "level": 29
       },
       "maxDuration": {
         "duration": 1812,
-        "level": "65"
+        "level": 65
       }
     },
     "castOnYou": "",
     "castOnOther": "blinks.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "redBrain"
   },
   "Bramblecoat": {
     "name": "Bramblecoat",
@@ -1596,16 +1675,17 @@
       "durationString": "1 hour 27 minutes @L29 to 3 hours 15 minutes @L65",
       "minDuration": {
         "duration": 5220,
-        "level": "29"
+        "level": 29
       },
       "maxDuration": {
         "duration": 16920,
-        "level": "65"
+        "level": 65
       }
     },
     "castOnYou": "Brambles spring from your skin.",
     "castOnOther": "'s skin sprouts brambles.",
-    "wearsOff": "Your skin returns to normal."
+    "wearsOff": "Your skin returns to normal.",
+    "icon": "shield"
   },
   "Circle of Butcher": {
     "name": "Circle of Butcher",
@@ -1621,7 +1701,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "creates a mystic portal.",
-    "wearsOff": "The portal shimmers and fades."
+    "wearsOff": "The portal shimmers and fades.",
+    "icon": "gate"
   },
   "Circle of Commons": {
     "name": "Circle of Commons",
@@ -1637,7 +1718,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "creates a mystic portal.",
-    "wearsOff": "The portal shimmers and fades."
+    "wearsOff": "The portal shimmers and fades.",
+    "icon": "gate"
   },
   "Circle of Karana": {
     "name": "Circle of Karana",
@@ -1653,7 +1735,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "creates a mystic portal.",
-    "wearsOff": "The portal shimmers and fades."
+    "wearsOff": "The portal shimmers and fades.",
+    "icon": "gate"
   },
   "Circle of Surefall Glade": {
     "name": "Circle of Surefall Glade",
@@ -1669,7 +1752,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "creates a mystic portal.",
-    "wearsOff": "The portal shimmers and fades."
+    "wearsOff": "The portal shimmers and fades.",
+    "icon": "gate"
   },
   "Circle of Toxxulia": {
     "name": "Circle of Toxxulia",
@@ -1685,7 +1769,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "creates a mystic portal.",
-    "wearsOff": "The portal shimmers and fades."
+    "wearsOff": "The portal shimmers and fades.",
+    "icon": "gate"
   },
   "Combust": {
     "name": "Combust",
@@ -1701,7 +1786,8 @@
     "duration": 0,
     "castOnYou": "You feel your skin combust.",
     "castOnOther": "'s skin combusts.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "fire"
   },
   "Counteract Disease": {
     "name": "Counteract Disease",
@@ -1717,7 +1803,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "blueHand"
   },
   "Counteract Poison": {
     "name": "Counteract Poison",
@@ -1733,7 +1820,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "blueHand"
   },
   "Ensnare": {
     "name": "Ensnare",
@@ -1750,16 +1838,17 @@
       "durationString": "6.8 minutes @L29 to 13 minutes @L60",
       "minDuration": {
         "duration": 408,
-        "level": "29"
+        "level": 29
       },
       "maxDuration": {
         "duration": 1188,
-        "level": "60"
+        "level": 60
       }
     },
     "castOnYou": "You are ensnared.",
     "castOnOther": "has been ensnared.",
-    "wearsOff": "You are no longer ensnared."
+    "wearsOff": "You are no longer ensnared.",
+    "icon": "boot"
   },
   "Extinguish Fatigue": {
     "name": "Extinguish Fatigue",
@@ -1775,7 +1864,8 @@
     "duration": 0,
     "castOnYou": "Your body zings with energy.",
     "castOnOther": "looks energized.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "boot"
   },
   "Greater Healing": {
     "name": "Greater Healing",
@@ -1791,7 +1881,8 @@
     "duration": 0,
     "castOnYou": "You feel much better.",
     "castOnOther": "feels much better.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "blueHand"
   },
   "Imbue Emerald": {
     "name": "Imbue Emerald",
@@ -1807,7 +1898,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "magic"
   },
   "Imbue Plains Pebble": {
     "name": "Imbue Plains Pebble",
@@ -1823,7 +1915,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "magic"
   },
   "Immolate": {
     "name": "Immolate",
@@ -1844,7 +1937,8 @@
     },
     "castOnYou": "You are surrounded by blazing flames.",
     "castOnOther": "is surrounded by blazing flames.",
-    "wearsOff": "The flames are extinguished."
+    "wearsOff": "The flames are extinguished.",
+    "icon": "fire"
   },
   "Ring of Misty": {
     "name": "Ring of Misty",
@@ -1860,7 +1954,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "fades away.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "gate"
   },
   "Shield of Brambles": {
     "name": "Shield of Brambles",
@@ -1877,16 +1972,17 @@
       "durationString": "2.9 minutes @L29 to 6.5 minutes @L65",
       "minDuration": {
         "duration": 174,
-        "level": "29"
+        "level": 29
       },
       "maxDuration": {
         "duration": 564,
-        "level": "65"
+        "level": 65
       }
     },
     "castOnYou": "You are surrounded by a thorny barrier.",
     "castOnOther": "is surrounded by a thorny barrier.",
-    "wearsOff": "The brambles fall away."
+    "wearsOff": "The brambles fall away.",
+    "icon": "plant"
   },
   "Succor: East": {
     "name": "Succor: East",
@@ -1902,7 +1998,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "creates a mystic portal.",
-    "wearsOff": "The portal shimmers and fades."
+    "wearsOff": "The portal shimmers and fades.",
+    "icon": "gate"
   },
   "Beguile Animals": {
     "name": "Beguile Animals",
@@ -1919,16 +2016,17 @@
       "durationString": "11.2 minutes @L34 to 20.5 minutes @L65",
       "minDuration": {
         "duration": 672,
-        "level": "34"
+        "level": 34
       },
       "maxDuration": {
         "duration": 1902,
-        "level": "65"
+        "level": 65
       }
     },
     "castOnYou": "",
     "castOnOther": "blinks.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "redBrain"
   },
   "Circle of Feerrott": {
     "name": "Circle of Feerrott",
@@ -1944,7 +2042,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "creates a mystic portal.",
-    "wearsOff": "The portal shimmers and fades."
+    "wearsOff": "The portal shimmers and fades.",
+    "icon": "gate"
   },
   "Circle of Iceclad": {
     "name": "Circle of Iceclad",
@@ -1960,7 +2059,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "creates a mystic portal.",
-    "wearsOff": "The portal shimmers and fades."
+    "wearsOff": "The portal shimmers and fades.",
+    "icon": "gate"
   },
   "Circle of Lavastorm": {
     "name": "Circle of Lavastorm",
@@ -1976,7 +2076,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "creates a mystic portal.",
-    "wearsOff": "The portal shimmers and fades."
+    "wearsOff": "The portal shimmers and fades.",
+    "icon": "gate"
   },
   "Circle of Ro": {
     "name": "Circle of Ro",
@@ -1992,7 +2093,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "creates a mystic portal.",
-    "wearsOff": "The portal shimmers and fades."
+    "wearsOff": "The portal shimmers and fades.",
+    "icon": "gate"
   },
   "Circle of Steamfont": {
     "name": "Circle of Steamfont",
@@ -2008,7 +2110,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "creates a mystic portal.",
-    "wearsOff": "The portal shimmers and fades."
+    "wearsOff": "The portal shimmers and fades.",
+    "icon": "gate"
   },
   "Circle of the Combines": {
     "name": "Circle of the Combines",
@@ -2024,7 +2127,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "creates a mystic portal.",
-    "wearsOff": "The portal shimmers and fades."
+    "wearsOff": "The portal shimmers and fades.",
+    "icon": "gate"
   },
   "Drones of Doom": {
     "name": "Drones of Doom",
@@ -2045,7 +2149,8 @@
     },
     "castOnYou": "You feel the pain of a thousand stings.",
     "castOnOther": "is engulfed in a swarm.",
-    "wearsOff": "The swarm departs."
+    "wearsOff": "The swarm departs.",
+    "icon": "wolf"
   },
   "Earthquake": {
     "name": "Earthquake",
@@ -2061,7 +2166,8 @@
     "duration": 0,
     "castOnYou": "You feel the ground shake.",
     "castOnOther": "is smashed by the heaving ground.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "earth"
   },
   "Endure Magic": {
     "name": "Endure Magic",
@@ -2082,7 +2188,8 @@
     },
     "castOnYou": "You feel protected from magic.",
     "castOnOther": "is protected from magic.",
-    "wearsOff": "Your endurance to magic fades."
+    "wearsOff": "Your endurance to magic fades.",
+    "icon": "shield"
   },
   "Expel Summoned": {
     "name": "Expel Summoned",
@@ -2098,7 +2205,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "redHand"
   },
   "Fury of Air": {
     "name": "Fury of Air",
@@ -2114,7 +2222,8 @@
     "duration": 0,
     "castOnYou": "Lightning surges through your body.",
     "castOnOther": "has been struck by lightning.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "cyclone"
   },
   "Greater Wolf Form": {
     "name": "Greater Wolf Form",
@@ -2131,16 +2240,17 @@
       "durationString": "1 hour 42 minutes @L34 to 1 hour 50 minutes @L37",
       "minDuration": {
         "duration": 6120,
-        "level": "34"
+        "level": 34
       },
       "maxDuration": {
         "duration": 12720,
-        "level": "37"
+        "level": 37
       }
     },
     "castOnYou": "You are now a wolf.",
     "castOnOther": "turns into a wolf.",
-    "wearsOff": "You are no longer a wolf."
+    "wearsOff": "You are no longer a wolf.",
+    "icon": "wolf"
   },
   "Lightning Strike": {
     "name": "Lightning Strike",
@@ -2156,7 +2266,8 @@
     "duration": 0,
     "castOnYou": "Lightning surges through your body.",
     "castOnOther": "has been struck by lightning.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "cyclone"
   },
   "Regeneration": {
     "name": "Regeneration",
@@ -2173,16 +2284,17 @@
       "durationString": "8.2 minutes @L24 to 20.5 minutes @L65",
       "minDuration": {
         "duration": 491.99999999999994,
-        "level": "24"
+        "level": 24
       },
       "maxDuration": {
         "duration": 1722,
-        "level": "65"
+        "level": 65
       }
     },
     "castOnYou": "You begin to regenerate.",
     "castOnOther": "begins to regenerate.",
-    "wearsOff": "You have stopped regenerating."
+    "wearsOff": "You have stopped regenerating.",
+    "icon": "blueHand"
   },
   "Resist Cold": {
     "name": "Resist Cold",
@@ -2203,7 +2315,8 @@
     },
     "castOnYou": "You feel resistant from cold.",
     "castOnOther": "is resistant to cold.",
-    "wearsOff": "Your cold resistance fades."
+    "wearsOff": "Your cold resistance fades.",
+    "icon": "shield"
   },
   "Ring of Great Divide": {
     "name": "Ring of Great Divide",
@@ -2219,7 +2332,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "fades away.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "gate"
   },
   "Ring of Iceclad": {
     "name": "Ring of Iceclad",
@@ -2235,7 +2349,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "fades away.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "gate"
   },
   "Strength of Stone": {
     "name": "Strength of Stone",
@@ -2256,7 +2371,8 @@
     },
     "castOnYou": "You feel stronger.",
     "castOnOther": "looks stronger.",
-    "wearsOff": "Your strength fades."
+    "wearsOff": "Your strength fades.",
+    "icon": "blueArm"
   },
   "Succor: Butcher": {
     "name": "Succor: Butcher",
@@ -2272,7 +2388,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "creates a mystic portal.",
-    "wearsOff": "The portal shimmers and fades."
+    "wearsOff": "The portal shimmers and fades.",
+    "icon": "gate"
   },
   "Avalanche": {
     "name": "Avalanche",
@@ -2288,7 +2405,8 @@
     "duration": 0,
     "castOnYou": "You are entombed in ice.",
     "castOnOther": "is entombed in ice.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "snowflake"
   },
   "Circle of Great Divide": {
     "name": "Circle of Great Divide",
@@ -2304,7 +2422,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "creates a mystic portal.",
-    "wearsOff": "The portal shimmers and fades."
+    "wearsOff": "The portal shimmers and fades.",
+    "icon": "gate"
   },
   "Circle of Misty": {
     "name": "Circle of Misty",
@@ -2320,7 +2439,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "creates a mystic portal.",
-    "wearsOff": "The portal shimmers and fades."
+    "wearsOff": "The portal shimmers and fades.",
+    "icon": "gate"
   },
   "Enveloping Roots": {
     "name": "Enveloping Roots",
@@ -2341,7 +2461,8 @@
     },
     "castOnYou": "Your feet become entwined.",
     "castOnOther": "'s feet become entwined.",
-    "wearsOff": "The roots fall from your feet."
+    "wearsOff": "The roots fall from your feet.",
+    "icon": "plant"
   },
   "Firestrike": {
     "name": "Firestrike",
@@ -2357,7 +2478,8 @@
     "duration": 0,
     "castOnYou": "You feel your skin ignite.",
     "castOnOther": "'s skin ignites.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "fire"
   },
   "Pack Regeneration": {
     "name": "Pack Regeneration",
@@ -2374,16 +2496,17 @@
       "durationString": "8.8 minutes @L39 to 14 minutes @L65",
       "minDuration": {
         "duration": 528,
-        "level": "39"
+        "level": 39
       },
       "maxDuration": {
         "duration": 1368,
-        "level": "65"
+        "level": 65
       }
     },
     "castOnYou": "You begin to regenerate.",
     "castOnOther": "begins to regenerate.",
-    "wearsOff": "You have stopped regenerating."
+    "wearsOff": "You have stopped regenerating.",
+    "icon": "blueHand"
   },
   "Pack Spirit": {
     "name": "Pack Spirit",
@@ -2404,7 +2527,8 @@
     },
     "castOnYou": "You feel the spirit of wolf enter you.",
     "castOnOther": "is surrounded by a brief lupine aura.",
-    "wearsOff": "The spirit of wolf leaves you."
+    "wearsOff": "The spirit of wolf leaves you.",
+    "icon": "boot"
   },
   "Ring of Cobalt Scar": {
     "name": "Ring of Cobalt Scar",
@@ -2420,7 +2544,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "fades away.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "gate"
   },
   "Ring of Wakening Lands": {
     "name": "Ring of Wakening Lands",
@@ -2436,7 +2561,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "fades away.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "gate"
   },
   "Ro's Fiery Sundering": {
     "name": "Ro's Fiery Sundering",
@@ -2453,16 +2579,17 @@
       "durationString": "1.9 minutes @L39 to 3 minutes @L60",
       "minDuration": {
         "duration": 114,
-        "level": "39"
+        "level": 39
       },
       "maxDuration": {
         "duration": 294,
-        "level": "60"
+        "level": 60
       }
     },
     "castOnYou": "You are immolated by blazing flames.",
     "castOnOther": "is immolated by blazing flames.",
-    "wearsOff": "The flames die down."
+    "wearsOff": "The flames die down.",
+    "icon": "fire"
   },
   "Share Wolf Form": {
     "name": "Share Wolf Form",
@@ -2483,7 +2610,8 @@
     },
     "castOnYou": "You are now a wolf.",
     "castOnOther": "turns into a wolf.",
-    "wearsOff": "You are no longer a wolf."
+    "wearsOff": "You are no longer a wolf.",
+    "icon": "wolf"
   },
   "Shield of Spikes": {
     "name": "Shield of Spikes",
@@ -2500,16 +2628,17 @@
       "durationString": "3.9 minutes @L39 to 6.5 minutes @L65",
       "minDuration": {
         "duration": 234,
-        "level": "39"
+        "level": 39
       },
       "maxDuration": {
         "duration": 624,
-        "level": "65"
+        "level": 65
       }
     },
     "castOnYou": "You are surrounded by a thorny barrier.",
     "castOnOther": "is surrounded by a thorny barrier.",
-    "wearsOff": "The brambles fall away."
+    "wearsOff": "The brambles fall away.",
+    "icon": "plant"
   },
   "Skin Like Diamond": {
     "name": "Skin Like Diamond",
@@ -2530,7 +2659,8 @@
     },
     "castOnYou": "Your skin turns hard as diamond.",
     "castOnOther": "'s skin turns hard as diamond.",
-    "wearsOff": "Your skin returns to normal."
+    "wearsOff": "Your skin returns to normal.",
+    "icon": "shield"
   },
   "Spikecoat": {
     "name": "Spikecoat",
@@ -2547,16 +2677,17 @@
       "durationString": "1 hour 57 minutes @L39 to 3 hours 15 minutes @L65",
       "minDuration": {
         "duration": 7020,
-        "level": "39"
+        "level": 39
       },
       "maxDuration": {
         "duration": 18720,
-        "level": "65"
+        "level": 65
       }
     },
     "castOnYou": "Spikes spring from your skin.",
     "castOnOther": "'s skin sprouts spikes.",
-    "wearsOff": "Your skin returns to normal."
+    "wearsOff": "Your skin returns to normal.",
+    "icon": "shield"
   },
   "Succor: Ro": {
     "name": "Succor: Ro",
@@ -2572,7 +2703,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "creates a mystic portal.",
-    "wearsOff": "The portal shimmers and fades."
+    "wearsOff": "The portal shimmers and fades.",
+    "icon": "gate"
   },
   "Wind of the North": {
     "name": "Wind of the North",
@@ -2588,7 +2720,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "discorporates in a portal of wind.",
-    "wearsOff": "You appear in a gust of wind."
+    "wearsOff": "You appear in a gust of wind.",
+    "icon": "gate"
   },
   "Wind of the South": {
     "name": "Wind of the South",
@@ -2604,7 +2737,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "discorporates in a portal of wind.",
-    "wearsOff": "You appear in a gust of wind."
+    "wearsOff": "You appear in a gust of wind.",
+    "icon": "gate"
   },
   "Allure of the Wild": {
     "name": "Allure of the Wild",
@@ -2621,16 +2755,17 @@
       "durationString": "14.2 minutes @L44 to 19 minutes @L60",
       "minDuration": {
         "duration": 852,
-        "level": "44"
+        "level": 44
       },
       "maxDuration": {
         "duration": 1992,
-        "level": "60"
+        "level": 60
       }
     },
     "castOnYou": "",
     "castOnOther": "blinks.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "redBrain"
   },
   "Banish Summoned": {
     "name": "Banish Summoned",
@@ -2646,7 +2781,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "staggers.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "redHand"
   },
   "Calefaction": {
     "name": "Calefaction",
@@ -2662,7 +2798,8 @@
     "duration": 0,
     "castOnYou": "Debris smashes against your body.",
     "castOnOther": "'s body is crushed by flying debris.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "fire"
   },
   "Chloroplast": {
     "name": "Chloroplast",
@@ -2679,16 +2816,17 @@
       "durationString": "12 minutes 42 seconds @L39 to 19 minutes 6 seconds @L60",
       "minDuration": {
         "duration": 762,
-        "level": "39"
+        "level": 39
       },
       "maxDuration": {
         "duration": 1908,
-        "level": "60"
+        "level": 60
       }
     },
     "castOnYou": "You begin to regenerate.",
     "castOnOther": "begins to regenerate.",
-    "wearsOff": "You have stopped regenerating."
+    "wearsOff": "You have stopped regenerating.",
+    "icon": "blueHand"
   },
   "Circle of Cobalt Scar": {
     "name": "Circle of Cobalt Scar",
@@ -2704,7 +2842,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "creates a mystic portal.",
-    "wearsOff": "The portal shimmers and fades."
+    "wearsOff": "The portal shimmers and fades.",
+    "icon": "gate"
   },
   "Circle of Wakening Lands": {
     "name": "Circle of Wakening Lands",
@@ -2720,7 +2859,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "creates a shimmering portal.",
-    "wearsOff": "The portal shimmers and fades."
+    "wearsOff": "The portal shimmers and fades.",
+    "icon": "gate"
   },
   "Drifting Death": {
     "name": "Drifting Death",
@@ -2741,7 +2881,8 @@
     },
     "castOnYou": "You feel the pain of a thousand stings.",
     "castOnOther": "is engulfed by a swarm.",
-    "wearsOff": "The swarm departs."
+    "wearsOff": "The swarm departs.",
+    "icon": "wolf"
   },
   "Fixation of Ro": {
     "name": "Fixation of Ro",
@@ -2758,16 +2899,17 @@
       "durationString": "9.8 minutes @L44 to 10 minutes @L45",
       "minDuration": {
         "duration": 588,
-        "level": "44"
+        "level": 44
       },
       "maxDuration": {
         "duration": 1188,
-        "level": "45"
+        "level": 45
       }
     },
     "castOnYou": "You are surrounded by an outline of cold flame.",
     "castOnOther": "is surrounded by an outline of cold flame.",
-    "wearsOff": "The flames die away."
+    "wearsOff": "The flames die away.",
+    "icon": "fire"
   },
   "Form of the Great Wolf": {
     "name": "Form of the Great Wolf",
@@ -2784,16 +2926,17 @@
       "durationString": "2 hours 12 minutes @L44 to 2 hours 24 minutes @L48",
       "minDuration": {
         "duration": 7920,
-        "level": "44"
+        "level": 44
       },
       "maxDuration": {
         "duration": 16560,
-        "level": "48"
+        "level": 48
       }
     },
     "castOnYou": "You are now a wolf.",
     "castOnOther": "turns into a wolf.",
-    "wearsOff": "You are no longer a wolf."
+    "wearsOff": "You are no longer a wolf.",
+    "icon": "wolf"
   },
   "Nullify Magic": {
     "name": "Nullify Magic",
@@ -2809,7 +2952,8 @@
     "duration": 0,
     "castOnYou": "You feel dispelled.",
     "castOnOther": "feels dispelled.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "magic"
   },
   "Resist Disease": {
     "name": "Resist Disease",
@@ -2830,7 +2974,8 @@
     },
     "castOnYou": "You feel resistant from disease.",
     "castOnOther": "is resistant to disease.",
-    "wearsOff": "Your disease resistance fades."
+    "wearsOff": "Your disease resistance fades.",
+    "icon": "shield"
   },
   "Resist Poison": {
     "name": "Resist Poison",
@@ -2851,7 +2996,8 @@
     },
     "castOnYou": "You feel resistant from poison.",
     "castOnOther": "is resistant to poison.",
-    "wearsOff": "Your poison resistance fades."
+    "wearsOff": "Your poison resistance fades.",
+    "icon": "shield"
   },
   "Savage Spirit": {
     "name": "Savage Spirit",
@@ -2868,16 +3014,17 @@
       "durationString": "5.4 minutes @L44 to 7.5 minutes @L65",
       "minDuration": {
         "duration": 324,
-        "level": "44"
+        "level": 44
       },
       "maxDuration": {
         "duration": 774,
-        "level": "65"
+        "level": 65
       }
     },
     "castOnYou": "",
     "castOnOther": "'s eyes gleam with madness.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "wolf"
   },
   "Storm Strength": {
     "name": "Storm Strength",
@@ -2898,7 +3045,8 @@
     },
     "castOnYou": "You feel stronger.",
     "castOnOther": "looks stronger.",
-    "wearsOff": "Your strength fades."
+    "wearsOff": "Your strength fades.",
+    "icon": "blueArm"
   },
   "Succor: Lavastorm": {
     "name": "Succor: Lavastorm",
@@ -2914,7 +3062,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "creates a mystic portal.",
-    "wearsOff": "The portal shimmers and fades."
+    "wearsOff": "The portal shimmers and fades.",
+    "icon": "gate"
   },
   "Engulfing Roots": {
     "name": "Engulfing Roots",
@@ -2935,7 +3084,8 @@
     },
     "castOnYou": "Your feet become entwined.",
     "castOnOther": "'s feet become entwined.",
-    "wearsOff": "The roots fall from your feet."
+    "wearsOff": "The roots fall from your feet.",
+    "icon": "plant"
   },
   "Fire": {
     "name": "Fire",
@@ -2956,7 +3106,8 @@
     },
     "castOnYou": "You are immolated by flame.",
     "castOnOther": "is immolated by flame.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "fire"
   },
   "Ice": {
     "name": "Ice",
@@ -2977,7 +3128,8 @@
     },
     "castOnYou": "You are encased in frost.",
     "castOnOther": "is encased in frost.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "snowflake"
   },
   "Lightning Blast": {
     "name": "Lightning Blast",
@@ -2993,7 +3145,8 @@
     "duration": 0,
     "castOnYou": "Lightning surges through your body.",
     "castOnOther": "has been struck by lightning.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "cyclone"
   },
   "Pack Chloroplast": {
     "name": "Pack Chloroplast",
@@ -3010,16 +3163,17 @@
       "durationString": "10.8 minutes @L49 to 14 minutes @L65",
       "minDuration": {
         "duration": 648,
-        "level": "49"
+        "level": 49
       },
       "maxDuration": {
         "duration": 1488,
-        "level": "65"
+        "level": 65
       }
     },
     "castOnYou": "You begin to regenerate.",
     "castOnOther": "begins to regenerate.",
-    "wearsOff": "You have stopped regenerating."
+    "wearsOff": "You have stopped regenerating.",
+    "icon": "blueHand"
   },
   "Resist Magic": {
     "name": "Resist Magic",
@@ -3040,7 +3194,8 @@
     },
     "castOnYou": "You feel resistant from magic.",
     "castOnOther": "is resistant to magic.",
-    "wearsOff": "Your resist magic fades."
+    "wearsOff": "Your resist magic fades.",
+    "icon": "shield"
   },
   "Shield of Thorns (Spell)": {
     "name": "Shield of Thorns (Spell)",
@@ -3057,16 +3212,17 @@
       "durationString": "4.9 minutes @L49 to 6.5 minutes @L65",
       "minDuration": {
         "duration": 294,
-        "level": "49"
+        "level": 49
       },
       "maxDuration": {
         "duration": 684,
-        "level": "65"
+        "level": 65
       }
     },
     "castOnYou": "You are surrounded by a thorny barrier.",
     "castOnOther": "is surrounded by a thorny barrier.",
-    "wearsOff": "The brambles fall away."
+    "wearsOff": "The brambles fall away.",
+    "icon": "plant"
   },
   "Skin Like Nature": {
     "name": "Skin Like Nature",
@@ -3087,7 +3243,8 @@
     },
     "castOnYou": "Your skin shimmers with divine power.",
     "castOnOther": "'s skin shimmers with divine power.",
-    "wearsOff": "Your skin returns to normal."
+    "wearsOff": "Your skin returns to normal.",
+    "icon": "shield"
   },
   "Starfire": {
     "name": "Starfire",
@@ -3103,7 +3260,8 @@
     "duration": 0,
     "castOnYou": "You feel the glare of the heavens.",
     "castOnOther": "is bathed in starfire.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "fire"
   },
   "Succor: North": {
     "name": "Succor: North",
@@ -3119,7 +3277,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "creates a mystic portal.",
-    "wearsOff": "The portal shimmers and fades."
+    "wearsOff": "The portal shimmers and fades.",
+    "icon": "gate"
   },
   "Thorncoat": {
     "name": "Thorncoat",
@@ -3136,16 +3295,17 @@
       "durationString": "2 hours 27 minutes @L49 to 3 hours 15 minutes @L65",
       "minDuration": {
         "duration": 8820,
-        "level": "49"
+        "level": 49
       },
       "maxDuration": {
         "duration": 20520,
-        "level": "65"
+        "level": 65
       }
     },
     "castOnYou": "Thorns spring from your skin.",
     "castOnOther": "'s skin sprouts thorns.",
-    "wearsOff": "Your skin returns to normal."
+    "wearsOff": "Your skin returns to normal.",
+    "icon": "shield"
   },
   "Improved Superior Camouflage": {
     "name": "Improved Superior Camouflage",
@@ -3166,7 +3326,8 @@
     },
     "castOnYou": "You vanish.",
     "castOnOther": "fades away.",
-    "wearsOff": "You appear."
+    "wearsOff": "You appear.",
+    "icon": "eye"
   },
   "Circle of Winter": {
     "name": "Circle of Winter",
@@ -3187,7 +3348,8 @@
     },
     "castOnYou": "You are surrounded by a winter haze.",
     "castOnOther": "is surrounded by a winter haze.",
-    "wearsOff": "Your winter haze clears."
+    "wearsOff": "Your winter haze clears.",
+    "icon": "snowflake"
   },
   "Legacy of Spike": {
     "name": "Legacy of Spike",
@@ -3204,16 +3366,17 @@
       "durationString": "5.1 minutes @L51 to 6.5 minutes @L65",
       "minDuration": {
         "duration": 306,
-        "level": "51"
+        "level": 51
       },
       "maxDuration": {
         "duration": 696,
-        "level": "65"
+        "level": 65
       }
     },
     "castOnYou": "You are surrounded by a thorny barrier.",
     "castOnOther": "is surrounded by a thorny barrier.",
-    "wearsOff": "The brambles fall away."
+    "wearsOff": "The brambles fall away.",
+    "icon": "plant"
   },
   "Repulse Animal": {
     "name": "Repulse Animal",
@@ -3234,7 +3397,8 @@
     },
     "castOnYou": "",
     "castOnOther": "is utterly repulsed!",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "reaper"
   },
   "Superior Healing": {
     "name": "Superior Healing",
@@ -3250,7 +3414,8 @@
     "duration": 0,
     "castOnYou": "You feel much better.",
     "castOnOther": "feels much better.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "blueHand"
   },
   "Upheaval": {
     "name": "Upheaval",
@@ -3266,7 +3431,8 @@
     "duration": 0,
     "castOnYou": "You feel the ground scream and heave.",
     "castOnOther": "is mauled by the moving ground.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "earth"
   },
   "Breath of Ro": {
     "name": "Breath of Ro",
@@ -3287,7 +3453,8 @@
     },
     "castOnYou": "You are immolated by blazing flames.",
     "castOnOther": "is immolated by blazing flames.",
-    "wearsOff": "The flames die down."
+    "wearsOff": "The flames die down.",
+    "icon": "fire"
   },
   "Call of Karana": {
     "name": "Call of Karana",
@@ -3304,16 +3471,17 @@
       "durationString": "16.6 minutes @L52 to 19 minutes @L60",
       "minDuration": {
         "duration": 996.0000000000001,
-        "level": "52"
+        "level": 52
       },
       "maxDuration": {
         "duration": 2136,
-        "level": "60"
+        "level": 60
       }
     },
     "castOnYou": "",
     "castOnOther": "blinks.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "redBrain"
   },
   "Circle of Summer": {
     "name": "Circle of Summer",
@@ -3334,7 +3502,8 @@
     },
     "castOnYou": "You are surrounded by a summer haze.",
     "castOnOther": "is surrounded by a summer haze.",
-    "wearsOff": "Your summer haze clears."
+    "wearsOff": "Your summer haze clears.",
+    "icon": "fire"
   },
   "Egress": {
     "name": "Egress",
@@ -3350,7 +3519,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "sinks into the ground.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "gate"
   },
   "Glamour of Tunare": {
     "name": "Glamour of Tunare",
@@ -3367,16 +3537,17 @@
       "durationString": "16.9 minutes @L53 to 19 minutes @L60",
       "minDuration": {
         "duration": 1013.9999999999999,
-        "level": "53"
+        "level": 53
       },
       "maxDuration": {
         "duration": 2154,
-        "level": "60"
+        "level": 60
       }
     },
     "castOnYou": "",
     "castOnOther": "is surrounded by a Tunarian glamour.",
-    "wearsOff": "The glamour fades."
+    "wearsOff": "The glamour fades.",
+    "icon": "wolf"
   },
   "Spirit of Scale": {
     "name": "Spirit of Scale",
@@ -3397,7 +3568,8 @@
     },
     "castOnYou": "You feel the spirit of the scaled wolf enter you.",
     "castOnOther": "is surrounded by a brief lupine aura.",
-    "wearsOff": "The spirit of scale leaves you."
+    "wearsOff": "The spirit of scale leaves you.",
+    "icon": "boot"
   },
   "Winged Death": {
     "name": "Winged Death",
@@ -3418,7 +3590,8 @@
     },
     "castOnYou": "You feel the pain of a million stings.",
     "castOnOther": "is engulfed in a swarm of deadly insects.",
-    "wearsOff": "The swarm departs."
+    "wearsOff": "The swarm departs.",
+    "icon": "wolf"
   },
   "Blizzard": {
     "name": "Blizzard",
@@ -3434,7 +3607,8 @@
     "duration": 0,
     "castOnYou": "You are caught in a raging blizzard.",
     "castOnOther": "is caught in a raging blizzard.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "snowflake"
   },
   "Form of the Howler": {
     "name": "Form of the Howler",
@@ -3455,7 +3629,8 @@
     },
     "castOnYou": "You are now a wolf.",
     "castOnOther": "turns into a wolf.",
-    "wearsOff": "You are no longer a wolf."
+    "wearsOff": "You are no longer a wolf.",
+    "icon": "wolf"
   },
   "Regrowth": {
     "name": "Regrowth",
@@ -3472,16 +3647,17 @@
       "durationString": "16.6 minutes @L52 to 20.5 minutes @L65 (19 mins @L60)",
       "minDuration": {
         "duration": 996.0000000000001,
-        "level": "52"
+        "level": 52
       },
       "maxDuration": {
         "duration": 2226,
-        "level": "60)"
+        "level": 60
       }
     },
     "castOnYou": "You begin to regenerate.",
     "castOnOther": "begins to regenerate.",
-    "wearsOff": "You have stopped regenerating."
+    "wearsOff": "You have stopped regenerating.",
+    "icon": "blueHand"
   },
   "Scoriae": {
     "name": "Scoriae",
@@ -3497,7 +3673,8 @@
     "duration": 0,
     "castOnYou": "Your skin melts.",
     "castOnOther": "'s skin melts.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "fire"
   },
   "Annul Magic": {
     "name": "Annul Magic",
@@ -3513,7 +3690,8 @@
     "duration": 0,
     "castOnYou": "You feel annulled.",
     "castOnOther": "feels annulled.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "magic"
   },
   "Chloroblast": {
     "name": "Chloroblast",
@@ -3529,7 +3707,8 @@
     "duration": 0,
     "castOnYou": "You are blasted with chlorophyll.",
     "castOnOther": "is blasted with chlorophyll.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "blueHand"
   },
   "Exile Summoned": {
     "name": "Exile Summoned",
@@ -3545,7 +3724,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "staggers.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "redHand"
   },
   "Girdle of Karana": {
     "name": "Girdle of Karana",
@@ -3566,7 +3746,8 @@
     },
     "castOnYou": "You feel the strength of Karana infuse you.",
     "castOnOther": "looks stronger.",
-    "wearsOff": "Your Karanic strength fades."
+    "wearsOff": "Your Karanic strength fades.",
+    "icon": "blueArm"
   },
   "Nature Walkers Behest": {
     "name": "Nature Walkers Behest",
@@ -3582,7 +3763,8 @@
     "duration": 0,
     "castOnYou": "You summon a spirit of nature.",
     "castOnOther": "summons a spirit of nature.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Tunare's Request": {
     "name": "Tunare's Request",
@@ -3599,16 +3781,17 @@
       "durationString": "2 hours 45 minutes @L55 to 3 hours 15 minutes @L65",
       "minDuration": {
         "duration": 9900,
-        "level": "55"
+        "level": 55
       },
       "maxDuration": {
         "duration": 21600,
-        "level": "65"
+        "level": 65
       }
     },
     "castOnYou": "",
     "castOnOther": "blinks.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "redBrain"
   },
   "Bladecoat": {
     "name": "Bladecoat",
@@ -3625,16 +3808,17 @@
       "durationString": "2 hours 48 minutes @L56 to 3 hours 15 minutes @L65",
       "minDuration": {
         "duration": 10080,
-        "level": "56"
+        "level": 56
       },
       "maxDuration": {
         "duration": 21780,
-        "level": "65"
+        "level": 65
       }
     },
     "castOnYou": "Blades spring from your skin.",
     "castOnOther": "'s skin sprouts blades.",
-    "wearsOff": "Your skin returns to normal."
+    "wearsOff": "Your skin returns to normal.",
+    "icon": "shield"
   },
   "Breath of Karana": {
     "name": "Breath of Karana",
@@ -3650,7 +3834,8 @@
     "duration": 0,
     "castOnYou": "You are slammed by an intense gust of wind.",
     "castOnOther": "is slammed by an intense gust of wind.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "cyclone"
   },
   "Engorging Roots": {
     "name": "Engorging Roots",
@@ -3671,7 +3856,8 @@
     },
     "castOnYou": "Your feet become entangled.",
     "castOnOther": "'s feet become entangled.",
-    "wearsOff": "The roots fall from your feet."
+    "wearsOff": "The roots fall from your feet.",
+    "icon": "plant"
   },
   "Wake of Karana": {
     "name": "Wake of Karana",
@@ -3687,7 +3873,8 @@
     "duration": 0,
     "castOnYou": "You call out to Karana.",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "fire"
   },
   "Bonds of Tunare": {
     "name": "Bonds of Tunare",
@@ -3708,7 +3895,8 @@
     },
     "castOnYou": "Dark vines drag your feet into the ground.",
     "castOnOther": "is dragged down by dark vines.",
-    "wearsOff": "Your feet come free."
+    "wearsOff": "Your feet come free.",
+    "icon": "plant"
   },
   "Frost": {
     "name": "Frost",
@@ -3724,7 +3912,8 @@
     "duration": 0,
     "castOnYou": "Your blood freezes as you are iced by an intense cone of frost.",
     "castOnOther": "is iced by an intense cone of frost.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "snowflake"
   },
   "Natureskin": {
     "name": "Natureskin",
@@ -3745,7 +3934,8 @@
     },
     "castOnYou": "Your skin shimmers.",
     "castOnOther": "'s skin shimmers.",
-    "wearsOff": "Your skin returns to normal."
+    "wearsOff": "Your skin returns to normal.",
+    "icon": "shield"
   },
   "Succor": {
     "name": "Succor",
@@ -3761,7 +3951,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "creates a mystic portal.",
-    "wearsOff": "The portal shimmers and fades."
+    "wearsOff": "The portal shimmers and fades.",
+    "icon": "gate"
   },
   "Fist of Karana": {
     "name": "Fist of Karana",
@@ -3777,7 +3968,8 @@
     "duration": 0,
     "castOnYou": "You have been struck by the shocking Fist of Karana.",
     "castOnOther": "has been struck by the shocking Fist of Karana.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "cyclone"
   },
   "Regrowth of the Grove": {
     "name": "Regrowth of the Grove",
@@ -3794,16 +3986,17 @@
       "durationString": "18.4 minutes @L58 to 20.5 minutes @L65",
       "minDuration": {
         "duration": 1104,
-        "level": "58"
+        "level": 58
       },
       "maxDuration": {
         "duration": 2334,
-        "level": "65"
+        "level": 65
       }
     },
     "castOnYou": "You begin to regenerate.",
     "castOnOther": "begins to regenerate.",
-    "wearsOff": "You have stopped regenerating."
+    "wearsOff": "You have stopped regenerating.",
+    "icon": "blueHand"
   },
   "Shield of Blades": {
     "name": "Shield of Blades",
@@ -3820,16 +4013,17 @@
       "durationString": "6.8 minutes @L58 to 7.5 minutes @L65",
       "minDuration": {
         "duration": 408,
-        "level": "58"
+        "level": 58
       },
       "maxDuration": {
         "duration": 858,
-        "level": "65"
+        "level": 65
       }
     },
     "castOnYou": "You are surrounded by a thorny barrier of blades.",
     "castOnOther": "is surrounded by a thorny barrier of blades.",
-    "wearsOff": "The blades fall away."
+    "wearsOff": "The blades fall away.",
+    "icon": "plant"
   },
   "Legacy of Thorn": {
     "name": "Legacy of Thorn",
@@ -3846,16 +4040,17 @@
       "durationString": "5.9 minutes @L59 to 6.5 minutes @L65",
       "minDuration": {
         "duration": 354,
-        "level": "59"
+        "level": 59
       },
       "maxDuration": {
         "duration": 744,
-        "level": "65"
+        "level": 65
       }
     },
     "castOnYou": "You are surrounded by a thorny barrier.",
     "castOnOther": "is surrounded by a thorny barrier.",
-    "wearsOff": "The brambles fall away."
+    "wearsOff": "The brambles fall away.",
+    "icon": "plant"
   },
   "Spirit of Oak": {
     "name": "Spirit of Oak",
@@ -3876,7 +4071,8 @@
     },
     "castOnYou": "You have taken root.",
     "castOnOther": "turns into a tree.",
-    "wearsOff": "You are no longer a tree."
+    "wearsOff": "You are no longer a tree.",
+    "icon": "magic"
   },
   "Wildfire": {
     "name": "Wildfire",
@@ -3892,7 +4088,8 @@
     "duration": 0,
     "castOnYou": "Your skin ignites as wildfire courses over your body.",
     "castOnOther": "'s skin ignites as wildfire courses over them.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "fire"
   },
   "Banishment": {
     "name": "Banishment",
@@ -3908,7 +4105,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "reaper"
   },
   "Entrapping Roots": {
     "name": "Entrapping Roots",
@@ -3929,7 +4127,8 @@
     },
     "castOnYou": "Your feet become entwined.",
     "castOnOther": "is entrapped by roots.",
-    "wearsOff": "The roots fall from your feet."
+    "wearsOff": "The roots fall from your feet.",
+    "icon": "plant"
   },
   "Form of the Hunter": {
     "name": "Form of the Hunter",
@@ -3946,12 +4145,13 @@
       "durationString": "3 hours 0 minutes @L60",
       "minDuration": {
         "duration": 10800,
-        "level": "60"
+        "level": 60
       }
     },
     "castOnYou": "You are now a wolf.",
     "castOnOther": "turns into a wolf.",
-    "wearsOff": "You are no longer a wolf."
+    "wearsOff": "You are no longer a wolf.",
+    "icon": "wolf"
   },
   "Mask of the Hunter": {
     "name": "Mask of the Hunter",
@@ -3968,12 +4168,13 @@
       "durationString": "3 hours 0 minutes @L60",
       "minDuration": {
         "duration": 10800,
-        "level": "60"
+        "level": 60
       }
     },
     "castOnYou": "Your features sharpen.",
     "castOnOther": "'s features sharpen.",
-    "wearsOff": "Your features return to normal."
+    "wearsOff": "Your features return to normal.",
+    "icon": "wolf"
   },
   "Nature's Touch": {
     "name": "Nature's Touch",
@@ -3989,7 +4190,8 @@
     "duration": 0,
     "castOnYou": "You feel much better.",
     "castOnOther": "feels much better.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "blueHand"
   },
   "Protection of the Glades": {
     "name": "Protection of the Glades",
@@ -4010,6 +4212,7 @@
     },
     "castOnYou": "Your skin shimmers.",
     "castOnOther": "'s skin shimmers.",
-    "wearsOff": "Your skin returns to normal."
+    "wearsOff": "Your skin returns to normal.",
+    "icon": "shield"
   }
 }

@@ -14,16 +14,17 @@
       "durationString": "1.2 minutes @L1 to 2 minutes @L5",
       "minDuration": {
         "duration": 72,
-        "level": "1"
+        "level": 1
       },
       "maxDuration": {
-        "duration": 192,
-        "level": "5"
+        "duration": 120,
+        "level": 5
       }
     },
     "castOnYou": "You feel less aggressive.",
-    "castOnOther": "less aggressive.",
-    "wearsOff": ""
+    "castOnOther": "looks less aggressive.",
+    "wearsOff": "",
+    "icon": "redBrain"
   },
   "Minor Illusion": {
     "name": "Minor Illusion",
@@ -43,8 +44,9 @@
       }
     },
     "castOnYou": "You feel different.",
-    "castOnOther": "image shimmers.",
-    "wearsOff": "Your illusion fades."
+    "castOnOther": "'s image shimmers.",
+    "wearsOff": "Your illusion fades.",
+    "icon": "magic"
   },
   "Minor Shielding": {
     "name": "Minor Shielding",
@@ -64,8 +66,9 @@
       }
     },
     "castOnYou": "You feel armored.",
-    "castOnOther": "surrounded by a translucent shield.",
-    "wearsOff": "Your shielding fades away."
+    "castOnOther": "is surrounded by a translucent shield.",
+    "wearsOff": "Your shielding fades away.",
+    "icon": "shield"
   },
   "Pendril's Animation": {
     "name": "Pendril's Animation",
@@ -81,7 +84,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Reclaim Energy": {
     "name": "Reclaim Energy",
@@ -96,8 +100,9 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "",
-    "castOnOther": "",
-    "wearsOff": ""
+    "castOnOther": "disperses.",
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Shallow Breath": {
     "name": "Shallow Breath",
@@ -117,8 +122,9 @@
       }
     },
     "castOnYou": "You feel a shortness of breath.",
-    "castOnOther": "to choke.",
-    "wearsOff": "You can breathe again."
+    "castOnOther": "begins to choke.",
+    "wearsOff": "You can breathe again.",
+    "icon": "cyclone"
   },
   "Strengthen": {
     "name": "Strengthen",
@@ -138,8 +144,9 @@
       }
     },
     "castOnYou": "You feel stronger.",
-    "castOnOther": "stronger.",
-    "wearsOff": "Your strength fades."
+    "castOnOther": "looks stronger.",
+    "wearsOff": "Your strength fades.",
+    "icon": "blueArm"
   },
   "Taper Enchantment": {
     "name": "Taper Enchantment",
@@ -154,8 +161,9 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "The air crackles around you.",
-    "castOnOther": "surrounded by a crackling static energy.",
-    "wearsOff": ""
+    "castOnOther": "is surrounded by a crackling static energy.",
+    "wearsOff": "",
+    "icon": "magic"
   },
   "True North": {
     "name": "True North",
@@ -171,7 +179,8 @@
     "duration": 0,
     "castOnYou": "You spin to face north.",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "eye"
   },
   "Weaken": {
     "name": "Weaken",
@@ -188,16 +197,17 @@
       "durationString": "1.1 minutes @L1 to 6 minutes @L50",
       "minDuration": {
         "duration": 66,
-        "level": "1"
+        "level": 1
       },
       "maxDuration": {
-        "duration": 426,
-        "level": "50"
+        "duration": 360,
+        "level": 50
       }
     },
     "castOnYou": "You feel weaker.",
-    "castOnOther": "",
-    "wearsOff": ""
+    "castOnOther": "weakens.",
+    "wearsOff": "",
+    "icon": "redArm"
   },
   "Color Flux": {
     "name": "Color Flux",
@@ -212,8 +222,9 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "Scintillating colors pound through your brain.",
-    "castOnOther": "stunned by scintillating colors.",
-    "wearsOff": "The pretty colors fade."
+    "castOnOther": "is stunned by scintillating colors.",
+    "wearsOff": "The pretty colors fade.",
+    "icon": "redBrain"
   },
   "Enfeeblement": {
     "name": "Enfeeblement",
@@ -230,16 +241,17 @@
       "durationString": "1.4 minutes @L4 to 6 minutes @L50",
       "minDuration": {
         "duration": 84,
-        "level": "4"
+        "level": 4
       },
       "maxDuration": {
-        "duration": 444,
-        "level": "50"
+        "duration": 360,
+        "level": 50
       }
     },
     "castOnYou": "You feel enfeebled.",
-    "castOnOther": "enfeebled.",
-    "wearsOff": "Your strength returns."
+    "castOnOther": "is enfeebled.",
+    "wearsOff": "Your strength returns.",
+    "icon": "redArm"
   },
   "Fear": {
     "name": "Fear",
@@ -259,8 +271,9 @@
       }
     },
     "castOnYou": "Your mind fills with fear.",
-    "castOnOther": "very afraid.",
-    "wearsOff": "You are no longer afraid."
+    "castOnOther": "looks very afraid.",
+    "wearsOff": "You are no longer afraid.",
+    "icon": "reaper"
   },
   "Gate": {
     "name": "Gate",
@@ -275,8 +288,9 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "",
-    "castOnOther": "away.",
-    "wearsOff": ""
+    "castOnOther": "fades away.",
+    "wearsOff": "",
+    "icon": "gate"
   },
   "Haze": {
     "name": "Haze",
@@ -293,16 +307,17 @@
       "durationString": "12 minutes @L4 to 27 minutes @L9",
       "minDuration": {
         "duration": 720,
-        "level": "4"
+        "level": 4
       },
       "maxDuration": {
-        "duration": 2340,
-        "level": "9"
+        "duration": 1620,
+        "level": 9
       }
     },
     "castOnYou": "Your image blurs.",
-    "castOnOther": "image blurs.",
-    "wearsOff": "You come into focus."
+    "castOnOther": "'s image blurs.",
+    "wearsOff": "You come into focus.",
+    "icon": "shield"
   },
   "Illusion: Half-Elf": {
     "name": "Illusion: Half-Elf",
@@ -322,8 +337,9 @@
       }
     },
     "castOnYou": "You feel different.",
-    "castOnOther": "image shimmers.",
-    "wearsOff": "Your illusion fades."
+    "castOnOther": "'s image shimmers.",
+    "wearsOff": "Your illusion fades.",
+    "icon": "magic"
   },
   "Illusion: Human": {
     "name": "Illusion: Human",
@@ -340,16 +356,17 @@
       "durationString": "12 minutes @L4 to 36 minutes 6 seconds @L12",
       "minDuration": {
         "duration": 720,
-        "level": "4"
+        "level": 4
       },
       "maxDuration": {
-        "duration": 2886,
-        "level": "12"
+        "duration": 2166,
+        "level": 12
       }
     },
     "castOnYou": "You feel different.",
-    "castOnOther": "image shimmers.",
-    "wearsOff": "Your illusion fades."
+    "castOnOther": "'s image shimmers.",
+    "wearsOff": "Your illusion fades.",
+    "icon": "magic"
   },
   "Invisibility": {
     "name": "Invisibility",
@@ -366,16 +383,17 @@
       "durationString": "12 minutes @L4 to 20 minutes @L7",
       "minDuration": {
         "duration": 720,
-        "level": "4"
+        "level": 4
       },
       "maxDuration": {
-        "duration": 1920,
-        "level": "7"
+        "duration": 1200,
+        "level": 7
       }
     },
     "castOnYou": "You vanish.",
-    "castOnOther": "away.",
-    "wearsOff": "You appear."
+    "castOnOther": "fades away.",
+    "wearsOff": "You appear.",
+    "icon": "eye"
   },
   "Juli's Animation": {
     "name": "Juli's Animation",
@@ -391,7 +409,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Mesmerize": {
     "name": "Mesmerize",
@@ -411,8 +430,9 @@
       }
     },
     "castOnYou": "You are mesmerized.",
-    "castOnOther": "been mesmerized.",
-    "wearsOff": "You are no longer mesmerized."
+    "castOnOther": "has been mesmerized.",
+    "wearsOff": "You are no longer mesmerized.",
+    "icon": "redBrain"
   },
   "Suffocating Sphere": {
     "name": "Suffocating Sphere",
@@ -432,8 +452,9 @@
       }
     },
     "castOnYou": "You gasp for breath.",
-    "castOnOther": "for breath.",
-    "wearsOff": "You stop gasping."
+    "castOnOther": "gasps for breath.",
+    "wearsOff": "You stop gasping.",
+    "icon": "cyclone"
   },
   "Tashan": {
     "name": "Tashan",
@@ -450,16 +471,17 @@
       "durationString": "1.8 minutes @L4 to 13 minutes @L60",
       "minDuration": {
         "duration": 108,
-        "level": "4"
+        "level": 4
       },
       "maxDuration": {
-        "duration": 888,
-        "level": "60"
+        "duration": 780,
+        "level": 60
       }
     },
     "castOnYou": "You hear the barking of Tashan.",
-    "castOnOther": "nervously about.",
-    "wearsOff": "The barking fades."
+    "castOnOther": "glances nervously about.",
+    "wearsOff": "The barking fades.",
+    "icon": "wolf"
   },
   "Alliance": {
     "name": "Alliance",
@@ -474,8 +496,9 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel quite amicable.",
-    "castOnOther": "friendly.",
-    "wearsOff": "You no longer feel amicable."
+    "castOnOther": "looks friendly.",
+    "wearsOff": "You no longer feel amicable.",
+    "icon": "blueBrain"
   },
   "Bind Sight": {
     "name": "Bind Sight",
@@ -492,16 +515,17 @@
       "durationString": "2.6 minutes @L8 to 14 minutes @L65",
       "minDuration": {
         "duration": 156,
-        "level": "8"
+        "level": 8
       },
       "maxDuration": {
-        "duration": 996,
-        "level": "65"
+        "duration": 840,
+        "level": 65
       }
     },
     "castOnYou": "Your sight is bound.",
-    "castOnOther": "eyes gleam and then go dark.",
-    "wearsOff": "Your binding ends."
+    "castOnOther": "'s eyes gleam and then go dark.",
+    "wearsOff": "Your binding ends.",
+    "icon": "eye"
   },
   "Cancel Magic": {
     "name": "Cancel Magic",
@@ -516,8 +540,9 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel a bit dispelled.",
-    "castOnOther": "a bit dispelled.",
-    "wearsOff": ""
+    "castOnOther": "feels a bit dispelled.",
+    "wearsOff": "",
+    "icon": "magic"
   },
   "Chaotic Feedback": {
     "name": "Chaotic Feedback",
@@ -532,8 +557,9 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "Your brain begins to smolder.",
-    "castOnOther": "brain begins to smolder.",
-    "wearsOff": ""
+    "castOnOther": "'s brain begins to smolder.",
+    "wearsOff": "",
+    "icon": "redHand"
   },
   "Enchant Clay": {
     "name": "Enchant Clay",
@@ -549,7 +575,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "magic"
   },
   "Enchant Silver": {
     "name": "Enchant Silver",
@@ -565,7 +592,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "magic"
   },
   "Eye of Confusion": {
     "name": "Eye of Confusion",
@@ -585,8 +613,9 @@
       }
     },
     "castOnYou": "You feel confused.",
-    "castOnOther": "confused.",
-    "wearsOff": "You are no longer confused."
+    "castOnOther": "looks confused.",
+    "wearsOff": "You are no longer confused.",
+    "icon": "eye"
   },
   "Illusion: Gnome": {
     "name": "Illusion: Gnome",
@@ -606,8 +635,9 @@
       }
     },
     "castOnYou": "You feel different.",
-    "castOnOther": "image shimmers.",
-    "wearsOff": "Your illusion fades."
+    "castOnOther": "'s image shimmers.",
+    "wearsOff": "Your illusion fades.",
+    "icon": "magic"
   },
   "Illusion: Wood Elf": {
     "name": "Illusion: Wood Elf",
@@ -627,8 +657,9 @@
       }
     },
     "castOnYou": "You feel different.",
-    "castOnOther": "image shimmers.",
-    "wearsOff": "Your illusion fades."
+    "castOnOther": "'s image shimmers.",
+    "wearsOff": "Your illusion fades.",
+    "icon": "magic"
   },
   "Lesser Shielding": {
     "name": "Lesser Shielding",
@@ -645,16 +676,17 @@
       "durationString": "24 minutes @L8 to 27 minutes @L9",
       "minDuration": {
         "duration": 1440,
-        "level": "8"
+        "level": 8
       },
       "maxDuration": {
-        "duration": 3060,
-        "level": "9"
+        "duration": 1620,
+        "level": 9
       }
     },
     "castOnYou": "You feel armored.",
     "castOnOther": "",
-    "wearsOff": "Your shielding fades."
+    "wearsOff": "Your shielding fades.",
+    "icon": "shield"
   },
   "Mircyl's Animation": {
     "name": "Mircyl's Animation",
@@ -670,7 +702,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Root": {
     "name": "Root",
@@ -687,16 +720,17 @@
       "durationString": "2 ticks @L4 to 8 ticks @L14",
       "minDuration": {
         "duration": 12,
-        "level": "4"
+        "level": 4
       },
       "maxDuration": {
-        "duration": 60,
-        "level": "14"
+        "duration": 48,
+        "level": 14
       }
     },
     "castOnYou": "Your feet adhere to the ground.",
-    "castOnOther": "feet adhere to the ground.",
-    "wearsOff": "Your feet come free."
+    "castOnOther": "'s feet adhere to the ground.",
+    "wearsOff": "Your feet come free.",
+    "icon": "earth"
   },
   "See Invisible": {
     "name": "See Invisible",
@@ -717,7 +751,8 @@
     },
     "castOnYou": "Your eyes tingle.",
     "castOnOther": "",
-    "wearsOff": "Your eyes stop tingling."
+    "wearsOff": "Your eyes stop tingling.",
+    "icon": "eye"
   },
   "Sentinel": {
     "name": "Sentinel",
@@ -738,7 +773,8 @@
     },
     "castOnYou": "You sense that you are being watched.",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Soothe": {
     "name": "Soothe",
@@ -755,16 +791,17 @@
       "durationString": "1.8 minutes @L8 to 2.5 minutes @L15",
       "minDuration": {
         "duration": 108,
-        "level": "8"
+        "level": 8
       },
       "maxDuration": {
-        "duration": 258,
-        "level": "15"
+        "duration": 150,
+        "level": 15
       }
     },
     "castOnYou": "You feel your aggression subside.",
-    "castOnOther": "less aggressive.",
-    "wearsOff": ""
+    "castOnOther": "looks less aggressive.",
+    "wearsOff": "",
+    "icon": "redBrain"
   },
   "Bind Affinity": {
     "name": "Bind Affinity",
@@ -779,8 +816,9 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel yourself bind to the area.",
-    "castOnOther": "bound to the area.",
-    "wearsOff": ""
+    "castOnOther": "is bound to the area.",
+    "wearsOff": "",
+    "icon": "magic"
   },
   "Charm": {
     "name": "Charm",
@@ -797,16 +835,17 @@
       "durationString": "4.6 minutes @L12 to 20.5 minutes @L65",
       "minDuration": {
         "duration": 276,
-        "level": "12"
+        "level": 12
       },
       "maxDuration": {
-        "duration": 1506,
-        "level": "65"
+        "duration": 1230,
+        "level": 65
       }
     },
     "castOnYou": "You have been charmed.",
-    "castOnOther": "been charmed.",
-    "wearsOff": "You are no longer charmed."
+    "castOnOther": "has been charmed.",
+    "wearsOff": "You are no longer charmed.",
+    "icon": "redBrain"
   },
   "Choke": {
     "name": "Choke",
@@ -826,8 +865,9 @@
       }
     },
     "castOnYou": "You feel a shortness of breath.",
-    "castOnOther": "to choke.",
-    "wearsOff": "You can breathe again."
+    "castOnOther": "begins to choke.",
+    "wearsOff": "You can breathe again.",
+    "icon": "cyclone"
   },
   "Ebbing Strength": {
     "name": "Ebbing Strength",
@@ -844,16 +884,17 @@
       "durationString": "2.2 minutes @L12 to 7.5 minutes @L65",
       "minDuration": {
         "duration": 132,
-        "level": "12"
+        "level": 12
       },
       "maxDuration": {
-        "duration": 582,
-        "level": "65"
+        "duration": 450,
+        "level": 65
       }
     },
     "castOnYou": "You feel weaker.",
-    "castOnOther": "",
-    "wearsOff": "Your weakness fades."
+    "castOnOther": "weakens.",
+    "wearsOff": "Your weakness fades.",
+    "icon": "redArm"
   },
   "Enduring Breath": {
     "name": "Enduring Breath",
@@ -873,8 +914,9 @@
       }
     },
     "castOnYou": "You feel no need to breathe.",
-    "castOnOther": "seem to be breathing anymore.",
-    "wearsOff": "You resume breathing."
+    "castOnOther": "doesn't seem to be breathing anymore.",
+    "wearsOff": "You resume breathing.",
+    "icon": "water"
   },
   "Illusion: Dark Elf": {
     "name": "Illusion: Dark Elf",
@@ -894,8 +936,9 @@
       }
     },
     "castOnYou": "You feel different.",
-    "castOnOther": "image shimmers.",
-    "wearsOff": "Your illusion fades."
+    "castOnOther": "'s image shimmers.",
+    "wearsOff": "Your illusion fades.",
+    "icon": "magic"
   },
   "Illusion: Erudite": {
     "name": "Illusion: Erudite",
@@ -915,8 +958,9 @@
       }
     },
     "castOnYou": "You feel different.",
-    "castOnOther": "image shimmers.",
-    "wearsOff": "Your illusion fades."
+    "castOnOther": "'s image shimmers.",
+    "wearsOff": "Your illusion fades.",
+    "icon": "magic"
   },
   "Illusion: Halfling": {
     "name": "Illusion: Halfling",
@@ -936,8 +980,9 @@
       }
     },
     "castOnYou": "You feel different.",
-    "castOnOther": "image shimmers.",
-    "wearsOff": "Your illusion fades."
+    "castOnOther": "'s image shimmers.",
+    "wearsOff": "Your illusion fades.",
+    "icon": "magic"
   },
   "Illusion: High Elf": {
     "name": "Illusion: High Elf",
@@ -957,8 +1002,9 @@
       }
     },
     "castOnYou": "You feel different.",
-    "castOnOther": "image shimmers.",
-    "wearsOff": "Your illusion fades."
+    "castOnOther": "'s image shimmers.",
+    "wearsOff": "Your illusion fades.",
+    "icon": "magic"
   },
   "Kilan's Animation": {
     "name": "Kilan's Animation",
@@ -974,7 +1020,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Languid Pace": {
     "name": "Languid Pace",
@@ -991,16 +1038,17 @@
       "durationString": "36 seconds @L12 to 3.2 minutes @L65",
       "minDuration": {
         "duration": 36,
-        "level": "12"
+        "level": 12
       },
       "maxDuration": {
-        "duration": 228,
-        "level": "65"
+        "duration": 192,
+        "level": 65
       }
     },
     "castOnYou": "You slow down.",
-    "castOnOther": "down.",
-    "wearsOff": "You speed back up."
+    "castOnOther": "slows down.",
+    "wearsOff": "You speed back up.",
+    "icon": "boot"
   },
   "Memory Blur": {
     "name": "Memory Blur",
@@ -1015,8 +1063,9 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel your mind fog.",
-    "castOnOther": "a few times.",
-    "wearsOff": ""
+    "castOnOther": "blinks a few times.",
+    "wearsOff": "",
+    "icon": "blueBrain"
   },
   "Mist": {
     "name": "Mist",
@@ -1036,8 +1085,9 @@
       }
     },
     "castOnYou": "Your image blurs.",
-    "castOnOther": "image blurs.",
-    "wearsOff": "You come into focus."
+    "castOnOther": "'s image blurs.",
+    "wearsOff": "You come into focus.",
+    "icon": "shield"
   },
   "Serpent Sight": {
     "name": "Serpent Sight",
@@ -1057,8 +1107,9 @@
       }
     },
     "castOnYou": "Your eyes tingle.",
-    "castOnOther": "eyes glow red.",
-    "wearsOff": "Your infravision fades."
+    "castOnOther": "'s eyes glow red.",
+    "wearsOff": "Your infravision fades.",
+    "icon": "eye"
   },
   "Thicken Mana": {
     "name": "Thicken Mana",
@@ -1074,7 +1125,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "magic"
   },
   "Whirl Till You Hurl": {
     "name": "Whirl Till You Hurl",
@@ -1089,13 +1141,15 @@
     "spellType": "Detrimental",
     "duration": {
       "durationString": "Up to 2 ticks",
+      "minDuration": {},
       "maxDuration": {
         "duration": 12
       }
     },
     "castOnYou": "You begin to spin.",
-    "castOnOther": "to spin.",
-    "wearsOff": "You feel dizzy."
+    "castOnOther": "begins to spin.",
+    "wearsOff": "You feel dizzy.",
+    "icon": "cyclone"
   },
   "Breeze": {
     "name": "Breeze",
@@ -1115,8 +1169,9 @@
       }
     },
     "castOnYou": "A light breeze slips through your mind.",
-    "castOnOther": "in tranquility.",
-    "wearsOff": "The light breeze fades."
+    "castOnOther": "sighs in tranquility.",
+    "wearsOff": "The light breeze fades.",
+    "icon": "blueBrain"
   },
   "Chase the Moon": {
     "name": "Chase the Moon",
@@ -1136,8 +1191,9 @@
       }
     },
     "castOnYou": "You begin to run.",
-    "castOnOther": "to run.",
-    "wearsOff": "You stop."
+    "castOnOther": "begins to run.",
+    "wearsOff": "You stop.",
+    "icon": "reaper"
   },
   "Disempower": {
     "name": "Disempower",
@@ -1154,16 +1210,17 @@
       "durationString": "1.4 minutes @L14 to 2 minutes @L20",
       "minDuration": {
         "duration": 84,
-        "level": "14"
+        "level": 14
       },
       "maxDuration": {
-        "duration": 204,
-        "level": "20"
+        "duration": 120,
+        "level": 20
       }
     },
     "castOnYou": "You feel frail.",
-    "castOnOther": "frail.",
-    "wearsOff": "You feel your strength return."
+    "castOnOther": "looks frail.",
+    "wearsOff": "You feel your strength return.",
+    "icon": "redArm"
   },
   "Enchant Electrum": {
     "name": "Enchant Electrum",
@@ -1179,7 +1236,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "magic"
   },
   "Enthrall": {
     "name": "Enthrall",
@@ -1199,8 +1257,9 @@
       }
     },
     "castOnYou": "You have been enthralled.",
-    "castOnOther": "been enthralled.",
-    "wearsOff": "You are no longer enthralled."
+    "castOnOther": "has been enthralled.",
+    "wearsOff": "You are no longer enthralled.",
+    "icon": "redBrain"
   },
   "Identify": {
     "name": "Identify",
@@ -1216,7 +1275,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "magic"
   },
   "Illusion: Barbarian": {
     "name": "Illusion: Barbarian",
@@ -1236,8 +1296,9 @@
       }
     },
     "castOnYou": "You feel different.",
-    "castOnOther": "image shimmers.",
-    "wearsOff": "Your illusion fades."
+    "castOnOther": "'s image shimmers.",
+    "wearsOff": "Your illusion fades.",
+    "icon": "magic"
   },
   "Illusion: Dwarf": {
     "name": "Illusion: Dwarf",
@@ -1257,8 +1318,9 @@
       }
     },
     "castOnYou": "You feel different.",
-    "castOnOther": "image shimmers.",
-    "wearsOff": "Your illusion fades."
+    "castOnOther": "'s image shimmers.",
+    "wearsOff": "Your illusion fades.",
+    "icon": "magic"
   },
   "Illusion: Tree": {
     "name": "Illusion: Tree",
@@ -1278,8 +1340,9 @@
       }
     },
     "castOnYou": "You feel different.",
-    "castOnOther": "image shimmers.",
-    "wearsOff": "Your illusion fades."
+    "castOnOther": "'s image shimmers.",
+    "wearsOff": "Your illusion fades.",
+    "icon": "magic"
   },
   "Invisibility versus Undead": {
     "name": "Invisibility versus Undead",
@@ -1296,16 +1359,17 @@
       "durationString": "3 minutes @L1 to 27 minutes @L9",
       "minDuration": {
         "duration": 180,
-        "level": "1"
+        "level": 1
       },
       "maxDuration": {
-        "duration": 1800,
-        "level": "9"
+        "duration": 1620,
+        "level": 9
       }
     },
     "castOnYou": "You feel your skin tingle.",
-    "castOnOther": "a little.",
-    "wearsOff": "Your skin stops tingling."
+    "castOnOther": "fades a little.",
+    "wearsOff": "Your skin stops tingling.",
+    "icon": "eye"
   },
   "Levitate": {
     "name": "Levitate",
@@ -1322,16 +1386,17 @@
       "durationString": "5.2 minutes @L14 to 19 minutes @L60",
       "minDuration": {
         "duration": 312,
-        "level": "14"
+        "level": 14
       },
       "maxDuration": {
-        "duration": 1452,
-        "level": "60"
+        "duration": 1140,
+        "level": 60
       }
     },
     "castOnYou": "Your feet leave the ground.",
-    "castOnOther": "leave the ground.",
-    "wearsOff": "You can no longer levitate."
+    "castOnOther": "feet leave the ground.",
+    "wearsOff": "You can no longer levitate.",
+    "icon": "cyclone"
   },
   "Mesmerization": {
     "name": "Mesmerization",
@@ -1351,8 +1416,9 @@
       }
     },
     "castOnYou": "You are mesmerized.",
-    "castOnOther": "been mesmerized.",
-    "wearsOff": "You are no longer mesmerized."
+    "castOnOther": "has been mesmerized.",
+    "wearsOff": "You are no longer mesmerized.",
+    "icon": "redBrain"
   },
   "Quickness": {
     "name": "Quickness",
@@ -1369,16 +1435,17 @@
       "durationString": "4.2 minutes @L16 to 11 minutes @L50",
       "minDuration": {
         "duration": 252,
-        "level": "16"
+        "level": 16
       },
       "maxDuration": {
-        "duration": 912,
-        "level": "50"
+        "duration": 660,
+        "level": 50
       }
     },
     "castOnYou": "You feel much faster.",
-    "castOnOther": "much faster.",
-    "wearsOff": "Your speed returns to normal."
+    "castOnOther": "feels much faster.",
+    "wearsOff": "Your speed returns to normal.",
+    "icon": "blueArm"
   },
   "Rune I": {
     "name": "Rune I",
@@ -1398,8 +1465,9 @@
       }
     },
     "castOnYou": "A light shimmer of runes surround you.",
-    "castOnOther": "surrounded by a shimmer of runes.",
-    "wearsOff": "The shimmer of runes fades."
+    "castOnOther": "is surrounded by a shimmer of runes.",
+    "wearsOff": "The shimmer of runes fades.",
+    "icon": "shield"
   },
   "Sanity Warp": {
     "name": "Sanity Warp",
@@ -1414,8 +1482,9 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "Reality runs amok.",
-    "castOnOther": "delirious.",
-    "wearsOff": "Reality returns."
+    "castOnOther": "looks delirious.",
+    "wearsOff": "Reality returns.",
+    "icon": "redHand"
   },
   "Shalee's Animation": {
     "name": "Shalee's Animation",
@@ -1431,7 +1500,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Shielding": {
     "name": "Shielding",
@@ -1452,7 +1522,8 @@
     },
     "castOnYou": "You feel armored.",
     "castOnOther": "",
-    "wearsOff": "Your shielding fades away."
+    "wearsOff": "Your shielding fades away.",
+    "icon": "shield"
   },
   "Benevolence": {
     "name": "Benevolence",
@@ -1467,8 +1538,9 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel quite amicable.",
-    "castOnOther": "friendly.",
-    "wearsOff": "You no longer feel amicable."
+    "castOnOther": "looks friendly.",
+    "wearsOff": "You no longer feel amicable.",
+    "icon": "blueBrain"
   },
   "Berserker Strength": {
     "name": "Berserker Strength",
@@ -1485,16 +1557,17 @@
       "durationString": "2 minutes @L20 to 3 minutes @L30",
       "minDuration": {
         "duration": 120,
-        "level": "20"
+        "level": 20
       },
       "maxDuration": {
-        "duration": 300,
-        "level": "30"
+        "duration": 180,
+        "level": 30
       }
     },
     "castOnYou": "Your muscles bulge with berserker strength.",
-    "castOnOther": "muscles bulge with berserker strength.",
-    "wearsOff": "You feel your agility return."
+    "castOnOther": "'s muscles bulge with berserker strength.",
+    "wearsOff": "You feel your agility return.",
+    "icon": "blueArm"
   },
   "Calm": {
     "name": "Calm",
@@ -1511,16 +1584,17 @@
       "durationString": "2.9 minutes @L19 to 3.0 minutes @L20",
       "minDuration": {
         "duration": 174,
-        "level": "19"
+        "level": 19
       },
       "maxDuration": {
-        "duration": 354,
-        "level": "20"
+        "duration": 180,
+        "level": 20
       }
     },
     "castOnYou": "You feel your aggression subside.",
-    "castOnOther": "less aggressive.",
-    "wearsOff": ""
+    "castOnOther": "looks less aggressive.",
+    "wearsOff": "",
+    "icon": "redBrain"
   },
   "Cloud": {
     "name": "Cloud",
@@ -1540,8 +1614,9 @@
       }
     },
     "castOnYou": "Your image clouds.",
-    "castOnOther": "image clouds.",
-    "wearsOff": "You come into focus."
+    "castOnOther": "'s image clouds.",
+    "wearsOff": "You come into focus.",
+    "icon": "shield"
   },
   "Color Shift": {
     "name": "Color Shift",
@@ -1556,8 +1631,9 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "Scintillating colors pound through your brain.",
-    "castOnOther": "stunned by scintillating colors.",
-    "wearsOff": "The pretty colors fade."
+    "castOnOther": "is stunned by scintillating colors.",
+    "wearsOff": "The pretty colors fade.",
+    "icon": "redBrain"
   },
   "Crystallize Mana": {
     "name": "Crystallize Mana",
@@ -1573,7 +1649,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "magic"
   },
   "Endure Magic": {
     "name": "Endure Magic",
@@ -1593,8 +1670,9 @@
       }
     },
     "castOnYou": "You feel protected from magic.",
-    "castOnOther": "protected from magic.",
-    "wearsOff": "Your endurance to magic fades."
+    "castOnOther": "is protected from magic.",
+    "wearsOff": "Your endurance to magic fades.",
+    "icon": "shield"
   },
   "Feckless Might": {
     "name": "Feckless Might",
@@ -1611,16 +1689,17 @@
       "durationString": "2 minutes @L20 to 6.5 minutes @L65",
       "minDuration": {
         "duration": 120,
-        "level": "20"
+        "level": 20
       },
       "maxDuration": {
-        "duration": 510,
-        "level": "65"
+        "duration": 390,
+        "level": 65
       }
     },
     "castOnYou": "You feel weak.",
-    "castOnOther": "weakened.",
-    "wearsOff": "Your strength returns."
+    "castOnOther": "is weakened.",
+    "wearsOff": "Your strength returns.",
+    "icon": "redArm"
   },
   "Illusion: Iksar": {
     "name": "Illusion: Iksar",
@@ -1640,8 +1719,9 @@
       }
     },
     "castOnYou": "You feel different.",
-    "castOnOther": "image shimmers.",
-    "wearsOff": "Your illusion fades."
+    "castOnOther": "'s image shimmers.",
+    "wearsOff": "Your illusion fades.",
+    "icon": "magic"
   },
   "Illusion: Ogre": {
     "name": "Illusion: Ogre",
@@ -1661,8 +1741,9 @@
       }
     },
     "castOnYou": "You feel different.",
-    "castOnOther": "image shimmers.",
-    "wearsOff": "Your illusion fades."
+    "castOnOther": "'s image shimmers.",
+    "wearsOff": "Your illusion fades.",
+    "icon": "magic"
   },
   "Illusion: Troll": {
     "name": "Illusion: Troll",
@@ -1682,8 +1763,9 @@
       }
     },
     "castOnYou": "You feel different.",
-    "castOnOther": "image shimmers.",
-    "wearsOff": "Your illusion fades."
+    "castOnOther": "'s image shimmers.",
+    "wearsOff": "Your illusion fades.",
+    "icon": "magic"
   },
   "Shifting Sight": {
     "name": "Shifting Sight",
@@ -1700,16 +1782,17 @@
       "durationString": "7 minutes @L20 to 19 minutes @L60",
       "minDuration": {
         "duration": 420,
-        "level": "20"
+        "level": 20
       },
       "maxDuration": {
-        "duration": 1560,
-        "level": "60"
+        "duration": 1140,
+        "level": 60
       }
     },
     "castOnYou": "You shift your sight.",
-    "castOnOther": "eyes gleam and then go dark.",
-    "wearsOff": "Your shifting sight ends."
+    "castOnOther": "'s eyes gleam and then go dark.",
+    "wearsOff": "Your shifting sight ends.",
+    "icon": "eye"
   },
   "Sisna's Animation": {
     "name": "Sisna's Animation",
@@ -1725,7 +1808,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Sympathetic Aura": {
     "name": "Sympathetic Aura",
@@ -1745,8 +1829,9 @@
       }
     },
     "castOnYou": "You feel a warm aura surround you.",
-    "castOnOther": "surrounded by a warm aura.",
-    "wearsOff": "Your sympathetic aura fades."
+    "castOnOther": "is surrounded by a warm aura.",
+    "wearsOff": "Your sympathetic aura fades.",
+    "icon": "shield"
   },
   "Tashani": {
     "name": "Tashani",
@@ -1763,16 +1848,17 @@
       "durationString": "5 minutes @L20 to 13 minutes @L60",
       "minDuration": {
         "duration": 300,
-        "level": "20"
+        "level": 20
       },
       "maxDuration": {
-        "duration": 1080,
-        "level": "60"
+        "duration": 780,
+        "level": 60
       }
     },
     "castOnYou": "You hear the barking of the Tashani.",
-    "castOnOther": "nervously about.",
-    "wearsOff": "The barking fades."
+    "castOnOther": "glances nervously about.",
+    "wearsOff": "The barking fades.",
+    "icon": "wolf"
   },
   "Alacrity": {
     "name": "Alacrity",
@@ -1789,16 +1875,17 @@
       "durationString": "5.8 minutes @L24 to 11 minutes @L50",
       "minDuration": {
         "duration": 348,
-        "level": "24"
+        "level": 24
       },
       "maxDuration": {
-        "duration": 1008,
-        "level": "50"
+        "duration": 660,
+        "level": 50
       }
     },
     "castOnYou": "You feel much faster.",
-    "castOnOther": "much faster.",
-    "wearsOff": "Your speed returns to normal."
+    "castOnOther": "feels much faster.",
+    "wearsOff": "Your speed returns to normal.",
+    "icon": "blueArm"
   },
   "Beguile": {
     "name": "Beguile",
@@ -1815,16 +1902,17 @@
       "durationString": "8.2 minutes @L24 to 20.5 minutes @L65",
       "minDuration": {
         "duration": 491.99999999999994,
-        "level": "24"
+        "level": 24
       },
       "maxDuration": {
-        "duration": 1722,
-        "level": "65"
+        "duration": 1230,
+        "level": 65
       }
     },
     "castOnYou": "You have been charmed.",
-    "castOnOther": "been charmed.",
-    "wearsOff": "You are no longer charmed."
+    "castOnOther": "has been charmed.",
+    "wearsOff": "You are no longer charmed.",
+    "icon": "redBrain"
   },
   "Chaos Flux": {
     "name": "Chaos Flux",
@@ -1839,8 +1927,9 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "Your world goes mad as chaos flows through you.",
-    "castOnOther": "surrounded by fluxing strands of chaos.",
-    "wearsOff": ""
+    "castOnOther": "is surrounded by fluxing strands of chaos.",
+    "wearsOff": "",
+    "icon": "redHand"
   },
   "Enchant Gold": {
     "name": "Enchant Gold",
@@ -1856,7 +1945,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "magic"
   },
   "Illusion: Earth Elemental": {
     "name": "Illusion: Earth Elemental",
@@ -1876,8 +1966,9 @@
       }
     },
     "castOnYou": "You feel different.",
-    "castOnOther": "image shimmers.",
-    "wearsOff": "Your illusion fades."
+    "castOnOther": "'s image shimmers.",
+    "wearsOff": "Your illusion fades.",
+    "icon": "magic"
   },
   "Illusion: Skeleton": {
     "name": "Illusion: Skeleton",
@@ -1897,8 +1988,9 @@
       }
     },
     "castOnYou": "You feel different.",
-    "castOnOther": "image shimmers.",
-    "wearsOff": "Your illusion fades."
+    "castOnOther": "'s image shimmers.",
+    "wearsOff": "Your illusion fades.",
+    "icon": "magic"
   },
   "Invigor": {
     "name": "Invigor",
@@ -1918,8 +2010,9 @@
       }
     },
     "castOnYou": "Your body zings with energy.",
-    "castOnOther": "energized.",
-    "wearsOff": ""
+    "castOnOther": "looks energized.",
+    "wearsOff": "",
+    "icon": "boot"
   },
   "Major Shielding": {
     "name": "Major Shielding",
@@ -1940,7 +2033,8 @@
     },
     "castOnYou": "You feel armored.",
     "castOnOther": "",
-    "wearsOff": "Your shielding fades."
+    "wearsOff": "Your shielding fades.",
+    "icon": "shield"
   },
   "Rune II": {
     "name": "Rune II",
@@ -1960,8 +2054,9 @@
       }
     },
     "castOnYou": "A shimmer of runes surround you.",
-    "castOnOther": "surrounded by a shimmer of runes.",
-    "wearsOff": "The shimmer of runes fades."
+    "castOnOther": "is surrounded by a shimmer of runes.",
+    "wearsOff": "The shimmer of runes fades.",
+    "icon": "shield"
   },
   "Sagar's Animation": {
     "name": "Sagar's Animation",
@@ -1977,7 +2072,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Strip Enchantment": {
     "name": "Strip Enchantment",
@@ -1992,8 +2088,9 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel very dispelled.",
-    "castOnOther": "very dispelled.",
-    "wearsOff": ""
+    "castOnOther": "feels very dispelled.",
+    "wearsOff": "",
+    "icon": "magic"
   },
   "Tepid Deeds": {
     "name": "Tepid Deeds",
@@ -2010,16 +2107,17 @@
       "durationString": "1.2 minutes @L24 to 3.0 minutes @L60",
       "minDuration": {
         "duration": 72,
-        "level": "24"
+        "level": 24
       },
       "maxDuration": {
-        "duration": 252,
-        "level": "60"
+        "duration": 180,
+        "level": 60
       }
     },
     "castOnYou": "You slow down.",
-    "castOnOther": "down.",
-    "wearsOff": "Your speed returns."
+    "castOnOther": "slows down.",
+    "wearsOff": "Your speed returns.",
+    "icon": "boot"
   },
   "Augmentation": {
     "name": "Augmentation",
@@ -2039,8 +2137,9 @@
       }
     },
     "castOnYou": "You feel your body pulse with energy.",
-    "castOnOther": "body pulses with energy.",
-    "wearsOff": "The pulsing energy fades."
+    "castOnOther": "'s body pulses with energy.",
+    "wearsOff": "The pulsing energy fades.",
+    "icon": "blueArm"
   },
   "Clarify Mana": {
     "name": "Clarify Mana",
@@ -2056,7 +2155,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "magic"
   },
   "Clarity": {
     "name": "Clarity",
@@ -2076,8 +2176,9 @@
       }
     },
     "castOnYou": "A cool breeze slips through your mind.",
-    "castOnOther": "tranquil.",
-    "wearsOff": "The cool breeze fades."
+    "castOnOther": "looks tranquil.",
+    "wearsOff": "The cool breeze fades.",
+    "icon": "blueBrain"
   },
   "Curse of the Simple Mind": {
     "name": "Curse of the Simple Mind",
@@ -2094,16 +2195,17 @@
       "durationString": "3.9 minutes @L29 to 7.0 minutes @L60",
       "minDuration": {
         "duration": 234,
-        "level": "29"
+        "level": 29
       },
       "maxDuration": {
-        "duration": 654,
-        "level": "60"
+        "duration": 420,
+        "level": 60
       }
     },
     "castOnYou": "You feel stupid.",
-    "castOnOther": "stupid.",
-    "wearsOff": "You feel less stupid."
+    "castOnOther": "looks stupid.",
+    "wearsOff": "You feel less stupid.",
+    "icon": "redBrain"
   },
   "Dyn's Dizzying Draught": {
     "name": "Dyn's Dizzying Draught",
@@ -2117,11 +2219,13 @@
     "targetType": "Single",
     "spellType": "Detrimental",
     "duration": {
-      "durationString": "2 Ticks"
+      "durationString": "2 Ticks",
+      "minDuration": {}
     },
     "castOnYou": "You begin to spin.",
-    "castOnOther": "to spin.",
-    "wearsOff": "You feel dizzy."
+    "castOnOther": "begins to spin.",
+    "wearsOff": "You feel dizzy.",
+    "icon": "cyclone"
   },
   "Enstill": {
     "name": "Enstill",
@@ -2138,16 +2242,17 @@
       "durationString": "1.2 minutes @L20 to 1.6 minutes @L27",
       "minDuration": {
         "duration": 72,
-        "level": "20"
+        "level": 20
       },
       "maxDuration": {
-        "duration": 168,
-        "level": "27"
+        "duration": 96,
+        "level": 27
       }
     },
     "castOnYou": "Your feet adhere to the ground.",
-    "castOnOther": "feet adhere to the ground.",
-    "wearsOff": "Your feet come free."
+    "castOnOther": "'s feet adhere to the ground.",
+    "wearsOff": "Your feet come free.",
+    "icon": "earth"
   },
   "Feedback": {
     "name": "Feedback",
@@ -2164,16 +2269,17 @@
       "durationString": "1.7 minutes @L29 to 3.6 minutes @L60",
       "minDuration": {
         "duration": 102,
-        "level": "29"
+        "level": 29
       },
       "maxDuration": {
-        "duration": 318,
-        "level": "60"
+        "duration": 216,
+        "level": 60
       }
     },
     "castOnYou": "You are enveloped in blazing energy.",
-    "castOnOther": "enveloped in blazing energy.",
-    "wearsOff": "The energy flames die down."
+    "castOnOther": "is enveloped in blazing energy.",
+    "wearsOff": "The energy flames die down.",
+    "icon": "cyclone"
   },
   "Illusion: Air Elemental": {
     "name": "Illusion: Air Elemental",
@@ -2193,8 +2299,9 @@
       }
     },
     "castOnYou": "You feel different.",
-    "castOnOther": "image shimmers.",
-    "wearsOff": "Your illusion fades."
+    "castOnOther": "'s image shimmers.",
+    "wearsOff": "Your illusion fades.",
+    "icon": "magic"
   },
   "Illusion: Water Elemental": {
     "name": "Illusion: Water Elemental",
@@ -2214,8 +2321,9 @@
       }
     },
     "castOnYou": "You feel different.",
-    "castOnOther": "image shimmers.",
-    "wearsOff": "Your illusion fades."
+    "castOnOther": "'s image shimmers.",
+    "wearsOff": "Your illusion fades.",
+    "icon": "magic"
   },
   "Listless Power": {
     "name": "Listless Power",
@@ -2232,16 +2340,17 @@
       "durationString": "2.9 minutes @L29 to 6.5 minutes @L65",
       "minDuration": {
         "duration": 174,
-        "level": "29"
+        "level": 29
       },
       "maxDuration": {
-        "duration": 564,
-        "level": "65"
+        "duration": 390,
+        "level": 65
       }
     },
     "castOnYou": "You feel frail.",
-    "castOnOther": "frail.",
-    "wearsOff": "You feel your strength return."
+    "castOnOther": "looks frail.",
+    "wearsOff": "You feel your strength return.",
+    "icon": "redArm"
   },
   "Nullify Magic": {
     "name": "Nullify Magic",
@@ -2256,8 +2365,9 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel dispelled.",
-    "castOnOther": "dispelled.",
-    "wearsOff": ""
+    "castOnOther": "feels dispelled.",
+    "wearsOff": "",
+    "icon": "magic"
   },
   "Obscure": {
     "name": "Obscure",
@@ -2277,8 +2387,9 @@
       }
     },
     "castOnYou": "Your image has been obscured.",
-    "castOnOther": "image shifts out of focus.",
-    "wearsOff": "You come into focus."
+    "castOnOther": "'s image shifts out of focus.",
+    "wearsOff": "You come into focus.",
+    "icon": "shield"
   },
   "Suffocate": {
     "name": "Suffocate",
@@ -2295,16 +2406,17 @@
       "durationString": "1.4 minutes @L29 to 1.8 minutes @L36",
       "minDuration": {
         "duration": 84,
-        "level": "29"
+        "level": 29
       },
       "maxDuration": {
-        "duration": 192,
-        "level": "36"
+        "duration": 108,
+        "level": 36
       }
     },
     "castOnYou": "You feel a shortness of breath.",
-    "castOnOther": "to choke.",
-    "wearsOff": "You can breathe again."
+    "castOnOther": "begins to choke.",
+    "wearsOff": "You can breathe again.",
+    "icon": "cyclone"
   },
   "Uleen's Animation": {
     "name": "Uleen's Animation",
@@ -2320,7 +2432,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Ultravision": {
     "name": "Ultravision",
@@ -2340,8 +2453,9 @@
       }
     },
     "castOnYou": "Your eyes tingle.",
-    "castOnOther": "eyes glow violet.",
-    "wearsOff": "Your ultravision fades."
+    "castOnOther": "'s eyes glow violet.",
+    "wearsOff": "Your ultravision fades.",
+    "icon": "eye"
   },
   "Anarchy": {
     "name": "Anarchy",
@@ -2356,8 +2470,9 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "Your world dissolves into anarchy.",
-    "castOnOther": "world dissolves into anarchy.",
-    "wearsOff": ""
+    "castOnOther": "'s world dissolves into anarchy.",
+    "wearsOff": "",
+    "icon": "redHand"
   },
   "Boltran's Animation": {
     "name": "Boltran's Animation",
@@ -2373,7 +2488,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Cast Sight": {
     "name": "Cast Sight",
@@ -2390,16 +2506,17 @@
       "durationString": "1 hour 42 minutes @L34 to 3 hours @L60",
       "minDuration": {
         "duration": 6120,
-        "level": "34"
+        "level": 34
       },
       "maxDuration": {
-        "duration": 16920,
-        "level": "60"
+        "duration": 10800,
+        "level": 60
       }
     },
     "castOnYou": "You cast your sight.",
-    "castOnOther": "eyes gleam and then go dark.",
-    "wearsOff": "Your casting ends."
+    "castOnOther": "'s eyes gleam and then go dark.",
+    "wearsOff": "Your casting ends.",
+    "icon": "eye"
   },
   "Enchant Platinum": {
     "name": "Enchant Platinum",
@@ -2415,7 +2532,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "magic"
   },
   "Entrance": {
     "name": "Entrance",
@@ -2435,8 +2553,9 @@
       }
     },
     "castOnYou": "You have been entranced.",
-    "castOnOther": "been entranced.",
-    "wearsOff": "You are no longer entranced."
+    "castOnOther": "has been entranced.",
+    "wearsOff": "You are no longer entranced.",
+    "icon": "redBrain"
   },
   "Gift of Magic": {
     "name": "Gift of Magic",
@@ -2456,8 +2575,9 @@
       }
     },
     "castOnYou": "Your thoughts begin to race and flow faster.",
-    "castOnOther": "to be staring into nothingness.",
-    "wearsOff": "Your gift of magic fades."
+    "castOnOther": "appears to be staring into nothingness.",
+    "wearsOff": "Your gift of magic fades.",
+    "icon": "blueBrain"
   },
   "Greater Shielding": {
     "name": "Greater Shielding",
@@ -2478,7 +2598,8 @@
     },
     "castOnYou": "You feel armored.",
     "castOnOther": "",
-    "wearsOff": "Your shielding fades."
+    "wearsOff": "Your shielding fades.",
+    "icon": "shield"
   },
   "Illusion: Fire Elemental": {
     "name": "Illusion: Fire Elemental",
@@ -2498,8 +2619,9 @@
       }
     },
     "castOnYou": "You feel different.",
-    "castOnOther": "image shimmers.",
-    "wearsOff": "Your illusion fades."
+    "castOnOther": "'s image shimmers.",
+    "wearsOff": "Your illusion fades.",
+    "icon": "magic"
   },
   "Insipid Weakness": {
     "name": "Insipid Weakness",
@@ -2516,16 +2638,17 @@
       "durationString": "2 minutes @L34 to 3.9 minutes @L65",
       "minDuration": {
         "duration": 120,
-        "level": "34"
+        "level": 34
       },
       "maxDuration": {
-        "duration": 354,
-        "level": "65"
+        "duration": 234,
+        "level": 65
       }
     },
     "castOnYou": "You feel weak.",
-    "castOnOther": "weakened.",
-    "wearsOff": "Your strength returns."
+    "castOnOther": "is weakened.",
+    "wearsOff": "Your strength returns.",
+    "icon": "redArm"
   },
   "Mana Sieve": {
     "name": "Mana Sieve",
@@ -2540,8 +2663,9 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You feel your mental energies slip away.",
-    "castOnOther": "with mental anguish. (?)  Someone staggers in pain. (on Green Feb 2020) (and Blue Sep 2020)",
-    "wearsOff": ""
+    "castOnOther": "staggers with mental anguish. (?)  Someone staggers in pain. (on Green Feb 2020) (and Blue Sep 2020)",
+    "wearsOff": "",
+    "icon": "redBrain"
   },
   "Radiant Visage": {
     "name": "Radiant Visage",
@@ -2561,8 +2685,9 @@
       }
     },
     "castOnYou": "You feel radiant.",
-    "castOnOther": "takes on a radiant visage.",
-    "wearsOff": "Your radiance fades."
+    "castOnOther": "face takes on a radiant visage.",
+    "wearsOff": "Your radiance fades.",
+    "icon": "blueArm"
   },
   "Rune III": {
     "name": "Rune III",
@@ -2582,8 +2707,9 @@
       }
     },
     "castOnYou": "A dark shimmer of runes surround you.",
-    "castOnOther": "surrounded by a shimmer of runes.",
-    "wearsOff": "The shimmer of runes fade."
+    "castOnOther": "is surrounded by a shimmer of runes.",
+    "wearsOff": "The shimmer of runes fade.",
+    "icon": "shield"
   },
   "Aanya's Animation": {
     "name": "Aanya's Animation",
@@ -2599,7 +2725,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Cajoling Whispers": {
     "name": "Cajoling Whispers",
@@ -2616,16 +2743,17 @@
       "durationString": "12.7 minutes @L39 to 20.5 minutes @L65",
       "minDuration": {
         "duration": 762,
-        "level": "39"
+        "level": 39
       },
       "maxDuration": {
-        "duration": 1992,
-        "level": "65"
+        "duration": 1230,
+        "level": 65
       }
     },
     "castOnYou": "You have been charmed.",
-    "castOnOther": "been charmed.",
-    "wearsOff": "You are no longer charmed."
+    "castOnOther": "has been charmed.",
+    "wearsOff": "You are no longer charmed.",
+    "icon": "redBrain"
   },
   "Celerity": {
     "name": "Celerity",
@@ -2642,16 +2770,17 @@
       "durationString": "12.7 minutes @L39 to 16 minutes @L50",
       "minDuration": {
         "duration": 762,
-        "level": "39"
+        "level": 39
       },
       "maxDuration": {
-        "duration": 1722,
-        "level": "50"
+        "duration": 960,
+        "level": 50
       }
     },
     "castOnYou": "You feel much faster.",
-    "castOnOther": "much faster.",
-    "wearsOff": "Your speed returns to normal."
+    "castOnOther": "feels much faster.",
+    "wearsOff": "Your speed returns to normal.",
+    "icon": "blueArm"
   },
   "Distill Mana": {
     "name": "Distill Mana",
@@ -2667,7 +2796,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "magic"
   },
   "Gravity Flux": {
     "name": "Gravity Flux",
@@ -2682,8 +2812,9 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You experience chaotic weightlessness.",
-    "castOnOther": "chaotically into the air.",
-    "wearsOff": ""
+    "castOnOther": "rises chaotically into the air.",
+    "wearsOff": "",
+    "icon": "redHand"
   },
   "Illusion: Dry Bone": {
     "name": "Illusion: Dry Bone",
@@ -2703,8 +2834,9 @@
       }
     },
     "castOnYou": "You feel different.",
-    "castOnOther": "image shimmers.",
-    "wearsOff": "Your illusion fades."
+    "castOnOther": "'s image shimmers.",
+    "wearsOff": "Your illusion fades.",
+    "icon": "magic"
   },
   "Illusion: Spirit Wolf": {
     "name": "Illusion: Spirit Wolf",
@@ -2724,8 +2856,9 @@
       }
     },
     "castOnYou": "You feel different.",
-    "castOnOther": "image shimmers.",
-    "wearsOff": "Your illusion fades."
+    "castOnOther": "'s image shimmers.",
+    "wearsOff": "Your illusion fades.",
+    "icon": "magic"
   },
   "Immobilize": {
     "name": "Immobilize",
@@ -2745,8 +2878,9 @@
       }
     },
     "castOnYou": "Your feet adhere to the ground.",
-    "castOnOther": "adhere to the ground.",
-    "wearsOff": "Your feet come free."
+    "castOnOther": "feet adhere to the ground.",
+    "wearsOff": "Your feet come free.",
+    "icon": "earth"
   },
   "Insight": {
     "name": "Insight",
@@ -2766,8 +2900,9 @@
       }
     },
     "castOnYou": "Your mind fills with wisdom.",
-    "castOnOther": "wise.",
-    "wearsOff": "Your wisdom fades."
+    "castOnOther": "looks wise.",
+    "wearsOff": "Your wisdom fades.",
+    "icon": "blueBrain"
   },
   "Invoke Fear": {
     "name": "Invoke Fear",
@@ -2787,8 +2922,9 @@
       }
     },
     "castOnYou": "Your mind fills with fear.",
-    "castOnOther": "very afraid.",
-    "wearsOff": "You are no longer afraid."
+    "castOnOther": "looks very afraid.",
+    "wearsOff": "You are no longer afraid.",
+    "icon": "reaper"
   },
   "Mind Wipe": {
     "name": "Mind Wipe",
@@ -2803,8 +2939,9 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel your mind fog.",
-    "castOnOther": "a few times.",
-    "wearsOff": ""
+    "castOnOther": "blinks a few times.",
+    "wearsOff": "",
+    "icon": "blueBrain"
   },
   "Pacify": {
     "name": "Pacify",
@@ -2821,16 +2958,17 @@
       "durationString": "4.9 minutes @L39 to 6.9 minutes @L59",
       "minDuration": {
         "duration": 294,
-        "level": "39"
+        "level": 39
       },
       "maxDuration": {
-        "duration": 708,
-        "level": "59"
+        "duration": 414,
+        "level": 59
       }
     },
     "castOnYou": "You feel your aggression subside.",
-    "castOnOther": "less aggressive.",
-    "wearsOff": ""
+    "castOnOther": "looks less aggressive.",
+    "wearsOff": "",
+    "icon": "redBrain"
   },
   "Rampage": {
     "name": "Rampage",
@@ -2847,16 +2985,17 @@
       "durationString": "3.9 minutes @L39 to 6.5 minutes @L65",
       "minDuration": {
         "duration": 234,
-        "level": "39"
+        "level": 39
       },
       "maxDuration": {
-        "duration": 624,
-        "level": "65"
+        "duration": 390,
+        "level": 65
       }
     },
     "castOnYou": "You feel the urge to rampage.",
-    "castOnOther": "to rampage.",
-    "wearsOff": "You feel your agility return."
+    "castOnOther": "begins to rampage.",
+    "wearsOff": "You feel your agility return.",
+    "icon": "blueArm"
   },
   "Resist Magic": {
     "name": "Resist Magic",
@@ -2876,8 +3015,9 @@
       }
     },
     "castOnYou": "You feel resistant from magic.",
-    "castOnOther": "resistant to magic.",
-    "wearsOff": "Your resist magic fades."
+    "castOnOther": "is resistant to magic.",
+    "wearsOff": "Your resist magic fades.",
+    "icon": "shield"
   },
   "Shade": {
     "name": "Shade",
@@ -2897,8 +3037,9 @@
       }
     },
     "castOnYou": "Your image fades.",
-    "castOnOther": "image fades around the edges.",
-    "wearsOff": "You come into focus."
+    "castOnOther": "'s image fades around the edges.",
+    "wearsOff": "You come into focus.",
+    "icon": "shield"
   },
   "Wandering Mind": {
     "name": "Wandering Mind",
@@ -2918,8 +3059,9 @@
       }
     },
     "castOnYou": "You forget what you were supposed to be.",
-    "castOnOther": "off into space.",
-    "wearsOff": "You remember where you are."
+    "castOnOther": "stares off into space.",
+    "wearsOff": "You remember where you are.",
+    "icon": "redBrain"
   },
   "Arch Shielding": {
     "name": "Arch Shielding",
@@ -2940,7 +3082,8 @@
     },
     "castOnYou": "You feel armored.",
     "castOnOther": "",
-    "wearsOff": "Your shielding fades."
+    "wearsOff": "Your shielding fades.",
+    "icon": "shield"
   },
   "Boon of the Garou": {
     "name": "Boon of the Garou",
@@ -2957,16 +3100,17 @@
       "durationString": "4.4 minutes @L44 to 6.0 minutes @L60",
       "minDuration": {
         "duration": 264,
-        "level": "44"
+        "level": 44
       },
       "maxDuration": {
-        "duration": 624,
-        "level": "60"
+        "duration": 360,
+        "level": 60
       }
     },
     "castOnYou": "You feel... strange.",
-    "castOnOther": "face contorts and stretches, the skin breaking and peeling.",
-    "wearsOff": "Your illusion fades."
+    "castOnOther": "'s face contorts and stretches, the skin breaking and peeling.",
+    "wearsOff": "Your illusion fades.",
+    "icon": "magic"
   },
   "Brilliance": {
     "name": "Brilliance",
@@ -2986,8 +3130,9 @@
       }
     },
     "castOnYou": "Your mind clears.",
-    "castOnOther": "a flash of insight.",
-    "wearsOff": "Your brilliance fades."
+    "castOnOther": "gains a flash of insight.",
+    "wearsOff": "Your brilliance fades.",
+    "icon": "blueBrain"
   },
   "Color Skew": {
     "name": "Color Skew",
@@ -3002,8 +3147,9 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "Scintillating colors pound through your brain.",
-    "castOnOther": "stunned by scintillating colors.",
-    "wearsOff": "The pretty colors fade."
+    "castOnOther": "is stunned by scintillating colors.",
+    "wearsOff": "The pretty colors fade.",
+    "icon": "redBrain"
   },
   "Discordant Mind": {
     "name": "Discordant Mind",
@@ -3018,8 +3164,9 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You feel part of your mind melt away.",
-    "castOnOther": "brain begins to melt.",
-    "wearsOff": ""
+    "castOnOther": "'s brain begins to melt.",
+    "wearsOff": "",
+    "icon": "redHand"
   },
   "Enchant Velium": {
     "name": "Enchant Velium",
@@ -3035,7 +3182,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "magic"
   },
   "Extinguish Fatigue": {
     "name": "Extinguish Fatigue",
@@ -3050,8 +3198,9 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "Your body zings with energy.",
-    "castOnOther": "energized.",
-    "wearsOff": ""
+    "castOnOther": "looks energized.",
+    "wearsOff": "",
+    "icon": "boot"
   },
   "Illusion: Werewolf": {
     "name": "Illusion: Werewolf",
@@ -3071,8 +3220,9 @@
       }
     },
     "castOnYou": "You feel different.",
-    "castOnOther": "image shimmers.",
-    "wearsOff": "Your illusion fades."
+    "castOnOther": "'s image shimmers.",
+    "wearsOff": "Your illusion fades.",
+    "icon": "magic"
   },
   "Incapacitate": {
     "name": "Incapacitate",
@@ -3089,16 +3239,17 @@
       "durationString": "4.4 minutes @L44 to 6.5 minutes @L65",
       "minDuration": {
         "duration": 264,
-        "level": "44"
+        "level": 44
       },
       "maxDuration": {
-        "duration": 654,
-        "level": "65"
+        "duration": 390,
+        "level": 65
       }
     },
     "castOnYou": "You feel frail.",
-    "castOnOther": "frail.",
-    "wearsOff": "You feel your strength return."
+    "castOnOther": "looks frail.",
+    "wearsOff": "You feel your strength return.",
+    "icon": "redArm"
   },
   "Pillage Enchantment": {
     "name": "Pillage Enchantment",
@@ -3113,8 +3264,9 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel very dispelled.",
-    "castOnOther": "very dispelled.",
-    "wearsOff": ""
+    "castOnOther": "feels very dispelled.",
+    "wearsOff": "",
+    "icon": "magic"
   },
   "Rune IV": {
     "name": "Rune IV",
@@ -3134,8 +3286,9 @@
       }
     },
     "castOnYou": "A coat of shimmering runes surround you.",
-    "castOnOther": "surrounded by a shimmer of runes.",
-    "wearsOff": "The shimmer of runes fade."
+    "castOnOther": "is surrounded by a shimmer of runes.",
+    "wearsOff": "The shimmer of runes fade.",
+    "icon": "shield"
   },
   "Shiftless Deeds": {
     "name": "Shiftless Deeds",
@@ -3152,16 +3305,17 @@
       "durationString": "2.2 minutes @L44 to 3.0 minutes @L60",
       "minDuration": {
         "duration": 132,
-        "level": "44"
+        "level": 44
       },
       "maxDuration": {
-        "duration": 312,
-        "level": "60"
+        "duration": 180,
+        "level": 60
       }
     },
     "castOnYou": "You slow down.",
-    "castOnOther": "down.",
-    "wearsOff": "Your speed returns."
+    "castOnOther": "slows down.",
+    "wearsOff": "Your speed returns.",
+    "icon": "boot"
   },
   "Summon Companion": {
     "name": "Summon Companion",
@@ -3176,8 +3330,9 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You summon your companion to your side.",
-    "castOnOther": "a companion to their side.",
-    "wearsOff": ""
+    "castOnOther": "summons a companion to their side.",
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Tashania": {
     "name": "Tashania",
@@ -3194,16 +3349,17 @@
       "durationString": "9.8 minutes @L44 to 13 minutes @L60",
       "minDuration": {
         "duration": 588,
-        "level": "44"
+        "level": 44
       },
       "maxDuration": {
-        "duration": 1368,
-        "level": "60"
+        "duration": 780,
+        "level": 60
       }
     },
     "castOnYou": "You hear the barking of Tashania.",
-    "castOnOther": "nervously about.",
-    "wearsOff": "The barking fades."
+    "castOnOther": "glances nervously about.",
+    "wearsOff": "The barking fades.",
+    "icon": "wolf"
   },
   "Weakness": {
     "name": "Weakness",
@@ -3220,16 +3376,17 @@
       "durationString": "2.6 minutes @L44 to 3.9 minutes @L65",
       "minDuration": {
         "duration": 156,
-        "level": "44"
+        "level": 44
       },
       "maxDuration": {
-        "duration": 390,
-        "level": "65"
+        "duration": 234,
+        "level": 65
       }
     },
     "castOnYou": "You feel weak.",
-    "castOnOther": "weakened.",
-    "wearsOff": "Your strength returns."
+    "castOnOther": "is weakened.",
+    "wearsOff": "Your strength returns.",
+    "icon": "redArm"
   },
   "Yegoreff's Animation": {
     "name": "Yegoreff's Animation",
@@ -3245,7 +3402,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Adorning Grace": {
     "name": "Adorning Grace",
@@ -3265,8 +3423,9 @@
       }
     },
     "castOnYou": "You are adorned by an aura of radiant grace.",
-    "castOnOther": "adorned by an aura of radiant grace.",
-    "wearsOff": "Your grace fades."
+    "castOnOther": "is adorned by an aura of radiant grace.",
+    "wearsOff": "Your grace fades.",
+    "icon": "blueArm"
   },
   "Allure": {
     "name": "Allure",
@@ -3283,16 +3442,17 @@
       "durationString": "15.7 minutes @L49 to 19.0 minutes @L60",
       "minDuration": {
         "duration": 942,
-        "level": "49"
+        "level": 49
       },
       "maxDuration": {
-        "duration": 2082,
-        "level": "60"
+        "duration": 1140,
+        "level": 60
       }
     },
     "castOnYou": "You have been charmed.",
-    "castOnOther": "been charmed.",
-    "wearsOff": "You are no longer charmed."
+    "castOnOther": "has been charmed.",
+    "wearsOff": "You are no longer charmed.",
+    "icon": "redBrain"
   },
   "Berserker Spirit": {
     "name": "Berserker Spirit",
@@ -3309,16 +3469,17 @@
       "durationString": "4.9 minutes @L49 to 5 minutes @L50",
       "minDuration": {
         "duration": 294,
-        "level": "49"
+        "level": 49
       },
       "maxDuration": {
-        "duration": 594,
-        "level": "50"
+        "duration": 300,
+        "level": 50
       }
     },
     "castOnYou": "Your spirit screams with berserker strength.",
-    "castOnOther": "loose a berserk yell.",
-    "wearsOff": "The berserker spirit fades."
+    "castOnOther": "lets loose a berserk yell.",
+    "wearsOff": "The berserker spirit fades.",
+    "icon": "blueArm"
   },
   "Blanket of Forgetfulness": {
     "name": "Blanket of Forgetfulness",
@@ -3333,8 +3494,9 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel your mind fog.",
-    "castOnOther": "a few times.",
-    "wearsOff": ""
+    "castOnOther": "blinks a few times.",
+    "wearsOff": "",
+    "icon": "blueBrain"
   },
   "Dazzle": {
     "name": "Dazzle",
@@ -3354,8 +3516,9 @@
       }
     },
     "castOnYou": "You are mesmerized.",
-    "castOnOther": "been mesmerized.",
-    "wearsOff": "You are no longer mesmerized."
+    "castOnOther": "has been mesmerized.",
+    "wearsOff": "You are no longer mesmerized.",
+    "icon": "redBrain"
   },
   "Enchant Adamantite": {
     "name": "Enchant Adamantite",
@@ -3371,7 +3534,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "magic"
   },
   "Enchant Brellium": {
     "name": "Enchant Brellium",
@@ -3387,7 +3551,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "magic"
   },
   "Enchant Mithril": {
     "name": "Enchant Mithril",
@@ -3403,7 +3568,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "magic"
   },
   "Enchant Steel": {
     "name": "Enchant Steel",
@@ -3419,7 +3585,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "magic"
   },
   "Gasping Embrace": {
     "name": "Gasping Embrace",
@@ -3439,8 +3606,9 @@
       }
     },
     "castOnYou": "You feel a shortness of breath.",
-    "castOnOther": "to choke.",
-    "wearsOff": "You can breathe again."
+    "castOnOther": "begins to choke.",
+    "wearsOff": "You can breathe again.",
+    "icon": "cyclone"
   },
   "Group Resist Magic": {
     "name": "Group Resist Magic",
@@ -3460,8 +3628,9 @@
       }
     },
     "castOnYou": "You feel protected from magic.",
-    "castOnOther": "resistant to magic.",
-    "wearsOff": "Your protection fades."
+    "castOnOther": "is resistant to magic.",
+    "wearsOff": "Your protection fades.",
+    "icon": "shield"
   },
   "Kintaz's Animation": {
     "name": "Kintaz's Animation",
@@ -3477,7 +3646,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Paralyzing Earth": {
     "name": "Paralyzing Earth",
@@ -3497,8 +3667,9 @@
       }
     },
     "castOnYou": "Your feet adhere to the ground.",
-    "castOnOther": "feet adhere to the ground.",
-    "wearsOff": "Your feet come free."
+    "castOnOther": "'s feet adhere to the ground.",
+    "wearsOff": "Your feet come free.",
+    "icon": "earth"
   },
   "Purify Mana": {
     "name": "Purify Mana",
@@ -3514,7 +3685,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "magic"
   },
   "Reoccurring Amnesia": {
     "name": "Reoccurring Amnesia",
@@ -3529,13 +3701,15 @@
     "spellType": "Beneficial",
     "duration": {
       "durationString": "Instant (Supposed to be 4 tick duration)",
+      "minDuration": {},
       "maxDuration": {
         "duration": 24
       }
     },
     "castOnYou": "You feel your mind fog.",
-    "castOnOther": "a few times.",
-    "wearsOff": ""
+    "castOnOther": "blinks a few times.",
+    "wearsOff": "",
+    "icon": "blueBrain"
   },
   "Shadow": {
     "name": "Shadow",
@@ -3555,8 +3729,9 @@
       }
     },
     "castOnYou": "Your image fades into shadow.",
-    "castOnOther": "image fades into the shadows.",
-    "wearsOff": "You come into focus."
+    "castOnOther": "'s image fades into the shadows.",
+    "wearsOff": "You come into focus.",
+    "icon": "shield"
   },
   "Swift Like The Wind": {
     "name": "Swift Like The Wind",
@@ -3573,16 +3748,17 @@
       "durationString": "15.7 minutes @L49 to 16 minutes @L50",
       "minDuration": {
         "duration": 942,
-        "level": "49"
+        "level": 49
       },
       "maxDuration": {
-        "duration": 1902,
-        "level": "50"
+        "duration": 960,
+        "level": 50
       }
     },
     "castOnYou": "You feel much faster.",
-    "castOnOther": "much faster.",
-    "wearsOff": "Your speed returns to normal."
+    "castOnOther": "feels much faster.",
+    "wearsOff": "Your speed returns to normal.",
+    "icon": "blueArm"
   },
   "Improved Invisibility": {
     "name": "Improved Invisibility",
@@ -3602,8 +3778,9 @@
       }
     },
     "castOnYou": "You vanish.",
-    "castOnOther": "away.",
-    "wearsOff": "You appear."
+    "castOnOther": "fades away.",
+    "wearsOff": "You appear.",
+    "icon": "eye"
   },
   "Collaboration": {
     "name": "Collaboration",
@@ -3618,8 +3795,9 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel quite amicable.",
-    "castOnOther": "friendly.",
-    "wearsOff": "You no longer feel amicable."
+    "castOnOther": "looks friendly.",
+    "wearsOff": "You no longer feel amicable.",
+    "icon": "blueBrain"
   },
   "Theft of Thought": {
     "name": "Theft of Thought",
@@ -3634,8 +3812,9 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You feel your mental energies drain away.",
-    "castOnOther": "",
-    "wearsOff": ""
+    "castOnOther": "staggers.",
+    "wearsOff": "",
+    "icon": "redBrain"
   },
   "Wake of Tranquility": {
     "name": "Wake of Tranquility",
@@ -3652,16 +3831,17 @@
       "durationString": "6.1 minutes @L51 to 7.0 minutes @L60",
       "minDuration": {
         "duration": 366,
-        "level": "51"
+        "level": 51
       },
       "maxDuration": {
-        "duration": 786,
-        "level": "60"
+        "duration": 420,
+        "level": 60
       }
     },
     "castOnYou": "You feel your aggression subside.",
-    "castOnOther": "less aggressive.",
-    "wearsOff": ""
+    "castOnOther": "looks less aggressive.",
+    "wearsOff": "",
+    "icon": "blueBrain"
   },
   "Boon of the Clear Mind": {
     "name": "Boon of the Clear Mind",
@@ -3681,8 +3861,9 @@
       }
     },
     "castOnYou": "A cool breeze slips through your mind.",
-    "castOnOther": "tranquil.",
-    "wearsOff": "The cool breeze fades."
+    "castOnOther": "looks tranquil.",
+    "wearsOff": "The cool breeze fades.",
+    "icon": "blueBrain"
   },
   "Color Slant": {
     "name": "Color Slant",
@@ -3697,8 +3878,9 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "Scintillating colors dazzle your brain.",
-    "castOnOther": "dazzled by scintillating colors.",
-    "wearsOff": "The pretty colors fade."
+    "castOnOther": "is dazzled by scintillating colors.",
+    "wearsOff": "The pretty colors fade.",
+    "icon": "redBrain"
   },
   "Fascination": {
     "name": "Fascination",
@@ -3718,8 +3900,9 @@
       }
     },
     "castOnYou": "You are fascinated by the pretty colors.",
-    "castOnOther": "been fascinated.",
-    "wearsOff": "You are no longer fascinated."
+    "castOnOther": "has been fascinated.",
+    "wearsOff": "You are no longer fascinated.",
+    "icon": "redBrain"
   },
   "Rune V": {
     "name": "Rune V",
@@ -3739,8 +3922,9 @@
       }
     },
     "castOnYou": "A coat of shimmering runes surround you.",
-    "castOnOther": "surrounded by a shimmer of runes.",
-    "wearsOff": "The shimmer of runes fade."
+    "castOnOther": "is surrounded by a shimmer of runes.",
+    "wearsOff": "The shimmer of runes fade.",
+    "icon": "shield"
   },
   "Aanya's Quickening": {
     "name": "Aanya's Quickening",
@@ -3760,8 +3944,9 @@
       }
     },
     "castOnYou": "You experience a quickening.",
-    "castOnOther": "a quickening.",
-    "wearsOff": "Your speed returns to normal."
+    "castOnOther": "experiences a quickening.",
+    "wearsOff": "Your speed returns to normal.",
+    "icon": "blueArm"
   },
   "Boltran's Agacerie": {
     "name": "Boltran's Agacerie",
@@ -3778,16 +3963,17 @@
       "durationString": "6.3 minutes @L53 to 7.0 minutes @L60",
       "minDuration": {
         "duration": 378,
-        "level": "53"
+        "level": 53
       },
       "maxDuration": {
-        "duration": 798,
-        "level": "60"
+        "duration": 420,
+        "level": 60
       }
     },
     "castOnYou": "You have been charmed.",
-    "castOnOther": "been charmed.",
-    "wearsOff": "You are no longer charmed."
+    "castOnOther": "has been charmed.",
+    "wearsOff": "You are no longer charmed.",
+    "icon": "redBrain"
   },
   "Cripple": {
     "name": "Cripple",
@@ -3804,16 +3990,17 @@
       "durationString": "6.3 minutes @L53 to 7.0 minutes @L60",
       "minDuration": {
         "duration": 378,
-        "level": "53"
+        "level": 53
       },
       "maxDuration": {
-        "duration": 798,
-        "level": "60"
+        "duration": 420,
+        "level": 60
       }
     },
     "castOnYou": "You have been crippled.",
-    "castOnOther": "been crippled.",
-    "wearsOff": "You feel your strength return."
+    "castOnOther": "has been crippled.",
+    "wearsOff": "You feel your strength return.",
+    "icon": "redArm"
   },
   "Recant Magic": {
     "name": "Recant Magic",
@@ -3828,8 +4015,9 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel your enchantments being stripped away.",
-    "castOnOther": "enchantments begin to fade.",
-    "wearsOff": ""
+    "castOnOther": "'s enchantments begin to fade.",
+    "wearsOff": "",
+    "icon": "magic"
   },
   "Clarity II": {
     "name": "Clarity II",
@@ -3849,8 +4037,9 @@
       }
     },
     "castOnYou": "A soft breeze slips through your mind.",
-    "castOnOther": "very tranquil.",
-    "wearsOff": "The soft breeze fades."
+    "castOnOther": "looks very tranquil.",
+    "wearsOff": "The soft breeze fades.",
+    "icon": "blueBrain"
   },
   "Dementia": {
     "name": "Dementia",
@@ -3865,8 +4054,9 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "Twisted logic warps your mind.",
-    "castOnOther": "mind warps.",
-    "wearsOff": ""
+    "castOnOther": "'s mind warps.",
+    "wearsOff": "",
+    "icon": "redHand"
   },
   "Glamour of Kintaz": {
     "name": "Glamour of Kintaz",
@@ -3886,8 +4076,9 @@
       }
     },
     "castOnYou": "You are mesmerized by the Glamour of Kintaz.",
-    "castOnOther": "been mesmerized by the Glamour of Kintaz.",
-    "wearsOff": "You are no longer mesmerized."
+    "castOnOther": "has been mesmerized by the Glamour of Kintaz.",
+    "wearsOff": "You are no longer mesmerized.",
+    "icon": "redBrain"
   },
   "Shield of the Magi": {
     "name": "Shield of the Magi",
@@ -3908,7 +4099,8 @@
     },
     "castOnYou": "You feel armored.",
     "castOnOther": "",
-    "wearsOff": "Your shielding fades."
+    "wearsOff": "Your shielding fades.",
+    "icon": "shield"
   },
   "Gift of Insight": {
     "name": "Gift of Insight",
@@ -3928,8 +4120,9 @@
       }
     },
     "castOnYou": "Your thoughts begin to race and flow faster.",
-    "castOnOther": "to be staring into nothingness.",
-    "wearsOff": "Your gift of insight fades."
+    "castOnOther": "appears to be staring into nothingness.",
+    "wearsOff": "Your gift of insight fades.",
+    "icon": "blueBrain"
   },
   "Largarn's Lamentation": {
     "name": "Largarn's Lamentation",
@@ -3944,8 +4137,9 @@
     "spellType": "Detrimental",
     "duration": 0,
     "castOnYou": "You are overcome by sadness.",
-    "castOnOther": "to weep.",
-    "wearsOff": "You are no longer sad."
+    "castOnOther": "begins to weep.",
+    "wearsOff": "You are no longer sad.",
+    "icon": "redBrain"
   },
   "Memory Flux": {
     "name": "Memory Flux",
@@ -3960,8 +4154,9 @@
     "spellType": "Beneficial",
     "duration": 0,
     "castOnYou": "You feel your mind fog.",
-    "castOnOther": "a few times.",
-    "wearsOff": ""
+    "castOnOther": "blinks a few times.",
+    "wearsOff": "",
+    "icon": "blueBrain"
   },
   "Wind of Tishani": {
     "name": "Wind of Tishani",
@@ -3978,16 +4173,17 @@
       "durationString": "12 minutes @L55 to 13 minutes @L60",
       "minDuration": {
         "duration": 720,
-        "level": "55"
+        "level": 55
       },
       "maxDuration": {
-        "duration": 1500,
-        "level": "60"
+        "duration": 780,
+        "level": 60
       }
     },
     "castOnYou": "You hear the barking of the Tashani.",
-    "castOnOther": "nervously about.",
-    "wearsOff": "The barking fades."
+    "castOnOther": "glances nervously about.",
+    "wearsOff": "The barking fades.",
+    "icon": "wolf"
   },
   "Zumaik`s Animation": {
     "name": "Zumaik`s Animation",
@@ -4003,7 +4199,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Augment": {
     "name": "Augment",
@@ -4023,8 +4220,9 @@
       }
     },
     "castOnYou": "You feel your body pulse with energy.",
-    "castOnOther": "body pulses with energy.",
-    "wearsOff": "The pulsing energy fades."
+    "castOnOther": "'s body pulses with energy.",
+    "wearsOff": "The pulsing energy fades.",
+    "icon": "blueArm"
   },
   "Overwhelming Splendor": {
     "name": "Overwhelming Splendor",
@@ -4044,8 +4242,9 @@
       }
     },
     "castOnYou": "You are adorned in an aura of radiant grace.",
-    "castOnOther": "adorned by an aura of radiant grace.",
-    "wearsOff": "Your grace fades."
+    "castOnOther": "is adorned by an aura of radiant grace.",
+    "wearsOff": "Your grace fades.",
+    "icon": "blueArm"
   },
   "Torment of Argli": {
     "name": "Torment of Argli",
@@ -4065,8 +4264,9 @@
       }
     },
     "castOnYou": "Your thoughts muddle from the Torment of Argli.",
-    "castOnOther": "from the Torment of Argli.",
-    "wearsOff": "Your torment has ended."
+    "castOnOther": "screams from the Torment of Argli.",
+    "wearsOff": "Your torment has ended.",
+    "icon": "redBrain"
   },
   "Trepidation": {
     "name": "Trepidation",
@@ -4086,8 +4286,9 @@
       }
     },
     "castOnYou": "Your mind fills with trepidation.",
-    "castOnOther": "filled with trepidation.",
-    "wearsOff": "The trepidation fades."
+    "castOnOther": "is filled with trepidation.",
+    "wearsOff": "The trepidation fades.",
+    "icon": "reaper"
   },
   "Enlightenment": {
     "name": "Enlightenment",
@@ -4107,8 +4308,9 @@
       }
     },
     "castOnYou": "You have been enlightened.",
-    "castOnOther": "been enlightened.",
-    "wearsOff": "Your enlightenment fades."
+    "castOnOther": "has been enlightened.",
+    "wearsOff": "Your enlightenment fades.",
+    "icon": "blueBrain"
   },
   "Forlorn Deeds": {
     "name": "Forlorn Deeds",
@@ -4125,16 +4327,17 @@
       "durationString": "2.9 minutes @L57 to 3.0 minutes @L60",
       "minDuration": {
         "duration": 174,
-        "level": "57"
+        "level": 57
       },
       "maxDuration": {
-        "duration": 354,
-        "level": "60"
+        "duration": 180,
+        "level": 60
       }
     },
     "castOnYou": "You slow down.",
-    "castOnOther": "down.",
-    "wearsOff": "Your speed returns."
+    "castOnOther": "slows down.",
+    "wearsOff": "Your speed returns.",
+    "icon": "boot"
   },
   "Tashanian": {
     "name": "Tashanian",
@@ -4151,16 +4354,17 @@
       "durationString": "12.4 minutes @L57 to 13 minutes @L60",
       "minDuration": {
         "duration": 744,
-        "level": "57"
+        "level": 57
       },
       "maxDuration": {
-        "duration": 1524,
-        "level": "60"
+        "duration": 780,
+        "level": 60
       }
     },
     "castOnYou": "You hear the barking of Tashania.",
-    "castOnOther": "nervously about.",
-    "wearsOff": "The barking fades."
+    "castOnOther": "glances nervously about.",
+    "wearsOff": "The barking fades.",
+    "icon": "wolf"
   },
   "Umbra": {
     "name": "Umbra",
@@ -4180,8 +4384,9 @@
       }
     },
     "castOnYou": "Your image fades into the umbra.",
-    "castOnOther": "image fades into the umbra.",
-    "wearsOff": "You come into focus."
+    "castOnOther": "'s image fades into the umbra.",
+    "wearsOff": "You come into focus.",
+    "icon": "shield"
   },
   "Bedlam": {
     "name": "Bedlam",
@@ -4198,16 +4403,17 @@
       "durationString": "6.8 minutes @L58 to 7.0 minutes @L60",
       "minDuration": {
         "duration": 408,
-        "level": "58"
+        "level": 58
       },
       "maxDuration": {
-        "duration": 828,
-        "level": "60"
+        "duration": 420,
+        "level": 60
       }
     },
     "castOnYou": "Your eyes gleam with bedlam.",
-    "castOnOther": "eyes gleam with bedlam.",
-    "wearsOff": "Your bedlam fades."
+    "castOnOther": "'s eyes gleam with bedlam.",
+    "wearsOff": "Your bedlam fades.",
+    "icon": "blueArm"
   },
   "Fetter": {
     "name": "Fetter",
@@ -4227,8 +4433,9 @@
       }
     },
     "castOnYou": "Your feet adhere to the ground.",
-    "castOnOther": "feet adhere to the ground.",
-    "wearsOff": "Your feet come free."
+    "castOnOther": "'s feet adhere to the ground.",
+    "wearsOff": "Your feet come free.",
+    "icon": "earth"
   },
   "Wonderous Rapidity": {
     "name": "Wonderous Rapidity",
@@ -4245,16 +4452,17 @@
       "durationString": "18.4 minutes @L58 to 20.5 minutes @L65",
       "minDuration": {
         "duration": 1104,
-        "level": "58"
+        "level": 58
       },
       "maxDuration": {
-        "duration": 2334,
-        "level": "65"
+        "duration": 1230,
+        "level": 65
       }
     },
     "castOnYou": "You begin to move with wonderous rapidity.",
-    "castOnOther": "to move with wonderous rapidity.",
-    "wearsOff": "Your speed returns to normal."
+    "castOnOther": "begins to move with wonderous rapidity.",
+    "wearsOff": "Your speed returns to normal.",
+    "icon": "blueArm"
   },
   "Asphyxiate": {
     "name": "Asphyxiate",
@@ -4274,8 +4482,9 @@
       }
     },
     "castOnYou": "You feel a shortness of breath.",
-    "castOnOther": "to choke.",
-    "wearsOff": "You can breathe again."
+    "castOnOther": "begins to choke.",
+    "wearsOff": "You can breathe again.",
+    "icon": "cyclone"
   },
   "Gift of Pure Thought": {
     "name": "Gift of Pure Thought",
@@ -4295,8 +4504,9 @@
       }
     },
     "castOnYou": "A soft breeze slips through your mind.",
-    "castOnOther": "very tranquil.",
-    "wearsOff": "The soft breeze fades."
+    "castOnOther": "looks very tranquil.",
+    "wearsOff": "The soft breeze fades.",
+    "icon": "blueBrain"
   },
   "Rapture": {
     "name": "Rapture",
@@ -4316,8 +4526,9 @@
       }
     },
     "castOnYou": "You swoon, overcome by rapture.",
-    "castOnOther": "in raptured bliss.",
-    "wearsOff": "The rapture fades."
+    "castOnOther": "swoons in raptured bliss.",
+    "wearsOff": "The rapture fades.",
+    "icon": "redBrain"
   },
   "Dictate": {
     "name": "Dictate",
@@ -4337,8 +4548,9 @@
       }
     },
     "castOnYou": "You have been charmed.",
-    "castOnOther": "been charmed.",
-    "wearsOff": "You are no longer charmed."
+    "castOnOther": "has been charmed.",
+    "wearsOff": "You are no longer charmed.",
+    "icon": "redBrain"
   },
   "Gift of Brilliance": {
     "name": "Gift of Brilliance",
@@ -4358,8 +4570,9 @@
       }
     },
     "castOnYou": "Your thoughts begin to race and flow faster.",
-    "castOnOther": "to be staring into nothingness.",
-    "wearsOff": "Your gift of brilliance fades."
+    "castOnOther": "appears to be staring into nothingness.",
+    "wearsOff": "Your gift of brilliance fades.",
+    "icon": "blueBrain"
   },
   "Visions of Grandeur": {
     "name": "Visions of Grandeur",
@@ -4379,8 +4592,9 @@
       }
     },
     "castOnYou": "You experience visions of grandeur.",
-    "castOnOther": "visions of grandeur.",
-    "wearsOff": "Your visions fade."
+    "castOnOther": "experiences visions of grandeur.",
+    "wearsOff": "Your visions fade.",
+    "icon": "blueArm"
   },
   "Wind of Tishanian": {
     "name": "Wind of Tishanian",
@@ -4397,11 +4611,12 @@
       "durationString": "13 minutes @L60",
       "minDuration": {
         "duration": 780,
-        "level": "60"
+        "level": 60
       }
     },
     "castOnYou": "You hear the barking of Tashania.",
-    "castOnOther": "nervously about.",
-    "wearsOff": "The barking fades."
+    "castOnOther": "glances nervously about.",
+    "wearsOff": "The barking fades.",
+    "icon": "wolf"
   }
 }
