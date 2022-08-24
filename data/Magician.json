@@ -13,7 +13,8 @@
     "duration": 0,
     "castOnYou": "You feel your skin singe as the Burst of Flame hits you.",
     "castOnOther": "singes as the Burst of Flame hits them.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "fire"
   },
   "Flare": {
     "name": "Flare",
@@ -29,7 +30,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "blueArm"
   },
   "Minor Shielding": {
     "name": "Minor Shielding",
@@ -50,7 +52,8 @@
     },
     "castOnYou": "You feel armored.",
     "castOnOther": "is surrounded by a translucent shield.",
-    "wearsOff": "Your shielding fades away."
+    "wearsOff": "Your shielding fades away.",
+    "icon": "shield"
   },
   "Reclaim Energy": {
     "name": "Reclaim Energy",
@@ -66,7 +69,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "disperses.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Summon Dagger": {
     "name": "Summon Dagger",
@@ -82,7 +86,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "magic"
   },
   "Summon Drink": {
     "name": "Summon Drink",
@@ -98,7 +103,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Summon Food": {
     "name": "Summon Food",
@@ -114,7 +120,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "True North": {
     "name": "True North",
@@ -130,7 +137,8 @@
     "duration": 0,
     "castOnYou": "You spin to face north.",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "eye"
   },
   "Burn": {
     "name": "Burn",
@@ -146,7 +154,8 @@
     "duration": 0,
     "castOnYou": "You feel your skin blister and burn.",
     "castOnOther": "'s skin blisters and burns.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "fire"
   },
   "Elementalkin: Air": {
     "name": "Elementalkin: Air",
@@ -162,7 +171,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Elementalkin: Earth": {
     "name": "Elementalkin: Earth",
@@ -178,7 +188,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Elementalkin: Fire": {
     "name": "Elementalkin: Fire",
@@ -194,7 +205,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Elementalkin: Water": {
     "name": "Elementalkin: Water",
@@ -210,7 +222,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Fire Flux": {
     "name": "Fire Flux",
@@ -226,7 +239,8 @@
     "duration": 0,
     "castOnYou": "Flames race across your body.",
     "castOnOther": "is covered in flames.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "fire"
   },
   "Gate": {
     "name": "Gate",
@@ -242,7 +256,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "fades away.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "gate"
   },
   "Sense Summoned": {
     "name": "Sense Summoned",
@@ -258,7 +273,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "eye"
   },
   "Summon Bandages": {
     "name": "Summon Bandages",
@@ -274,7 +290,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Summon Wisp": {
     "name": "Summon Wisp",
@@ -290,7 +307,8 @@
     "duration": 0,
     "castOnYou": "A wisp settles into your hand.",
     "castOnOther": "'s hands pulse with soft light.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Dimensional Pocket": {
     "name": "Dimensional Pocket",
@@ -306,7 +324,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Elementaling: Air": {
     "name": "Elementaling: Air",
@@ -322,7 +341,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Elementaling: Earth": {
     "name": "Elementaling: Earth",
@@ -338,7 +358,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Elementaling: Fire": {
     "name": "Elementaling: Fire",
@@ -354,7 +375,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Elementaling: Water": {
     "name": "Elementaling: Water",
@@ -370,7 +392,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Eye of Zomm": {
     "name": "Eye of Zomm",
@@ -391,7 +414,8 @@
     },
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": "Your extra eye departs."
+    "wearsOff": "Your extra eye departs.",
+    "icon": "eye"
   },
   "Flame Bolt": {
     "name": "Flame Bolt",
@@ -407,7 +431,8 @@
     "duration": 0,
     "castOnYou": "A stream of fire washes over you.",
     "castOnOther": "is bathed in fire.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "fire"
   },
   "Invisibility": {
     "name": "Invisibility",
@@ -424,16 +449,17 @@
       "durationString": "12 minutes @L4 to 20 minutes @L7",
       "minDuration": {
         "duration": 720,
-        "level": "4"
+        "level": 4
       },
       "maxDuration": {
-        "duration": 1920,
-        "level": "7"
+        "duration": 1200,
+        "level": 7
       }
     },
     "castOnYou": "You vanish.",
     "castOnOther": "fades away.",
-    "wearsOff": "You appear."
+    "wearsOff": "You appear.",
+    "icon": "eye"
   },
   "Lesser Shielding": {
     "name": "Lesser Shielding",
@@ -450,16 +476,17 @@
       "durationString": "24 minutes @L8 to 27 minutes @L9",
       "minDuration": {
         "duration": 1440,
-        "level": "8"
+        "level": 8
       },
       "maxDuration": {
-        "duration": 3060,
-        "level": "9"
+        "duration": 1620,
+        "level": 9
       }
     },
     "castOnYou": "You feel armored.",
     "castOnOther": "",
-    "wearsOff": "Your shielding fades."
+    "wearsOff": "Your shielding fades.",
+    "icon": "shield"
   },
   "Renew Elements": {
     "name": "Renew Elements",
@@ -475,7 +502,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "'s form pulses red.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "blueHand"
   },
   "Shield of Fire": {
     "name": "Shield of Fire",
@@ -492,16 +520,17 @@
       "durationString": "8 ticks @L8 to 6.5 minutes @L65",
       "minDuration": {
         "duration": 48,
-        "level": "8"
+        "level": 8
       },
       "maxDuration": {
-        "duration": 438,
-        "level": "65"
+        "duration": 390,
+        "level": 65
       }
     },
     "castOnYou": "You are enveloped by flame.",
     "castOnOther": "is enveloped by flame.",
-    "wearsOff": "The flames die down."
+    "wearsOff": "The flames die down.",
+    "icon": "fire"
   },
   "Shock of Blades": {
     "name": "Shock of Blades",
@@ -517,7 +546,8 @@
     "duration": 0,
     "castOnYou": "You have been lacerated.",
     "castOnOther": "is lacerated by steel.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Staff of Tracing": {
     "name": "Staff of Tracing",
@@ -533,7 +563,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "magic"
   },
   "Bind Affinity": {
     "name": "Bind Affinity",
@@ -549,7 +580,8 @@
     "duration": 0,
     "castOnYou": "You feel yourself bind to the area.",
     "castOnOther": "is bound to the area.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "magic"
   },
   "Burnout": {
     "name": "Burnout",
@@ -570,7 +602,8 @@
     },
     "castOnYou": "",
     "castOnOther": "goes berserk.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "fire"
   },
   "Cancel Magic": {
     "name": "Cancel Magic",
@@ -586,7 +619,8 @@
     "duration": 0,
     "castOnYou": "You feel a bit dispelled.",
     "castOnOther": "feels a bit dispelled.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "magic"
   },
   "Column of Fire": {
     "name": "Column of Fire",
@@ -602,7 +636,8 @@
     "duration": 0,
     "castOnYou": "You are immolated by flame.",
     "castOnOther": "is immolated by flame.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "fire"
   },
   "Elemental: Air": {
     "name": "Elemental: Air",
@@ -618,7 +653,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Elemental: Earth": {
     "name": "Elemental: Earth",
@@ -634,7 +670,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Elemental: Fire": {
     "name": "Elemental: Fire",
@@ -650,7 +687,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Elemental: Water": {
     "name": "Elemental: Water",
@@ -666,7 +704,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Rain of Blades": {
     "name": "Rain of Blades",
@@ -682,7 +721,8 @@
     "duration": 0,
     "castOnYou": "Your skin shreds as blades rain down from above.",
     "castOnOther": "'s skin shreds as blades rain down from above.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Summon Fang": {
     "name": "Summon Fang",
@@ -698,7 +738,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "magic"
   },
   "Ward Summoned": {
     "name": "Ward Summoned",
@@ -714,7 +755,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "staggers.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "redHand"
   },
   "Identify": {
     "name": "Identify",
@@ -730,7 +772,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "magic"
   },
   "Minor Summoning: Air": {
     "name": "Minor Summoning: Air",
@@ -746,7 +789,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Minor Summoning: Earth": {
     "name": "Minor Summoning: Earth",
@@ -762,7 +806,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Minor Summoning: Fire": {
     "name": "Minor Summoning: Fire",
@@ -778,7 +823,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Minor Summoning: Water": {
     "name": "Minor Summoning: Water",
@@ -794,7 +840,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Phantom Leather": {
     "name": "Phantom Leather",
@@ -815,7 +862,8 @@
     },
     "castOnYou": "You are covered in illusionary leather armor.",
     "castOnOther": "dons leather armor.",
-    "wearsOff": "Your illusionary armor fades."
+    "wearsOff": "Your illusionary armor fades.",
+    "icon": "shield"
   },
   "See Invisible": {
     "name": "See Invisible",
@@ -836,7 +884,8 @@
     },
     "castOnYou": "Your eyes tingle.",
     "castOnOther": "",
-    "wearsOff": "Your eyes stop tingling."
+    "wearsOff": "Your eyes stop tingling.",
+    "icon": "eye"
   },
   "Shielding": {
     "name": "Shielding",
@@ -857,7 +906,8 @@
     },
     "castOnYou": "You feel armored.",
     "castOnOther": "",
-    "wearsOff": "Your shielding fades away."
+    "wearsOff": "Your shielding fades away.",
+    "icon": "shield"
   },
   "Shock of Flame": {
     "name": "Shock of Flame",
@@ -873,7 +923,8 @@
     "duration": 0,
     "castOnYou": "You feel your skin ignite.",
     "castOnOther": "'s skin ignites.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "fire"
   },
   "Staff of Warding": {
     "name": "Staff of Warding",
@@ -889,7 +940,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "magic"
   },
   "Summon Heatstone": {
     "name": "Summon Heatstone",
@@ -905,7 +957,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Summon Throwing Dagger": {
     "name": "Summon Throwing Dagger",
@@ -921,7 +974,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "magic"
   },
   "Bolt of Flame": {
     "name": "Bolt of Flame",
@@ -937,7 +991,8 @@
     "duration": 0,
     "castOnYou": "A stream of fire washes over you.",
     "castOnOther": "is bathed in fire.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "fire"
   },
   "Elemental Shield": {
     "name": "Elemental Shield",
@@ -958,7 +1013,8 @@
     },
     "castOnYou": "You feel protected from fire and ice.",
     "castOnOther": "feels protected from fire and ice.",
-    "wearsOff": "Your elemental shield fades."
+    "wearsOff": "Your elemental shield fades.",
+    "icon": "shield"
   },
   "Expulse Summoned": {
     "name": "Expulse Summoned",
@@ -974,7 +1030,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "redHand"
   },
   "Lesser Summoning: Air": {
     "name": "Lesser Summoning: Air",
@@ -990,7 +1047,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Lesser Summoning: Earth": {
     "name": "Lesser Summoning: Earth",
@@ -1006,7 +1064,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Lesser Summoning: Fire": {
     "name": "Lesser Summoning: Fire",
@@ -1022,7 +1081,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Lesser Summoning: Water": {
     "name": "Lesser Summoning: Water",
@@ -1038,7 +1098,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Rain of Fire": {
     "name": "Rain of Fire",
@@ -1054,7 +1115,8 @@
     "duration": 0,
     "castOnYou": "Your skin blisters as fire rains down from above.",
     "castOnOther": "'s skin blisters as fire rains down from above.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "fire"
   },
   "Renew Summoning": {
     "name": "Renew Summoning",
@@ -1070,7 +1132,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "'s form shimmers red.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "blueHand"
   },
   "Shield of Flame": {
     "name": "Shield of Flame",
@@ -1087,16 +1150,17 @@
       "durationString": "2 minutes @L20 to 6.5 minutes @L65",
       "minDuration": {
         "duration": 120,
-        "level": "20"
+        "level": 20
       },
       "maxDuration": {
-        "duration": 510,
-        "level": "65"
+        "duration": 390,
+        "level": 65
       }
     },
     "castOnYou": "You are enveloped in flame.",
     "castOnOther": "is enveloped in flame.",
-    "wearsOff": "The flames die down."
+    "wearsOff": "The flames die down.",
+    "icon": "fire"
   },
   "Spear of Warding": {
     "name": "Spear of Warding",
@@ -1112,7 +1176,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "magic"
   },
   "Summon Arrows": {
     "name": "Summon Arrows",
@@ -1128,7 +1193,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Summon Waterstone": {
     "name": "Summon Waterstone",
@@ -1144,7 +1210,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "boot"
   },
   "Cornucopia": {
     "name": "Cornucopia",
@@ -1160,7 +1227,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Everfount": {
     "name": "Everfount",
@@ -1176,7 +1244,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Flame Flux": {
     "name": "Flame Flux",
@@ -1192,7 +1261,8 @@
     "duration": 0,
     "castOnYou": "Flames race across your body.",
     "castOnOther": "is covered in flames.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "fire"
   },
   "Major Shielding": {
     "name": "Major Shielding",
@@ -1213,7 +1283,8 @@
     },
     "castOnYou": "You feel armored.",
     "castOnOther": "",
-    "wearsOff": "Your shielding fades."
+    "wearsOff": "Your shielding fades.",
+    "icon": "shield"
   },
   "Malaise": {
     "name": "Malaise",
@@ -1230,16 +1301,17 @@
       "durationString": "4.8 minutes @L19 to 14 minutes @L65",
       "minDuration": {
         "duration": 288,
-        "level": "19"
+        "level": 19
       },
       "maxDuration": {
-        "duration": 1128,
-        "level": "65"
+        "duration": 840,
+        "level": 65
       }
     },
     "castOnYou": "You feel somewhat vulnerable.",
     "castOnOther": "looks somewhat uncomfortable.",
-    "wearsOff": "Your vulnerability fades."
+    "wearsOff": "Your vulnerability fades.",
+    "icon": "reaper"
   },
   "Shock of Spikes": {
     "name": "Shock of Spikes",
@@ -1255,7 +1327,8 @@
     "duration": 0,
     "castOnYou": "You have been lacerated.",
     "castOnOther": "is lacerated by steel.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Staff of Runes": {
     "name": "Staff of Runes",
@@ -1271,7 +1344,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "magic"
   },
   "Summoning: Air": {
     "name": "Summoning: Air",
@@ -1287,7 +1361,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Summoning: Earth": {
     "name": "Summoning: Earth",
@@ -1303,7 +1378,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Summoning: Fire": {
     "name": "Summoning: Fire",
@@ -1319,7 +1395,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Summoning: Water": {
     "name": "Summoning: Water",
@@ -1335,7 +1412,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Burnout II": {
     "name": "Burnout II",
@@ -1352,16 +1430,17 @@
       "durationString": "9.7 minutes @L29 to 15 minutes @L47",
       "minDuration": {
         "duration": 582,
-        "level": "29"
+        "level": 29
       },
       "maxDuration": {
-        "duration": 1482,
-        "level": "47"
+        "duration": 900,
+        "level": 47
       }
     },
     "castOnYou": "",
     "castOnOther": "goes berserk.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "fire"
   },
   "Dismiss Summoned": {
     "name": "Dismiss Summoned",
@@ -1377,7 +1456,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "staggers.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "redHand"
   },
   "Expedience": {
     "name": "Expedience",
@@ -1398,7 +1478,8 @@
     },
     "castOnYou": "",
     "castOnOther": "shimmers and blurs.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "boot"
   },
   "Greater Summoning: Air": {
     "name": "Greater Summoning: Air",
@@ -1414,7 +1495,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Greater Summoning: Earth": {
     "name": "Greater Summoning: Earth",
@@ -1430,7 +1512,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Greater Summoning: Fire": {
     "name": "Greater Summoning: Fire",
@@ -1446,7 +1529,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Greater Summoning: Water": {
     "name": "Greater Summoning: Water",
@@ -1462,7 +1546,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Inferno Shield": {
     "name": "Inferno Shield",
@@ -1479,16 +1564,17 @@
       "durationString": "1.7 minutes @L29 to 3.9 minutes @L65",
       "minDuration": {
         "duration": 102,
-        "level": "29"
+        "level": 29
       },
       "maxDuration": {
-        "duration": 336,
-        "level": "65"
+        "duration": 234,
+        "level": 65
       }
     },
     "castOnYou": "You are enveloped by flame.",
     "castOnOther": "is enveloped in flame.",
-    "wearsOff": "The flames die down."
+    "wearsOff": "The flames die down.",
+    "icon": "fire"
   },
   "Phantom Chain": {
     "name": "Phantom Chain",
@@ -1509,7 +1595,8 @@
     },
     "castOnYou": "You are covered in illusionary chainmail armor.",
     "castOnOther": "dons chainmail armor.",
-    "wearsOff": "Your illusionary armor fades."
+    "wearsOff": "Your illusionary armor fades.",
+    "icon": "shield"
   },
   "Rain of Spikes": {
     "name": "Rain of Spikes",
@@ -1525,7 +1612,8 @@
     "duration": 0,
     "castOnYou": "Your skin shreds as spikes rain down from above.",
     "castOnOther": "'s skin shreds as spikes rain down from above.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Summon Coldstone": {
     "name": "Summon Coldstone",
@@ -1541,7 +1629,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Sword of Runes": {
     "name": "Sword of Runes",
@@ -1557,7 +1646,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "magic"
   },
   "Blaze": {
     "name": "Blaze",
@@ -1573,7 +1663,8 @@
     "duration": 0,
     "castOnYou": "You feel your skin ignite.",
     "castOnOther": "'s skin ignites.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "fire"
   },
   "Cinder Bolt": {
     "name": "Cinder Bolt",
@@ -1589,7 +1680,8 @@
     "duration": 0,
     "castOnYou": "A stream of fire washes over you.",
     "castOnOther": "is bathed in fire.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "fire"
   },
   "Dimensional Hole": {
     "name": "Dimensional Hole",
@@ -1605,7 +1697,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Greater Shielding": {
     "name": "Greater Shielding",
@@ -1626,7 +1719,8 @@
     },
     "castOnYou": "You feel armored.",
     "castOnOther": "",
-    "wearsOff": "Your shielding fades."
+    "wearsOff": "Your shielding fades.",
+    "icon": "shield"
   },
   "Minor Conjuration: Air": {
     "name": "Minor Conjuration: Air",
@@ -1642,7 +1736,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Minor Conjuration: Earth": {
     "name": "Minor Conjuration: Earth",
@@ -1658,7 +1753,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Minor Conjuration: Fire": {
     "name": "Minor Conjuration: Fire",
@@ -1674,7 +1770,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Minor Conjuration: Water": {
     "name": "Minor Conjuration: Water",
@@ -1690,7 +1787,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Monster Summoning I": {
     "name": "Monster Summoning I",
@@ -1706,7 +1804,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Nullify Magic": {
     "name": "Nullify Magic",
@@ -1722,7 +1821,8 @@
     "duration": 0,
     "castOnYou": "You feel dispelled.",
     "castOnOther": "feels dispelled.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "magic"
   },
   "Staff of Symbols": {
     "name": "Staff of Symbols",
@@ -1738,7 +1838,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "magic"
   },
   "Summon Shard of the Core": {
     "name": "Summon Shard of the Core",
@@ -1754,7 +1855,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Barrier of Combustion": {
     "name": "Barrier of Combustion",
@@ -1771,16 +1873,17 @@
       "durationString": "2.3 minutes @L39 to 3.6 minutes @L60",
       "minDuration": {
         "duration": 138,
-        "level": "39"
+        "level": 39
       },
       "maxDuration": {
-        "duration": 354,
-        "level": "60"
+        "duration": 216,
+        "level": 60
       }
     },
     "castOnYou": "You are enveloped by flame.",
     "castOnOther": "is enveloped by flame.",
-    "wearsOff": "The flames die down."
+    "wearsOff": "The flames die down.",
+    "icon": "fire"
   },
   "Dagger of Symbols": {
     "name": "Dagger of Symbols",
@@ -1796,7 +1899,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "magic"
   },
   "Expel Summoned": {
     "name": "Expel Summoned",
@@ -1812,7 +1916,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "redHand"
   },
   "Flame Arc": {
     "name": "Flame Arc",
@@ -1828,7 +1933,8 @@
     "duration": 0,
     "castOnYou": "Flames race across your body.",
     "castOnOther": "is covered in flames.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "fire"
   },
   "Lesser Conjuration: Air": {
     "name": "Lesser Conjuration: Air",
@@ -1844,7 +1950,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Lesser Conjuration: Earth": {
     "name": "Lesser Conjuration: Earth",
@@ -1860,7 +1967,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Lesser Conjuration: Fire": {
     "name": "Lesser Conjuration: Fire",
@@ -1876,7 +1984,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Lesser Conjuration: Water": {
     "name": "Lesser Conjuration: Water",
@@ -1892,7 +2001,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Rain of Lava": {
     "name": "Rain of Lava",
@@ -1908,7 +2018,8 @@
     "duration": 0,
     "castOnYou": "Your skin blisters as lava rains down from above.",
     "castOnOther": "'s skin blisters as lava rains down from above.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "fire"
   },
   "Summon Companion": {
     "name": "Summon Companion",
@@ -1924,7 +2035,8 @@
     "duration": 0,
     "castOnYou": "You summon your companion to your side.",
     "castOnOther": "summons a companion to their side.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Summon Ring of Flight": {
     "name": "Summon Ring of Flight",
@@ -1940,7 +2052,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Arch Shielding": {
     "name": "Arch Shielding",
@@ -1961,7 +2074,8 @@
     },
     "castOnYou": "You feel armored.",
     "castOnOther": "",
-    "wearsOff": "Your shielding fades."
+    "wearsOff": "Your shielding fades.",
+    "icon": "shield"
   },
   "Conjuration: Air": {
     "name": "Conjuration: Air",
@@ -1977,7 +2091,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Conjuration: Earth": {
     "name": "Conjuration: Earth",
@@ -1993,7 +2108,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Conjuration: Fire": {
     "name": "Conjuration: Fire",
@@ -2009,7 +2125,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Conjuration: Water": {
     "name": "Conjuration: Water",
@@ -2025,7 +2142,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Elemental Armor": {
     "name": "Elemental Armor",
@@ -2046,7 +2164,8 @@
     },
     "castOnYou": "You feel protected from fire and ice.",
     "castOnOther": "feels protected from fire and ice.",
-    "wearsOff": "Your elemental armor fades."
+    "wearsOff": "Your elemental armor fades.",
+    "icon": "shield"
   },
   "Elemental Maelstrom": {
     "name": "Elemental Maelstrom",
@@ -2067,7 +2186,8 @@
     },
     "castOnYou": "Your skin tears as bolts of elemental power strike you.",
     "castOnOther": "'s skin shreds and tears as bolts of elemental power strike.",
-    "wearsOff": "The elemental storm departs."
+    "wearsOff": "The elemental storm departs.",
+    "icon": "cyclone"
   },
   "Malaisement": {
     "name": "Malaisement",
@@ -2084,16 +2204,17 @@
       "durationString": "7.8 minutes @L34 to 14 minutes @L65",
       "minDuration": {
         "duration": 468,
-        "level": "34"
+        "level": 34
       },
       "maxDuration": {
-        "duration": 1308,
-        "level": "65"
+        "duration": 840,
+        "level": 65
       }
     },
     "castOnYou": "You feel vulnerable.",
     "castOnOther": "looks uncomfortable.",
-    "wearsOff": "Your vulnerability fades."
+    "wearsOff": "Your vulnerability fades.",
+    "icon": "redArm"
   },
   "Modulating Rod": {
     "name": "Modulating Rod",
@@ -2109,7 +2230,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "magic"
   },
   "Phantom Plate": {
     "name": "Phantom Plate",
@@ -2130,7 +2252,8 @@
     },
     "castOnYou": "You are covered in illusionary platemail armor.",
     "castOnOther": "dons platemail armor.",
-    "wearsOff": "Your illusionary armor fades."
+    "wearsOff": "Your illusionary armor fades.",
+    "icon": "shield"
   },
   "Shock of Swords": {
     "name": "Shock of Swords",
@@ -2146,7 +2269,8 @@
     "duration": 0,
     "castOnYou": "You have been lacerated.",
     "castOnOther": "is lacerated by steel.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Summon Orb": {
     "name": "Summon Orb",
@@ -2162,7 +2286,8 @@
     "duration": 0,
     "castOnYou": "A swirling orb of elements forms in your hand.",
     "castOnOther": "summons a swirling orb of elements.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Banish Summoned": {
     "name": "Banish Summoned",
@@ -2178,7 +2303,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "staggers.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "redHand"
   },
   "Burnout III": {
     "name": "Burnout III",
@@ -2199,7 +2325,8 @@
     },
     "castOnYou": "",
     "castOnOther": "goes berserk.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "fire"
   },
   "Greater Conjuration: Air": {
     "name": "Greater Conjuration: Air",
@@ -2215,7 +2342,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Greater Conjuration: Earth": {
     "name": "Greater Conjuration: Earth",
@@ -2231,7 +2359,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Greater Conjuration: Fire": {
     "name": "Greater Conjuration: Fire",
@@ -2247,7 +2376,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Greater Conjuration: Water": {
     "name": "Greater Conjuration: Water",
@@ -2263,7 +2393,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Lava Bolt": {
     "name": "Lava Bolt",
@@ -2279,7 +2410,8 @@
     "duration": 0,
     "castOnYou": "A stream of fire washes over you.",
     "castOnOther": "is bathed in fire.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "fire"
   },
   "Rain of Swords": {
     "name": "Rain of Swords",
@@ -2295,7 +2427,8 @@
     "duration": 0,
     "castOnYou": "Your skin shreds as swords rain down from above.",
     "castOnOther": "'s skin shreds as swords rain down from above.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Shield of Lava": {
     "name": "Shield of Lava",
@@ -2312,16 +2445,17 @@
       "durationString": "4.9 minutes @L49 to 6.0 minutes @L60",
       "minDuration": {
         "duration": 294,
-        "level": "49"
+        "level": 49
       },
       "maxDuration": {
-        "duration": 654,
-        "level": "60"
+        "duration": 360,
+        "level": 60
       }
     },
     "castOnYou": "You are enveloped in lava.",
     "castOnOther": "is enveloped in flame.",
-    "wearsOff": "The flames die down."
+    "wearsOff": "The flames die down.",
+    "icon": "fire"
   },
   "Monster Summoning II": {
     "name": "Monster Summoning II",
@@ -2337,7 +2471,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Gift of Xev": {
     "name": "Gift of Xev",
@@ -2353,7 +2488,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Malosi": {
     "name": "Malosi",
@@ -2370,16 +2506,17 @@
       "durationString": "10.8 minutes @L49 to 14 minutes @L65",
       "minDuration": {
         "duration": 648,
-        "level": "49"
+        "level": 49
       },
       "maxDuration": {
-        "duration": 1488,
-        "level": "65"
+        "duration": 840,
+        "level": 65
       }
     },
     "castOnYou": "You feel very vulnerable.",
     "castOnOther": "looks very uncomfortable.",
-    "wearsOff": "Your vulnerability fades."
+    "wearsOff": "Your vulnerability fades.",
+    "icon": "redArm"
   },
   "Scintillation": {
     "name": "Scintillation",
@@ -2395,7 +2532,8 @@
     "duration": 0,
     "castOnYou": "Scintillating flames race across your body.",
     "castOnOther": "is covered in scintillating flames.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "fire"
   },
   "Vocarate: Earth": {
     "name": "Vocarate: Earth",
@@ -2411,7 +2549,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Bristlebane's Bundle": {
     "name": "Bristlebane's Bundle",
@@ -2427,7 +2566,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Char": {
     "name": "Char",
@@ -2443,7 +2583,8 @@
     "duration": 0,
     "castOnYou": "You feel your skin ignite and char.",
     "castOnOther": "'s skin ignites and chars.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "fire"
   },
   "Phantom Armor": {
     "name": "Phantom Armor",
@@ -2464,7 +2605,8 @@
     },
     "castOnYou": "You are covered in illusionary armor.",
     "castOnOther": "dons gleaming armor.",
-    "wearsOff": "Your illusionary armor fades."
+    "wearsOff": "Your illusionary armor fades.",
+    "icon": "shield"
   },
   "Vocarate: Fire": {
     "name": "Vocarate: Fire",
@@ -2480,7 +2622,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Annul Magic": {
     "name": "Annul Magic",
@@ -2496,7 +2639,8 @@
     "duration": 0,
     "castOnYou": "You feel annulled.",
     "castOnOther": "feels annulled.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "magic"
   },
   "Boon of Immolation": {
     "name": "Boon of Immolation",
@@ -2513,16 +2657,17 @@
       "durationString": "6.3 minutes @L53 to 7.5 minutes @L65",
       "minDuration": {
         "duration": 378,
-        "level": "53"
+        "level": 53
       },
       "maxDuration": {
-        "duration": 828,
-        "level": "65"
+        "duration": 450,
+        "level": 65
       }
     },
     "castOnYou": "You are enveloped in lava.",
     "castOnOther": "is enveloped by flame.",
-    "wearsOff": "The flames die down."
+    "wearsOff": "The flames die down.",
+    "icon": "fire"
   },
   "Quiver of Marr": {
     "name": "Quiver of Marr",
@@ -2538,7 +2683,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Vocarate: Air": {
     "name": "Vocarate: Air",
@@ -2554,7 +2700,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Bandoleer of Luclin": {
     "name": "Bandoleer of Luclin",
@@ -2570,7 +2717,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Scars of Sigil": {
     "name": "Scars of Sigil",
@@ -2586,7 +2734,8 @@
     "duration": 0,
     "castOnYou": "The Scars of Sigil burn you.",
     "castOnOther": "is burned by the Scars of Sigil.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "fire"
   },
   "Shield of the Magi": {
     "name": "Shield of the Magi",
@@ -2607,7 +2756,8 @@
     },
     "castOnYou": "You feel armored.",
     "castOnOther": "",
-    "wearsOff": "Your shielding fades."
+    "wearsOff": "Your shielding fades.",
+    "icon": "shield"
   },
   "Vocarate: Water": {
     "name": "Vocarate: Water",
@@ -2623,7 +2773,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Burnout IV": {
     "name": "Burnout IV",
@@ -2644,7 +2795,8 @@
     },
     "castOnYou": "",
     "castOnOther": "goes berserk.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "fire"
   },
   "Call of the Hero": {
     "name": "Call of the Hero",
@@ -2660,7 +2812,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "steps into a mystic portal.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "magic"
   },
   "Pouch of Quellious": {
     "name": "Pouch of Quellious",
@@ -2676,7 +2829,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Rage of Zomm": {
     "name": "Rage of Zomm",
@@ -2692,7 +2846,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Sirocco": {
     "name": "Sirocco",
@@ -2708,7 +2863,8 @@
     "duration": 0,
     "castOnYou": "A blistering wind envelops your body.",
     "castOnOther": "'s skin blisters as sirocco envelops them.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "fire"
   },
   "Wrath of the Elements": {
     "name": "Wrath of the Elements",
@@ -2729,7 +2885,8 @@
     },
     "castOnYou": "Your body is consumed by the wrath of the elements.",
     "castOnOther": "is assaulted by the wrath of the elements.",
-    "wearsOff": "The elemental assault departs."
+    "wearsOff": "The elemental assault departs.",
+    "icon": "cyclone"
   },
   "Cadeau of Flame": {
     "name": "Cadeau of Flame",
@@ -2746,16 +2903,17 @@
       "durationString": "6.6 minutes @L56 to 7.0 minutes @L60",
       "minDuration": {
         "duration": 396,
-        "level": "56"
+        "level": 56
       },
       "maxDuration": {
-        "duration": 816,
-        "level": "60"
+        "duration": 420,
+        "level": 60
       }
     },
     "castOnYou": "You are enveloped in a cadeau of flame.",
     "castOnOther": "is enveloped in a cadeau of flame.",
-    "wearsOff": "The flames die down."
+    "wearsOff": "The flames die down.",
+    "icon": "fire"
   },
   "Dyzil's Deafening Decoy": {
     "name": "Dyzil's Deafening Decoy",
@@ -2771,7 +2929,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Exile Summoned": {
     "name": "Exile Summoned",
@@ -2787,7 +2946,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "staggers.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "redHand"
   },
   "Muzzle of Mardu": {
     "name": "Muzzle of Mardu",
@@ -2803,7 +2963,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "blueArm"
   },
   "Eye of Tallon": {
     "name": "Eye of Tallon",
@@ -2824,7 +2985,8 @@
     },
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": "Your extra eye departs."
+    "wearsOff": "Your extra eye departs.",
+    "icon": "eye"
   },
   "Greater Vocaration: Earth": {
     "name": "Greater Vocaration: Earth",
@@ -2840,7 +3002,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Shock of Steel": {
     "name": "Shock of Steel",
@@ -2856,7 +3019,8 @@
     "duration": 0,
     "castOnYou": "You have been lacerated by deadly steel.",
     "castOnOther": "is lacerated by deadly steel.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Greater Vocaration: Fire": {
     "name": "Greater Vocaration: Fire",
@@ -2872,7 +3036,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Malosini": {
     "name": "Malosini",
@@ -2889,16 +3054,17 @@
       "durationString": "18.1 minutes @L57 to 20.5 minutes @L65",
       "minDuration": {
         "duration": 1086,
-        "level": "57"
+        "level": 57
       },
       "maxDuration": {
-        "duration": 2316,
-        "level": "65"
+        "duration": 1230,
+        "level": 65
       }
     },
     "castOnYou": "You feel very vulnerable.",
     "castOnOther": "looks very uncomfortable.",
-    "wearsOff": "Your vulnerability fades."
+    "wearsOff": "Your vulnerability fades.",
+    "icon": "redArm"
   },
   "Velocity": {
     "name": "Velocity",
@@ -2919,7 +3085,8 @@
     },
     "castOnYou": "",
     "castOnOther": "shimmers and blurs.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "boot"
   },
   "Greater Vocaration: Air": {
     "name": "Greater Vocaration: Air",
@@ -2935,7 +3102,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Manastorm": {
     "name": "Manastorm",
@@ -2951,7 +3119,8 @@
     "duration": 0,
     "castOnYou": "Your skin numbs as deadly mana rains down from above.",
     "castOnOther": "'s skin numbs as deadly mana rains down from above.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "redHand"
   },
   "Seeking Flame of Seukor": {
     "name": "Seeking Flame of Seukor",
@@ -2967,7 +3136,8 @@
     "duration": 0,
     "castOnYou": "You are seared by the Seeking Flame of Seukor.",
     "castOnOther": "is burnt by the Seeking Flame of Seukor.",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "fire"
   },
   "Valiant Companion": {
     "name": "Valiant Companion",
@@ -2988,7 +3158,8 @@
     },
     "castOnYou": "",
     "castOnOther": "has become fearless!",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Aegis of Ro": {
     "name": "Aegis of Ro",
@@ -3005,12 +3176,13 @@
       "durationString": "7 minutes @L60",
       "minDuration": {
         "duration": 420,
-        "level": "60"
+        "level": 60
       }
     },
     "castOnYou": "You are enveloped by the Aegis of Ro.",
     "castOnOther": "is enveloped by the Aegis of Ro.",
-    "wearsOff": "The Aegis dies down."
+    "wearsOff": "The Aegis dies down.",
+    "icon": "fire"
   },
   "Banishment": {
     "name": "Banishment",
@@ -3026,7 +3198,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "reaper"
   },
   "Greater Vocaration: Water": {
     "name": "Greater Vocaration: Water",
@@ -3042,7 +3215,8 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   },
   "Mala": {
     "name": "Mala",
@@ -3059,12 +3233,13 @@
       "durationString": "13 minutes @L60",
       "minDuration": {
         "duration": 780,
-        "level": "60"
+        "level": 60
       }
     },
     "castOnYou": "You feel very vulnerable.",
     "castOnOther": "looks very uncomfortable.",
-    "wearsOff": "Your vulnerability fades."
+    "wearsOff": "Your vulnerability fades.",
+    "icon": "redArm"
   },
   "Monster Summoning III": {
     "name": "Monster Summoning III",
@@ -3080,6 +3255,7 @@
     "duration": 0,
     "castOnYou": "",
     "castOnOther": "",
-    "wearsOff": ""
+    "wearsOff": "",
+    "icon": "summon"
   }
 }

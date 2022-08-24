@@ -51,7 +51,7 @@
         "level": 1
       },
       "maxDuration": {
-        "duration": 1800,
+        "duration": 1620,
         "level": 9
       }
     },
@@ -78,7 +78,7 @@
         "level": 1
       },
       "maxDuration": {
-        "duration": 60,
+        "duration": 54,
         "level": 14
       }
     },
@@ -105,7 +105,7 @@
         "level": 1
       },
       "maxDuration": {
-        "duration": 192,
+        "duration": 120,
         "level": 5
       }
     },
@@ -210,7 +210,7 @@
         "level": 1
       },
       "maxDuration": {
-        "duration": 240,
+        "duration": 234,
         "level": 60
       }
     },
@@ -254,7 +254,7 @@
         "level": 5
       },
       "maxDuration": {
-        "duration": 2100,
+        "duration": 1200,
         "level": 7
       }
     },
@@ -332,7 +332,7 @@
         "level": 5
       },
       "maxDuration": {
-        "duration": 66,
+        "duration": 48,
         "level": 14
       }
     },
@@ -359,7 +359,7 @@
         "level": 5
       },
       "maxDuration": {
-        "duration": 138,
+        "duration": 120,
         "level": 34
       }
     },
@@ -437,7 +437,7 @@
         "level": 1
       },
       "maxDuration": {
-        "duration": 1800,
+        "duration": 1620,
         "level": 9
       }
     },
@@ -525,7 +525,7 @@
         "level": 9
       },
       "maxDuration": {
-        "duration": 3780,
+        "duration": 2160,
         "level": 12
       }
     },
@@ -569,7 +569,7 @@
         "level": 9
       },
       "maxDuration": {
-        "duration": 444,
+        "duration": 390,
         "level": 65
       }
     },
@@ -635,7 +635,7 @@
         "level": 9
       },
       "maxDuration": {
-        "duration": 13320,
+        "duration": 11700,
         "level": 60
       }
     },
@@ -662,7 +662,7 @@
         "level": 9
       },
       "maxDuration": {
-        "duration": 3780,
+        "duration": 2160,
         "level": 12
       }
     },
@@ -804,7 +804,7 @@
         "level": 14
       },
       "maxDuration": {
-        "duration": 1452,
+        "duration": 1140,
         "level": 60
       }
     },
@@ -875,7 +875,7 @@
         "level": 9
       },
       "maxDuration": {
-        "duration": 3780,
+        "duration": 2160,
         "level": 12
       }
     },
@@ -902,7 +902,7 @@
         "level": 14
       },
       "maxDuration": {
-        "duration": 96,
+        "duration": 54,
         "level": 18
       }
     },
@@ -963,7 +963,7 @@
         "level": 19
       },
       "maxDuration": {
-        "duration": 14220,
+        "duration": 10800,
         "level": 60
       }
     },
@@ -1107,7 +1107,7 @@
         "level": 19
       },
       "maxDuration": {
-        "duration": 624,
+        "duration": 450,
         "level": 65
       }
     },
@@ -1236,7 +1236,7 @@
         "level": 19
       },
       "maxDuration": {
-        "duration": 504,
+        "duration": 390,
         "level": 65
       }
     },
@@ -1307,7 +1307,7 @@
         "level": 24
       },
       "maxDuration": {
-        "duration": 1722,
+        "duration": 1230,
         "level": 65
       }
     },
@@ -1373,7 +1373,7 @@
         "level": 24
       },
       "maxDuration": {
-        "duration": 180,
+        "duration": 96,
         "level": 27
       }
     },
@@ -1651,7 +1651,7 @@
         "level": 29
       },
       "maxDuration": {
-        "duration": 1812,
+        "duration": 1230,
         "level": 65
       }
     },
@@ -1678,7 +1678,7 @@
         "level": 29
       },
       "maxDuration": {
-        "duration": 16920,
+        "duration": 11700,
         "level": 65
       }
     },
@@ -1841,7 +1841,7 @@
         "level": 29
       },
       "maxDuration": {
-        "duration": 1188,
+        "duration": 780,
         "level": 60
       }
     },
@@ -1975,7 +1975,7 @@
         "level": 29
       },
       "maxDuration": {
-        "duration": 564,
+        "duration": 390,
         "level": 65
       }
     },
@@ -2019,7 +2019,7 @@
         "level": 34
       },
       "maxDuration": {
-        "duration": 1902,
+        "duration": 1230,
         "level": 65
       }
     },
@@ -2243,7 +2243,7 @@
         "level": 34
       },
       "maxDuration": {
-        "duration": 12720,
+        "duration": 6600,
         "level": 37
       }
     },
@@ -2287,7 +2287,7 @@
         "level": 24
       },
       "maxDuration": {
-        "duration": 1722,
+        "duration": 1230,
         "level": 65
       }
     },
@@ -2499,7 +2499,7 @@
         "level": 39
       },
       "maxDuration": {
-        "duration": 1368,
+        "duration": 840,
         "level": 65
       }
     },
@@ -2582,7 +2582,7 @@
         "level": 39
       },
       "maxDuration": {
-        "duration": 294,
+        "duration": 180,
         "level": 60
       }
     },
@@ -2631,7 +2631,7 @@
         "level": 39
       },
       "maxDuration": {
-        "duration": 624,
+        "duration": 390,
         "level": 65
       }
     },
@@ -2680,7 +2680,7 @@
         "level": 39
       },
       "maxDuration": {
-        "duration": 18720,
+        "duration": 11700,
         "level": 65
       }
     },
@@ -2758,7 +2758,7 @@
         "level": 44
       },
       "maxDuration": {
-        "duration": 1992,
+        "duration": 1140,
         "level": 60
       }
     },
@@ -2819,7 +2819,7 @@
         "level": 39
       },
       "maxDuration": {
-        "duration": 1908,
+        "duration": 1146,
         "level": 60
       }
     },
@@ -2902,7 +2902,7 @@
         "level": 44
       },
       "maxDuration": {
-        "duration": 1188,
+        "duration": 600,
         "level": 45
       }
     },
@@ -2929,7 +2929,7 @@
         "level": 44
       },
       "maxDuration": {
-        "duration": 16560,
+        "duration": 8640,
         "level": 48
       }
     },
@@ -3017,7 +3017,7 @@
         "level": 44
       },
       "maxDuration": {
-        "duration": 774,
+        "duration": 450,
         "level": 65
       }
     },
@@ -3166,7 +3166,7 @@
         "level": 49
       },
       "maxDuration": {
-        "duration": 1488,
+        "duration": 840,
         "level": 65
       }
     },
@@ -3215,7 +3215,7 @@
         "level": 49
       },
       "maxDuration": {
-        "duration": 684,
+        "duration": 390,
         "level": 65
       }
     },
@@ -3298,7 +3298,7 @@
         "level": 49
       },
       "maxDuration": {
-        "duration": 20520,
+        "duration": 11700,
         "level": 65
       }
     },
@@ -3369,7 +3369,7 @@
         "level": 51
       },
       "maxDuration": {
-        "duration": 696,
+        "duration": 390,
         "level": 65
       }
     },
@@ -3474,7 +3474,7 @@
         "level": 52
       },
       "maxDuration": {
-        "duration": 2136,
+        "duration": 1140,
         "level": 60
       }
     },
@@ -3540,7 +3540,7 @@
         "level": 53
       },
       "maxDuration": {
-        "duration": 2154,
+        "duration": 1140,
         "level": 60
       }
     },
@@ -3650,7 +3650,7 @@
         "level": 52
       },
       "maxDuration": {
-        "duration": 2226,
+        "duration": 1230,
         "level": 60
       }
     },
@@ -3784,7 +3784,7 @@
         "level": 55
       },
       "maxDuration": {
-        "duration": 21600,
+        "duration": 11700,
         "level": 65
       }
     },
@@ -3811,7 +3811,7 @@
         "level": 56
       },
       "maxDuration": {
-        "duration": 21780,
+        "duration": 11700,
         "level": 65
       }
     },
@@ -3989,7 +3989,7 @@
         "level": 58
       },
       "maxDuration": {
-        "duration": 2334,
+        "duration": 1230,
         "level": 65
       }
     },
@@ -4016,7 +4016,7 @@
         "level": 58
       },
       "maxDuration": {
-        "duration": 858,
+        "duration": 450,
         "level": 65
       }
     },
@@ -4043,7 +4043,7 @@
         "level": 59
       },
       "maxDuration": {
-        "duration": 744,
+        "duration": 390,
         "level": 65
       }
     },

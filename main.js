@@ -56,7 +56,10 @@ async function scrapeData(className) {
     //doesn't work for wizards and sks
     const spellLinks = classPage('table[width="92%"] td[width="22%"] a');
     spellLinks.each((idx, el) => {
-      const href = el.attribs.href;
+      let href = el.attribs.href;
+      if(href === '/Sacrifice') {
+        href += '_(spell)';  
+      }
       spellUrls.push(`https://wiki.project1999.com${href}`)
     });
 
@@ -68,7 +71,7 @@ async function scrapeData(className) {
       const spellTables = spellPage('table:not([class])');
       const spellMeta = spellPage(spellTables[1]).find('td');
       const spellEffects = spellPage(spellTables[2]).find('td');
-
+      console.log("grabbing ", spellName);
       const spell = {
         name: spellName,
         mana: spellPage(spellMeta[1]).text().trim(),
@@ -166,13 +169,14 @@ function cleanTargetString (inString) {
   return inString.split(' ').slice(1).join(' ').trim();
 }
 
-function main () {
+async function main () {
   const classes = ['Cleric', 'Druid', 'Enchanter', 'Magician', 'Necromancer', 'Paladin', 'Ranger', 'Shaman'];
   for(const className of classes) {
     // fixDurations(className);
-    // scrapeData("Druid");
+    // console.log('~~~~~~~~~~~~~~~~processing ', className);
+    // await scrapeData(className);
   }
-  scrapeData("Enchanter");
+  scrapeData("Necromancer");
   // processDurationString("15 minutes @L5 to 20 minutes @L7");
   // processDurationString("18 seconds @L5 to 48 seconds @L14");
   // processDurationString("27 minutes 6 seconds");
